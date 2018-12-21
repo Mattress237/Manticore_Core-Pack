@@ -1265,6 +1265,206 @@ class Manticore_Loadout_Crate_Static_Mk6_Vanila : Box_NATO_Support_F
 };
 
 ///Field Kit
+class Manticore_Loadout_Crate_Field_Fireteam : B_supplyCrate_F
+{
+	displayName = "Supply Crate (Field Kit Fireteam) (TFM)";
+	scope = 2;
+	editorCategory = "Manticore_Categories";
+	editorSubcategory = "Manticore_Categories_Supply";
+
+	class TransportWeapons
+	{
+		class _xx_rhs_weap_hk416d145
+		{
+			weapon = "rhs_weap_hk416d145";
+			count = 1;
+		};
+		class _xx_rhs_weap_hk416d145_m320
+		{
+			weapon = "rhs_weap_hk416d145_m320";
+			count = 1;
+		};
+		class _xx_hlc_rifle_m14sopmod
+		{
+			weapon = "hlc_rifle_m14sopmod";
+			count = 1;
+		};
+		class _xx_rhs_weap_m27iar
+		{
+			weapon = "rhs_weap_m27iar";
+			count = 1;
+		};
+		class _xx_Laserdesignator_03
+		{
+			weapon = "Laserdesignator_03";
+			count = 1;
+		};
+	};
+	class TransportMagazines
+	{
+		class _xx_hlc_20Rnd_762x51_T_M14
+		{
+			magazine = "hlc_20Rnd_762x51_T_M14";
+			count = 6;
+		};
+		class _xx_hlc_20Rnd_762x51_B_M14
+		{
+			magazine = "hlc_20Rnd_762x51_B_M14";
+			count = 6;
+		};
+		class _xx_rhs_mag_100Rnd_556x45_M855A1_cmag_mixed
+		{
+			magazine = "rhs_mag_100Rnd_556x45_M855A1_cmag_mixed";
+			count = 5;
+		};
+		class _xx_MRAWS_HEAT_F
+		{
+			magazine = "MRAWS_HEAT_F";
+			count = 4;
+		};
+		class _xx_rhs_mag_30Rnd_556x45_Mk318_Stanag
+		{
+			magazine = "rhs_mag_30Rnd_556x45_Mk318_Stanag";
+			count = 20;
+		};
+		class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red
+		{
+			magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
+			count = 20;
+		};
+		class _xx_3Rnd_UGL_FlareRed_F
+		{
+			magazine = "3Rnd_UGL_FlareRed_F";
+			count = 5;
+		};
+		class _xx_3Rnd_UGL_FlareGreen_F
+		{
+			magazine = "3Rnd_UGL_FlareGreen_F";
+			count = 5;
+		};
+		class _xx_3Rnd_SmokeRed_Grenade_shell
+		{
+			magazine = "3Rnd_SmokeRed_Grenade_shell";
+			count = 5;
+		};
+		class _xx_3Rnd_SmokeGreen_Grenade_shell
+		{
+			magazine = "3Rnd_SmokeGreen_Grenade_shell";
+			count = 5;
+		};
+		class _xx_3Rnd_HE_Grenade_shell
+		{
+			magazine = "3Rnd_HE_Grenade_shell";
+			count = 10;
+		};
+	};
+	class TransportItems
+	{
+		class _xx_bipod_01_F_blk
+		{
+			name = "bipod_01_F_blk";
+			count = 1;
+		};
+		class _xx_acc_pointer_IR
+		{
+			name = "acc_pointer_IR";
+			count = 4;
+		};
+		class _xx_rhsusf_acc_g33_xps3
+		{
+			name = "rhsusf_acc_g33_xps3";
+			count = 4;
+		};
+		class _xx_rhsusf_acc_ACOG_RMR
+		{
+			name = "rhsusf_acc_ACOG_RMR";
+			count = 1;
+		};
+		class _xx_ToolKit
+		{
+			name = "ToolKit";
+			count = 1;
+		};
+		class _xx_ACE_EntrenchingTool
+		{
+			name = "ACE_EntrenchingTool";
+			count = 2;
+		};
+		class _xx_ACE_Fortify
+		{
+			name = "ACE_Fortify";
+			count = 2;
+		};
+		class _xx_ACE_RangeCard
+		{
+			name = "ACE_RangeCard";
+			count = 1;
+		};
+		class _xx_ACE_IR_Strobe_Item
+		{
+			name = "ACE_IR_Strobe_Item";
+			count = 4;
+		};
+		class _xx_ACE_CableTie
+		{
+			name = "ACE_CableTie";
+			count = 5;
+		};
+		class _xx_ACE_UAVBattery
+		{
+			name = "ACE_UAVBattery";
+			count = 1;
+		};
+		class _xx_Laserbatteries
+		{
+			name = "Laserbatteries";
+			count = 1;
+		};
+		class _xx_ACE_salineIV_500
+		{
+			name = "ACE_salineIV_500";
+			count = 4;
+		};
+		class _xx_ACE_fieldDressing
+		{
+			name = "ACE_fieldDressing";
+			count = 10;
+		};
+		class _xx_ACE_elasticBandage
+		{
+			name = "ACE_elasticBandage";
+			count = 10;
+		};
+		class _xx_ACE_packingBandage
+		{
+			name = "ACE_packingBandage";
+			count = 10;
+		};
+		class _xx_ACE_Canteen
+		{
+			name = "ACE_Canteen";
+			count = 10;
+		};
+		class _xx_ACE_MRE_BeefStew
+		{
+			name = "ACE_MRE_BeefStew";
+			count = 10;
+		};
+		class _xx_ACE_tourniquet
+		{
+			name = "ACE_tourniquet";
+			count = 10;
+		};
+	};
+	class TransportBackpacks
+	{
+		class _xx_VSM_OGA_OD_Backpack_Kitbag
+		{
+			backpack = "VSM_OGA_OD_Backpack_Kitbag";
+			count = 1;
+		};
+	};
+};
 class Manticore_Loadout_Crate_Field_Squad : B_supplyCrate_F
 {
 	displayName = "Supply Crate (Field Kit Squad) (TFM)";
@@ -1422,8 +1622,8 @@ class Manticore_Loadout_Crate_Field_Squad : B_supplyCrate_F
 		};
 		class _xx_ACE_RangeCard
 		{
-			name = "1";
-			count = 0;
+			name = "ACE_RangeCard";
+			count = 1;
 		};
 		class _xx_ACE_IR_Strobe_Item
 		{

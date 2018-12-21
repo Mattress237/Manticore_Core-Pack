@@ -89,6 +89,7 @@ class CfgPatches
 			Manticore_Loadout_Crate_Static_Mk19_RHS,
 			Manticore_Loadout_Crate_Static_TOW_RHS,
 			Manticore_Loadout_Crate_Static_Mk6_Vanila,
+			Manticore_Loadout_Crate_Field_Fireteam,
 			Manticore_Loadout_Crate_Field_Squad
 
 		};
