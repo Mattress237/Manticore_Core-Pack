@@ -1165,6 +1165,10 @@ class Manticore_Loadout_Crate_Static_M2_RHS : Box_NATO_Support_F
 	class TransportWeapons
 	{
 	};
+	class TransportMagazines
+	{
+
+	};
 	class TransportItems
 	{
 	};
@@ -1191,6 +1195,10 @@ class Manticore_Loadout_Crate_Static_Mk19_RHS : Box_NATO_Support_F
 
 	class TransportWeapons
 	{
+	};
+	class TransportMagazines
+	{
+
 	};
 	class TransportItems
 	{
@@ -1219,6 +1227,10 @@ class Manticore_Loadout_Crate_Static_TOW_RHS : Box_NATO_Support_F
 	class TransportWeapons
 	{
 	};
+	class TransportMagazines
+	{
+
+	};
 	class TransportItems
 	{
 	};
@@ -1245,6 +1257,10 @@ class Manticore_Loadout_Crate_Static_Mk6_Vanila : Box_NATO_Support_F
 
 	class TransportWeapons
 	{
+	};
+	class TransportMagazines
+	{
+
 	};
 	class TransportItems
 	{
