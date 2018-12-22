@@ -24,6 +24,8 @@ class CfgPatches
 			Manticore_Loadout_3CBVehicles_Panther_GPMG,
 			Manticore_Loadout_3CBVehicles_Buldog_RWS,
 			Manticore_Loadout_3CBVehicles_Buldog_GPMG,
+			Manticore_Loadout_3CBVehicles_RHIB_HMG,
+			Manticore_Loadout_3CBVehicles_RHIB_GPMG,
 			Manticore_Loadout_3CBVehicles_Wildcat_AH1_CAS_6A,
 			Manticore_Loadout_3CBVehicles_Wildcat_AH1_CAS_6B,
 			Manticore_Loadout_3CBVehicles_Wildcat_AH1_CAS_6C,
@@ -50,8 +52,6 @@ class CfgPatches
 			Manticore_Loadout_3CBVehicles_Apache_AH1,
 			Manticore_Loadout_3CBVehicles_Apache_AH1_JS,
 
-
-
 			//Vanila
 			Manticore_Loadout_Vanila_Wildcat_dynamicLoadout,
 			Manticore_Loadout_Vanila_Wildcat_unarmed,
@@ -59,6 +59,12 @@ class CfgPatches
 			Manticore_Loadout_Vanila_Wiesel2_Cannon,
 			Manticore_Loadout_Vanila_Wiesel2_AT,
 			Manticore_Loadout_Vanila_Wiesel2_Scout,
+			Manticore_Loadout_Vanila_LittleBird_AH6,
+			Manticore_Loadout_Vanila_LittleBird_MH6,
+			Manticore_Loadout_Vanila_LittleBird_MH6_Stripped,
+			Manticore_Loadout_Vanila_Drone_UCAV,
+			Manticore_Loadout_Vanila_Drone_Falcon,
+			Manticore_Loadout_Vanila_Drone_AR2,
 
 			//Crates
 			Manticore_Loadout_Crate_General,
@@ -120,7 +126,11 @@ class CfgPatches
 			"A3_Supplies_F_Exp",
 			"A3_Weapons_F_Ammoboxes",
 			"A3_Supplies_F_Heli_Slingload",
-			"A3_Supplies_F_Heli_CargoNets"
+			"A3_Supplies_F_Heli_CargoNets",
+			"A3_Air_F_Heli_Light_01",
+			"A3_Drones_F_Air_F_Gamma_UAV_01",
+			"A3_Air_F_Exp_UAV_03",
+			"A3_Air_F_Jets_UAV_05"
 
 		};
 		author = "Mattress";
@@ -163,11 +173,12 @@ class CfgVehicles
 	///3CBVehicles
 	#include "3CBVehicles\Manticore_Loadout_3CBVehicles.hpp"
 	
+	///RHS
+	#include "RHS\Manticore_Loadout_RHS.hpp"
 
 	///Vanila
 	#include "Vanila\Manticore_Loadout_Vanila.hpp"
 	
-
 	///Crate
 	#include "Crates\Manticore_Loadout_Crate.hpp"
 };	

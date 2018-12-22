@@ -65,6 +65,14 @@ class I_Heli_Transport_02_F;
 class I_LT_01_cannon_F;
 class I_LT_01_AT_F;
 class I_LT_01_scout_F;
+//Little Bird
+class B_Heli_Light_01_F;
+class B_Heli_Light_01_dynamicLoadout_F;
+class B_Heli_Light_01_stripped_F;
+//Drone
+class B_UAV_01_F;
+class B_T_UAV_03_dynamicLoadout_F
+class B_UAV_05_F;
 
 ///Crates
 //"A3_Weapons_F_Ammoboxes"//
