@@ -1198,7 +1198,6 @@ class Manticore_Loadout_Crate_Static_Mk19_RHS : Box_NATO_Support_F
 	};
 	class TransportMagazines
 	{
-
 	};
 	class TransportItems
 	{
@@ -1207,12 +1206,12 @@ class Manticore_Loadout_Crate_Static_Mk19_RHS : Box_NATO_Support_F
 	{
 		class _xx_RHS_Mk19_Gun_Bag
 		{
-			backpack = "RHS_M2_Gun_Bag";
+			backpack = "RHS_Mk19_Gun_Bag";
 			count = 2;
 		};
 		class _xx_RHS_Mk19_Tripod_Bag
 		{
-			backpack = "RHS_M2_Tripod_Bag";
+			backpack = "RHS_Mk19_Tripod_Bag";
 			count = 2;
 		};
 	};
@@ -1551,7 +1550,7 @@ class Manticore_Loadout_Crate_Field_Squad : B_supplyCrate_F
 		class _xx_MRAWS_HEAT_F
 		{
 			magazine = "MRAWS_HEAT_F";
-			count = 4;
+			count = 5;
 		};
 		class _xx_rhs_mag_30Rnd_556x45_Mk318_Stanag
 		{
@@ -1664,32 +1663,32 @@ class Manticore_Loadout_Crate_Field_Squad : B_supplyCrate_F
 		class _xx_ACE_salineIV_500
 		{
 			name = "ACE_salineIV_500";
-			count = 4;
+			count = 8;
 		};
 		class _xx_ACE_fieldDressing
 		{
 			name = "ACE_fieldDressing";
-			count = 10;
+			count = 20;
 		};
 		class _xx_ACE_elasticBandage
 		{
 			name = "ACE_elasticBandage";
-			count = 10;
+			count = 20;
 		};
 		class _xx_ACE_packingBandage
 		{
 			name = "ACE_packingBandage";
-			count = 10;
+			count = 20;
 		};
 		class _xx_ACE_Canteen
 		{
 			name = "ACE_Canteen";
-			count = 10;
+			count = 20;
 		};
 		class _xx_ACE_MRE_BeefStew
 		{
 			name = "ACE_MRE_BeefStew";
-			count = 10;
+			count = 20;
 		};
 		class _xx_ACE_tourniquet
 		{
