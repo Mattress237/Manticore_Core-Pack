@@ -150,7 +150,8 @@ class CfgPatches
 			"A3_Soft_F_Quadbike_01",
 			"A3_Armor_F_Gamma_MBT_01",
 			"A3_Armor_F_Tank_AFV_Wheeled_01",
-			"A3_Drones_F_Soft_F_Gamma_UGV_01"
+			"A3_Drones_F_Soft_F_Gamma_UGV_01",
+			"rhsusf_c_hmmwv"
 
 
 		};

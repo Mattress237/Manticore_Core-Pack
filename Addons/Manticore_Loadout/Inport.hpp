@@ -52,6 +52,19 @@ class UK3CB_BAF_Apache_AH1_JS;
 class UK3CB_BAF_RHIB_HMG;
 class UK3CB_BAF_RHIB_GPMG;
 
+///RHS
+//Car
+class rhsusf_m1043_w_s;
+class rhsusf_m1043_w_s_m2;
+class rhsusf_m1043_w_s_mk19;
+class rhsusf_m1045_w_s;
+class rhsusf_m998_w_s_2dr;
+class rhsusf_m998_w_s_2dr_halftop;
+class rhsusf_m998_w_s_2dr_fulltop;
+class rhsusf_m998_w_s_4dr;
+class rhsusf_m998_w_s_4dr_halftop;
+class rhsusf_m998_w_s_4dr_fulltop;
+
 ///Vanila
 //Light Attack
 class B_LSV_01_unarmed_F;
