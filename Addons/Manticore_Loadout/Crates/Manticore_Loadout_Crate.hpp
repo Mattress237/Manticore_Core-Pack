@@ -73,27 +73,27 @@ class Manticore_Loadout_Crate_Medical : Box_NATO_Equip_F
 		class _xx_adv_aceCPR_AED
 		{
 			name = "adv_aceCPR_AED";
-			count = 4;
+			count = 2;
 		};
 		class _xx_ACE_fieldDressing
 		{
 			name = "ACE_fieldDressing";
-			count = 100;
+			count = 70;
 		};
 		class _xx_ACE_elasticBandage
 		{
 			name = "ACE_elasticBandage";
-			count = 100;
+			count = 70;
 		};
 		class _xx_ACE_packingBandage
 		{
 			name = "ACE_packingBandage";
-			count = 100;
+			count = 70;
 		};
 		class _xx_ACE_quikclot
 		{
 			name = "ACE_quikclot";
-			count = 100;
+			count = 70;
 		};
 		class _xx_ACE_bodyBag
 		{
@@ -103,17 +103,17 @@ class Manticore_Loadout_Crate_Medical : Box_NATO_Equip_F
 		class _xx_ACE_epinephrine
 		{
 			name = "ACE_epinephrine";
-			count = 40;
+			count = 30;
 		};
 		class _xx_ACE_morphine
 		{
 			name = "ACE_morphine";
-			count = 40;
+			count = 30;
 		};
 		class _xx_ACE_salineIV
 		{
 			name = "ACE_salineIV";
-			count = 30;
+			count = 20;
 		};
 		class _xx_ACE_salineIV_250
 		{
@@ -123,17 +123,17 @@ class Manticore_Loadout_Crate_Medical : Box_NATO_Equip_F
 		class _xx_ACE_salineIV_500
 		{
 			name = "ACE_salineIV_500";
-			count = 40;
+			count = 30;
 		};
 		class _xx_adv_aceSplint_splint
 		{
 			name = "adv_aceSplint_splint";
-			count = 60;
+			count = 40;
 		};
 		class _xx_ACE_surgicalKit
 		{
 			name = "ACE_surgicalKit";
-			count = 4;
+			count = 2;
 		};
 		class _xx_ACE_tourniquet
 		{
@@ -143,17 +143,17 @@ class Manticore_Loadout_Crate_Medical : Box_NATO_Equip_F
 		class _xx_ACE_MRE_CreamTomatoSoup
 		{
 			name = "ACE_MRE_CreamTomatoSoup";
-			count = 30;
+			count = 20;
 		};
 		class _xx_ACE_WaterBottle
 		{
 			name = "ACE_WaterBottle";
-			count = 60;
+			count = 40;
 		};
 		class _xx_ACE_Banana
 		{
 			name = "ACE_Banana";
-			count = 30;
+			count = 10;
 		};
 	};
 	class TransportBackpacks
@@ -215,6 +215,11 @@ class Manticore_Loadout_Crate_Ammo_HK416 : Box_NATO_Ammo_F
 	};
 	class TransportBackpacks
 	{
+		class _xx_VSM_OGA_OD_Backpack_Kitbag
+		{
+			backpack = "VSM_OGA_OD_Backpack_Kitbag";
+			count = 1;
+		};
 	};
 };
 class Manticore_Loadout_Crate_Ammo_MAAWS_Vanila : Box_NATO_WpsLaunch_F
@@ -962,9 +967,9 @@ class Manticore_Loadout_Crate_Kit_M27_RHS : Box_NATO_Wps_F
 	};
 };
 //Demo
-class Manticore_Loadout_Crate_Kit_Demo : Box_NATO_Support_F
+class Manticore_Loadout_Crate_Demo_Demo : Box_NATO_Support_F
 {
-	displayName = "Weapons Crate (Demo) (Kit) (TFM)";
+	displayName = "Support Crate (Demo) (Demo) (TFM)";
 	scope = 2;
 	editorCategory = "Manticore_Categories";
 	editorSubcategory = "Manticore_Categories_Supply";
@@ -1004,9 +1009,9 @@ class Manticore_Loadout_Crate_Kit_Demo : Box_NATO_Support_F
 		};
 	};
 };
-class Manticore_Loadout_Crate_Kit_Mine : Box_NATO_Support_F
+class Manticore_Loadout_Crate_Demo_Mine : Box_NATO_Support_F
 {
-	displayName = "Weapons Crate (Mine) (Kit) (TFM)";
+	displayName = "Support Crate (Mine) (Demo) (TFM)";
 	scope = 2;
 	editorCategory = "Manticore_Categories";
 	editorSubcategory = "Manticore_Categories_Supply";
@@ -1071,9 +1076,9 @@ class Manticore_Loadout_Crate_Kit_Mine : Box_NATO_Support_F
 		};
 	};
 };
-class Manticore_Loadout_Crate_Kit_DemoMine : Box_NATO_Support_F
+class Manticore_Loadout_Crate_Demo_DemoMine : Box_NATO_Support_F
 {
-	displayName = "Weapons Crate (Demo and mine) (Kit) (TFM)";
+	displayName = "Support Crate (Demo and mine) (Demo) (TFM)";
 	scope = 2;
 	editorCategory = "Manticore_Categories";
 	editorSubcategory = "Manticore_Categories_Supply";
@@ -1149,6 +1154,361 @@ class Manticore_Loadout_Crate_Kit_DemoMine : Box_NATO_Support_F
 		class _xx_VSM_OGA_OD_Backpack_Kitbag
 		{
 			backpack = "VSM_OGA_OD_Backpack_Kitbag";
+			count = 1;
+		};
+	};
+};
+
+///Grenades and Smok
+class Manticore_Loadout_Crate_Grenade_Grenade : Box_NATO_Support_F
+{
+	displayName = "Support Crate (Grenade) (Grenade) (TFM)";
+	scope = 2;
+	editorCategory = "Manticore_Categories";
+	editorSubcategory = "Manticore_Categories_Supply";
+
+	class TransportWeapons
+	{
+
+	};
+	class TransportMagazines
+	{
+
+	};
+	class TransportItems
+	{
+		class _xx_HandGrenade
+		{
+			name = "HandGrenade";
+			count = 40;
+		};
+		class _xx_B_IR_Grenade
+		{
+			name = "B_IR_Grenade";
+			count = 20;
+		};
+		class _xx_rhs_mag_mk84
+		{
+			name = "rhs_mag_mk84";
+			count = 20;
+		};
+		class _xx_SmokeShellBlue
+		{
+			name = "SmokeShellBlue";
+			count = 10;
+		};
+		class _xx_SmokeShellGreen
+		{
+			name = "SmokeShellGreen";
+			count = 10;
+		};
+		class _xx_SmokeShellPurple
+		{
+			name = "SmokeShellPurple";
+			count = 10;
+		};
+		class _xx_SmokeShellRed
+		{
+			name = "SmokeShellRed";
+			count = 10;
+		};
+		class _xx_SmokeShell
+		{
+			name = "SmokeShell";
+			count = 20;
+		};
+		class _xx_ACE_HandFlare_Green
+		{
+			name = "ACE_HandFlare_Green";
+			count = 10;
+		};
+		class _xx_ACE_HandFlare_Red
+		{
+			name = "ACE_HandFlare_Red";
+			count = 10;
+		};
+		class _xx_ACE_Chemlight_HiBlue
+		{
+			name = "ACE_Chemlight_HiBlue";
+			count = 10;
+		};
+		class _xx_ACE_Chemlight_HiGreen
+		{
+			name = "ACE_Chemlight_HiGreen";
+			count = 10;
+		};
+		class _xx_ACE_Chemlight_UltraHiOrange
+		{
+			name = "ACE_Chemlight_UltraHiOrange";
+			count = 10;
+		};
+	};
+	class TransportBackpacks
+	{
+		class _xx_VSM_OGA_OD_Backpack_Compact
+		{
+			backpack = "VSM_OGA_OD_Backpack_Compact";
+			count = 1;
+		};
+	};
+};
+class Manticore_Loadout_Crate_Grenade_FlareChem : Box_NATO_Support_F
+{
+	displayName = "Support Crate (Flare and Chem) (Grenade) (TFM)";
+	scope = 2;
+	editorCategory = "Manticore_Categories";
+	editorSubcategory = "Manticore_Categories_Supply";
+
+	class TransportWeapons
+	{
+
+	};
+	class TransportMagazines
+	{
+
+	};
+	class TransportItems
+	{
+		class _xx_ACE_HandFlare_White
+		{
+			name = "ACE_HandFlare_White";
+			count = 30;
+		};
+		class _xx_ACE_HandFlare_Yellow
+		{
+			name = "ACE_HandFlare_Yellow";
+			count = 30;
+		};
+		class _xx_ACE_HandFlare_Green
+		{
+			name = "ACE_HandFlare_Green";
+			count = 30;
+		};
+		class _xx_ACE_HandFlare_Red
+		{
+			name = "ACE_HandFlare_Red";
+			count = 30;
+		};
+		class _xx_ACE_Chemlight_IR
+		{
+			name = "ACE_Chemlight_IR";
+			count = 30;
+		};
+		class _xx_Chemlight_blue
+		{
+			name = "Chemlight_blue";
+			count = 30;
+		};
+		class _xx_Chemlight_green
+		{
+			name = "Chemlight_green";
+			count = 30;
+		};
+		class _xx_ACE_Chemlight_HiRed
+		{
+			name = "ACE_Chemlight_HiRed";
+			count = 30;
+		};
+		class _xx_ACE_Chemlight_HiBlue
+		{
+			name = "ACE_Chemlight_HiBlue";
+			count = 30;
+		};
+		class _xx_ACE_Chemlight_HiGreen
+		{
+			name = "ACE_Chemlight_HiGreen";
+			count = 30;
+		};
+		class _xx_ACE_Chemlight_UltraHiOrange
+		{
+			name = "ACE_Chemlight_UltraHiOrange";
+			count = 30;
+		};
+	};
+	class TransportBackpacks
+	{
+		class _xx_VSM_OGA_OD_Backpack_Compact
+		{
+			backpack = "VSM_OGA_OD_Backpack_Compact";
+			count = 1;
+		};
+	};
+};
+class Manticore_Loadout_Crate_Grenade_SmokFlareChem : Box_NATO_Support_F
+{
+	displayName = "Support Crate (Smok, Flare and Chem) (Grenade) (TFM)";
+	scope = 2;
+	editorCategory = "Manticore_Categories";
+	editorSubcategory = "Manticore_Categories_Supply";
+
+	class TransportWeapons
+	{
+
+	};
+	class TransportMagazines
+	{
+
+	};
+	class TransportItems
+	{
+		class _xx_SmokeShellBlue
+		{
+			name = "SmokeShellBlue";
+			count = 10;
+		};
+		class _xx_SmokeShellGreen
+		{
+			name = "SmokeShellGreen";
+			count = 10;
+		};
+		class _xx_SmokeShellOrange
+		{
+			name = "SmokeShellOrange";
+			count = 10;
+		};
+		class _xx_SmokeShellPurple
+		{
+			name = "SmokeShellPurple";
+			count = 10;
+		};
+		class _xx_SmokeShellRed
+		{
+			name = "SmokeShellRed";
+			count = 10;
+		};
+		class _xx_SmokeShellYellow
+		{
+			name = "SmokeShellYellow";
+			count = 10;
+		};
+		class _xx_SmokeShell
+		{
+			name = "SmokeShell";
+			count = 30;
+		};
+		class _xx_ACE_HandFlare_White
+		{
+			name = "ACE_HandFlare_White";
+			count = 10;
+		};
+		class _xx_ACE_HandFlare_Yellow
+		{
+			name = "ACE_HandFlare_Yellow";
+			count = 10;
+		};
+		class _xx_ACE_HandFlare_Green
+		{
+			name = "ACE_HandFlare_Green";
+			count = 10;
+		};
+		class _xx_ACE_HandFlare_Red
+		{
+			name = "ACE_HandFlare_Red";
+			count = 10;
+		};
+		class _xx_ACE_Chemlight_IR
+		{
+			name = "ACE_Chemlight_IR";
+			count = 20;
+		};
+		class _xx_Chemlight_blue
+		{
+			name = "Chemlight_blue";
+			count = 20;
+		};
+		class _xx_Chemlight_green
+		{
+			name = "Chemlight_green";
+			count = 20;
+		};
+		class _xx_ACE_Chemlight_HiRed
+		{
+			name = "ACE_Chemlight_HiRed";
+			count = 20;
+		};
+		class _xx_ACE_Chemlight_HiBlue
+		{
+			name = "ACE_Chemlight_HiBlue";
+			count = 20;
+		};
+		class _xx_ACE_Chemlight_HiGreen
+		{
+			name = "ACE_Chemlight_HiGreen";
+			count = 20;
+		};
+		class _xx_ACE_Chemlight_UltraHiOrange
+		{
+			name = "ACE_Chemlight_UltraHiOrange";
+			count = 20;
+		};
+	};
+	class TransportBackpacks
+	{
+		class _xx_VSM_OGA_OD_Backpack_Compact
+		{
+			backpack = "VSM_OGA_OD_Backpack_Compact";
+			count = 1;
+		};
+	};
+};
+class Manticore_Loadout_Crate_Grenade_Smok : Box_NATO_Support_F
+{
+	displayName = "Support Crate (Smok) (Grenade) (TFM)";
+	scope = 2;
+	editorCategory = "Manticore_Categories";
+	editorSubcategory = "Manticore_Categories_Supply";
+
+	class TransportWeapons
+	{
+
+	};
+	class TransportMagazines
+	{
+
+	};
+	class TransportItems
+	{
+		class _xx_SmokeShellBlue
+		{
+			name = "SmokeShellBlue";
+			count = 20;
+		};
+		class _xx_SmokeShellGreen
+		{
+			name = "SmokeShellGreen";
+			count = 20;
+		};
+		class _xx_SmokeShellOrange
+		{
+			name = "SmokeShellOrange";
+			count = 20;
+		};
+		class _xx_SmokeShellPurple
+		{
+			name = "SmokeShellPurple";
+			count = 20;
+		};
+		class _xx_SmokeShellRed
+		{
+			name = "SmokeShellRed";
+			count = 20;
+		};
+		class _xx_SmokeShellYellow
+		{
+			name = "SmokeShellYellow";
+			count = 20;
+		};
+		class _xx_SmokeShell
+		{
+			name = "SmokeShell";
+			count = 60;
+		};
+	};
+	class TransportBackpacks
+	{
+		class _xx_VSM_OGA_OD_Backpack_Compact
+		{
+			backpack = "VSM_OGA_OD_Backpack_Compact";
 			count = 1;
 		};
 	};
