@@ -69,6 +69,18 @@ class I_LT_01_scout_F;
 class B_Heli_Light_01_F;
 class B_Heli_Light_01_dynamicLoadout_F;
 class B_Heli_Light_01_stripped_F;
+//Badger
+class Manticore_Vehicle_Badger_IFV;
+//Nemer
+class Manticore_Vehicle_Namer;
+//Nemmera
+class Manticore_Vehicle_Nemmera;
+//Bardelas
+class Manticore_Vehicle_Bardelas;
+//Leopard
+class Manticore_Vehicle_Leopard;
+//Speedboat
+class Manticore_Vehicle_speedboat_Minigun;
 //Drone
 class B_UAV_01_F;
 class B_T_UAV_03_dynamicLoadout_F

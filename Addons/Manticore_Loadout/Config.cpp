@@ -65,6 +65,12 @@ class CfgPatches
 			Manticore_Loadout_Vanila_Drone_UCAV,
 			Manticore_Loadout_Vanila_Drone_Falcon,
 			Manticore_Loadout_Vanila_Drone_AR2,
+			Manticore_Loadout_Vanila_Badger,
+			Manticore_Loadout_Vanila_Namer,
+			Manticore_Loadout_Vanila_Nemmera,
+			Manticore_Loadout_Vanila_Bardelas,
+			Manticore_Loadout_Vanila_Leopard,
+			Manticore_Loadout_Vanila_Speedboat,
 
 			//Crates
 			Manticore_Loadout_Crate_General,
@@ -130,7 +136,13 @@ class CfgPatches
 			"A3_Air_F_Heli_Light_01",
 			"A3_Drones_F_Air_F_Gamma_UAV_01",
 			"A3_Air_F_Exp_UAV_03",
-			"A3_Air_F_Jets_UAV_05"
+			"A3_Air_F_Jets_UAV_05",
+			"Manticore_Vehicle_Armor_Badger_IFV",
+			"Manticore_Vehicle_Armor_Bardelas",
+			"Manticore_Vehicle_Armor_Leopard",
+			"Manticore_Vehicle_Armor_Nemmera_Nemer",
+			"Manticore_Vehicle_Boats_Speedboat_Minigun"
+
 
 		};
 		author = "Mattress";
