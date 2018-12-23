@@ -1,25 +1,17 @@
 
-//LandRover
+//Light Atack
 #include "LandRover.hpp"
-
-//Coyote and jackal
 #include "Coyotejackal.hpp"
-
-//Panther
+//Car
 #include "Panther.hpp"
-
-//Buldog
+//APC
 #include "Buldog.hpp"
-
-//Ribb
+//Heli
+#include "Wildcat.hpp"
+#include "Merlin.hpp"
+#include "Apache.hpp"
+//Naval
 #include "RHIB.hpp"
 
-//Wildcat
-#include "Wildcat.hpp"
 
-//Merlin
-#include "Merlin.hpp"
-
-//Apache
-#include "Apache.hpp"
 
