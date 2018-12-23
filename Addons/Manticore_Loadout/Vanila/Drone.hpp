@@ -66,3 +66,45 @@ class Manticore_Loadout_Vanila_Drone_AR2 : B_UAV_01_F
 	{
 	};
 };
+class Manticore_Loadout_Vanila_Drone_Stomper : B_UGV_01_F
+{
+	displayName = "UGV Stomper";
+	scope = 2;
+	side = 1;
+	faction = "Manticore_Faction";
+	//crew = "";
+
+	class TransportWeapons
+	{
+	};
+	class TransportMagazines
+	{
+	};
+	class TransportItems
+	{
+	};
+	class TransportBackpacks
+	{
+	};
+};
+class Manticore_Loadout_Vanila_Drone_Stomper_RCWS : B_UGV_01_rcws_F
+{
+	displayName = "UGV Stomper RCWS";
+	scope = 2;
+	side = 1;
+	faction = "Manticore_Faction";
+	//crew = "";
+
+	class TransportWeapons
+	{
+	};
+	class TransportMagazines
+	{
+	};
+	class TransportItems
+	{
+	};
+	class TransportBackpacks
+	{
+	};
+};

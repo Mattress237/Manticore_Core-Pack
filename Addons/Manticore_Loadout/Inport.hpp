@@ -1,6 +1,6 @@
 class LandVehicle;
 ///3CBVehicles
-//LandRover
+//Light Attack
 class UK3CB_BAF_LandRover_WMIK_Milan_Green_A;
 class UK3CB_BAF_LandRover_WMIK_HMG_Green_A;
 class UK3CB_BAF_LandRover_WMIK_GPMG_Green_A;
@@ -11,19 +11,18 @@ class UK3CB_BAF_LandRover_Snatch_Green_A;
 class UK3CB_BAF_LandRover_Amb_Green_A;
 class UK3CB_BAF_LandRover_Soft_MERT_A;
 class UK3CB_BAF_LandRover_Hard_MERT_A;
-//Coyote and Jackal
 class UK3CB_BAF_Coyote_Logistics_L134A1_W;
 class UK3CB_BAF_Coyote_Logistics_L111A1_W;
 class UK3CB_BAF_Coyote_Passenger_L134A1_W;
 class UK3CB_BAF_Coyote_Passenger_L111A1_W;
 class UK3CB_BAF_Jackal2_L111A1_W;
 class UK3CB_BAF_Jackal2_L134A1_W;
-//Panther
+//Car
 class UK3CB_BAF_Panther_GPMG_Green_A;
-//Buldog
+//APC
 class UK3CB_BAF_FV432_Mk3_RWS_Green;
 class UK3CB_BAF_FV432_Mk3_GPMG_Green;
-//Wildcat
+//Heli
 class UK3CB_BAF_Wildcat_AH1_CAS_6A;
 class UK3CB_BAF_Wildcat_AH1_CAS_6B;
 class UK3CB_BAF_Wildcat_AH1_CAS_6C;
@@ -36,7 +35,6 @@ class UK3CB_BAF_Wildcat_AH1_CAS_8D;
 class UK3CB_BAF_Wildcat_AH1_HEL_8A;
 class UK3CB_BAF_Wildcat_AH1_TRN_8A;
 class UK3CB_BAF_Wildcat_HMA2_TRN_8A;
-//Merlin
 class UK3CB_BAF_Merlin_HC4_18;
 class UK3CB_BAF_Merlin_HC4_18_GPMG;
 class UK3CB_BAF_Merlin_HC4_24;
@@ -44,47 +42,54 @@ class UK3CB_BAF_Merlin_HC4_32;
 class UK3CB_BAF_Merlin_HC4_Cargo;
 class UK3CB_BAF_Merlin_HC4_CSAR;
 class UK3CB_BAF_Merlin_HM2_18;
-//Apache
 class UK3CB_BAF_Apache_AH1_DynamicLoadout;
 class UK3CB_BAF_Apache_AH1_DynamicLoadoutUnlimited;
 class UK3CB_BAF_Apache_AH1_AT;
 class UK3CB_BAF_Apache_AH1_CAS;
 class UK3CB_BAF_Apache_AH1;
 class UK3CB_BAF_Apache_AH1_JS;
-//RHIB
+//Naval
 class UK3CB_BAF_RHIB_HMG;
 class UK3CB_BAF_RHIB_GPMG;
 
 ///Vanila
-//Wildcat
+//Light Attack
+class B_LSV_01_unarmed_F;
+class B_LSV_01_armed_F;
+class B_LSV_01_AT_F;
+class B_CTRG_LSV_01_light_F;
+class B_Quadbike_01_F;
+//Heli
 class I_Heli_light_03_dynamicLoadout_F;
 class I_Heli_light_03_unarmed_F;
-//Merlin
 class I_Heli_Transport_02_F;
-//Wiesel 2
-class I_LT_01_cannon_F;
-class I_LT_01_AT_F;
-class I_LT_01_scout_F;
-//Little Bird
 class B_Heli_Light_01_F;
 class B_Heli_Light_01_dynamicLoadout_F;
 class B_Heli_Light_01_stripped_F;
-//Badger
+//APC IFV
 class Manticore_Vehicle_Badger_IFV;
-//Nemer
 class Manticore_Vehicle_Namer;
-//Nemmera
 class Manticore_Vehicle_Nemmera;
-//Bardelas
+//AA
 class Manticore_Vehicle_Bardelas;
-//Leopard
+//Tank
 class Manticore_Vehicle_Leopard;
-//Speedboat
+class I_LT_01_cannon_F;
+class I_LT_01_AT_F;
+class I_LT_01_scout_F;
+class B_AFV_Wheeled_01_cannon_F;
+class B_AFV_Wheeled_01_up_cannon_F;
+//Artillery
+class B_MBT_01_arty_F;
+class B_MBT_01_mlrs_F;
+//Naval
 class Manticore_Vehicle_speedboat_Minigun;
 //Drone
 class B_UAV_01_F;
 class B_T_UAV_03_dynamicLoadout_F
 class B_UAV_05_F;
+class B_UGV_01_F;
+class B_UGV_01_rcws_F;
 
 ///Crates
 //"A3_Weapons_F_Ammoboxes"//

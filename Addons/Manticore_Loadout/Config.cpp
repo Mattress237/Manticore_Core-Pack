@@ -145,7 +145,12 @@ class CfgPatches
 			"Manticore_Vehicle_Armor_Bardelas",
 			"Manticore_Vehicle_Armor_Leopard",
 			"Manticore_Vehicle_Armor_Nemmera_Nemer",
-			"Manticore_Vehicle_Boats_Speedboat_Minigun"
+			"Manticore_Vehicle_Boats_Speedboat_Minigun",
+			"A3_Soft_F_Exp_LSV_01",
+			"A3_Soft_F_Quadbike_01",
+			"A3_Armor_F_Gamma_MBT_01",
+			"A3_Armor_F_Tank_AFV_Wheeled_01",
+			"A3_Drones_F_Soft_F_Gamma_UGV_01"
 
 
 		};
