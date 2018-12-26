@@ -110,7 +110,7 @@ class B_MBT_01_mlrs_F;
 class Manticore_Vehicle_speedboat_Minigun;
 //Drone
 class B_UAV_01_F;
-class B_T_UAV_03_dynamicLoadout_F
+class B_T_UAV_03_dynamicLoadout_F;
 class B_UAV_05_F;
 class B_UGV_01_F;
 class B_UGV_01_rcws_F;

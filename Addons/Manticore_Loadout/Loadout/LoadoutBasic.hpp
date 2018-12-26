@@ -1,13 +1,33 @@
-//
 
 class TransportWeapons
 {
-	_StandardRifle (1)
-	_StandardATTub (2)
+	//_standardRifle(1);
+	class _xx_rhs_weap_hk416d145
+	{
+		weapon = "rhs_weap_hk416d145"; 
+		count = 1; 
+	};
+	//_standardATTub(2);
+	class _xx_rhs_weap_M136
+	{
+		weapon = "rhs_weap_M136"; 
+		count = 2; 
+	};
+
 };
 class TransportMagazines
 {
-	_StandardMag (20,20)
+	//_standardMag(20,20);
+	class _xx_rhs_mag_30Rnd_556x45_Mk318_Stanag
+	{
+		magazine = "rhs_mag_30Rnd_556x45_Mk318_Stanag"; 
+		count = 20; 
+	}; 
+		class _xx_rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red
+	{
+		magazine = "rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"; 
+		count = 20; 
+	};
 
 	class _xx_1Rnd_HE_Grenade_shell
 	{
@@ -77,26 +97,29 @@ class TransportItems
 		name = "adv_aceCPR_AED";
 		count = 1;
 	};
+
+	//_basicMedical(10,10,10,10);
 	class _xx_ACE_fieldDressing
 	{
-		name = "ACE_fieldDressing";
-		count = 10;
-	};
-	class _xx_ACE_elasticBandage
+		name = "ACE_fieldDressing"; 
+		count = 10; 
+	}; 
+		class _xx_ACE_elasticBandage
 	{
-		name = "ACE_elasticBandage";
-		count = 10;
-	};
-	class _xx_ACE_quikclot
+		name = "ACE_elasticBandage"; 
+		count = 10; 
+	}; 
+		class _xx_ACE_quikclot
 	{
-		name = "ACE_quikclot";
-		count = 10;
-	};
-	class _xx_ACE_packingBandage
+		name = "ACE_quikclot"; 
+		count = 10; 
+	}; 
+		class _xx_ACE_packingBandage
 	{
-		name = "ACE_packingBandage";
-		count = 10;
+		name = "ACE_packingBandage"; 
+		count = 10; 
 	};
+
 	class _xx_ACE_morphine
 	{
 		name = "ACE_morphine";
