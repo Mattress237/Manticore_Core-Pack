@@ -2,29 +2,13 @@
 
 class TransportWeapons
 {
-	class _xx_rhs_weap_hk416d145
-	{
-		weapon = "rhs_weap_hk416d145";
-		count = 1;
-	};
-	class _xx_rhs_weap_M136
-	{
-		weapon = "rhs_weap_M136";
-		count = 2;
-	};
+	_StandardRifle (1)
+	_StandardATTub (2)
 };
 class TransportMagazines
 {
-	class _xx_rhs_mag_30Rnd_556x45_Mk318_Stanag
-	{
-		magazine = "rhs_mag_30Rnd_556x45_Mk318_Stanag";
-		count = 20;
-	};
-	class _xx_rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red
-	{
-		magazine = "rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red";
-		count = 20;
-	};
+	_StandardMag (20,20)
+
 	class _xx_1Rnd_HE_Grenade_shell
 	{
 		magazine = "1Rnd_HE_Grenade_shell";
