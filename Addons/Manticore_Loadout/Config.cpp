@@ -151,7 +151,9 @@ class CfgPatches
 			"A3_Armor_F_Gamma_MBT_01",
 			"A3_Armor_F_Tank_AFV_Wheeled_01",
 			"A3_Drones_F_Soft_F_Gamma_UGV_01",
-			"rhsusf_c_hmmwv"
+			"rhsusf_c_hmmwv",
+			"rhsusf_c_Cougar",
+			"rhsusf_c_Caiman"
 
 
 		};
@@ -189,6 +191,9 @@ class CfgEditorSubcategories
 
 class CfgVehicles
 {
+	///Macros
+	#include "LoadoutMacro.hpp"
+
 	///Inport
 	#include "Inport.hpp"
 

@@ -64,6 +64,17 @@ class rhsusf_m998_w_s_2dr_fulltop;
 class rhsusf_m998_w_s_4dr;
 class rhsusf_m998_w_s_4dr_halftop;
 class rhsusf_m998_w_s_4dr_fulltop;
+//MRAP
+class rhsusf_CGRCAT1A2_usmc_wd;
+class rhsusf_CGRCAT1A2_M2_usmc_wd;
+class rhsusf_CGRCAT1A2_Mk19_usmc_wd;
+class rhsusf_M1220_usarmy_wd;
+class rhsusf_M1220_M2_usarmy_wd;
+class rhsusf_M1220_M153_M2_usarmy_wd;
+class rhsusf_M1220_MK19_usarmy_wd;
+class rhsusf_M1230_M2_usarmy_wd;
+class rhsusf_M1230_MK19_usarmy_wd;
+class rhsusf_M1230a1_usarmy_wd;
 
 ///Vanila
 //Light Attack
