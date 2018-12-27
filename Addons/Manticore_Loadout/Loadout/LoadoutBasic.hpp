@@ -1,24 +1,24 @@
 
 class TransportWeapons
 {
-	//_standardRifle(1);
-	class _xx_rhs_weap_hk416d145
+	_standardRifle(1);
+	/*class _xx_rhs_weap_hk416d145
 	{
 		weapon = "rhs_weap_hk416d145"; 
 		count = 1; 
-	};
-	//_standardATTub(2);
-	class _xx_rhs_weap_M136
+	};*/
+	_standardATTub(2);
+	/*class _xx_rhs_weap_M136
 	{
 		weapon = "rhs_weap_M136"; 
 		count = 2; 
-	};
+	};*/
 
 };
 class TransportMagazines
 {
-	//_standardMag(20,20);
-	class _xx_rhs_mag_30Rnd_556x45_Mk318_Stanag
+	_standardMag(20,20);
+	/*class _xx_rhs_mag_30Rnd_556x45_Mk318_Stanag
 	{
 		magazine = "rhs_mag_30Rnd_556x45_Mk318_Stanag"; 
 		count = 20; 
@@ -27,7 +27,7 @@ class TransportMagazines
 	{
 		magazine = "rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"; 
 		count = 20; 
-	};
+	};*/
 
 	class _xx_1Rnd_HE_Grenade_shell
 	{
@@ -92,35 +92,40 @@ class TransportItems
 		name = "Toolkit";
 		count = 1;
 	};
-	class _xx_adv_aceCPR_AED
+	_advMedical (1,6)
+	/*class _xx_adv_aceCPR_AED
 	{
 		name = "adv_aceCPR_AED";
 		count = 1;
 	};
-
-	//_basicMedical(10,10,10,10);
-	class _xx_ACE_fieldDressing
+	class _xx_adv_aceSplint_splint
+	{
+		name = "adv_aceSplint_splint";
+		count = 6;
+	};*/
+	_basicMedical(10,10,10,10);
+	/*class _xx_ACE_fieldDressing
 	{
 		name = "ACE_fieldDressing"; 
 		count = 10; 
 	}; 
-		class _xx_ACE_elasticBandage
+	class _xx_ACE_elasticBandage
 	{
 		name = "ACE_elasticBandage"; 
 		count = 10; 
 	}; 
-		class _xx_ACE_quikclot
+	class _xx_ACE_quikclot
 	{
 		name = "ACE_quikclot"; 
 		count = 10; 
 	}; 
-		class _xx_ACE_packingBandage
+	class _xx_ACE_packingBandage
 	{
 		name = "ACE_packingBandage"; 
 		count = 10; 
-	};
-
-	class _xx_ACE_morphine
+	};*/
+	_injectorMedical(8, 8, 0, 0);
+	/*class _xx_ACE_morphine
 	{
 		name = "ACE_morphine";
 		count = 8;
@@ -129,28 +134,26 @@ class TransportItems
 	{
 		name = "ACE_epinephrine";
 		count = 8;
-	};
-	class _xx_ACE_tourniquet
+	};*/
+	_selinMedical(0,2,1);
+	/*class _xx_ACE_salineIV
+	{
+		name = "ACE_salineIV";
+		count = 2;
+	};*/
+	_micsMedical(8,4,0,0);
+	/*class _xx_ACE_tourniquet
 	{
 		name = "ACE_tourniquet";
 		count = 8;
-	};
-	class _xx_adv_aceSplint_splint
-	{
-		name = "adv_aceSplint_splint";
-		count = 6;
 	};
 	class _xx_ACE_bodyBag
 	{
 		name = "ACE_bodyBag";
 		count = 4;
-	};
-	class _xx_ACE_salineIV
-	{
-		name = "ACE_salineIV";
-		count = 2;
-	};
-	class _xx_ACE_CableTie
+	};*/
+	_aceMics(5, 2);
+	/*class _xx_ACE_CableTie
 	{
 		name = "ACE_CableTie";
 		count = 5;
@@ -159,8 +162,9 @@ class TransportItems
 	{
 		name = "ACE_EntrenchingTool";
 		count = 2;
-	};
-	class _xx_ACE_Canteen
+	};*/
+	_aceXFood(4, 0, 4, 0, 0, 0, 0, 0);
+	/*class _xx_ACE_Canteen
 	{
 		name = "ACE_Canteen";
 		count = 4;
@@ -169,7 +173,7 @@ class TransportItems
 	{
 		name = "ACE_MRE_BeefStew";
 		count = 4;
-	};
+	};*/
 	class _xx_ACE_microDAGR
 	{
 		name = "ACE_microDAGR";
