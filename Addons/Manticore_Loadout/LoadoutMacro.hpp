@@ -105,12 +105,22 @@
 		count = HuntIR;\
 	};
 
-#define _standardATTub(ATtub)\
+#define _standardATTub(HEAT,HEDP,HP)\
 	class _xx_rhs_weap_M136\
 	{\
 		weapon = "rhs_weap_M136";\
-		count = ATtub ;\
-	}; 
+		count = HEAT;\
+	};\
+	class rhs_weap_M136_hedp\
+	{\
+		weapon = "rhs_weap_M136_hedp";\
+		count = HEDP;\
+	};\
+	class rhs_weap_M136_hp\
+	{\
+		weapon = "rhs_weap_M136_hp";\
+		count = HP;\
+	};
 //
 #define _GrenadeOffensive(Frag,Stun,Incendiary)\
 	class _xx_rhs_mag_m67\
@@ -198,7 +208,7 @@
 
 
 //Medical
-#define _basicMedical(Field,Elastic,Quikclot,Packing)\
+#define _medicalBandage(Field,Elastic,Quikclot,Packing)\
 	class _xx_ACE_fieldDressing\
 	{\
 		name = "ACE_fieldDressing";\
@@ -220,7 +230,7 @@
 		count = Packing;\
 	};
 
-#define _injectorMedical(Morphine,Epinephrine,Atropine,Adenosine)\
+#define _medicalInjector(Morphine,Epinephrine,Atropine,Adenosine)\
 	class _xx_ACE_morphine\
 	{\
 		name = "ACE_morphine";\
@@ -242,7 +252,7 @@
 		count = Adenosine;\
 	};
 
-#define _advMedical(AED,Splint)\
+#define _medicalAdv(AED,Splint)\
 	class _xx_adv_aceCPR_AED\
 	{\
 		name = "adv_aceCPR_AED";\
@@ -254,7 +264,7 @@
 		count = Splint;\
 	};
 
-#define _selinMedical(SelinSmal,SelinMedium,SelinBig)\
+#define _medicalSelin(SelinSmal,SelinMedium,SelinBig)\
 	class _xx_ACE_salineIV_250\
 	{\
 		name = "ACE_salineIV";\
@@ -271,7 +281,7 @@
 		count = SelinBig;\
 	};
 
-#define _micsMedical(Tourniquet,BodyBag,PAK,SurgicalKit)\
+#define _medicalMics(Tourniquet,BodyBag,PAK,SurgicalKit)\
 	class _xx_ACE_tourniquet\
 	{\
 		name = "ACE_tourniquet";\
@@ -293,7 +303,7 @@
 		count = SurgicalKit;\
 	};
 
-#define _aceDrink(Canteen,Water,Spirit,RedGull,Franta)\
+#define _aceXDrink(Canteen,Water,Spirit,RedGull,Franta)\
 	class _xx_ACE_Canteen\
 	{\
 		name = "ACE_Canteen";\
@@ -320,46 +330,47 @@
 		count = Franta;\
 	};
 
-#define _aceXFood(MRE0,MRE1,MRE2,MRE3,MRE4,MRE5,MRE6,MRE7,Banana,MREHR)\
+#define _aceXFood(BeefStew,CreamChicken,CreamTomato,MeatballsPasta,\
+ChickenTikka,ChickenHerb,LambCurry,SteakVegetables,Banana,Humanitarian)\
 	class _xx_ACE_MRE_BeefStew\
 	{\
 		name = "ACE_MRE_BeefStew";\
-		count = MRE0;\
+		count = BeefStew;\
 	};\
 	class _xx_ACE_MRE_CreamChickenSoup\
 	{\
 		name = "ACE_MRE_CreamChickenSoup";\
-		count = MRE1;\
+		count = CreamChicken;\
 	};\
 	class _xx_ACE_MRE_CreamTomatoSoup\
 	{\
 		name = "ACE_MRE_CreamTomatoSoup";\
-		count = MRE2;\
+		count = CreamTomato;\
 	};\
 	class _xx_ACE_MRE_MeatballsPasta\
 	{\
 		name = "ACE_MRE_MeatballsPasta";\
-		count = MRE3;\
+		count = MeatballsPasta;\
 	};\
 	class _xx_ACE_MRE_ChickenTikkaMasala\
 	{\
 		name = "ACE_MRE_ChickenTikkaMasala";\
-		count = MRE4;\
+		count = ChickenTikka;\
 	};\
 	class _xx_ACE_MRE_ChickenHerbDumplings\
 	{\
 		name = "ACE_MRE_ChickenHerbDumplings";\
-		count = MRE5;\
+		count = ChickenHerb;\
 	};\
 	class _xx_ACE_MRE_LambCurry\
 	{\
 		name = "ACE_MRE_LambCurry";\
-		count = MRE6;\
+		count = LambCurry;\
 	};\
 	class _xx_ACE_MRE_SteakVegetables\
 	{\
 		name = "ACE_MRE_SteakVegetables";\
-		count = MRE7;\
+		count = SteakVegetables;\
 	};\
 	class _xx_ACE_Banana\
 	{\
@@ -369,11 +380,11 @@
 	class _xx_ACE_Humanitarian_Ration\
 	{\
 		name = "ACE_Humanitarian_Ration";\
-		count = MREHR;\
+		count = Humanitarian;\
 	};
 	
 
-#define _aceMics(CableTie,EntrenchingTool,DAGR )\
+#define _aceMics(CableTie,EntrenchingTool,DAGR,EarPlugs,Fortify,MapTools,Flashlight,IRStrob)\
 	class _xx_ACE_CableTie\
 	{\
 		name = "ACE_CableTie";\
@@ -388,4 +399,29 @@
 	{\
 		name = "ACE_microDAGR";\
 		count = DAGR;\
+	};\
+	class _xx_ACE_EarPlugs\
+	{\
+		name = "ACE_EarPlugs";\
+		count = EarPlugs;\
+	};\
+	class _xx_ACE_Fortify\
+	{\
+		name = "ACE_Fortify";\
+		count = Fortify;\
+	};\
+	class _xx_ACE_MapTools\
+	{\
+		name = "ACE_MapTools";\
+		count = MapTools;\
+	};\
+	class _xx_ACE_Flashlight_XL50\
+	{\
+		name = "ACE_Flashlight_XL50";\
+		count = Flashlight;\
+	};\
+	class _xx_ACE_IR_Strobe_Item\
+	{\
+		name = "ACE_IR_Strobe_Item";\
+		count = IRStrob;\
 	};

@@ -4,9 +4,7 @@ class TransportWeapons
 {
 	_standardRifle(1, 0, 0);
 
-	_standardATTub(2);
-	
-
+	_standardATTub(2, 0, 0);
 };
 class TransportMagazines
 {
@@ -31,20 +29,20 @@ class TransportItems
 		name = "Toolkit";
 		count = 1;
 	};
+	
+	_medicalAdv(1, 6);
 
-	_advMedical(1, 6);
+	_medicalBandage(10, 10, 10, 10);
 
-	_basicMedical(10, 10, 10, 10);
+	_medicalInjector(8, 8, 0, 0);
+	
+	_medicalSelin(0, 2, 1);
+	
+	_medicalMics(8, 4, 0, 0);
 
-	_injectorMedical(8, 8, 0, 0);
+	_aceMics(5, 2, 1, 0, 1, 1, 1, 2);
 
-	_selinMedical(0, 2, 1);
-
-	_micsMedical(8, 4, 0, 0);
-
-	_aceMics(5, 2, 1);
-
-	_aceDrink(4, 0, 0, 0, 0);
+	_aceXDrink(4, 0, 0, 0, 0);
 
 	_aceXFood(4, 0, 0, 0, 0, 0, 0, 4, 0, 0);
 	
