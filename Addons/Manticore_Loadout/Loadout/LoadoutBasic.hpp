@@ -12,13 +12,13 @@ class TransportMagazines
 
 	_UGLHE(10);
 
-	_UGLFlear(10, 0, 0, 0, 0);
+	_UGLFlare(10, 0, 0, 0, 0);
 
 	_UGLSmoke(10, 0, 0, 0, 0, 0, 0);
 	
 	_GrenadeOffensive(5, 5, 2);
 
-	_GrenadeFlear(0, 0, 4, 0);
+	_GrenadeFlare(0, 0, 4, 0);
 	
 	_GrenadeSmoke(2, 10, 2, 0, 0, 1, 3);
 };
@@ -30,7 +30,7 @@ class TransportItems
 		count = 1;
 	};
 	
-	_medicalAdv(1, 6);
+	_medicalAdv(1, 6, 0);
 
 	_medicalBandage(10, 10, 10, 10);
 
@@ -38,7 +38,7 @@ class TransportItems
 	
 	_medicalSelin(0, 2, 1);
 	
-	_medicalMics(8, 4, 0, 0);
+	_medicalMics(8, 4, 0);
 
 	_aceMics(5, 2, 1, 0, 1, 1, 1, 2);
 

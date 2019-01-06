@@ -64,7 +64,7 @@
 		count = Blue;\
 	};
 	
-#define _UGLFlear(Red,White,Green,Yellow,IRFlare)\
+#define _UGLFlare(Red,White,Green,Yellow,IRFlare)\
 	class _xx_UGL_FlareRed_F\
 	{\
 		magazine = "UGL_FlareRed_F";\
@@ -176,7 +176,7 @@
 		count = Blue;\
 	};
 
-#define _GrenadeFlear(Red,White,Green,Yellow)\
+#define _GrenadeFlare(Red,White,Green,Yellow)\
 	class _xx_ACE_HandFlare_Red\
 	{\
 		weapon = "ACE_HandFlare_Red";\
@@ -252,7 +252,7 @@
 		count = Adenosine;\
 	};
 
-#define _medicalAdv(AED,Splint)\
+#define _medicalAdv(AED,Splint,SurgicalKit)\
 	class _xx_adv_aceCPR_AED\
 	{\
 		name = "adv_aceCPR_AED";\
@@ -262,6 +262,11 @@
 	{\
 		name = "adv_aceSplint_splint";\
 		count = Splint;\
+	};\
+	class _xx_ACE_surgicalKit\
+	{\
+		name = "ACE_surgicalKit";\
+		count = SurgicalKit;\
 	};
 
 #define _medicalSelin(SelinSmal,SelinMedium,SelinBig)\
@@ -281,7 +286,7 @@
 		count = SelinBig;\
 	};
 
-#define _medicalMics(Tourniquet,BodyBag,PAK,SurgicalKit)\
+#define _medicalMics(Tourniquet,BodyBag,PAK)\
 	class _xx_ACE_tourniquet\
 	{\
 		name = "ACE_tourniquet";\
@@ -296,12 +301,8 @@
 	{\
 		name = "ACE_personalAidKit";\
 		count = PAK;\
-	};\
-	class _xx_ACE_surgicalKit\
-	{\
-		name = "ACE_surgicalKit";\
-		count = SurgicalKit;\
 	};
+	
 
 #define _aceXDrink(Canteen,Water,Spirit,RedGull,Franta)\
 	class _xx_ACE_Canteen\

@@ -10,7 +10,7 @@ class TransportMagazines
 
 	_GrenadeOffensive(5, 5, 1);
 	
-	_GrenadeFlear(5, 0, 5, 0);
+	_GrenadeFlare(5, 0, 5, 0);
 };
 class TransportItems
 {
@@ -26,9 +26,9 @@ class TransportItems
 	
 	_medicalInjector(2, 2, 0, 0);
 	
-	_medicalAdv(1, 10);
+	_medicalAdv(1, 10, 1);
 	
-	_medicalMics(10, 5, 0, 1);
+	_medicalMics(10, 5, 0);
 	
 	_medicalSelin(0, 5, 0)
 

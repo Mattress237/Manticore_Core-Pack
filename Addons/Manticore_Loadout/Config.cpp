@@ -75,7 +75,7 @@ class CfgPatches
 			//Crates
 			Manticore_Loadout_Crate_General,
 			Manticore_Loadout_Crate_Medical,
-			Manticore_Loadout_Crate_Ammo_HK416,
+			Manticore_Loadout_Crate_Ammo_StandardRifle,
 			Manticore_Loadout_Crate_Ammo_MAAWS_Vanila,
 			Manticore_Loadout_Crate_Ammo_Metis_Vanila,
 			Manticore_Loadout_Crate_Ammo_Stinger_RHS,
@@ -88,7 +88,7 @@ class CfgPatches
 			Manticore_Loadout_Crate_Kit_Metis_Vanila,
 			Manticore_Loadout_Crate_Kit_Stinger_RHS,
 			Manticore_Loadout_Crate_Kit_M136_RHS,
-			Manticore_Loadout_Crate_Kit_HKh16_RHS,
+			Manticore_Loadout_Crate_Kit_StandardRifle,
 			Manticore_Loadout_Crate_Kit_Mk46_HLC,
 			Manticore_Loadout_Crate_Kit_Mk48_HLC,
 			Manticore_Loadout_Crate_Kit_M14_HLC,

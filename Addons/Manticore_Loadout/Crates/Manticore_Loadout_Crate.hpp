@@ -20,31 +20,9 @@ class Manticore_Loadout_Crate_General : Box_NATO_Equip_F
 	};
 	class TransportItems
 	{
-		class _xx_ACE_Canteen
-		{
-			name = "ACE_Canteen";
-			count = 80;
-		};
-		class _xx_ACE_MRE_BeefStew
-		{
-			name = "ACE_MRE_BeefStew";
-			count = 20;
-		};
-		class _xx_ACE_MRE_CreamChickenSoup
-		{
-			name = "ACE_MRE_CreamChickenSoup";
-			count = 20;
-		};
-		class _xx_ACE_MRE_CreamTomatoSoup
-		{
-			name = "ACE_MRE_CreamTomatoSoup";
-			count = 20;
-		};
-		class _xx_ACE_MRE_MeatballsPasta
-		{
-			name = "ACE_MRE_MeatballsPasta";
-			count = 20;
-		};
+		_aceXDrink(80, 0, 0, 0, 0);
+		_aceXFood(20, 20, 0, 20, 0, 0, 0, 20, 0, 0);
+		
 	};
 	class TransportBackpacks
 	{
@@ -65,96 +43,13 @@ class Manticore_Loadout_Crate_Medical : Box_NATO_Equip_F
 	};
 	class TransportItems
 	{
-		class _xx_ACE_atropine
-		{
-			name = "ACE_atropine";
-			count = 20;
-		};
-		class _xx_adv_aceCPR_AED
-		{
-			name = "adv_aceCPR_AED";
-			count = 2;
-		};
-		class _xx_ACE_fieldDressing
-		{
-			name = "ACE_fieldDressing";
-			count = 70;
-		};
-		class _xx_ACE_elasticBandage
-		{
-			name = "ACE_elasticBandage";
-			count = 70;
-		};
-		class _xx_ACE_packingBandage
-		{
-			name = "ACE_packingBandage";
-			count = 70;
-		};
-		class _xx_ACE_quikclot
-		{
-			name = "ACE_quikclot";
-			count = 70;
-		};
-		class _xx_ACE_bodyBag
-		{
-			name = "ACE_bodyBag";
-			count = 20;
-		};
-		class _xx_ACE_epinephrine
-		{
-			name = "ACE_epinephrine";
-			count = 30;
-		};
-		class _xx_ACE_morphine
-		{
-			name = "ACE_morphine";
-			count = 30;
-		};
-		class _xx_ACE_salineIV
-		{
-			name = "ACE_salineIV";
-			count = 20;
-		};
-		class _xx_ACE_salineIV_250
-		{
-			name = "ACE_salineIV_250";
-			count = 20;
-		};
-		class _xx_ACE_salineIV_500
-		{
-			name = "ACE_salineIV_500";
-			count = 30;
-		};
-		class _xx_adv_aceSplint_splint
-		{
-			name = "adv_aceSplint_splint";
-			count = 40;
-		};
-		class _xx_ACE_surgicalKit
-		{
-			name = "ACE_surgicalKit";
-			count = 2;
-		};
-		class _xx_ACE_tourniquet
-		{
-			name = "ACE_tourniquet";
-			count = 40;
-		};
-		class _xx_ACE_MRE_CreamTomatoSoup
-		{
-			name = "ACE_MRE_CreamTomatoSoup";
-			count = 20;
-		};
-		class _xx_ACE_WaterBottle
-		{
-			name = "ACE_WaterBottle";
-			count = 40;
-		};
-		class _xx_ACE_Banana
-		{
-			name = "ACE_Banana";
-			count = 10;
-		};
+		_medicalBandage(70, 70, 70, 70);
+		_medicalInjector(30, 30, 15, 15);
+		_medicalSelin(20, 30, 20);
+		_medicalAdv(2, 40, 2);
+		_medicalMics(40, 20, 0);
+		_aceXDrink(0, 20, 5, 5, 5);
+		_aceXFood(10, 0, 10, 0, 0, 0, 0, 0, 10, 0);
 	};
 	class TransportBackpacks
 	{
@@ -162,9 +57,9 @@ class Manticore_Loadout_Crate_Medical : Box_NATO_Equip_F
 };
 
 ///Ammo
-class Manticore_Loadout_Crate_Ammo_HK416 : Box_NATO_Ammo_F
+class Manticore_Loadout_Crate_Ammo_StandardRifle : Box_NATO_Ammo_F
 {
-	displayName = "Ammocrate (HK416) (Ammo) (TFM)";
+	displayName = "Ammocrate (G36k(KSK)) (Ammo) (TFM)";
 	scope = 2;
 	editorCategory = "Manticore_Categories";
 	editorSubcategory = "Manticore_Categories_Supply";
@@ -174,41 +69,11 @@ class Manticore_Loadout_Crate_Ammo_HK416 : Box_NATO_Ammo_F
 	};
 	class TransportMagazines
 	{
-		class _xx_rhs_mag_30Rnd_556x45_Mk318_Stanag
-		{
-			magazine = "rhs_mag_30Rnd_556x45_Mk318_Stanag";
-			count = 50;
-		};
-		class _xx_rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red
-		{
-			magazine = "rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red";
-			count = 50;
-		};
-		class _xx_3Rnd_UGL_FlareGreen_F
-		{
-			magazine = "3Rnd_UGL_FlareGreen_F";
-			count = 10;
-		};
-		class _xx_3Rnd_UGL_FlareRed_F
-		{
-			magazine = "3Rnd_UGL_FlareRed_F";
-			count = 10;
-		};
-		class _xx_3Rnd_SmokeRed_Grenade_shell
-		{
-			magazine = "3Rnd_SmokeRed_Grenade_shell";
-			count = 10;
-		};
-		class _xx_3Rnd_SmokeYellow_Grenade_shell
-		{
-			magazine = "3Rnd_SmokeYellow_Grenade_shell";
-			count = 10;
-		};
-		class _xx_3Rnd_HE_Grenade_shell
-		{
-			magazine = "3Rnd_HE_Grenade_shell";
-			count = 10;
-		};
+		_standardMag(50, 50);
+		_UGLHE(30);
+		_UGLFlare(20, 10, 20, 0, 0);
+		_UGLSmoke(30,10,10,10,10,0,0)
+		
 	};
 	class TransportItems
 	{
@@ -599,21 +464,7 @@ class Manticore_Loadout_Crate_Kit_M136_RHS : Box_NATO_WpsLaunch_F
 
 	class TransportWeapons
 	{
-		class _xx_rhs_weap_M136
-		{
-			weapon = "rhs_weap_M136";
-			count = 2;
-		};
-		class _xx_rhs_weap_M136_hedp
-		{
-			weapon = "rhs_weap_M136_hedp";
-			count = 4;
-		};
-		class _xx_rhs_weap_M136_hp
-		{
-			weapon = "rhs_weap_M136_hp";
-			count = 2;
-		};
+		_standardATTub(2, 4, 2);
 	};
 	class TransportMagazines
 	{
@@ -626,68 +477,23 @@ class Manticore_Loadout_Crate_Kit_M136_RHS : Box_NATO_WpsLaunch_F
 	};
 };
 //Rifle
-class Manticore_Loadout_Crate_Kit_HKh16_RHS : Box_NATO_Wps_F
+class Manticore_Loadout_Crate_Kit_StandardRifle : Box_NATO_Wps_F
 {
-	displayName = "Weapons Crate (HK416) (Kit) (TFM)";
+	displayName = "Weapons Crate (G36k(KSK)) (Kit) (TFM)";
 	scope = 2;
 	editorCategory = "Manticore_Categories";
 	editorSubcategory = "Manticore_Categories_Supply";
 
 	class TransportWeapons
 	{
-		class _xx_rhs_weap_hk416d145
-		{
-			weapon = "rhs_weap_hk416d145";
-			count = 2;
-		};
-		class _xx_rhs_weap_hk416d145_m320
-		{
-			weapon = "rhs_weap_hk416d145_m320";
-			count = 1;
-		};
+		_standardRifle(2, 1, 0);
 	};
 	class TransportMagazines
 	{
-		class _xx_rhs_mag_30Rnd_556x45_Mk318_Stanag
-		{
-			magazine = "rhs_mag_30Rnd_556x45_Mk318_Stanag";
-			count = 30;
-		};
-		class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red
-		{
-			magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
-			count = 30;
-		};
-		class _xx_3Rnd_UGL_FlareGreen_F
-		{
-			magazine = "3Rnd_UGL_FlareGreen_F";
-			count = 10;
-		};
-		class _xx_3Rnd_UGL_FlareRed_F
-		{
-			magazine = "3Rnd_UGL_FlareRed_F";
-			count = 10;
-		};
-		class _xx_3Rnd_SmokeOrange_Grenade_shell
-		{
-			magazine = "3Rnd_SmokeOrange_Grenade_shell";
-			count = 10;
-		};
-		class _xx_3Rnd_SmokeRed_Grenade_shell
-		{
-			magazine = "3Rnd_SmokeRed_Grenade_shell";
-			count = 10;
-		};
-		class _xx_3Rnd_SmokeYellow_Grenade_shell
-		{
-			magazine = "3Rnd_SmokeYellow_Grenade_shell";
-			count = 10;
-		};
-		class _xx_3Rnd_HE_Grenade_shell
-		{
-			magazine = "3Rnd_HE_Grenade_shell";
-			count = 10;
-		};
+		_standardMag(30, 30);
+		_UGLFlare(15, 5, 10, 5, 0);
+		_UGLSmoke(15, 10, 5, 5, 15, 0, 5);
+		_UGLHE(20);
 	};
 	class TransportItems
 	{
@@ -1177,56 +983,12 @@ class Manticore_Loadout_Crate_Grenade_Grenade : Box_NATO_Support_F
 	};
 	class TransportItems
 	{
-		class _xx_HandGrenade
-		{
-			name = "HandGrenade";
-			count = 40;
-		};
-		class _xx_B_IR_Grenade
-		{
-			name = "B_IR_Grenade";
-			count = 20;
-		};
-		class _xx_rhs_mag_mk84
-		{
-			name = "rhs_mag_mk84";
-			count = 20;
-		};
-		class _xx_SmokeShellBlue
-		{
-			name = "SmokeShellBlue";
-			count = 10;
-		};
-		class _xx_SmokeShellGreen
-		{
-			name = "SmokeShellGreen";
-			count = 10;
-		};
-		class _xx_SmokeShellPurple
-		{
-			name = "SmokeShellPurple";
-			count = 10;
-		};
-		class _xx_SmokeShellRed
-		{
-			name = "SmokeShellRed";
-			count = 10;
-		};
-		class _xx_SmokeShell
-		{
-			name = "SmokeShell";
-			count = 20;
-		};
-		class _xx_ACE_HandFlare_Green
-		{
-			name = "ACE_HandFlare_Green";
-			count = 10;
-		};
-		class _xx_ACE_HandFlare_Red
-		{
-			name = "ACE_HandFlare_Red";
-			count = 10;
-		};
+		_GrenadeOffensive(40, 20, 10);
+		_GrenadeIR(20);
+		_GrenadeSmoke(10, 20, 10, 10, 5, 5, 10);
+		_GrenadeFlare(10, 0, 10, 10);
+		
+		
 		class _xx_ACE_Chemlight_HiBlue
 		{
 			name = "ACE_Chemlight_HiBlue";
@@ -1269,26 +1031,8 @@ class Manticore_Loadout_Crate_Grenade_FlareChem : Box_NATO_Support_F
 	};
 	class TransportItems
 	{
-		class _xx_ACE_HandFlare_White
-		{
-			name = "ACE_HandFlare_White";
-			count = 30;
-		};
-		class _xx_ACE_HandFlare_Yellow
-		{
-			name = "ACE_HandFlare_Yellow";
-			count = 30;
-		};
-		class _xx_ACE_HandFlare_Green
-		{
-			name = "ACE_HandFlare_Green";
-			count = 30;
-		};
-		class _xx_ACE_HandFlare_Red
-		{
-			name = "ACE_HandFlare_Red";
-			count = 30;
-		};
+		_GrenadeFlare(30, 30, 30, 30);
+		
 		class _xx_ACE_Chemlight_IR
 		{
 			name = "ACE_Chemlight_IR";
@@ -1351,61 +1095,8 @@ class Manticore_Loadout_Crate_Grenade_SmokFlareChem : Box_NATO_Support_F
 	};
 	class TransportItems
 	{
-		class _xx_SmokeShellBlue
-		{
-			name = "SmokeShellBlue";
-			count = 10;
-		};
-		class _xx_SmokeShellGreen
-		{
-			name = "SmokeShellGreen";
-			count = 10;
-		};
-		class _xx_SmokeShellOrange
-		{
-			name = "SmokeShellOrange";
-			count = 10;
-		};
-		class _xx_SmokeShellPurple
-		{
-			name = "SmokeShellPurple";
-			count = 10;
-		};
-		class _xx_SmokeShellRed
-		{
-			name = "SmokeShellRed";
-			count = 10;
-		};
-		class _xx_SmokeShellYellow
-		{
-			name = "SmokeShellYellow";
-			count = 10;
-		};
-		class _xx_SmokeShell
-		{
-			name = "SmokeShell";
-			count = 30;
-		};
-		class _xx_ACE_HandFlare_White
-		{
-			name = "ACE_HandFlare_White";
-			count = 10;
-		};
-		class _xx_ACE_HandFlare_Yellow
-		{
-			name = "ACE_HandFlare_Yellow";
-			count = 10;
-		};
-		class _xx_ACE_HandFlare_Green
-		{
-			name = "ACE_HandFlare_Green";
-			count = 10;
-		};
-		class _xx_ACE_HandFlare_Red
-		{
-			name = "ACE_HandFlare_Red";
-			count = 10;
-		};
+		_GrenadeSmoke(10, 30, 10, 10, 10, 10, 10);
+		_GrenadeFlare(10, 10, 10, 10);
 		class _xx_ACE_Chemlight_IR
 		{
 			name = "ACE_Chemlight_IR";
@@ -1468,41 +1159,7 @@ class Manticore_Loadout_Crate_Grenade_Smok : Box_NATO_Support_F
 	};
 	class TransportItems
 	{
-		class _xx_SmokeShellBlue
-		{
-			name = "SmokeShellBlue";
-			count = 20;
-		};
-		class _xx_SmokeShellGreen
-		{
-			name = "SmokeShellGreen";
-			count = 20;
-		};
-		class _xx_SmokeShellOrange
-		{
-			name = "SmokeShellOrange";
-			count = 20;
-		};
-		class _xx_SmokeShellPurple
-		{
-			name = "SmokeShellPurple";
-			count = 20;
-		};
-		class _xx_SmokeShellRed
-		{
-			name = "SmokeShellRed";
-			count = 20;
-		};
-		class _xx_SmokeShellYellow
-		{
-			name = "SmokeShellYellow";
-			count = 20;
-		};
-		class _xx_SmokeShell
-		{
-			name = "SmokeShell";
-			count = 60;
-		};
+		_GrenadeSmoke(20, 60, 20, 20, 20, 20, 20);
 	};
 	class TransportBackpacks
 	{
@@ -1649,16 +1306,7 @@ class Manticore_Loadout_Crate_Field_Fireteam : B_supplyCrate_F
 
 	class TransportWeapons
 	{
-		class _xx_rhs_weap_hk416d145
-		{
-			weapon = "rhs_weap_hk416d145";
-			count = 1;
-		};
-		class _xx_rhs_weap_hk416d145_m320
-		{
-			weapon = "rhs_weap_hk416d145_m320";
-			count = 1;
-		};
+		_standardRifle(1, 1, 0);
 		class _xx_hlc_rifle_m14sopmod
 		{
 			weapon = "hlc_rifle_m14sopmod";
@@ -1677,6 +1325,7 @@ class Manticore_Loadout_Crate_Field_Fireteam : B_supplyCrate_F
 	};
 	class TransportMagazines
 	{
+		_standardMag(20, 20);
 		class _xx_hlc_20Rnd_762x51_T_M14
 		{
 			magazine = "hlc_20Rnd_762x51_T_M14";
@@ -1697,44 +1346,21 @@ class Manticore_Loadout_Crate_Field_Fireteam : B_supplyCrate_F
 			magazine = "MRAWS_HEAT_F";
 			count = 4;
 		};
-		class _xx_rhs_mag_30Rnd_556x45_Mk318_Stanag
-		{
-			magazine = "rhs_mag_30Rnd_556x45_Mk318_Stanag";
-			count = 20;
-		};
-		class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red
-		{
-			magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
-			count = 20;
-		};
-		class _xx_3Rnd_UGL_FlareRed_F
-		{
-			magazine = "3Rnd_UGL_FlareRed_F";
-			count = 5;
-		};
-		class _xx_3Rnd_UGL_FlareGreen_F
-		{
-			magazine = "3Rnd_UGL_FlareGreen_F";
-			count = 5;
-		};
-		class _xx_3Rnd_SmokeRed_Grenade_shell
-		{
-			magazine = "3Rnd_SmokeRed_Grenade_shell";
-			count = 5;
-		};
-		class _xx_3Rnd_SmokeGreen_Grenade_shell
-		{
-			magazine = "3Rnd_SmokeGreen_Grenade_shell";
-			count = 5;
-		};
-		class _xx_3Rnd_HE_Grenade_shell
-		{
-			magazine = "3Rnd_HE_Grenade_shell";
-			count = 10;
-		};
+		_UGLFlare(10, 10, 0, 0, 0);
+		_UGLSmoke(10, 0, 10, 10, 0, 0, 0);
+		_UGLHE(20);
+		_UGLMics(3);
 	};
 	class TransportItems
 	{
+		_aceMics(5, 2, 2, 10, 2, 2, 2, 4);
+		_medicalBandage(10, 10, 10, 10);
+		_medicalSelin(0, 4, 0);
+		_medicalInjector(5, 5, 0, 0);
+		_medicalMics(5, 5, 0);
+		_aceXDrink(10, 0, 0, 0, 0);
+		_aceXFood(4, 0, 0, 4, 0, 0, 4, 0, 0, 0);
+
 		class _xx_bipod_01_F_blk
 		{
 			name = "bipod_01_F_blk";
@@ -1760,30 +1386,10 @@ class Manticore_Loadout_Crate_Field_Fireteam : B_supplyCrate_F
 			name = "ToolKit";
 			count = 1;
 		};
-		class _xx_ACE_EntrenchingTool
-		{
-			name = "ACE_EntrenchingTool";
-			count = 2;
-		};
-		class _xx_ACE_Fortify
-		{
-			name = "ACE_Fortify";
-			count = 2;
-		};
 		class _xx_ACE_RangeCard
 		{
 			name = "ACE_RangeCard";
 			count = 1;
-		};
-		class _xx_ACE_IR_Strobe_Item
-		{
-			name = "ACE_IR_Strobe_Item";
-			count = 4;
-		};
-		class _xx_ACE_CableTie
-		{
-			name = "ACE_CableTie";
-			count = 5;
 		};
 		class _xx_ACE_UAVBattery
 		{
@@ -1794,41 +1400,6 @@ class Manticore_Loadout_Crate_Field_Fireteam : B_supplyCrate_F
 		{
 			name = "Laserbatteries";
 			count = 1;
-		};
-		class _xx_ACE_salineIV_500
-		{
-			name = "ACE_salineIV_500";
-			count = 4;
-		};
-		class _xx_ACE_fieldDressing
-		{
-			name = "ACE_fieldDressing";
-			count = 10;
-		};
-		class _xx_ACE_elasticBandage
-		{
-			name = "ACE_elasticBandage";
-			count = 10;
-		};
-		class _xx_ACE_packingBandage
-		{
-			name = "ACE_packingBandage";
-			count = 10;
-		};
-		class _xx_ACE_Canteen
-		{
-			name = "ACE_Canteen";
-			count = 10;
-		};
-		class _xx_ACE_MRE_BeefStew
-		{
-			name = "ACE_MRE_BeefStew";
-			count = 10;
-		};
-		class _xx_ACE_tourniquet
-		{
-			name = "ACE_tourniquet";
-			count = 10;
 		};
 	};
 	class TransportBackpacks
@@ -1849,16 +1420,8 @@ class Manticore_Loadout_Crate_Field_Squad : B_supplyCrate_F
 
 	class TransportWeapons
 	{
-		class _xx_rhs_weap_hk416d145
-		{
-			weapon = "rhs_weap_hk416d145";
-			count = 1;
-		};
-		class _xx_rhs_weap_hk416d145_m320
-		{
-			weapon = "rhs_weap_hk416d145_m320";
-			count = 1;
-		};
+		_standardRifle(1, 1, 0);
+		_standardATTub(1, 1, 0);
 		class _xx_hlc_lmg_mk46
 		{
 			weapon = "hlc_lmg_mk46";
@@ -1874,11 +1437,6 @@ class Manticore_Loadout_Crate_Field_Squad : B_supplyCrate_F
 			weapon = "rhs_weap_m27iar";
 			count = 1;
 		};
-		class _xx_rhs_weap_M136_hedp
-		{
-			weapon = "rhs_weap_M136_hedp";
-			count = 1;
-		};
 		class _xx_Laserdesignator_03
 		{
 			weapon = "Laserdesignator_03";
@@ -1887,6 +1445,10 @@ class Manticore_Loadout_Crate_Field_Squad : B_supplyCrate_F
 	};
 	class TransportMagazines
 	{
+		_standardMag(60, 60);
+		_UGLSmoke(20, 0, 20, 20, 0, 0, 0);
+		_UGLHE(40);
+		_UGLMics(6);
 		class _xx_hlc_200rnd_556x45_M_SAW
 		{
 			magazine = "hlc_200rnd_556x45_M_SAW";
@@ -1911,16 +1473,6 @@ class Manticore_Loadout_Crate_Field_Squad : B_supplyCrate_F
 		{
 			magazine = "MRAWS_HEAT_F";
 			count = 5;
-		};
-		class _xx_rhs_mag_30Rnd_556x45_Mk318_Stanag
-		{
-			magazine = "rhs_mag_30Rnd_556x45_Mk318_Stanag";
-			count = 60;
-		};
-		class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red
-		{
-			magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
-			count = 60;
 		};
 		class _xx_3Rnd_UGL_FlareRed_F
 		{
@@ -1960,6 +1512,13 @@ class Manticore_Loadout_Crate_Field_Squad : B_supplyCrate_F
 	};
 	class TransportItems
 	{
+		_aceMics(10, 2, 2, 12, 2, 2, 2, 12);
+		_medicalBandage(20, 20, 20, 20);
+		_medicalSelin(0, 8, 0);
+		_medicalInjector(5, 5, 0, 0);
+		_medicalMics(10, 15, 0);
+		_aceXDrink(20, 0, 0, 0, 0);
+		_aceXFood(8, 0, 0, 8, 0, 0, 8, 0, 0, 0);
 		class _xx_bipod_01_F_blk
 		{
 			name = "bipod_01_F_blk";
@@ -1985,30 +1544,10 @@ class Manticore_Loadout_Crate_Field_Squad : B_supplyCrate_F
 			name = "ToolKit";
 			count = 1;
 		};
-		class _xx_ACE_EntrenchingTool
-		{
-			name = "ACE_EntrenchingTool";
-			count = 2;
-		};
-		class _xx_ACE_Fortify
-		{
-			name = "ACE_Fortify";
-			count = 2;
-		};
 		class _xx_ACE_RangeCard
 		{
 			name = "ACE_RangeCard";
 			count = 1;
-		};
-		class _xx_ACE_IR_Strobe_Item
-		{
-			name = "ACE_IR_Strobe_Item";
-			count = 5;
-		};
-		class _xx_ACE_CableTie
-		{
-			name = "ACE_CableTie";
-			count = 10;
 		};
 		class _xx_ACE_UAVBattery
 		{
@@ -2019,41 +1558,6 @@ class Manticore_Loadout_Crate_Field_Squad : B_supplyCrate_F
 		{
 			name = "Laserbatteries";
 			count = 1;
-		};
-		class _xx_ACE_salineIV_500
-		{
-			name = "ACE_salineIV_500";
-			count = 8;
-		};
-		class _xx_ACE_fieldDressing
-		{
-			name = "ACE_fieldDressing";
-			count = 20;
-		};
-		class _xx_ACE_elasticBandage
-		{
-			name = "ACE_elasticBandage";
-			count = 20;
-		};
-		class _xx_ACE_packingBandage
-		{
-			name = "ACE_packingBandage";
-			count = 20;
-		};
-		class _xx_ACE_Canteen
-		{
-			name = "ACE_Canteen";
-			count = 20;
-		};
-		class _xx_ACE_MRE_BeefStew
-		{
-			name = "ACE_MRE_BeefStew";
-			count = 20;
-		};
-		class _xx_ACE_tourniquet
-		{
-			name = "ACE_tourniquet";
-			count = 10;
 		};
 	};
 	class TransportBackpacks

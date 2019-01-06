@@ -5,7 +5,7 @@ class TransportWeapons
 };
 class TransportMagazines
 {
-	_GrenadeFlear(0, 4, 4, 4);
+	_GrenadeFlare(0, 4, 4, 4);
 	_GrenadeSmoke(0, 0, 3, 3, 0, 6, 3);
 	_GrenadeIR(3);
 	
@@ -48,9 +48,9 @@ class TransportItems
 		count = 1;
 	};
 	_medicalInjector(20, 20, 10, 10);
-	_medicalAdv(2, 30);
+	_medicalAdv(2, 30, 2);
 	_medicalBandage(40, 40, 40, 40);
-	_medicalMics(20, 10, 0, 2);
+	_medicalMics(20, 10, 0);
 	_medicalSelin(10, 20, 15);
 	_aceXDrink(0, 40, 5, 5, 5);
 	_aceXFood(20, 0, 0, 20, 0, 0, 0, 20, 0, 0);
