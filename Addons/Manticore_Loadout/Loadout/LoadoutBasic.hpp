@@ -1,4 +1,5 @@
 
+
 class TransportWeapons
 {
 	_standardRifle(1);
@@ -92,7 +93,7 @@ class TransportItems
 		name = "Toolkit";
 		count = 1;
 	};
-	_advMedical (1,6)
+	_advMedical(1,6)
 	/*class _xx_adv_aceCPR_AED
 	{
 		name = "adv_aceCPR_AED";
@@ -124,7 +125,7 @@ class TransportItems
 		name = "ACE_packingBandage"; 
 		count = 10; 
 	};*/
-	_injectorMedical(8, 8, 0, 0);
+	_injectorMedical(8,8,0,0);
 	/*class _xx_ACE_morphine
 	{
 		name = "ACE_morphine";
@@ -152,7 +153,7 @@ class TransportItems
 		name = "ACE_bodyBag";
 		count = 4;
 	};*/
-	_aceMics(5, 2);
+	_aceMics(5,2,1);
 	/*class _xx_ACE_CableTie
 	{
 		name = "ACE_CableTie";
@@ -162,8 +163,13 @@ class TransportItems
 	{
 		name = "ACE_EntrenchingTool";
 		count = 2;
+	};
+	class _xx_ACE_microDAGR
+	{
+		name = "ACE_microDAGR";
+		count = 1;
 	};*/
-	_aceXFood(4, 0, 4, 0, 0, 0, 0, 0);
+	_aceXFood(4,0,4,0,0,0,0,0,0,4,0,0,0,0,0);
 	/*class _xx_ACE_Canteen
 	{
 		name = "ACE_Canteen";
@@ -174,11 +180,7 @@ class TransportItems
 		name = "ACE_MRE_BeefStew";
 		count = 4;
 	};*/
-	class _xx_ACE_microDAGR
-	{
-		name = "ACE_microDAGR";
-		count = 1;
-	};
+	
 	class _xx_rhsusf_ANPVS_15
 	{
 		name = "rhsusf_ANPVS_15";
