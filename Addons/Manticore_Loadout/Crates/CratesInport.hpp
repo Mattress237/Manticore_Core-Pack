@@ -1,8 +1,3 @@
-class LandVehicle;
-
-
-
-///Crates
 //"A3_Weapons_F_Ammoboxes"//
 class Box_NATO_Ammo_F;
 class Box_NATO_Wps_F;
@@ -20,5 +15,3 @@ class CargoNet_01_box_F;
 
 //"A3_Supplies_F_Heli_Slingload"//
 class B_Slingload_01_Cargo_F;
-
-
