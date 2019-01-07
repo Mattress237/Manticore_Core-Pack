@@ -4,54 +4,7 @@ class CfgPatches
 	{
 		units[] =
 		{
-			//3CBVehicles
-			Manticore_Loadout_3CBVehicles_LandRoverHMG,
-			Manticore_Loadout_3CBVehicles_LandRoverMilan,
-			Manticore_Loadout_3CBVehicles_LandRoverGPMG,
-			Manticore_Loadout_3CBVehicles_LandRoverGMG,
-			Manticore_Loadout_3CBVehicles_LandRoverSoftTop,
-			Manticore_Loadout_3CBVehicles_LandRoverHardTop,
-			Manticore_Loadout_3CBVehicles_LandRoverSnatch,
-			Manticore_Loadout_3CBVehicles_LandRoverAmbulance,
-			Manticore_Loadout_3CBVehicles_LandRoverSoftTop_Med,
-			Manticore_Loadout_3CBVehicles_LandRoverHardTop_Med,
-			Manticore_Loadout_3CBVehicles_Coyote_Logistics_HMG,
-			Manticore_Loadout_3CBVehicles_Coyote_Logistics_GMG,
-			Manticore_Loadout_3CBVehicles_Coyote_Passenger_HMG,
-			Manticore_Loadout_3CBVehicles_Coyote_Passenger_GMG,
-			Manticore_Loadout_3CBVehicles_Jackal2_HMG,
-			Manticore_Loadout_3CBVehicles_Jackal2_GMG,
-			Manticore_Loadout_3CBVehicles_Panther_GPMG,
-			Manticore_Loadout_3CBVehicles_Buldog_RWS,
-			Manticore_Loadout_3CBVehicles_Buldog_GPMG,
-			Manticore_Loadout_3CBVehicles_RHIB_HMG,
-			Manticore_Loadout_3CBVehicles_RHIB_GPMG,
-			Manticore_Loadout_3CBVehicles_Wildcat_AH1_CAS_6A,
-			Manticore_Loadout_3CBVehicles_Wildcat_AH1_CAS_6B,
-			Manticore_Loadout_3CBVehicles_Wildcat_AH1_CAS_6C,
-			Manticore_Loadout_3CBVehicles_Wildcat_AH1_CAS_6D,
-			Manticore_Loadout_3CBVehicles_Wildcat_AH1_HEL_6A,
-			Manticore_Loadout_3CBVehicles_Wildcat_AH1_CAS_8A,
-			Manticore_Loadout_3CBVehicles_Wildcat_AH1_CAS_8B,
-			Manticore_Loadout_3CBVehicles_Wildcat_AH1_CAS_8C,
-			Manticore_Loadout_3CBVehicles_Wildcat_AH1_CAS_8D,
-			Manticore_Loadout_3CBVehicles_Wildcat_AH1_HEL_8A,
-			Manticore_Loadout_3CBVehicles_Wildcat_AH1_TRN_8A,
-			Manticore_Loadout_3CBVehicles_Wildcat_HMA2_TRN_8A,
-			Manticore_Loadout_3CBVehicles_Merlin_HC4_18,
-			Manticore_Loadout_3CBVehicles_Merlin_HC4_18_GPMG,
-			Manticore_Loadout_3CBVehicles_Merlin_HC4_24,
-			Manticore_Loadout_3CBVehicles_Merlin_HC4_32,
-			Manticore_Loadout_3CBVehicles_Merlin_Cargo,
-			Manticore_Loadout_3CBVehicles_Merlin_HC4_CSAR,
-			Manticore_Loadout_3CBVehicles_Merlin_HM2_18,
-			Manticore_Loadout_3CBVehicles_Apache_AH1_DynamicLoadout,
-			Manticore_Loadout_3CBVehicles_Apache_AH1_DynamicLoadoutUnlimited,
-			Manticore_Loadout_3CBVehicles_Apache_AH1_AT,
-			Manticore_Loadout_3CBVehicles_Apache_AH1_CAS,
-			Manticore_Loadout_3CBVehicles_Apache_AH1,
-			Manticore_Loadout_3CBVehicles_Apache_AH1_JS,
-
+		
 			//Vanila
 			Manticore_Loadout_Vanila_Wildcat_dynamicLoadout,
 			Manticore_Loadout_Vanila_Wildcat_unarmed,
@@ -117,18 +70,7 @@ class CfgPatches
 		version = "1.0";
 		requiredAddons[] =
 		{
-			"uk3cb_baf_vehicles",
-			"uk3cb_baf_vehicles_landrover",
-			"uk3cb_baf_vehicles_coyote_jackal",
-			"uk3cb_baf_vehicles_panther",
-			"uk3cb_baf_vehicles_wildcat",
-			"UK3CB_BAF_Wildcat",
-			"uk3cb_baf_vehicles_merlin",
-			"UK3CB_BAF_Merlin",
-			"uk3cb_baf_vehicles_bulldog",
-			"uk3cb_baf_vehicles_apache",
-			"uk3cb_baf_vehicles_rhib",
-			"uk3cb_baf_vehicles_weapons",
+			
 			"A3_Air_F_EPB_Heli_Light_03",
 			"A3_Air_F_Beta_Heli_Transport_02",
 			"A3_armor_f_tank_lt_01",
@@ -198,7 +140,7 @@ class CfgVehicles
 	#include "Inport.hpp"
 
 	///3CBVehicles
-	#include "3CBVehicles\Manticore_Loadout_3CBVehicles.hpp"
+	//#include "3CBVehicles\Manticore_Loadout_3CBVehicles.hpp"
 	
 	///RHS
 	#include "RHS\Manticore_Loadout_RHS.hpp"
