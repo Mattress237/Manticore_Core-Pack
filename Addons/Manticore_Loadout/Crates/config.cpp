@@ -3,7 +3,6 @@ class CfgPatches
 	class Manticore_Loadout_Crates
 	{
 		addonRootClass = "Manticore_Loadout";
-		requiredVersion = 1.8;
 		units[] = {
 
 			Manticore_Loadout_Crate_Kit_MAAWS_Vanila,

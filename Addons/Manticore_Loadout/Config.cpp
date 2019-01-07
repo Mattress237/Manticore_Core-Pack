@@ -48,5 +48,4 @@ class CfgVehicles
 {
 	///Macros
 	#include "LoadoutMacro.hpp"
-
 };	

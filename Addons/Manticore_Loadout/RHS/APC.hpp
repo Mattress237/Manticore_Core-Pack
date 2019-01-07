@@ -1,5 +1,3 @@
-
-
 class Manticore_Loadout_RHS_APC_M113A3_Unarmed : rhsusf_m113_usarmy_unarmed
 {
 	displayName = "M113A3";
