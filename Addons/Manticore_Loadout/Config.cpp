@@ -4,27 +4,6 @@ class CfgPatches
 	{
 		units[] =
 		{
-		
-			//Vanila
-			Manticore_Loadout_Vanila_Wildcat_dynamicLoadout,
-			Manticore_Loadout_Vanila_Wildcat_unarmed,
-			//Manticore_Loadout_Vanila_Merlin_unarmed,
-			Manticore_Loadout_Vanila_Wiesel2_Cannon,
-			Manticore_Loadout_Vanila_Wiesel2_AT,
-			Manticore_Loadout_Vanila_Wiesel2_Scout,
-			Manticore_Loadout_Vanila_LittleBird_AH6,
-			Manticore_Loadout_Vanila_LittleBird_MH6,
-			Manticore_Loadout_Vanila_LittleBird_MH6_Stripped,
-			Manticore_Loadout_Vanila_Drone_UCAV,
-			Manticore_Loadout_Vanila_Drone_Falcon,
-			Manticore_Loadout_Vanila_Drone_AR2,
-			Manticore_Loadout_Vanila_Badger,
-			Manticore_Loadout_Vanila_Namer,
-			Manticore_Loadout_Vanila_Nemmera,
-			Manticore_Loadout_Vanila_Bardelas,
-			Manticore_Loadout_Vanila_Leopard,
-			Manticore_Loadout_Vanila_Speedboat,
-
 			//Crates
 			Manticore_Loadout_Crate_General,
 			Manticore_Loadout_Crate_Medical,
@@ -71,28 +50,15 @@ class CfgPatches
 		requiredAddons[] =
 		{
 			
-			"A3_Air_F_EPB_Heli_Light_03",
-			"A3_Air_F_Beta_Heli_Transport_02",
-			"A3_armor_f_tank_lt_01",
+			
 			"A3_Supplies_F_Exp_Ammoboxes",
 			"A3_Supplies_F_Exp",
 			"A3_Weapons_F_Ammoboxes",
 			"A3_Supplies_F_Heli_Slingload",
 			"A3_Supplies_F_Heli_CargoNets",
-			"A3_Air_F_Heli_Light_01",
-			"A3_Drones_F_Air_F_Gamma_UAV_01",
-			"A3_Air_F_Exp_UAV_03",
-			"A3_Air_F_Jets_UAV_05",
-			"Manticore_Vehicle_Armor_Badger_IFV",
-			"Manticore_Vehicle_Armor_Bardelas",
-			"Manticore_Vehicle_Armor_Leopard",
-			"Manticore_Vehicle_Armor_Nemmera_Nemer",
-			"Manticore_Vehicle_Boats_Speedboat_Minigun",
-			"A3_Soft_F_Exp_LSV_01",
-			"A3_Soft_F_Quadbike_01",
-			"A3_Armor_F_Gamma_MBT_01",
-			"A3_Armor_F_Tank_AFV_Wheeled_01",
-			"A3_Drones_F_Soft_F_Gamma_UGV_01",
+			
+			
+			
 			"rhsusf_c_hmmwv",
 			"rhsusf_c_Cougar",
 			"rhsusf_c_Caiman"
@@ -143,10 +109,10 @@ class CfgVehicles
 	//#include "3CBVehicles\Manticore_Loadout_3CBVehicles.hpp"
 	
 	///RHS
-	#include "RHS\Manticore_Loadout_RHS.hpp"
+	//#include "RHS\Manticore_Loadout_RHS.hpp"
 
 	///Vanila
-	#include "Vanila\Manticore_Loadout_Vanila.hpp"
+	//#include "Vanila\Manticore_Loadout_Vanila.hpp"
 	
 	///Crate
 	#include "Crates\Manticore_Loadout_Crate.hpp"

@@ -1,9 +1,4 @@
-class rhsusf_m113_usarmy_unarmed;
-class rhsusf_m113_usarmy;
-class rhsusf_m113_usarmy_M240;
-class rhsusf_m113_usarmy_MK19;
-class rhsusf_m113_usarmy_supply;
-class rhsusf_m113_usarmy_medical;
+
 
 class Manticore_Loadout_RHS_APC_M113A3_Unarmed : rhsusf_m113_usarmy_unarmed
 {
