@@ -1,31 +1,18 @@
 //Launcher
-class Manticore_Loadout_Crate_Kit_MAAWS_Vanila : Box_NATO_WpsLaunch_F
+class Manticore_Loadout_Crate_Kit_UnguidedATLauncher : Box_NATO_WpsLaunch_F
 {
-	displayName = "Launcher Crate (MAAWS) (Kit) (TFM)";
+	displayName = "Launcher Crate (Unguided) (Kit) (TFM)";
 	scope = 2;
 	editorCategory = "Manticore_Categories";
 	editorSubcategory = "Manticore_Categories_Supply";
 
 	class TransportWeapons
 	{
-		class _xx_launch_MRAWS_green_F
-		{
-			weapon = "launch_MRAWS_green_F";
-			count = 1;
-		};
+		_standardUnguidedATLauncher(1);
 	};
 	class TransportMagazines
 	{
-		class _xx_MRAWS_HEAT_F
-		{
-			magazine = "MRAWS_HEAT_F";
-			count = 10;
-		};
-		class _xx_MRAWS_HE_F
-		{
-			magazine = "MRAWS_HE_F";
-			count = 4;
-		};
+		_standardUnguidedATLauncherAmmo(10, 4);
 	};
 	class TransportItems
 	{
@@ -39,33 +26,20 @@ class Manticore_Loadout_Crate_Kit_MAAWS_Vanila : Box_NATO_WpsLaunch_F
 		};
 	};
 };
-class Manticore_Loadout_Crate_Kit_Metis_Vanila : Box_NATO_WpsLaunch_F
+class Manticore_Loadout_Crate_Kit_GuidedATLauncher : Box_NATO_WpsLaunch_F
 {
-	displayName = "Launcher Crate (Metis-M) (Kit) (TFM)";
+	displayName = "Launcher Crate (Guided AT) (Kit) (TFM)";
 	scope = 2;
 	editorCategory = "Manticore_Categories";
 	editorSubcategory = "Manticore_Categories_Supply";
 
 	class TransportWeapons
 	{
-		class _xx_launch_O_Vorona_green_F
-		{
-			weapon = "launch_O_Vorona_green_F";
-			count = 1;
-		};
+		_standardGuidedATLauncher(1, 0);
 	};
 	class TransportMagazines
 	{
-		class _xx_Vorona_HEAT
-		{
-			magazine = "Vorona_HEAT";
-			count = 8;
-		};
-		class _xx_Vorona_HE
-		{
-			magazine = "Vorona_HE";
-			count = 2;
-		};
+		_standardGuidedATLauncherAmmo(8, 2, 0);
 	};
 	class TransportItems
 	{
@@ -79,28 +53,20 @@ class Manticore_Loadout_Crate_Kit_Metis_Vanila : Box_NATO_WpsLaunch_F
 		};
 	};
 };
-class Manticore_Loadout_Crate_Kit_Stinger_RHS : Box_NATO_WpsLaunch_F
+class Manticore_Loadout_Crate_Kit_GuidedAALauncher : Box_NATO_WpsLaunch_F
 {
-	displayName = "Launcher Crate (Stinger) (Kit) (TFM)";
+	displayName = "Launcher Crate (Guided AA) (Kit) (TFM)";
 	scope = 2;
 	editorCategory = "Manticore_Categories";
 	editorSubcategory = "Manticore_Categories_Supply";
 
 	class TransportWeapons
 	{
-		class _xx_rhs_weap_fim92
-		{
-			weapon = "rhs_weap_fim92";
-			count = 1;
-		};
+		_standardGuidedAALauncher(1);
 	};
 	class TransportMagazines
 	{
-		class _xx_rhs_fim92_mag
-		{
-			magazine = "rhs_fim92_mag";
-			count = 8;
-		};
+		_standardGuidedAALauncherAmmo(8);
 	};
 	class TransportItems
 	{
@@ -114,9 +80,9 @@ class Manticore_Loadout_Crate_Kit_Stinger_RHS : Box_NATO_WpsLaunch_F
 		};
 	};
 };
-class Manticore_Loadout_Crate_Kit_M136_RHS : Box_NATO_WpsLaunch_F
+class Manticore_Loadout_Crate_Kit_DisposableATLauncher : Box_NATO_WpsLaunch_F
 {
-	displayName = "Launcher Crate (M136) (Kit) (TFM)";
+	displayName = "Launcher Crate (Disposable AT) (Kit) (TFM)";
 	scope = 2;
 	editorCategory = "Manticore_Categories";
 	editorSubcategory = "Manticore_Categories_Supply";

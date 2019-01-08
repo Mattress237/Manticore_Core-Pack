@@ -105,6 +105,7 @@
 		count = HuntIR;\
 	};
 
+//Launchers
 #define _standardATTub(HEAT,HEDP,HP)\
 	class _xx_rhs_weap_M136\
 	{\
@@ -121,7 +122,70 @@
 		weapon = "rhs_weap_M136_hp";\
 		count = HP;\
 	};
-//
+
+#define _standardUnguidedATLauncher(MAWS)\
+	class _xx_launch_MRAWS_green_F\
+	{\
+		weapon = "launch_MRAWS_green_F";\
+		count = MAWS;\
+	};
+
+#define _standardUnguidedATLauncherAmmo(MAWSHEAT,MAWSHE)\
+	class _xx_MRAWS_HEAT_F\
+	{\
+		magazine = "MRAWS_HEAT_F";\
+		count = MAWSHEAT;\
+	};\
+	class _xx_MRAWS_HE_F\
+	{\
+		magazine = "MRAWS_HE_F";\
+		count = MAWSHE;\
+	};
+
+#define _standardGuidedATLauncher(Metis,Javelin)\
+	class _xx_launch_O_Vorona_green_F\
+	{\
+		weapon = "launch_O_Vorona_green_F";\
+		count = Metis;\
+	};\
+	class _xx_rhs_weap_fgm148\
+	{\
+		weapon = "rhs_weap_fgm148";\
+		count = Javelin;\
+	};
+
+#define _standardGuidedATLauncherAmmo(MetisHEAT,MetisHE,JavelinAT)\
+	class _xx_Vorona_HEAT\
+	{\
+		magazine = "Vorona_HEAT";\
+		count = MetisHEAT;\
+	};\
+	class _xx_Vorona_HE\
+	{\
+		magazine = "Vorona_HE";\
+		count = MetisHE;\
+	};\
+	class _xx_rhs_fgm148_magazine_AT\
+	{\
+		magazine = "rhs_fgm148_magazine_AT";\
+		count = JavelinAT;\
+	};
+
+#define _standardGuidedAALauncher(Stinger)\
+	class _xx_rhs_weap_fim92\
+	{\
+		weapon = "rhs_weap_fim92";\
+		count = Stinger;\
+	};
+
+#define _standardGuidedAALauncherAmmo(AA_Ammo)\
+	class _xx_rhs_fim92_mag\
+	{\
+		magazine = "rhs_fim92_mag";\
+		count = AA_Ammo;\
+	};
+
+//Grenade
 #define _GrenadeOffensive(Frag,Stun,Incendiary)\
 	class _xx_rhs_mag_m67\
 	{\

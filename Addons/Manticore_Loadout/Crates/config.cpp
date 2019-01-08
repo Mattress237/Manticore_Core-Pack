@@ -5,10 +5,10 @@ class CfgPatches
 		addonRootClass = "Manticore_Loadout";
 		units[] = {
 
-			Manticore_Loadout_Crate_Kit_MAAWS_Vanila,
-			Manticore_Loadout_Crate_Kit_Metis_Vanila,
-			Manticore_Loadout_Crate_Kit_Stinger_RHS,
-			Manticore_Loadout_Crate_Kit_M136_RHS,
+			Manticore_Loadout_Crate_Kit_UnguidedATLauncher,
+			Manticore_Loadout_Crate_Kit_GuidedATLauncher,
+			Manticore_Loadout_Crate_Kit_GuidedAALauncher,
+			Manticore_Loadout_Crate_Kit_DisposableATLauncher,
 			Manticore_Loadout_Crate_Kit_StandardRifle,
 			Manticore_Loadout_Crate_Kit_Mk46_HLC,
 			Manticore_Loadout_Crate_Kit_Mk48_HLC,
@@ -18,9 +18,9 @@ class CfgPatches
 			Manticore_Loadout_Crate_Field_Fireteam,
 			Manticore_Loadout_Crate_Field_Squad,
 			Manticore_Loadout_Crate_Ammo_StandardRifle,
-			Manticore_Loadout_Crate_Ammo_MAAWS_Vanila,
-			Manticore_Loadout_Crate_Ammo_Metis_Vanila,
-			Manticore_Loadout_Crate_Ammo_Stinger_RHS,
+			Manticore_Loadout_Crate_Ammo_UnguidedATLauncher,
+			Manticore_Loadout_Crate_Ammo_GuidedATLauncher,
+			Manticore_Loadout_Crate_Ammo_GuidedAALauncher,
 			Manticore_Loadout_Crate_Ammo_Mk46_HLC,
 			Manticore_Loadout_Crate_Ammo_Mk48_HLC,
 			Manticore_Loadout_Crate_Ammo_M14_HLC,
@@ -55,8 +55,8 @@ class CfgPatches
 
 class CfgVehicles
 {
-#include "CratesInport.hpp"
 #include "../LoadoutMacro.hpp"
+#include "CratesInport.hpp"
 
 #include "Kit.hpp"
 #include "FieldKit.hpp"

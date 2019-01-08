@@ -27,6 +27,11 @@ class Manticore_Loadout_Crate_Static_M2_RHS : Box_NATO_Support_F
 			backpack = "RHS_M2_Tripod_Bag";
 			count = 2;
 		};
+		class _xx_RHS_M2_MiniTripod_Bag
+		{
+			backpack = "RHS_M2_MiniTripod_Bag";
+			count = 2;
+		};
 	};
 };
 class Manticore_Loadout_Crate_Static_Mk19_RHS : Box_NATO_Support_F

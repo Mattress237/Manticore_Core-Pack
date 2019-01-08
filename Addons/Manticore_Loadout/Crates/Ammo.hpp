@@ -28,9 +28,9 @@ class Manticore_Loadout_Crate_Ammo_StandardRifle : Box_NATO_Ammo_F
 		};
 	};
 };
-class Manticore_Loadout_Crate_Ammo_MAAWS_Vanila : Box_NATO_WpsLaunch_F
+class Manticore_Loadout_Crate_Ammo_UnguidedATLauncher : Box_NATO_WpsLaunch_F
 {
-	displayName = "Launcher Crate (MAAWS) (Ammo) (TFM)";
+	displayName = "Launcher Crate (Unguided AT) (Ammo) (TFM)";
 	scope = 2;
 	editorCategory = "Manticore_Categories";
 	editorSubcategory = "Manticore_Categories_Supply";
@@ -40,16 +40,7 @@ class Manticore_Loadout_Crate_Ammo_MAAWS_Vanila : Box_NATO_WpsLaunch_F
 	};
 	class TransportMagazines
 	{
-		class _xx_MRAWS_HEAT_F
-		{
-			magazine = "MRAWS_HEAT_F";
-			count = 12;
-		};
-		class _xx_MRAWS_HE_F
-		{
-			magazine = "MRAWS_HE_F";
-			count = 6;
-		};
+		_standardUnguidedATLauncherAmmo(12, 6);
 	};
 	class TransportItems
 	{
@@ -63,9 +54,9 @@ class Manticore_Loadout_Crate_Ammo_MAAWS_Vanila : Box_NATO_WpsLaunch_F
 		};
 	};
 };
-class Manticore_Loadout_Crate_Ammo_Metis_Vanila : Box_NATO_WpsLaunch_F
+class Manticore_Loadout_Crate_Ammo_GuidedATLauncher : Box_NATO_WpsLaunch_F
 {
-	displayName = "Launcher Crate (Metis-M) (Ammo) (TFM)";
+	displayName = "Launcher Crate (Guided AT) (Ammo) (TFM)";
 	scope = 2;
 	editorCategory = "Manticore_Categories";
 	editorSubcategory = "Manticore_Categories_Supply";
@@ -75,16 +66,7 @@ class Manticore_Loadout_Crate_Ammo_Metis_Vanila : Box_NATO_WpsLaunch_F
 	};
 	class TransportMagazines
 	{
-		class _xx_Vorona_HEAT
-		{
-			magazine = "Vorona_HEAT";
-			count = 10;
-		};
-		class _xx_Vorona_HE
-		{
-			magazine = "Vorona_HE";
-			count = 4;
-		};
+		_standardGuidedATLauncherAmmo(10, 4, 0);
 	};
 	class TransportItems
 	{
@@ -98,9 +80,9 @@ class Manticore_Loadout_Crate_Ammo_Metis_Vanila : Box_NATO_WpsLaunch_F
 		};
 	};
 };
-class Manticore_Loadout_Crate_Ammo_Stinger_RHS : Box_NATO_WpsLaunch_F
+class Manticore_Loadout_Crate_Ammo_GuidedAALauncher : Box_NATO_WpsLaunch_F
 {
-	displayName = "Launcher Crate (Stinger) (Ammo) (TFM)";
+	displayName = "Launcher Crate (Guided AA) (Ammo) (TFM)";
 	scope = 2;
 	editorCategory = "Manticore_Categories";
 	editorSubcategory = "Manticore_Categories_Supply";
@@ -110,11 +92,7 @@ class Manticore_Loadout_Crate_Ammo_Stinger_RHS : Box_NATO_WpsLaunch_F
 	};
 	class TransportMagazines
 	{
-		class _xx_rhs_fim92_mag
-		{
-			magazine = "rhs_fim92_mag";
-			count = 12;
-		};
+		_standardGuidedAALauncherAmmo(12);
 	};
 	class TransportItems
 	{

@@ -73,8 +73,8 @@ class CfgPatches
 
 class CfgVehicles
 {
-#include "3CBVehiclesInport.hpp"
 #include "../LoadoutMacro.hpp"
+#include "3CBVehiclesInport.hpp"
 	//Light Atack
 #include "LandRover.hpp"
 #include "Coyotejackal.hpp"
