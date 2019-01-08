@@ -30,7 +30,7 @@ class Manticore_Loadout_Crate_Ammo_StandardRifle : Box_NATO_Ammo_F
 };
 class Manticore_Loadout_Crate_Ammo_UnguidedATLauncher : Box_NATO_WpsLaunch_F
 {
-	displayName = "Launcher Crate (Unguided AT) (Ammo) (TFM)";
+	displayName = "Launcher Crate (MAWS) (Ammo) (TFM)";
 	scope = 2;
 	editorCategory = "Manticore_Categories";
 	editorSubcategory = "Manticore_Categories_Supply";
@@ -56,7 +56,7 @@ class Manticore_Loadout_Crate_Ammo_UnguidedATLauncher : Box_NATO_WpsLaunch_F
 };
 class Manticore_Loadout_Crate_Ammo_GuidedATLauncher : Box_NATO_WpsLaunch_F
 {
-	displayName = "Launcher Crate (Guided AT) (Ammo) (TFM)";
+	displayName = "Launcher Crate (Metis-M) (Ammo) (TFM)";
 	scope = 2;
 	editorCategory = "Manticore_Categories";
 	editorSubcategory = "Manticore_Categories_Supply";
@@ -82,7 +82,7 @@ class Manticore_Loadout_Crate_Ammo_GuidedATLauncher : Box_NATO_WpsLaunch_F
 };
 class Manticore_Loadout_Crate_Ammo_GuidedAALauncher : Box_NATO_WpsLaunch_F
 {
-	displayName = "Launcher Crate (Guided AA) (Ammo) (TFM)";
+	displayName = "Launcher Crate (Stinger) (Ammo) (TFM)";
 	scope = 2;
 	editorCategory = "Manticore_Categories";
 	editorSubcategory = "Manticore_Categories_Supply";
@@ -106,7 +106,7 @@ class Manticore_Loadout_Crate_Ammo_GuidedAALauncher : Box_NATO_WpsLaunch_F
 		};
 	};
 };
-class Manticore_Loadout_Crate_Ammo_Mk46_HLC : Box_NATO_Ammo_F
+class Manticore_Loadout_Crate_Ammo_MachineGunner1 : Box_NATO_Ammo_F
 {
 	displayName = "Ammocrate (Mk46) (Ammo) (TFM)";
 	scope = 2;
@@ -131,7 +131,7 @@ class Manticore_Loadout_Crate_Ammo_Mk46_HLC : Box_NATO_Ammo_F
 	{
 	};
 };
-class Manticore_Loadout_Crate_Ammo_Mk48_HLC : Box_NATO_Ammo_F
+class Manticore_Loadout_Crate_Ammo_MachineGunner2 : Box_NATO_Ammo_F
 {
 	displayName = "Ammocrate (Mk48) (Ammo) (TFM)";
 	scope = 2;

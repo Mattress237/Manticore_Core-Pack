@@ -1,7 +1,7 @@
 //Launcher
 class Manticore_Loadout_Crate_Kit_UnguidedATLauncher : Box_NATO_WpsLaunch_F
 {
-	displayName = "Launcher Crate (Unguided) (Kit) (TFM)";
+	displayName = "Launcher Crate (MAWS) (Kit) (TFM)";
 	scope = 2;
 	editorCategory = "Manticore_Categories";
 	editorSubcategory = "Manticore_Categories_Supply";
@@ -28,7 +28,7 @@ class Manticore_Loadout_Crate_Kit_UnguidedATLauncher : Box_NATO_WpsLaunch_F
 };
 class Manticore_Loadout_Crate_Kit_GuidedATLauncher : Box_NATO_WpsLaunch_F
 {
-	displayName = "Launcher Crate (Guided AT) (Kit) (TFM)";
+	displayName = "Launcher Crate (Metis-M) (Kit) (TFM)";
 	scope = 2;
 	editorCategory = "Manticore_Categories";
 	editorSubcategory = "Manticore_Categories_Supply";
@@ -55,7 +55,7 @@ class Manticore_Loadout_Crate_Kit_GuidedATLauncher : Box_NATO_WpsLaunch_F
 };
 class Manticore_Loadout_Crate_Kit_GuidedAALauncher : Box_NATO_WpsLaunch_F
 {
-	displayName = "Launcher Crate (Guided AA) (Kit) (TFM)";
+	displayName = "Launcher Crate (Stinger) (Kit) (TFM)";
 	scope = 2;
 	editorCategory = "Manticore_Categories";
 	editorSubcategory = "Manticore_Categories_Supply";
@@ -82,7 +82,7 @@ class Manticore_Loadout_Crate_Kit_GuidedAALauncher : Box_NATO_WpsLaunch_F
 };
 class Manticore_Loadout_Crate_Kit_DisposableATLauncher : Box_NATO_WpsLaunch_F
 {
-	displayName = "Launcher Crate (Disposable AT) (Kit) (TFM)";
+	displayName = "Launcher Crate (M136) (Kit) (TFM)";
 	scope = 2;
 	editorCategory = "Manticore_Categories";
 	editorSubcategory = "Manticore_Categories_Supply";
@@ -138,7 +138,7 @@ class Manticore_Loadout_Crate_Kit_StandardRifle : Box_NATO_Wps_F
 	{
 	};
 };
-class Manticore_Loadout_Crate_Kit_Mk46_HLC : Box_NATO_Wps_F
+class Manticore_Loadout_Crate_Kit_MachineGunner1 : Box_NATO_Wps_F
 {
 	displayName = "Weapons Crate (mk46) (Kit) (TFM)";
 	scope = 2;
@@ -147,19 +147,11 @@ class Manticore_Loadout_Crate_Kit_Mk46_HLC : Box_NATO_Wps_F
 
 	class TransportWeapons
 	{
-		class _xx_hlc_lmg_mk46
-		{
-			weapon = "hlc_lmg_mk46";
-			count = 2;
-		};
+		_standardMG1(2);
 	};
 	class TransportMagazines
 	{
-		class _xx_hlc_200rnd_556x45_M_SAW
-		{
-			magazine = "hlc_200rnd_556x45_M_SAW";
-			count = 12;
-		};
+		_standardMG1Ammo(10, 2);
 	};
 	class TransportItems
 	{
@@ -188,7 +180,7 @@ class Manticore_Loadout_Crate_Kit_Mk46_HLC : Box_NATO_Wps_F
 		};
 	};
 };
-class Manticore_Loadout_Crate_Kit_Mk48_HLC : Box_NATO_Wps_F
+class Manticore_Loadout_Crate_Kit_MachineGunner2 : Box_NATO_Wps_F
 {
 	displayName = "Weapons Crate (Mk48) (Kit) (TFM)";
 	scope = 2;
@@ -197,24 +189,11 @@ class Manticore_Loadout_Crate_Kit_Mk48_HLC : Box_NATO_Wps_F
 
 	class TransportWeapons
 	{
-		class _xx_hlc_lmg_mk48
-		{
-			weapon = "hlc_lmg_mk48";
-			count = 2;
-		};
+		_standardMG2(2);
 	};
 	class TransportMagazines
 	{
-		class _xx_hlc_100Rnd_762x51_Mdim_M60E4
-		{
-			magazine = "hlc_100Rnd_762x51_Mdim_M60E4";
-			count = 10;
-		};
-		class _xx_hlc_100Rnd_762x51_M_M60E4
-		{
-			magazine = "hlc_100Rnd_762x51_M_M60E4";
-			count = 10;
-		};
+		_standardMG2Ammo(10, 10);
 	};
 	class TransportItems
 	{
@@ -243,7 +222,7 @@ class Manticore_Loadout_Crate_Kit_Mk48_HLC : Box_NATO_Wps_F
 		};
 	};
 };
-class Manticore_Loadout_Crate_Kit_M14_HLC : Box_NATO_Wps_F
+class Manticore_Loadout_Crate_Kit_Marksman : Box_NATO_Wps_F
 {
 	displayName = "Weapons Crate (Troy M14) (Kit) (TFM)";
 	scope = 2;
@@ -252,24 +231,11 @@ class Manticore_Loadout_Crate_Kit_M14_HLC : Box_NATO_Wps_F
 
 	class TransportWeapons
 	{
-		class _xx_hlc_rifle_m14sopmod
-		{
-			weapon = "hlc_rifle_m14sopmod";
-			count = 2;
-		};
+		_standardMarksmanRifle(2);
 	};
 	class TransportMagazines
 	{
-		class _xx_hlc_20Rnd_762x51_T_M14
-		{
-			magazine = "hlc_20Rnd_762x51_T_M14";
-			count = 12;
-		};
-		class _xx_hlc_20Rnd_762x51_B_M14
-		{
-			magazine = "hlc_20Rnd_762x51_B_M14";
-			count = 12;
-		};
+		_standardMarksmanRifleAmmo(12, 12);
 	};
 	class TransportItems
 	{
@@ -293,7 +259,7 @@ class Manticore_Loadout_Crate_Kit_M14_HLC : Box_NATO_Wps_F
 	{
 	};
 };
-class Manticore_Loadout_Crate_Kit_Mk11_RHS : Box_NATO_Wps_F
+class Manticore_Loadout_Crate_Kit_Sharpshooter : Box_NATO_Wps_F
 {
 	displayName = "Weapons Crate (Mk 11 Mod 0) (Kit) (TFM)";
 	scope = 2;
@@ -302,34 +268,11 @@ class Manticore_Loadout_Crate_Kit_Mk11_RHS : Box_NATO_Wps_F
 
 	class TransportWeapons
 	{
-		class _xx_hlc_rifle_m14sopmod
-		{
-			weapon = "rhs_weap_sr25";
-			count = 2;
-		};
+		_standardSharpshooterRifle(2);
 	};
 	class TransportMagazines
 	{
-		class _xx_rhsusf_20Rnd_762x51_SR25_m993_Mag
-		{
-			magazine = "rhsusf_20Rnd_762x51_SR25_m993_Mag";
-			count = 5;
-		};
-		class _xx_rhsusf_20Rnd_762x51_SR25_m62_Mag
-		{
-			magazine = "rhsusf_20Rnd_762x51_SR25_m62_Mag";
-			count = 5;
-		};
-		class _xx_rhsusf_20Rnd_762x51_SR25_m118_special_Mag
-		{
-			magazine = "rhsusf_20Rnd_762x51_SR25_m118_special_Mag";
-			count = 5;
-		};
-		class _xx_ACE_10Rnd_762x51_M118LR_Mag
-		{
-			magazine = "ACE_10Rnd_762x51_M118LR_Mag";
-			count = 5;
-		};
+		_standardSharpshooterRifleAmmo(5, 5, 5, 5);
 	};
 	class TransportItems
 	{
@@ -353,7 +296,7 @@ class Manticore_Loadout_Crate_Kit_Mk11_RHS : Box_NATO_Wps_F
 	{
 	};
 };
-class Manticore_Loadout_Crate_Kit_M27_RHS : Box_NATO_Wps_F
+class Manticore_Loadout_Crate_Kit_Autorifleman : Box_NATO_Wps_F
 {
 	displayName = "Weapons Crate (M27 IAR) (Kit) (TFM)";
 	scope = 2;
@@ -362,19 +305,11 @@ class Manticore_Loadout_Crate_Kit_M27_RHS : Box_NATO_Wps_F
 
 	class TransportWeapons
 	{
-		class _xx_rhs_weap_m27iar
-		{
-			weapon = "rhs_weap_m27iar";
-			count = 2;
-		};
+		_StandardAutoRifle(2);
 	};
 	class TransportMagazines
 	{
-		class _xx_rhs_mag_100Rnd_556x45_M855A1_cmag_mixed
-		{
-			magazine = "rhs_mag_100Rnd_556x45_M855A1_cmag_mixed";
-			count = 16;
-		};
+		_standardAutoRifleAmmo(16);
 	};
 	class TransportItems
 	{

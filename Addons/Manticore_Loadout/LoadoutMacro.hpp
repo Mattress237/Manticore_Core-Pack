@@ -184,6 +184,108 @@
 		magazine = "rhs_fim92_mag";\
 		count = AA_Ammo;\
 	};
+//MG
+#define _standardMG1(Rifle)\
+	class _xx_hlc_lmg_mk46\
+	{\
+		weapon = "hlc_lmg_mk46";\
+		count = Rifle;\
+	};
+
+#define _standardMG1Ammo(Standard,Tracer)\
+	class _xx_hlc_200rnd_556x45_M_SAW\
+	{\
+		magazine = "hlc_200rnd_556x45_M_SAW";\
+		count = Standard;\
+	};\
+	class _xx_hlc_200rnd_556x45_T_SAW\
+	{\
+		magazine = "hlc_200rnd_556x45_T_SAW";\
+		count = Tracer;\
+	};
+
+#define _standardMG2(Rifle)\
+	class _xx_hlc_lmg_mk48\
+	{\
+		weapon = "hlc_lmg_mk48";\
+		count = Rifle;\
+	};
+
+#define _standardMG2Ammo(Standard,Tracer)\
+	class _xx_hlc_100Rnd_762x51_Mdim_M60E4\
+	{\
+		magazine = "hlc_100Rnd_762x51_Mdim_M60E4";\
+		count = Standard;\
+	};\
+	class _xx_hlc_100Rnd_762x51_M_M60E4\
+	{\
+		magazine = "hlc_100Rnd_762x51_M_M60E4";\
+		count = Tracer;\
+	};
+
+//Marksman Rifles
+#define _standardMarksmanRifle(Rifle)\
+	class _xx_hlc_rifle_m14sopmod\
+	{\
+		weapon = "hlc_rifle_m14sopmod";\
+		count = Rifle;\
+	};
+
+#define _standardMarksmanRifleAmmo(Standard,Tracer)\
+	class _xx_hlc_20Rnd_762x51_B_M14\
+	{\
+		magazine = "hlc_20Rnd_762x51_B_M14";\
+		count = Standard;\
+	};\
+	class _xx_hlc_20Rnd_762x51_T_M14\
+	{\
+		magazine = "hlc_20Rnd_762x51_T_M14";\
+		count = Tracer;\
+	};
+
+#define _standardSharpshooterRifle(Rifle)\
+	class _xx_rhs_weap_sr25\
+	{\
+		weapon = "rhs_weap_sr25";\
+		count = Rifle;\
+	};
+
+#define _standardSharpshooterRifleAmmo(Standard,Tracer,LongRange,ArmorPiercing)\
+	class _xx_rhsusf_20Rnd_762x51_SR25_m118_special_Mag\
+	{\
+		magazine = "rhsusf_20Rnd_762x51_SR25_m118_special_Mag";\
+		count = Standard;\
+	};\
+	class _xx_rhsusf_20Rnd_762x51_SR25_m62_Mag\
+	{\
+		magazine = "rhsusf_20Rnd_762x51_SR25_m62_Mag";\
+		count = Tracer;\
+	};\
+	class _xx_ACE_10Rnd_762x51_M118LR_Mag\
+	{\
+		magazine = "ACE_10Rnd_762x51_M118LR_Mag";\
+		count = LongRange;\
+	};\
+	class _xx_rhsusf_20Rnd_762x51_SR25_m993_Mag\
+	{\
+		magazine = "rhsusf_20Rnd_762x51_SR25_m993_Mag";\
+		count = ArmorPiercing;\
+	};
+
+//Autorifle
+#define _StandardAutoRifle(Rifle)\
+	class _xx_rhs_weap_m27iar\
+	{\
+		weapon = "rhs_weap_m27iar";\
+		count = Rifle;\
+	};
+
+#define _standardAutoRifleAmmo(Mixs)\
+	class _xx_rhs_mag_100Rnd_556x45_M855A1_cmag_mixed\
+	{\
+		magazine = "rhs_mag_100Rnd_556x45_M855A1_cmag_mixed";\
+		count = Mixs;\
+	};
 
 //Grenade
 #define _GrenadeOffensive(Frag,Stun,Incendiary)\

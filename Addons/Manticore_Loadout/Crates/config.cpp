@@ -55,8 +55,8 @@ class CfgPatches
 
 class CfgVehicles
 {
-#include "../LoadoutMacro.hpp"
 #include "CratesInport.hpp"
+#include "../LoadoutMacro.hpp"
 
 #include "Kit.hpp"
 #include "FieldKit.hpp"
