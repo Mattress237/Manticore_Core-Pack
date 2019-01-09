@@ -296,7 +296,7 @@ class Manticore_Loadout_Crate_Kit_Sharpshooter : Box_NATO_Wps_F
 	{
 	};
 };
-class Manticore_Loadout_Crate_Kit_Autorifleman : Box_NATO_Wps_F
+class Manticore_Loadout_Crate_Kit_Autorifle : Box_NATO_Wps_F
 {
 	displayName = "Weapons Crate (M27 IAR) (Kit) (TFM)";
 	scope = 2;
