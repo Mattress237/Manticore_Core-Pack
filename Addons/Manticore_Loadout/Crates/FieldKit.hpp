@@ -105,11 +105,7 @@ class Manticore_Loadout_Crate_Field_Fireteam : B_supplyCrate_F
 	};
 	class TransportBackpacks
 	{
-		class _xx_VSM_OGA_OD_Backpack_Kitbag
-		{
-			backpack = "VSM_OGA_OD_Backpack_Kitbag";
-			count = 1;
-		};
+		_standardKitBag(1);
 	};
 };
 class Manticore_Loadout_Crate_Field_Squad : B_supplyCrate_F
@@ -263,10 +259,6 @@ class Manticore_Loadout_Crate_Field_Squad : B_supplyCrate_F
 	};
 	class TransportBackpacks
 	{
-		class _xx_VSM_OGA_OD_Backpack_Kitbag
-		{
-			backpack = "VSM_OGA_OD_Backpack_Kitbag";
-			count = 2;
-		};
+		_standardKitBag(2);
 	};
 };

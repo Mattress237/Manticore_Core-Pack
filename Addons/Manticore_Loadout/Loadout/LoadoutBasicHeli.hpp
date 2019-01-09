@@ -49,9 +49,5 @@ class TransportItems
 };
 class TransportBackpacks
 {
-	class _xx_ACE_NonSteerableParachute
-	{
-		backpack = "ACE_NonSteerableParachute";
-		count = 2;
-	};
+	_standardParachute(2);
 };

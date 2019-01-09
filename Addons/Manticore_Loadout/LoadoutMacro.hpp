@@ -287,6 +287,35 @@
 		count = Mixs;\
 	};
 
+//Uniform
+#define _standardCompactBag(CompactBag)\
+	class _xx_VSM_OGA_OD_Backpack_Compact\
+	{\
+		backpack = "VSM_OGA_OD_Backpack_Compact";\
+		count = KitBag; \
+	};
+
+#define _standardKitBag(KitBag)\
+	class _xx_VSM_OGA_OD_Backpack_Kitbag\
+	{\
+		backpack = "VSM_OGA_OD_Backpack_Kitbag";\
+		count = KitBag;\
+	};
+
+#define _standardCarryAll(CarryAll)\
+	class _xx_VSM_OGA_OD_carryall\
+	{\
+		backpack = "VSM_OGA_OD_carryall";\
+		count = CarryAll; \
+	};
+
+#define _standardParachute(Parachute)\
+	class _xx_ACE_NonSteerableParachute\
+	{\
+		backpack = "ACE_NonSteerableParachute";\
+		count = Parachute;\
+	};
+
 //Grenade
 #define _GrenadeOffensive(Frag,Stun,Incendiary)\
 	class _xx_rhs_mag_m67\

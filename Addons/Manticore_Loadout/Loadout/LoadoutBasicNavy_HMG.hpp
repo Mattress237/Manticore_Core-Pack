@@ -59,9 +59,5 @@ class TransportItems
 };
 class TransportBackpacks
 {
-	class _xx_VSM_OGA_OD_Backpack_kitbag
-	{
-		backpack = "VSM_OGA_OD_Backpack_kitbag";
-		count = 1;
-	};
+	_standardKitBag(1);
 };

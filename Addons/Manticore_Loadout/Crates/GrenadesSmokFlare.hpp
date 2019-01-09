@@ -39,11 +39,7 @@ class Manticore_Loadout_Crate_Grenade_Grenade : Box_NATO_Support_F
 	};
 	class TransportBackpacks
 	{
-		class _xx_VSM_OGA_OD_Backpack_Compact
-		{
-			backpack = "VSM_OGA_OD_Backpack_Compact";
-			count = 1;
-		};
+		_standardCompactBag(1);
 	};
 };
 class Manticore_Loadout_Crate_Grenade_FlareChem : Box_NATO_Support_F
@@ -103,11 +99,7 @@ class Manticore_Loadout_Crate_Grenade_FlareChem : Box_NATO_Support_F
 	};
 	class TransportBackpacks
 	{
-		class _xx_VSM_OGA_OD_Backpack_Compact
-		{
-			backpack = "VSM_OGA_OD_Backpack_Compact";
-			count = 1;
-		};
+		_standardCompactBag(1);
 	};
 };
 class Manticore_Loadout_Crate_Grenade_SmokFlareChem : Box_NATO_Support_F
@@ -167,11 +159,7 @@ class Manticore_Loadout_Crate_Grenade_SmokFlareChem : Box_NATO_Support_F
 	};
 	class TransportBackpacks
 	{
-		class _xx_VSM_OGA_OD_Backpack_Compact
-		{
-			backpack = "VSM_OGA_OD_Backpack_Compact";
-			count = 1;
-		};
+		_standardCompactBag(1);
 	};
 };
 class Manticore_Loadout_Crate_Grenade_Smok : Box_NATO_Support_F
@@ -195,10 +183,6 @@ class Manticore_Loadout_Crate_Grenade_Smok : Box_NATO_Support_F
 	};
 	class TransportBackpacks
 	{
-		class _xx_VSM_OGA_OD_Backpack_Compact
-		{
-			backpack = "VSM_OGA_OD_Backpack_Compact";
-			count = 1;
-		};
+		_standardCompactBag(1);
 	};
 };

@@ -21,11 +21,7 @@ class Manticore_Loadout_Crate_Ammo_StandardRifle : Box_NATO_Ammo_F
 	};
 	class TransportBackpacks
 	{
-		class _xx_VSM_OGA_OD_Backpack_Kitbag
-		{
-			backpack = "VSM_OGA_OD_Backpack_Kitbag";
-			count = 1;
-		};
+		_standardKitBag(1);
 	};
 };
 class Manticore_Loadout_Crate_Ammo_UnguidedATLauncher : Box_NATO_WpsLaunch_F
@@ -47,11 +43,7 @@ class Manticore_Loadout_Crate_Ammo_UnguidedATLauncher : Box_NATO_WpsLaunch_F
 	};
 	class TransportBackpacks
 	{
-		class _xx_VSM_OGA_OD_Backpack_Kitbag
-		{
-			backpack = "VSM_OGA_OD_Backpack_Kitbag";
-			count = 1;
-		};
+		_standardKitBag(1);
 	};
 };
 class Manticore_Loadout_Crate_Ammo_GuidedATLauncher : Box_NATO_WpsLaunch_F
@@ -73,11 +65,7 @@ class Manticore_Loadout_Crate_Ammo_GuidedATLauncher : Box_NATO_WpsLaunch_F
 	};
 	class TransportBackpacks
 	{
-		class _xx_VSM_OGA_OD_Backpack_Kitbag
-		{
-			backpack = "VSM_OGA_OD_Backpack_Kitbag";
-			count = 1;
-		};
+		_standardKitBag(1);
 	};
 };
 class Manticore_Loadout_Crate_Ammo_GuidedAALauncher : Box_NATO_WpsLaunch_F
@@ -99,11 +87,7 @@ class Manticore_Loadout_Crate_Ammo_GuidedAALauncher : Box_NATO_WpsLaunch_F
 	};
 	class TransportBackpacks
 	{
-		class _xx_VSM_OGA_OD_Backpack_Kitbag
-		{
-			backpack = "VSM_OGA_OD_Backpack_Kitbag";
-			count = 1;
-		};
+		_standardKitBag(1);
 	};
 };
 class Manticore_Loadout_Crate_Ammo_MachineGunner1 : Box_NATO_Ammo_F
@@ -118,11 +102,7 @@ class Manticore_Loadout_Crate_Ammo_MachineGunner1 : Box_NATO_Ammo_F
 	};
 	class TransportMagazines
 	{
-		class _xx_hlc_200rnd_556x45_M_SAW
-		{
-			magazine = "hlc_200rnd_556x45_M_SAW";
-			count = 16;
-		};
+		_standardMG1Ammo(13, 3);
 	};
 	class TransportItems
 	{
@@ -143,16 +123,7 @@ class Manticore_Loadout_Crate_Ammo_MachineGunner2 : Box_NATO_Ammo_F
 	};
 	class TransportMagazines
 	{
-		class _xx_hlc_100Rnd_762x51_Mdim_M60E4
-		{
-			magazine = "hlc_100Rnd_762x51_Mdim_M60E4";
-			count = 10;
-		};
-		class _xx_hlc_100Rnd_762x51_M_M60E4
-		{
-			magazine = "hlc_100Rnd_762x51_M_M60E4";
-			count = 10;
-		};
+		_standardMG2Ammo(10, 10);
 	};
 	class TransportItems
 	{
@@ -161,7 +132,7 @@ class Manticore_Loadout_Crate_Ammo_MachineGunner2 : Box_NATO_Ammo_F
 	{
 	};
 };
-class Manticore_Loadout_Crate_Ammo_M14_HLC : Box_NATO_Ammo_F
+class Manticore_Loadout_Crate_Ammo_Marksman : Box_NATO_Ammo_F
 {
 	displayName = "Ammocrate (Troy M14) (Ammo) (TFM)";
 	scope = 2;
@@ -173,16 +144,7 @@ class Manticore_Loadout_Crate_Ammo_M14_HLC : Box_NATO_Ammo_F
 	};
 	class TransportMagazines
 	{
-		class _xx_hlc_20Rnd_762x51_T_M14
-		{
-			magazine = "hlc_20Rnd_762x51_T_M14";
-			count = 20;
-		};
-		class _xx_hlc_20Rnd_762x51_B_M14
-		{
-			magazine = "hlc_20Rnd_762x51_B_M14";
-			count = 20;
-		};
+		_standardMarksmanRifleAmmo(20, 20);
 	};
 	class TransportItems
 	{
@@ -191,7 +153,7 @@ class Manticore_Loadout_Crate_Ammo_M14_HLC : Box_NATO_Ammo_F
 	{
 	};
 };
-class Manticore_Loadout_Crate_Ammo_Mk11_RHS : Box_NATO_Ammo_F
+class Manticore_Loadout_Crate_Ammo_Sharpshooter : Box_NATO_Ammo_F
 {
 	displayName = "Ammocrate (Mk 11 Mod 0) (Ammo) (TFM)";
 	scope = 2;
@@ -203,26 +165,7 @@ class Manticore_Loadout_Crate_Ammo_Mk11_RHS : Box_NATO_Ammo_F
 	};
 	class TransportMagazines
 	{
-		class _xx_rhsusf_20Rnd_762x51_SR25_m993_Mag
-		{
-			magazine = "rhsusf_20Rnd_762x51_SR25_m993_Mag";
-			count = 10;
-		};
-		class _xx_rhsusf_20Rnd_762x51_SR25_m62_Mag
-		{
-			magazine = "rhsusf_20Rnd_762x51_SR25_m62_Mag";
-			count = 10;
-		};
-		class _xx_rhsusf_20Rnd_762x51_SR25_m118_special_Mag
-		{
-			magazine = "rhsusf_20Rnd_762x51_SR25_m118_special_Mag";
-			count = 10;
-		};
-		class _xx_ACE_10Rnd_762x51_M118LR_Mag
-		{
-			magazine = "ACE_10Rnd_762x51_M118LR_Mag";
-			count = 10;
-		};
+		_standardSharpshooterRifleAmmo(10,10,10,10)
 	};
 	class TransportItems
 	{
@@ -231,7 +174,7 @@ class Manticore_Loadout_Crate_Ammo_Mk11_RHS : Box_NATO_Ammo_F
 	{
 	};
 };
-class Manticore_Loadout_Crate_Ammo_M27_RHS : Box_NATO_Ammo_F
+class Manticore_Loadout_Crate_Ammo_Autorifle : Box_NATO_Ammo_F
 {
 	displayName = "Ammocrate (M27 IAR) (Ammo) (TFM)";
 	scope = 2;
@@ -243,11 +186,7 @@ class Manticore_Loadout_Crate_Ammo_M27_RHS : Box_NATO_Ammo_F
 	};
 	class TransportMagazines
 	{
-		class _xx_rhs_mag_100Rnd_556x45_M855A1_cmag_mixed
-		{
-			magazine = "rhs_mag_100Rnd_556x45_M855A1_cmag_mixed";
-			count = 20;
-		};
+		_standardAutoRifleAmmo(20);
 	};
 	class TransportItems
 	{

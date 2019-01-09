@@ -19,6 +19,7 @@ class Manticore_Loadout_Crate_General : Box_NATO_Equip_F
 	};
 	class TransportBackpacks
 	{
+		_standardKitBag(1);
 	};
 };
 class Manticore_Loadout_Crate_Medical : Box_NATO_Equip_F
@@ -46,5 +47,6 @@ class Manticore_Loadout_Crate_Medical : Box_NATO_Equip_F
 	};
 	class TransportBackpacks
 	{
+		_standardKitBag(1);
 	};
 };

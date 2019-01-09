@@ -33,11 +33,7 @@ class Manticore_Loadout_Crate_Demo_Demo : Box_NATO_Support_F
 	};
 	class TransportBackpacks
 	{
-		class _xx_VSM_OGA_OD_Backpack_Kitbag
-		{
-			backpack = "VSM_OGA_OD_Backpack_Kitbag";
-			count = 1;
-		};
+		_standardKitBag(1);
 	};
 };
 class Manticore_Loadout_Crate_Demo_Mine : Box_NATO_Support_F
@@ -100,11 +96,7 @@ class Manticore_Loadout_Crate_Demo_Mine : Box_NATO_Support_F
 	};
 	class TransportBackpacks
 	{
-		class _xx_VSM_OGA_OD_Backpack_Kitbag
-		{
-			backpack = "VSM_OGA_OD_Backpack_Kitbag";
-			count = 1;
-		};
+		_standardKitBag(1);
 	};
 };
 class Manticore_Loadout_Crate_Demo_DemoMine : Box_NATO_Support_F
@@ -182,10 +174,6 @@ class Manticore_Loadout_Crate_Demo_DemoMine : Box_NATO_Support_F
 	};
 	class TransportBackpacks
 	{
-		class _xx_VSM_OGA_OD_Backpack_Kitbag
-		{
-			backpack = "VSM_OGA_OD_Backpack_Kitbag";
-			count = 1;
-		};
+		_standardKitBag(1);
 	};
 };

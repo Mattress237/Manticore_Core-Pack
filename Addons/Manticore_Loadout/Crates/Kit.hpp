@@ -19,11 +19,7 @@ class Manticore_Loadout_Crate_Kit_UnguidedATLauncher : Box_NATO_WpsLaunch_F
 	};
 	class TransportBackpacks
 	{
-		class _xx_VSM_OGA_OD_Backpack_Kitbag
-		{
-			backpack = "VSM_OGA_OD_Backpack_Kitbag";
-			count = 1;
-		};
+		_standardKitBag(1);
 	};
 };
 class Manticore_Loadout_Crate_Kit_GuidedATLauncher : Box_NATO_WpsLaunch_F
@@ -46,11 +42,7 @@ class Manticore_Loadout_Crate_Kit_GuidedATLauncher : Box_NATO_WpsLaunch_F
 	};
 	class TransportBackpacks
 	{
-		class _xx_VSM_OGA_OD_Backpack_Kitbag
-		{
-			backpack = "VSM_OGA_OD_Backpack_Kitbag";
-			count = 1;
-		};
+		_standardKitBag(1);
 	};
 };
 class Manticore_Loadout_Crate_Kit_GuidedAALauncher : Box_NATO_WpsLaunch_F
@@ -73,11 +65,7 @@ class Manticore_Loadout_Crate_Kit_GuidedAALauncher : Box_NATO_WpsLaunch_F
 	};
 	class TransportBackpacks
 	{
-		class _xx_VSM_OGA_OD_Backpack_Kitbag
-		{
-			backpack = "VSM_OGA_OD_Backpack_Kitbag";
-			count = 1;
-		};
+		_standardKitBag(1);
 	};
 };
 class Manticore_Loadout_Crate_Kit_DisposableATLauncher : Box_NATO_WpsLaunch_F
@@ -173,11 +161,7 @@ class Manticore_Loadout_Crate_Kit_MachineGunner1 : Box_NATO_Wps_F
 	};
 	class TransportBackpacks
 	{
-		class _xx_VSM_OGA_OD_Backpack_Kitbag
-		{
-			backpack = "VSM_OGA_OD_Backpack_Kitbag";
-			count = 1;
-		};
+		_standardKitBag(1);
 	};
 };
 class Manticore_Loadout_Crate_Kit_MachineGunner2 : Box_NATO_Wps_F
@@ -215,11 +199,7 @@ class Manticore_Loadout_Crate_Kit_MachineGunner2 : Box_NATO_Wps_F
 	};
 	class TransportBackpacks
 	{
-		class _xx_VSM_OGA_OD_Backpack_Kitbag
-		{
-			backpack = "VSM_OGA_OD_Backpack_Kitbag";
-			count = 1;
-		};
+		_standardKitBag(1);
 	};
 };
 class Manticore_Loadout_Crate_Kit_Marksman : Box_NATO_Wps_F
@@ -326,10 +306,6 @@ class Manticore_Loadout_Crate_Kit_Autorifleman : Box_NATO_Wps_F
 	};
 	class TransportBackpacks
 	{
-		class _xx_VSM_OGA_OD_Backpack_Kitbag
-		{
-			backpack = "VSM_OGA_OD_Backpack_Kitbag";
-			count = 1;
-		};
+		_standardKitBag(1);
 	};
 };
