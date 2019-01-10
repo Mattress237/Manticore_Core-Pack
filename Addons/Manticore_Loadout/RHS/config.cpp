@@ -73,18 +73,14 @@ class CfgPatches
 		requiredAddons[] =
 		{
 			"Manticore_Loadout",
-			"rhsusf_c_hmmwv",
-			"rhsusf_c_Cougar",
-			"rhsusf_c_Caiman",
-			"RHS_US_A2Port_Armor",
-			"rhsusf_c_fmtv",
-			"rhsusf_c_HEMTT_A4",
-			"rhsusf_c_himars",
-			"rhsusf_c_m109",
-			"rhsusf_c_melb",
-			"RHS_US_A2_AirImport",
-			"rhsusf_c_ch53",
-			"rhsusf_c_markvsoc",
+			"Manticore_RHS_HUMVEE",
+			"Manticore_RHS_MRAP",
+			"Manticore_RHS_APC",
+			"Manticore_RHS_Artillery",
+			"Manticore_RHS_Heli",
+			"Manticore_RHS_IFV",
+			"Manticore_RHS_Naval",
+			"Manticore_RHS_Truck"
 		};
 	};
 };
