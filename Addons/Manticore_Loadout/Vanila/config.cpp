@@ -51,30 +51,30 @@ class CfgPatches
 
 class CfgVehicles
 {
-#include "VanilaInport.hpp"
-#include "../LoadoutMacro.hpp"
+	#include "VanilaInport.hpp"
+	#include "../LoadoutMacro.hpp"
 
 	//Light Attack
-#include "Polaris.hpp"
-#include "Quadbike.hpp"
+	#include "Polaris.hpp"
+	#include "Quadbike.hpp"
 	//Heli
-#include "Wildcat.hpp"
+	#include "Wildcat.hpp"
 	//#include "Merlin.hpp"
-#include "LittleBird.hpp"
+	#include "LittleBird.hpp"
 	//APC IFV
-#include "Badger.hpp"
-#include "Namer.hpp"
-#include "Nemmera.hpp"
+	#include "Badger.hpp"
+	#include "Namer.hpp"
+	#include "Nemmera.hpp"
 	//AA
-#include "Bardelas.hpp"
+	#include "Bardelas.hpp"
 	//Tank
-#include "Wiesel2.hpp"
-#include "Leopard.hpp"
-#include "Rooikat.hpp"
+	#include "Wiesel2.hpp"
+	#include "Leopard.hpp"
+	#include "Rooikat.hpp"
 	//Atrillery
-#include "Artillery.hpp"
+	#include "Artillery.hpp"
 	//Naval
-#include "Speedboat.hpp"
+	#include "Speedboat.hpp"
 	//Drone
-#include "Drone.hpp"
+	#include "Drone.hpp"
 };
