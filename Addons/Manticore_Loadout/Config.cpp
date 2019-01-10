@@ -1,7 +1,7 @@
 class CfgPatches
 {
 	class Manticore_Loadout
-	{
+	{ //test
 		units[] =
 		{
 		};
