@@ -8,16 +8,9 @@ class Manticore_Loadout_Crate_Field_Fireteam : B_supplyCrate_F
 	class TransportWeapons
 	{
 		_standardRifle(1, 1, 0);
-		class _xx_hlc_rifle_m14sopmod
-		{
-			weapon = "hlc_rifle_m14sopmod";
-			count = 1;
-		};
-		class _xx_rhs_weap_m27iar
-		{
-			weapon = "rhs_weap_m27iar";
-			count = 1;
-		};
+		_StandardAutoRifle(1):
+		_standardMarksmanRifle(1);
+		_standardATTub(0, 1, 0);
 		class _xx_Laserdesignator_03
 		{
 			weapon = "Laserdesignator_03";
@@ -27,26 +20,9 @@ class Manticore_Loadout_Crate_Field_Fireteam : B_supplyCrate_F
 	class TransportMagazines
 	{
 		_standardMag(20, 20);
-		class _xx_hlc_20Rnd_762x51_T_M14
-		{
-			magazine = "hlc_20Rnd_762x51_T_M14";
-			count = 6;
-		};
-		class _xx_hlc_20Rnd_762x51_B_M14
-		{
-			magazine = "hlc_20Rnd_762x51_B_M14";
-			count = 6;
-		};
-		class _xx_rhs_mag_100Rnd_556x45_M855A1_cmag_mixed
-		{
-			magazine = "rhs_mag_100Rnd_556x45_M855A1_cmag_mixed";
-			count = 5;
-		};
-		class _xx_MRAWS_HEAT_F
-		{
-			magazine = "MRAWS_HEAT_F";
-			count = 4;
-		};
+		_standardAutoRifleAmmo(5);
+		_standardMarksmanRifleAmmo(6, 6);
+		_standardUnguidedATLauncherAmmo(4);
 		_UGLFlare(10, 10, 0, 0, 0);
 		_UGLSmoke(10, 0, 10, 10, 0, 0, 0);
 		_UGLHE(20);
@@ -119,21 +95,9 @@ class Manticore_Loadout_Crate_Field_Squad : B_supplyCrate_F
 	{
 		_standardRifle(1, 1, 0);
 		_standardATTub(1, 1, 0);
-		class _xx_hlc_lmg_mk46
-		{
-			weapon = "hlc_lmg_mk46";
-			count = 1;
-		};
-		class _xx_hlc_rifle_m14sopmod
-		{
-			weapon = "hlc_rifle_m14sopmod";
-			count = 1;
-		};
-		class _xx_rhs_weap_m27iar
-		{
-			weapon = "rhs_weap_m27iar";
-			count = 1;
-		};
+		_standardMG1(1);
+		_standardMarksmanRifle(1);
+		_StandardAutoRifle(1);
 		class _xx_Laserdesignator_03
 		{
 			weapon = "Laserdesignator_03";
@@ -146,66 +110,13 @@ class Manticore_Loadout_Crate_Field_Squad : B_supplyCrate_F
 		_UGLSmoke(20, 0, 20, 20, 0, 0, 0);
 		_UGLHE(40);
 		_UGLMics(6);
-		class _xx_hlc_200rnd_556x45_M_SAW
-		{
-			magazine = "hlc_200rnd_556x45_M_SAW";
-			count = 3;
-		};
-		class _xx_hlc_20Rnd_762x51_T_M14
-		{
-			magazine = "hlc_20Rnd_762x51_T_M14";
-			count = 6;
-		};
-		class _xx_hlc_20Rnd_762x51_B_M14
-		{
-			magazine = "hlc_20Rnd_762x51_B_M14";
-			count = 6;
-		};
-		class _xx_rhs_mag_100Rnd_556x45_M855A1_cmag_mixed
-		{
-			magazine = "rhs_mag_100Rnd_556x45_M855A1_cmag_mixed";
-			count = 5;
-		};
-		class _xx_MRAWS_HEAT_F
-		{
-			magazine = "MRAWS_HEAT_F";
-			count = 5;
-		};
-		class _xx_3Rnd_UGL_FlareRed_F
-		{
-			magazine = "3Rnd_UGL_FlareRed_F";
-			count = 5;
-		};
-		class _xx_3Rnd_UGL_FlareGreen_F
-		{
-			magazine = "3Rnd_UGL_FlareGreen_F";
-			count = 5;
-		};
-		class _xx_3Rnd_UGL_FlareYellow_F
-		{
-			magazine = "3Rnd_UGL_FlareYellow_F";
-			count = 5;
-		};
-		class _xx_3Rnd_SmokeRed_Grenade_shell
-		{
-			magazine = "3Rnd_SmokeRed_Grenade_shell";
-			count = 5;
-		};
-		class _xx_3Rnd_SmokeYellow_Grenade_shell
-		{
-			magazine = "3Rnd_SmokeYellow_Grenade_shell";
-			count = 5;
-		};
-		class _xx_3Rnd_SmokeGreen_Grenade_shell
-		{
-			magazine = "3Rnd_SmokeGreen_Grenade_shell";
-			count = 5;
-		};
-		class _xx_3Rnd_HE_Grenade_shell
-		{
-			magazine = "3Rnd_HE_Grenade_shell";
-			count = 10;
-		};
+		_standardMG1Ammo(3, 1);
+		_standardMarksmanRifleAmmo(6, 6);
+		_standardAutoRifleAmmo(5);
+		_standardUnguidedATLauncherAmmo(5, 0);
+		_UGLFlare(10, 5, 10, 10, 0);
+		_UGLSmoke(15, 15, 5, 10, 10, 0, 0);
+		_UGLHE(30);
 	};
 	class TransportItems
 	{
