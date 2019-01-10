@@ -1,362 +1,48 @@
-class Manticore_Loadout_RHS_APC_M113A3_Unarmed : rhsusf_m113_usarmy_unarmed
+class Manticore_Loadout_RHS_APC_M113A3_Unarmed : Manticore_RHS_APC_M113A3_Unarmed
 {
 	displayName = "M113A3";
 	scope = 2;
 	side = 1;
-	faction = "Manticore_Faction";
-	//crew = "";
-
+	
 	#include "../Loadout/LoadoutBasic.hpp"
-	hiddenSelectionsTextures[] =
-	{
-		"rhsusf\addons\rhsusf_m113\data_new\m113a3_01_od_l_co.paa",
-		"rhsusf\addons\rhsusf_m113\data_new\m113a3_02_od_l_co.paa",
-		"rhsusf\addons\rhsusf_m113\data_new\m113a3_03_wd_co.paa",
-		"rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_wd_co.paa"
-	};
-	class TextureSources
-	{
-		class RHS_Olive
-		{
-			displayName = "Olive";
-			textures[] =
-			{
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_01_od_l_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_02_od_l_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_03_wd_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_wd_co.paa"
-			};
-			factions[] = { "Manticore_Faction" };
-		};
-		class RHS_Woodland
-		{
-			displayName = "Woodland";
-			textures[] =
-			{
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_01_wd_l_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_02_wd_l_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_03_wd_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_wd_co.paa"
-			};
-			factions[] = { "Manticore_Faction" };
-		};
-		class RHS_Desert
-		{
-			displayName = "Desert";
-			textures[] =
-			{
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_01_d_l_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_02_d_l_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_03_d_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_d_co.paa"
-			};
-			factions[] = { "Manticore_Faction" };
-		};
-	};
-	textureList[] = { "RHS_Olive",0,"RHS_Woodland",0,"RHS_Desert",0 };
 };
-class Manticore_Loadout_RHS_APC_M113A3_M2 : rhsusf_m113_usarmy
+class Manticore_Loadout_RHS_APC_M113A3_M2 : Manticore_RHS_APC_M113A3_M2
 {
 	displayName = "M113A3 (M2)";
 	scope = 2;
 	side = 1;
-	faction = "Manticore_Faction";
-	//crew = "";
-
-#include "../Loadout/LoadoutBasic.hpp"
-	hiddenSelectionsTextures[] =
-	{
-		"rhsusf\addons\rhsusf_m113\data_new\m113a3_01_sup_wd_co.paa",
-		"rhsusf\addons\rhsusf_m113\data_new\m113a3_02_sup_wd_co.paa",
-		"rhsusf\addons\rhsusf_m113\data_new\m113a3_03_wd_co.paa",
-		"rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_wd_co.paa",
-		"rhsusf\addons\rhsusf_m113\data_new\m23_pintle_wd_co.paa",
-		"rhsusf\addons\rhsusf_m113\data_new\m113a3_shield_od_co.paa"
-	};
-	class TextureSources
-	{
-		class RHS_Olive
-		{
-			displayName = "Olive";
-			textures[] =
-			{
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_01_sup_wd_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_02_sup_wd_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_03_wd_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_wd_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m23_pintle_wd_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_shield_od_co.paa"
-			};
-			factions[] = { "Manticore_Faction" };
-		};
-		class RHS_Woodland
-		{
-			displayName = "Woodland";
-			textures[] =
-			{
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_01_wd_h_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_02_wd_h_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_03_wd_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_wd_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m23_pintle_wd_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_shield_wd_co.paa"
-			};
-			factions[] = { "Manticore_Faction" };
-		};
-		class RHS_Desert
-		{
-			displayName = "Desert";
-			textures[] =
-			{
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_01_d_h_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_02_d_h_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_03_d_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_d_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m23_pintle_d_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_shield_d_co.paa"
-			};
-			factions[] = { "Manticore_Faction" };
-		};
-	};
-	textureList[] = { "RHS_Olive",0,"RHS_Woodland",0,"RHS_Desert",0 };
+	
+	#include "../Loadout/LoadoutBasic.hpp"
 };
-class Manticore_Loadout_RHS_APC_M113A3_M19 : rhsusf_m113_usarmy_MK19
+class Manticore_Loadout_RHS_APC_M113A3_M19 : Manticore_RHS_APC_M113A3_M19
 {
 	displayName = "M113A3 (M19)";
 	scope = 2;
 	side = 1;
-	faction = "Manticore_Faction";
-	//crew = "";
-
-#include "../Loadout/LoadoutBasic.hpp"
-	hiddenSelectionsTextures[] =
-	{
-		"rhsusf\addons\rhsusf_m113\data_new\m113a3_01_od_l_co.paa",
-		"rhsusf\addons\rhsusf_m113\data_new\m113a3_02_od_l_co.paa",
-		"rhsusf\addons\rhsusf_m113\data_new\m113a3_03_wd_co.paa",
-		"rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_wd_co.paa",
-		"rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_w_co.paa"
-	};
-	class TextureSources
-	{
-		class RHS_Olive
-		{
-			displayName = "Olive";
-			textures[] =
-			{
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_01_od_l_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_02_od_l_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_03_wd_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_wd_co.paa",
-				"rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_w_co.paa"
-			};
-			factions[] = { "Manticore_Faction" };
-		};
-		class RHS_Woodland
-		{
-			displayName = "Woodland";
-			textures[] =
-			{
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_01_wd_l_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_02_wd_l_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_03_wd_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_wd_co.paa",
-				"rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_w_co.paa"
-			};
-			factions[] = { "Manticore_Faction" };
-		};
-		class RHS_Desert
-		{
-			displayName = "Desert";
-			textures[] =
-			{
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_01_d_l_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_02_d_l_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_03_d_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_d_co.paa",
-				"rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_d_co.paa"
-			};
-			factions[] = { "Manticore_Faction" };
-		};
-	};
-	textureList[] = { "RHS_Olive",0,"RHS_Woodland",0,"RHS_Desert",0 };
+	
+	#include "../Loadout/LoadoutBasic.hpp"
 };
-class Manticore_Loadout_RHS_APC_M113A3_M240: rhsusf_m113_usarmy_M240
+class Manticore_Loadout_RHS_APC_M113A3_M240: Manticore_RHS_APC_M113A3_M240
 {
 	displayName = "M113A3 (M240)";
 	scope = 2;
 	side = 1;
-	faction = "Manticore_Faction";
-	//crew = "";
-
-#include "../Loadout/LoadoutBasic.hpp"
-	hiddenSelectionsTextures[] =
-	{
-		"rhsusf\addons\rhsusf_m113\data_new\m113a3_01_od_l_co.paa",
-		"rhsusf\addons\rhsusf_m113\data_new\m113a3_02_od_l_co.paa",
-		"rhsusf\addons\rhsusf_m113\data_new\m113a3_03_wd_co.paa",
-		"rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_wd_co.paa",
-		"rhsusf\addons\rhsusf_m113\data_new\m23_pintle_wd_co.paa"
-	};
-	class TextureSources
-	{
-		class RHS_Olive
-		{
-			displayName = "Olive";
-			textures[] =
-			{
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_01_od_l_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_02_od_l_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_03_wd_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_wd_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m23_pintle_wd_co.paa"
-			};
-			factions[] = { "Manticore_Faction" };
-		};
-		class RHS_Woodland
-		{
-			displayName = "Woodland";
-			textures[] =
-			{
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_01_wd_l_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_02_wd_l_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_03_wd_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_wd_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m23_pintle_wd_co.paa"
-			};
-			factions[] = { "Manticore_Faction" };
-		};
-		class RHS_Desert
-		{
-			displayName = "Desert";
-			textures[] =
-			{
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_01_d_l_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_02_d_l_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_03_d_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_d_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m23_pintle_d_co.paa"
-			};
-			factions[] = { "Manticore_Faction" };
-		};
-	};
-	textureList[] = { "RHS_Olive",0,"RHS_Woodland",0,"RHS_Desert",0 };
+	
+	#include "../Loadout/LoadoutBasic.hpp"
 };
-class Manticore_Loadout_RHS_APC_M113A3_Ammo : rhsusf_m113_usarmy_supply
+class Manticore_Loadout_RHS_APC_M113A3_Ammo : Manticore_RHS_APC_M113A3_Ammo
 {
 	displayName = "M113A3 (Ammo)";
 	scope = 2;
 	side = 1;
-	faction = "Manticore_Faction";
-	//crew = "";
-
-#include "../Loadout/LoadoutBasic.hpp"
-	hiddenSelectionsTextures[] =
-	{
-		"rhsusf\addons\rhsusf_m113\data_new\m113a3_01_sup_wd_co.paa",
-		"rhsusf\addons\rhsusf_m113\data_new\m113a3_02_sup_wd_co.paa",
-		"rhsusf\addons\rhsusf_m113\data_new\m113a3_03_wd_co.paa",
-		"rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_wd_co.paa",
-		"rhsusf\addons\rhsusf_m113\data_new\m23_pintle_wd_co.paa"
-	};
-	class TextureSources
-	{
-		class RHS_Olive
-		{
-			displayName = "Olive";
-			textures[] =
-			{
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_01_sup_wd_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_02_sup_wd_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_03_wd_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_wd_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m23_pintle_wd_co.paa"
-			};
-			factions[] = { "Manticore_Faction" };
-		};
-		class RHS_Woodland
-		{
-			displayName = "Woodland";
-			textures[] =
-			{
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_01_wd_h_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_02_wd_h_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_03_wd_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_wd_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m23_pintle_wd_co.paa"
-			};
-			factions[] = { "Manticore_Faction" };
-		};
-		class RHS_Desert
-		{
-			displayName = "Desert";
-			textures[] =
-			{
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_01_d_h_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_02_sup_d_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_03_d_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_d_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m23_pintle_d_co.paa"
-			};
-			factions[] = { "Manticore_Faction" };
-		};
-	};
-	textureList[] = { "RHS_Olive",0,"RHS_Woodland",0,"RHS_Desert",0 };
+	
+	#include "../Loadout/LoadoutBasic.hpp"
 };
-class Manticore_Loadout_RHS_APC_M113A3_Medical : rhsusf_m113_usarmy_medical
+class Manticore_Loadout_RHS_APC_M113A3_Medical : Manticore_RHS_APC_M113A3_Medical
 {
 	displayName = "M113A3 (MEV)";
 	scope = 2;
 	side = 1;
-	faction = "Manticore_Faction";
-	//crew = "";
-
-#include "../Loadout/LoadoutBasic.hpp"
-	hiddenSelectionsTextures[] =
-	{
-		"rhsusf\addons\rhsusf_m113\data_new\m113a3_01_od_med_co.paa",
-		"rhsusf\addons\rhsusf_m113\data_new\m113a3_02_od_l_co.paa",
-		"rhsusf\addons\rhsusf_m113\data_new\m113a3_03_wd_co.paa",
-		"rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_wd_co.paa"
-	};
-	class TextureSources
-	{
-		class RHS_Olive
-		{
-			displayName = "Olive";
-			textures[] =
-			{
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_01_od_med_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_02_od_l_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_03_wd_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_wd_co.paa"
-			};
-			factions[] = { "Manticore_Faction" };
-		};
-		class RHS_Woodland
-		{
-			displayName = "Woodland";
-			textures[] =
-			{
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_01_wd_med_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_02_wd_l_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_03_wd_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_wd_co.paa"
-			};
-			factions[] = { "Manticore_Faction" };
-		};
-		class RHS_Desert
-		{
-			displayName = "Desert";
-			textures[] =
-			{
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_01_d_med_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_02_d_l_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_03_d_co.paa",
-				"rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_d_co.paa"
-			};
-			factions[] = { "Manticore_Faction" };
-		};
-	};
-	textureList[] = { "RHS_Olive",0,"RHS_Woodland",0,"RHS_Desert",0 };
+	
+	#include "../Loadout/LoadoutMedical.hpp"
 };

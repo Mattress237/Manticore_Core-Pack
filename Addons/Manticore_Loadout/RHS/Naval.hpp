@@ -1,11 +1,8 @@
-class Manticore_Loadout_RHS_Naval_MkVSOC : rhsusf_mkvsoc
+class Manticore_Loadout_RHS_Naval_MkVSOC : Manticore_RHS_Naval_MkVSOC
 {
 	displayName = "Mk. V SOC";
 	scope = 2;
 	side = 1;
-	faction = "Manticore_Faction";
-	//crew = "";
-
-	#include "../Loadout/LoadoutBasic.hpp"
 	
+	#include "../Loadout/LoadoutBasic.hpp"
 };

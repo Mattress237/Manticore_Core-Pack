@@ -8,7 +8,7 @@ class Manticore_Loadout_Crate_Field_Fireteam : B_supplyCrate_F
 	class TransportWeapons
 	{
 		_standardRifle(1, 1, 0);
-		_StandardAutoRifle(1):
+		_StandardAutoRifle(1);
 		_standardMarksmanRifle(1);
 		_standardATTub(0, 1, 0);
 		class _xx_Laserdesignator_03
