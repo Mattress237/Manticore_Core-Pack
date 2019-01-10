@@ -3,11 +3,11 @@ class CfgPatches
 	class Manticore_Loadout_Vanila
 	{
 		addonRootClass = "Manticore_Loadout";
-		units[] = {
-
+		units[] = 
+		{
 			Manticore_Loadout_Vanila_Wildcat_dynamicLoadout,
 			Manticore_Loadout_Vanila_Wildcat_unarmed,
-			//Manticore_Loadout_Vanila_Merlin_unarmed,
+			Manticore_Loadout_Vanila_Merlin_unarmed,
 			Manticore_Loadout_Vanila_Wiesel2_Cannon,
 			Manticore_Loadout_Vanila_Wiesel2_AT,
 			Manticore_Loadout_Vanila_Wiesel2_Scout,
@@ -17,12 +17,23 @@ class CfgPatches
 			Manticore_Loadout_Vanila_Drone_UCAV,
 			Manticore_Loadout_Vanila_Drone_Falcon,
 			Manticore_Loadout_Vanila_Drone_AR2,
+			Manticore_Loadout_Vanila_Drone_Stomper,
+			Manticore_Loadout_Vanila_Drone_Stomper_RCWS,
 			Manticore_Loadout_Vanila_Badger,
 			Manticore_Loadout_Vanila_Namer,
 			Manticore_Loadout_Vanila_Nemmera,
 			Manticore_Loadout_Vanila_Bardelas,
 			Manticore_Loadout_Vanila_Leopard,
 			Manticore_Loadout_Vanila_Speedboat,
+			Manticore_Loadout_Vanila_Arty_Sholef,
+			Manticore_Loadout_Vanila_Arty_Seara,
+			Manticore_Loadout_Vanila_Polaris_Unarmed,
+			Manticore_Loadout_Vanila_Polaris_Armed,
+			Manticore_Loadout_Vanila_Polaris_AT,
+			Manticore_Loadout_Vanila_Polaris_Light,
+			Manticore_Loadout_Vanila_Quadbike,
+			Manticore_Loadout_Vanila_Rooikat,
+			Manticore_Loadout_Vanila_Rooikat_UP
 		};
 		weapons[] = {};
 		requiredAddons[] =
@@ -59,7 +70,7 @@ class CfgVehicles
 	#include "Quadbike.hpp"
 	//Heli
 	#include "Wildcat.hpp"
-	//#include "Merlin.hpp"
+	#include "Merlin.hpp"
 	#include "LittleBird.hpp"
 	//APC IFV
 	#include "Badger.hpp"
