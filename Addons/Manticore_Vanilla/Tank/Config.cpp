@@ -19,6 +19,9 @@ class CfgVehicles
 {
 	class LandVehicle;
 	class I_MBT_03_cannon_F;
+	class I_LT_01_cannon_F;
+	class I_LT_01_AT_F;
+	class I_LT_01_scout_F;
 
 	class Manticore_Vanilla_Tank_Leopard : I_MBT_03_cannon_F
 	{
