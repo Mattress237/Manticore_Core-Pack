@@ -1,9 +1,9 @@
 //Light Attack
-class B_LSV_01_unarmed_F;
-class B_LSV_01_armed_F;
-class B_LSV_01_AT_F;
-class B_CTRG_LSV_01_light_F;
-class B_Quadbike_01_F;
+class Manticore_Vanilla_Light_Polaris_Unarmed;
+class Manticore_Vanilla_Light_Polaris_Armed;
+class Manticore_Vanilla_Light_Polaris_AT;
+class Manticore_Vanilla_Light_Polaris_Light;
+class Manticore_Vanilla_Light_Quadbike;
 //Heli
 class Manticore_Vanilla_Heli_AH6;
 class Manticore_Vanilla_Heli_MH6;

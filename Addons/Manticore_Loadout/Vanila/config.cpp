@@ -47,10 +47,10 @@ class CfgPatches
 			"Manticore_Vanilla_Artillery",
 			"Manticore_Vanilla_Drone",
 			"Manticore_Vanilla_Heli",
+			"Manticore_Vanilla_Light",
 
 			
-			"A3_Soft_F_Exp_LSV_01",
-			"A3_Soft_F_Quadbike_01",
+			
 			"A3_Armor_F_Tank_AFV_Wheeled_01",
 		};
 	};
