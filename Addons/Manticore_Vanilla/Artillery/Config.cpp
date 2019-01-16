@@ -15,6 +15,9 @@ class CfgPatches
 
 class CfgVehicles
 {
+	class B_MBT_01_arty_F;
+	class B_MBT_01_mlrs_F;
+
 	class Manticore_Vanilla_Artillery_Sholef : B_MBT_01_arty_F
 	{
 		displayName = "Sholef";

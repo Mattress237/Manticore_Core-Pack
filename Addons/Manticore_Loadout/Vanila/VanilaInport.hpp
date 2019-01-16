@@ -30,8 +30,8 @@ class Manticore_Vanilla_Artillery_Seara;
 //Naval
 class Manticore_Vanilla_Boats_Speedboat_Minigun;
 //Drone
-class B_UAV_01_F;
-class B_T_UAV_03_dynamicLoadout_F;
-class B_UAV_05_F;
-class B_UGV_01_F;
-class B_UGV_01_rcws_F;
+class Manticore_Vanilla_Drone_UCAV;
+class Manticore_Vanilla_Drone_Falcon;
+class Manticore_Vanilla_Drone_AR2Darter;
+class Manticore_Vanilla_Drone_Stomper;
+class Manticore_Vanilla_Drone_Stomper_RCWS;
