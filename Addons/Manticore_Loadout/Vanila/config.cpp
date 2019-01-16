@@ -47,11 +47,7 @@ class CfgPatches
 			"Manticore_Vanilla_Artillery",
 			"Manticore_Vanilla_Drone",
 			"Manticore_Vanilla_Heli",
-			"Manticore_Vanilla_Light",
-
-			
-			
-			"A3_Armor_F_Tank_AFV_Wheeled_01",
+			"Manticore_Vanilla_Light"
 		};
 	};
 };

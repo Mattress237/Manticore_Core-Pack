@@ -22,8 +22,8 @@ class Manticore_Vanilla_Tank_Leopard;
 class Manticore_Vanilla_Tank_Wiesel2_Cannon;
 class Manticore_Vanilla_Tank_Wiesel2_AT;
 class Manticore_Vanilla_Tank_Wiesel2_Scout;
-class B_AFV_Wheeled_01_cannon_F;
-class B_AFV_Wheeled_01_up_cannon_F;
+class Manticore_Vanilla_Tank_Rooikat;
+class Manticore_Vanilla_Tank_Rooikat_UP;
 //Artillery
 class Manticore_Vanilla_Artillery_Sholef;
 class Manticore_Vanilla_Artillery_Seara;

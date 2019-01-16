@@ -25,7 +25,7 @@ class CfgVehicles
 	class Manticore_Vanilla_Light_Quadbike : B_Quadbike_01_F
 	{
 		displayName = "Quadbike";
-		scope = 2;
+		scope = 1;
 		side = 1;
 		faction = "Manticore_Faction";
 		//crew = "";
@@ -106,7 +106,7 @@ class CfgVehicles
 	class Manticore_Vanilla_Light_Polaris_Unarmed : B_LSV_01_unarmed_F
 	{
 		displayName = "Polaris DAGOR";
-		scope = 2;
+		scope = 1;
 		side = 1;
 		faction = "Manticore_Faction";
 		//crew = "";
@@ -175,7 +175,7 @@ class CfgVehicles
 	class Manticore_Vanilla_Light_Polaris_Armed : B_LSV_01_armed_F
 	{
 		displayName = "Polaris DAGOR (XM312)";
-		scope = 2;
+		scope = 1;
 		side = 1;
 		faction = "Manticore_Faction";
 		//crew = "";
@@ -244,7 +244,7 @@ class CfgVehicles
 	class Manticore_Vanilla_Light_Polaris_AT : B_LSV_01_AT_F
 	{
 		displayName = "Polaris DAGOR (Mini-Spike AT)";
-		scope = 2;
+		scope = 1;
 		side = 1;
 		faction = "Manticore_Faction";
 		//crew = "";
@@ -323,7 +323,7 @@ class CfgVehicles
 	class Manticore_Vanilla_Light_Polaris_Light : B_CTRG_LSV_01_light_F
 	{
 		displayName = "Polaris DAGOR (Light)";
-		scope = 2;
+		scope = 1;
 		side = 1;
 		faction = "Manticore_Faction";
 		//crew = "";
@@ -389,5 +389,4 @@ class CfgVehicles
 		};
 		textureList[] = { "Olive",0,"Sand",0,"Black",0,"Dazzle",0 };
 	};
-
 };
