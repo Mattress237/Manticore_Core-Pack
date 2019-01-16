@@ -25,8 +25,8 @@ class Manticore_Vanilla_Tank_Wiesel2_Scout;
 class B_AFV_Wheeled_01_cannon_F;
 class B_AFV_Wheeled_01_up_cannon_F;
 //Artillery
-class B_MBT_01_arty_F;
-class B_MBT_01_mlrs_F;
+class Manticore_Vanilla_Artillery_Sholef;
+class Manticore_Vanilla_Artillery_Seara;
 //Naval
 class Manticore_Vanilla_Boats_Speedboat_Minigun;
 //Drone
