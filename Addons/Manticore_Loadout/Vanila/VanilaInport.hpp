@@ -5,12 +5,12 @@ class B_LSV_01_AT_F;
 class B_CTRG_LSV_01_light_F;
 class B_Quadbike_01_F;
 //Heli
-class I_Heli_light_03_dynamicLoadout_F;
-class I_Heli_light_03_unarmed_F;
-class I_Heli_Transport_02_F;
-class B_Heli_Light_01_F;
-class B_Heli_Light_01_dynamicLoadout_F;
-class B_Heli_Light_01_stripped_F;
+class Manticore_Vanilla_Heli_AH6;
+class Manticore_Vanilla_Heli_MH6;
+class Manticore_Vanilla_Heli_MH6_Stripped;
+class Manticore_Vanilla_Heli_Merlin;
+class Manticore_Vanilla_Heli_Wildcat;
+class Manticore_Vanilla_Heli_Wildcat_dynamicLoadout;
 //APC IFV
 class Manticore_Vanilla_IFV_Badger;
 class Manticore_Vanilla_APC_Namer;

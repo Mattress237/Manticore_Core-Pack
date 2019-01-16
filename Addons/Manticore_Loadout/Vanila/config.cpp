@@ -6,8 +6,8 @@ class CfgPatches
 		units[] = 
 		{
 			Manticore_Loadout_Vanila_Wildcat_dynamicLoadout,
-			Manticore_Loadout_Vanila_Wildcat_unarmed,
-			Manticore_Loadout_Vanila_Merlin_unarmed,
+			Manticore_Loadout_Vanila_Wildcat,
+			Manticore_Loadout_Vanila_Merlin,
 			Manticore_Loadout_Vanila_Wiesel2_Cannon,
 			Manticore_Loadout_Vanila_Wiesel2_AT,
 			Manticore_Loadout_Vanila_Wiesel2_Scout,
@@ -46,14 +46,12 @@ class CfgPatches
 			"Manticore_Vanilla_Boats",
 			"Manticore_Vanilla_Artillery",
 			"Manticore_Vanilla_Drone",
+			"Manticore_Vanilla_Heli",
 
-
-			"A3_Air_F_Heli_Light_01",
+			
 			"A3_Soft_F_Exp_LSV_01",
 			"A3_Soft_F_Quadbike_01",
 			"A3_Armor_F_Tank_AFV_Wheeled_01",
-			"A3_Air_F_EPB_Heli_Light_03",
-			"A3_Air_F_Beta_Heli_Transport_02"
 		};
 	};
 };

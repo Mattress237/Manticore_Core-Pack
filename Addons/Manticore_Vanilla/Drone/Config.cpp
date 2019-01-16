@@ -31,6 +31,18 @@ class CfgVehicles
 		side = 1;
 		faction = "Manticore_Faction";
 
+		class TransportWeapons
+		{
+		};
+		class TransportMagazines
+		{
+		};
+		class TransportItems
+		{
+		};
+		class TransportBackpacks
+		{
+		};
 	};
 	class Manticore_Vanilla_Drone_Falcon : B_T_UAV_03_dynamicLoadout_F
 	{
@@ -39,6 +51,18 @@ class CfgVehicles
 		side = 1;
 		faction = "Manticore_Faction";
 
+		class TransportWeapons
+		{
+		};
+		class TransportMagazines
+		{
+		};
+		class TransportItems
+		{
+		};
+		class TransportBackpacks
+		{
+		};
 	};
 	class Manticore_Vanilla_Drone_AR2Darter : B_UAV_01_F
 	{
@@ -47,6 +71,18 @@ class CfgVehicles
 		side = 1;
 		faction = "Manticore_Faction";
 
+		class TransportWeapons
+		{
+		};
+		class TransportMagazines
+		{
+		};
+		class TransportItems
+		{
+		};
+		class TransportBackpacks
+		{
+		};
 	};
 	class Manticore_Vanilla_Drone_Stomper : B_UGV_01_F
 	{
@@ -55,6 +91,18 @@ class CfgVehicles
 		side = 1;
 		faction = "Manticore_Faction";
 
+		class TransportWeapons
+		{
+		};
+		class TransportMagazines
+		{
+		};
+		class TransportItems
+		{
+		};
+		class TransportBackpacks
+		{
+		};
 	};
 	class Manticore_Vanilla_Drone_Stomper_RCWS : B_UGV_01_rcws_F
 	{
@@ -63,5 +111,17 @@ class CfgVehicles
 		side = 1;
 		faction = "Manticore_Faction";
 
+		class TransportWeapons
+		{
+		};
+		class TransportMagazines
+		{
+		};
+		class TransportItems
+		{
+		};
+		class TransportBackpacks
+		{
+		};
 	};
 };
