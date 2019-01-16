@@ -385,7 +385,6 @@ class CfgVehicles
 		};
 		textureList[] = { "Olive",0,"AAF_Digital",0,"AAF_Digital_D",0,"AAF_Digital_J",0 };
 	};
-
 	class Manticore_Vanilla_Tank_Rooikat : B_AFV_Wheeled_01_cannon_F
 	{
 		displayName = "Rooikat 120";
