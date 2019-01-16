@@ -1,4 +1,4 @@
-class Manticore_Loadout_Vanila_Quadbike : B_Quadbike_01_F
+class Manticore_Loadout_Vanila_Quadbike : Manticore_Vanilla_Light_Quadbike
 {
 	displayName = "Quadbike";
 	scope = 2;
