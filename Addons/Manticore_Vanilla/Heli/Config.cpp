@@ -181,4 +181,5 @@ class CfgVehicles
 
 		};
 		textureList[] = { "Green",0,"AAF_Digital",0,"bf_Gray",0 };
+	};
 };
