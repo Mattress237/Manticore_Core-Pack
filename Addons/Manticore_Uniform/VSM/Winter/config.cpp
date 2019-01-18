@@ -10,7 +10,8 @@ class CfgPatches
 		requiredAddons[] =
 		{
 			"Manticore_Uniform",
-			"VSM_Multicam_Config"
+			"VSM_Multicam_Config",
+			"VSM_Vests_Config"
 		};
 	};
 };
@@ -18,7 +19,7 @@ class CfgPatches
 class CfgVehicles
 {
 	class VSM_Multicam_Crye_Uniform;
-
+	
 
 	class Manticore_Uniform_VSM_Winter_Test_00 : VSM_Multicam_Crye_Uniform
 	{
@@ -309,6 +310,7 @@ class cfgWeapons
 		class ItemInfo;
 	};
 	class VSM_Multicam_Crye_Camo;
+	class VSM_RAV_operator_MulticamTropic;
 
 	class Manticore_Uniform_VSM_Winter_Crye_00 : VSM_Multicam_Crye_Camo
 	{
@@ -387,5 +389,36 @@ class cfgWeapons
 			containerClass = "Supply70";
 			mass = 35;
 		};
+	};
+
+	class Manticore_Uniform_VSM_Winter_RAV_operator_00 : VSM_RAV_operator_MulticamTropic
+	{
+		scope = 2;
+		author = "Mattress, VanSchmoozin - Specter";
+		displayName = "Manticam Winter Paraclete RAV(Operator)(WIP)";
+		//picture = "";
+		hiddenSelections[] =
+		{
+			"_1961aPouches",
+			"_battleBelt",
+			"_DropHolster",
+			"_Serpa",
+			"_SOTGGear",
+			"_SOTGRadio",
+			"_vestBase",
+			"_VSMPouches"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"\Manticore_Uniform\VSM\Winter\Data\vsm_multicamtropic_chestrig.paa",
+			"\Manticore_Uniform\VSM\Winter\Data\VSM_Vest_BattleBelt_00.paa",
+			"\Manticore_Uniform\VSM\Winter\Data\VSM_Vest_DropHolster_00.paa",
+			"\Manticore_Uniform\VSM\Winter\Data\VSM_Vest_Serpa_00.paa",
+			"\Manticore_Uniform\VSM\Winter\Data\VSM_Vest_Gear_00.paa",
+			"\Manticore_Uniform\VSM\Winter\Data\VSM_Vest_Radio_00.paa",
+			"\Manticore_Uniform\VSM\Winter\Data\vsm_rav_multicamtropic.paa",
+			"\Manticore_Uniform\VSM\Winter\Data\VSM_Vest_Pouches_00.paa"
+		};
+		descriptionShort = "$STR_A3_SP_AL_IV";
 	};
 };
