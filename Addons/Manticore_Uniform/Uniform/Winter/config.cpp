@@ -20,6 +20,7 @@ class CfgPatches
 
 class CfgVehicles
 {
+	//Uniform
 	class VSM_Multicam_Crye_Uniform;
 	class Manticore_Uniform_Uniform_Winter_Crye : VSM_Multicam_Crye_Uniform
 	{
@@ -68,6 +69,7 @@ class CfgVehicles
 		};
 	};
 
+	//Backpack
 	class B_AssaultPack_Base;
 	class Manticore_Uniform_Uniform_Winter_CompactBag : B_AssaultPack_Base
 	{
@@ -151,6 +153,7 @@ class cfgWeapons
 	{
 		class ItemInfo;
 	};
+	//Uniforms
 	class VSM_Multicam_Crye_Camo;
 	class Manticore_Uniform_Uniform_Winter_Crye : VSM_Multicam_Crye_Camo
 	{
@@ -166,6 +169,7 @@ class cfgWeapons
 		};
 	};
 
+	//Vest
 	class VSM_RAV_operator_MulticamTropic;
 	class Manticore_Uniform_Uniform_Winter_RAV_Operator : VSM_RAV_operator_MulticamTropic
 	{
@@ -232,6 +236,7 @@ class cfgWeapons
 		//descriptionShort = "$STR_A3_SP_AL_IV";
 	};
 
+	//Helmets
 	class VSM_Mich2000_MulticamTropic;
 	class Manticore_Uniform_Uniform_Winter_Mich2000 : VSM_Mich2000_MulticamTropic
 	{
