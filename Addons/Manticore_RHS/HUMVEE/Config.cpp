@@ -39,7 +39,14 @@ class CfgVehicles
 
 		hiddenSelectionsTextures[] =
 		{
-			"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m1043_g_co.paa"
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m1043_g_co.paa"
 		};
 		class TextureSources
 		{
@@ -48,7 +55,14 @@ class CfgVehicles
 				displayName = "Olive";
 				textures[] =
 				{
-					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m1043_g_co.paa"
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m1043_g_co.paa"
 				};
 				factions[] = { "Manticore_Faction" };
 			};
@@ -57,7 +71,14 @@ class CfgVehicles
 				displayName = "Woodland";
 				textures[] =
 				{
-					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_WD_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m1043_w_co.paa"
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_WD_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m1043_w_co.paa"
 				};
 				factions[] = { "Manticore_Faction" };
 			};
@@ -66,7 +87,14 @@ class CfgVehicles
 				displayName = "Desert";
 				textures[] =
 				{
-					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_D_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m1043_d_co.paa"
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_D_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\gratting_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m1043_d_co.paa"
 				};
 				factions[] = { "Manticore_Faction" };
 			};
@@ -83,7 +111,15 @@ class CfgVehicles
 
 		hiddenSelectionsTextures[] =
 		{
-			"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m1043_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_w_co.paa"
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m1043_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_w_co.paa"
 		};
 		class TextureSources
 		{
@@ -92,7 +128,15 @@ class CfgVehicles
 				displayName = "Olive";
 				textures[] =
 				{
-					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m1043_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_w_co.paa"
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m1043_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_w_co.paa"
 				};
 				factions[] = { "Manticore_Faction" };
 			};
@@ -101,7 +145,15 @@ class CfgVehicles
 				displayName = "Woodland";
 				textures[] =
 				{
-					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_WD_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m1043_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_w_co.paa"
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_WD_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m1043_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_w_co.paa"
 				};
 				factions[] = { "Manticore_Faction" };
 			};
@@ -110,7 +162,15 @@ class CfgVehicles
 				displayName = "Desert";
 				textures[] =
 				{
-					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_D_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m1043_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_d_co.paa"
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_D_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\gratting_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m1043_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_d_co.paa"
 				};
 				factions[] = { "Manticore_Faction" };
 			};
@@ -127,7 +187,15 @@ class CfgVehicles
 
 		hiddenSelectionsTextures[] =
 		{
-			"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m1043_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_w_co.paa"
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m1043_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_w_co.paa"
 		};
 		class TextureSources
 		{
@@ -136,7 +204,15 @@ class CfgVehicles
 				displayName = "Olive";
 				textures[] =
 				{
-					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m1043_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_w_co.paa"
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m1043_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_w_co.paa"
 				};
 				factions[] = { "Manticore_Faction" };
 			};
@@ -145,7 +221,15 @@ class CfgVehicles
 				displayName = "Woodland";
 				textures[] =
 				{
-					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_WD_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m1043_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_w_co.paa"
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_WD_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m1043_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_w_co.paa"
 				};
 				factions[] = { "Manticore_Faction" };
 			};
@@ -154,7 +238,15 @@ class CfgVehicles
 				displayName = "Desert";
 				textures[] =
 				{
-					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_D_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m1043_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_d_co.paa"
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_D_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\gratting_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m1043_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_d_co.paa"
 				};
 				factions[] = { "Manticore_Faction" };
 			};
@@ -171,7 +263,15 @@ class CfgVehicles
 
 		hiddenSelectionsTextures[] =
 		{
-			"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m1043_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_w_co.paa"
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m1043_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_w_co.paa"
 		};
 		class TextureSources
 		{
@@ -180,7 +280,15 @@ class CfgVehicles
 				displayName = "Olive";
 				textures[] =
 				{
-					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m1043_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_w_co.paa"
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m1043_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_w_co.paa"
 				};
 				factions[] = { "Manticore_Faction" };
 			};
@@ -189,7 +297,15 @@ class CfgVehicles
 				displayName = "Woodland";
 				textures[] =
 				{
-					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_WD_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m1043_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_w_co.paa"
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_WD_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m1043_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_w_co.paa"
 				};
 				factions[] = { "Manticore_Faction" };
 			};
@@ -198,7 +314,15 @@ class CfgVehicles
 				displayName = "Desert";
 				textures[] =
 				{
-					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_D_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m1043_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_d_co.paa"
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_D_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\gratting_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m1043_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_d_co.paa"
 				};
 				factions[] = { "Manticore_Faction" };
 			};
@@ -216,7 +340,15 @@ class CfgVehicles
 
 		hiddenSelectionsTextures[] =
 		{
-			"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_2drcargo_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa"
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_2drcargo_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa"
 		};
 		class TextureSources
 		{
@@ -225,7 +357,15 @@ class CfgVehicles
 				displayName = "Olive";
 				textures[] =
 				{
-					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_2drcargo_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa"
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_2drcargo_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa"
 				};
 				factions[] = { "Manticore_Faction" };
 			};
@@ -234,7 +374,15 @@ class CfgVehicles
 				displayName = "Woodland";
 				textures[] =
 				{
-					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_WD_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_2drcargo_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa"
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_WD_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_2drcargo_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa"
 				};
 				factions[] = { "Manticore_Faction" };
 			};
@@ -243,7 +391,15 @@ class CfgVehicles
 				displayName = "Desert";
 				textures[] =
 				{
-					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_D_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_2drcargo_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa"
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_D_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\gratting_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_2drcargo_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa"
 				};
 				factions[] = { "Manticore_Faction" };
 			};
@@ -260,7 +416,15 @@ class CfgVehicles
 
 		hiddenSelectionsTextures[] =
 		{
-			"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_2drcargo_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa"
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_2drcargo_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa"
 		};
 		class TextureSources
 		{
@@ -269,7 +433,15 @@ class CfgVehicles
 				displayName = "Olive";
 				textures[] =
 				{
-					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_2drcargo_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa"
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_2drcargo_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa"
 				};
 				factions[] = { "Manticore_Faction" };
 			};
@@ -278,7 +450,15 @@ class CfgVehicles
 				displayName = "Woodland";
 				textures[] =
 				{
-					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_WD_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_2drcargo_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa"
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_WD_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_2drcargo_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa"
 				};
 				factions[] = { "Manticore_Faction" };
 			};
@@ -287,7 +467,15 @@ class CfgVehicles
 				displayName = "Desert";
 				textures[] =
 				{
-					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_D_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_2drcargo_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa"
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_D_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\gratting_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_2drcargo_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa"
 				};
 				factions[] = { "Manticore_Faction" };
 			};
@@ -304,7 +492,15 @@ class CfgVehicles
 
 		hiddenSelectionsTextures[] =
 		{
-			"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_2drcargo_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa"
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_2drcargo_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa"
 		};
 		class TextureSources
 		{
@@ -313,7 +509,15 @@ class CfgVehicles
 				displayName = "Olive";
 				textures[] =
 				{
-					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_2drcargo_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa"
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_2drcargo_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa"
 				};
 				factions[] = { "Manticore_Faction" };
 			};
@@ -322,7 +526,15 @@ class CfgVehicles
 				displayName = "Woodland";
 				textures[] =
 				{
-					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_WD_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_2drcargo_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa"
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_WD_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_2drcargo_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa"
 				};
 				factions[] = { "Manticore_Faction" };
 			};
@@ -331,7 +543,15 @@ class CfgVehicles
 				displayName = "Desert";
 				textures[] =
 				{
-					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_D_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_2drcargo_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa"
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_D_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\gratting_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_2drcargo_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa"
 				};
 				factions[] = { "Manticore_Faction" };
 			};
@@ -349,7 +569,15 @@ class CfgVehicles
 
 		hiddenSelectionsTextures[] =
 		{
-			"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa"
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa"
 		};
 		class TextureSources
 		{
@@ -358,7 +586,15 @@ class CfgVehicles
 				displayName = "Olive";
 				textures[] =
 				{
-					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa"
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa"
 				};
 				factions[] = { "Manticore_Faction" };
 			};
@@ -367,7 +603,15 @@ class CfgVehicles
 				displayName = "Woodland";
 				textures[] =
 				{
-					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_WD_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa"
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_WD_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa"
 				};
 				factions[] = { "Manticore_Faction" };
 			};
@@ -376,7 +620,15 @@ class CfgVehicles
 				displayName = "Desert";
 				textures[] =
 				{
-					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_D_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa"
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_D_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\gratting_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa"
 				};
 				factions[] = { "Manticore_Faction" };
 			};
@@ -393,7 +645,15 @@ class CfgVehicles
 
 		hiddenSelectionsTextures[] =
 		{
-			"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa"
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa"
 		};
 		class TextureSources
 		{
@@ -402,7 +662,15 @@ class CfgVehicles
 				displayName = "Olive";
 				textures[] =
 				{
-					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa"
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa"
 				};
 				factions[] = { "Manticore_Faction" };
 			};
@@ -411,7 +679,15 @@ class CfgVehicles
 				displayName = "Woodland";
 				textures[] =
 				{
-					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_WD_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa"
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_WD_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa"
 				};
 				factions[] = { "Manticore_Faction" };
 			};
@@ -420,7 +696,15 @@ class CfgVehicles
 				displayName = "Desert";
 				textures[] =
 				{
-					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_D_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa"
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_D_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\gratting_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa"
 				};
 				factions[] = { "Manticore_Faction" };
 			};
@@ -437,7 +721,15 @@ class CfgVehicles
 
 		hiddenSelectionsTextures[] =
 		{
-			"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa"
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_g_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa"
 		};
 		class TextureSources
 		{
@@ -446,7 +738,15 @@ class CfgVehicles
 				displayName = "Olive";
 				textures[] =
 				{
-					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_g_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa"
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_g_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa"
 				};
 				factions[] = { "Manticore_Faction" };
 			};
@@ -455,7 +755,15 @@ class CfgVehicles
 				displayName = "Woodland";
 				textures[] =
 				{
-					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_WD_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_w_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa"
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_WD_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_w_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa"
 				};
 				factions[] = { "Manticore_Faction" };
 			};
@@ -464,7 +772,15 @@ class CfgVehicles
 				displayName = "Desert";
 				textures[] =
 				{
-					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_D_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\gratting_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_d_co.paa","rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa"
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_D_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\gratting_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa"
 				};
 				factions[] = { "Manticore_Faction" };
 			};
