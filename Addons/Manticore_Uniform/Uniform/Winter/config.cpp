@@ -22,13 +22,13 @@ class CfgVehicles
 {
 	//Uniform
 	class VSM_Multicam_Crye_Uniform;
-	class Manticore_Uniform_Uniform_Winter_Crye : VSM_Multicam_Crye_Uniform
+	class Manticore_Uniform_Uniform_ManticamWinter_Crye : VSM_Multicam_Crye_Uniform
 	{
 		author = "Mattress, VanSchmoozin";
 		scope = 2;
-		displayName = "Manticore Winter Camo (WIP)";
+		displayName = "Manticam Winter Uniform (WIP)";
 		faction = "Manticore_Faction";
-		uniformClass = "Manticore_Uniform_Uniform_Winter_Crye";
+		uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye";
 		hiddenSelections[] =
 		{
 			"Camo",
@@ -36,7 +36,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[] =
 		{
-			"\Manticore_Uniform\Uniform\Winter\Data\VSM_ARD_Test_00.paa"
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Uniform_ARD_ManticamWinter_00.paa"
 		};
 		weapons[] =
 		{
@@ -71,7 +71,7 @@ class CfgVehicles
 
 	//Backpack
 	class B_AssaultPack_Base;
-	class Manticore_Uniform_Uniform_Winter_CompactBag : B_AssaultPack_Base
+	class Manticore_Uniform_Uniform_ManticamWinter_CompactBag : B_AssaultPack_Base
 	{
 		scope = 2;
 		displayName = "Manticam Winter Compact Bag";
@@ -79,10 +79,10 @@ class CfgVehicles
 		picture = "\Manticore_Uniform\Uniform\Winter\Data\Icon\Manticam_Logo_Winter.paa";
 		hiddenSelectionsTextures[] =
 		{
-			"\Manticore_Uniform\Uniform\Winter\Data\Vanilla_Backpack_Compact_00.paa"
+			"\Manticore_Uniform\Uniform\Winter\Data\Vanilla_Backpack_Compact_ManticamWinter_00.paa"
 		};
 	};
-	class Manticore_Uniform_Uniform_Winter_CompactBag_Med : B_AssaultPack_Base
+	class Manticore_Uniform_Uniform_ManticamWinter_CompactBag_Med : B_AssaultPack_Base
 	{
 		scope = 2;
 		displayName = "Manticam Winter Compact Bag (Medical)";
@@ -90,12 +90,12 @@ class CfgVehicles
 		picture = "\Manticore_Uniform\Uniform\Winter\Data\Icon\Manticam_Logo_Winter.paa";
 		hiddenSelectionsTextures[] =
 		{
-			"\Manticore_Uniform\Uniform\Winter\Data\Vanilla_Backpack_Compact_00_Med.paa"
+			"\Manticore_Uniform\Uniform\Winter\Data\Vanilla_Backpack_Compact_ManticamWinter_00_Med.paa"
 		};
 	};
 
 	class B_Kitbag_Base;
-	class Manticore_Uniform_Uniform_Winter_Kitbag : B_Kitbag_Base
+	class Manticore_Uniform_Uniform_ManticamWinter_Kitbag : B_Kitbag_Base
 	{
 		scope = 2;
 		displayName = "Manticam Winter Kitbag";
@@ -103,10 +103,10 @@ class CfgVehicles
 		picture = "\Manticore_Uniform\Uniform\Winter\Data\Icon\Manticam_Logo_Winter.paa";
 		hiddenSelectionsTextures[] =
 		{
-			"\Manticore_Uniform\Uniform\Winter\Data\Vanilla_Backpack_Kitbag_00.paa"
+			"\Manticore_Uniform\Uniform\Winter\Data\Vanilla_Backpack_Kitbag_ManticamWinter_00.paa"
 		};
 	};
-	class Manticore_Uniform_Uniform_Winter_Kitbag_Med : B_Kitbag_Base
+	class Manticore_Uniform_Uniform_ManticamWinter_Kitbag_Med : B_Kitbag_Base
 	{
 		scope = 2;
 		displayName = "Manticam Winter Kitbag (Medical)";
@@ -114,12 +114,12 @@ class CfgVehicles
 		picture = "\Manticore_Uniform\Uniform\Winter\Data\Icon\Manticam_Logo_Winter.paa";
 		hiddenSelectionsTextures[] =
 		{
-			"\Manticore_Uniform\Uniform\Winter\Data\Vanilla_Backpack_Kitbag_00_Med.paa"
+			"\Manticore_Uniform\Uniform\Winter\Data\Vanilla_Backpack_Kitbag_ManticamWinter_00_Med.paa"
 		};
 	};
 
 	class B_Carryall_Base;
-	class Manticore_Uniform_Uniform_Winter_CarryallBag : B_Carryall_Base
+	class Manticore_Uniform_Uniform_ManticamWinter_CarryallBag : B_Carryall_Base
 	{
 		scope = 2;
 		displayName = "Manticam Winter Carryall Bag";
@@ -127,10 +127,10 @@ class CfgVehicles
 		picture = "\Manticore_Uniform\Uniform\Winter\Data\Icon\Manticam_Logo_Winter.paa";
 		hiddenSelectionsTextures[] =
 		{
-			"\Manticore_Uniform\Uniform\Winter\Data\Vanilla_Backpack_Carryall_00.paa"
+			"\Manticore_Uniform\Uniform\Winter\Data\Vanilla_Backpack_Carryall_ManticamWinter_00.paa"
 		};
 	};
-	class Manticore_Uniform_Uniform_Winter_CarryallBag_Med : B_Carryall_Base
+	class Manticore_Uniform_Uniform_ManticamWinter_CarryallBag_Med : B_Carryall_Base
 	{
 		scope = 2;
 		displayName = "Manticam Winter Carryall Bag (Medical)";
@@ -138,7 +138,7 @@ class CfgVehicles
 		picture = "\Manticore_Uniform\Uniform\Winter\Data\Icon\Manticam_Logo_Winter.paa";
 		hiddenSelectionsTextures[] =
 		{
-			"\Manticore_Uniform\Uniform\Winter\Data\Vanilla_Backpack_Carryall_00_Med.paa"
+			"\Manticore_Uniform\Uniform\Winter\Data\Vanilla_Backpack_Carryall_ManticamWinter_00_Med.paa"
 		};
 	};
 };
@@ -155,7 +155,7 @@ class cfgWeapons
 	};
 	//Uniforms
 	class VSM_Multicam_Crye_Camo;
-	class Manticore_Uniform_Uniform_Winter_Crye : VSM_Multicam_Crye_Camo
+	class Manticore_Uniform_Uniform_ManticamWinter_Crye : VSM_Multicam_Crye_Camo
 	{
 		scope = 2;
 		displayName = "Manticore Winter Crye";
@@ -163,7 +163,7 @@ class cfgWeapons
 		picture = "\Manticore_Uniform\Uniform\Winter\Data\Icon\Manticam_Logo_Winter.paa";
 		class ItemInfo : UniformItem
 		{
-			uniformClass = "Manticore_Uniform_Uniform_Winter_Crye";
+			uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye";
 			containerClass = "Supply70";
 			mass = 35;
 		};
@@ -171,7 +171,7 @@ class cfgWeapons
 
 	//Vest
 	class VSM_RAV_operator_MulticamTropic;
-	class Manticore_Uniform_Uniform_Winter_RAV_Operator : VSM_RAV_operator_MulticamTropic
+	class Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator : VSM_RAV_operator_MulticamTropic
 	{
 		scope = 2;
 		author = "Mattress, VanSchmoozin - Specter";
@@ -190,24 +190,23 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[] =
 		{
-			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_Chestrig_00.paa",
-			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_BattleBelt_00.paa",
-			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_DropHolster_00.paa",
-			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_Serpa_00.paa",
-			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_Gear_00.paa",
-			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_Radio_00.paa",
-			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_RAV_00.paa",
-			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_Pouches_00.paa"
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_Chestrig_ManticamWinter_00.paa",
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_BattleBelt_ManticamWinter_00.paa",
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_DropHolster_ManticamWinter_00.paa",
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_Serpa_ManticamWinter_00.paa",
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_Gear_ManticamWinter_00.paa",
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_Radio_ManticamWinter_00.paa",
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_RAV_ManticamWinter_00.paa",
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_Pouches_ManticamWinter_00.paa"
 		};
 		//descriptionShort = "$STR_A3_SP_AL_IV";
 	};
-
 	class VSM_RAV_MG_MulticamTropic;
-	class Manticore_Uniform_Uniform_Winter_RAV_Gunner : VSM_RAV_MG_MulticamTropic
+	class Manticore_Uniform_Uniform_ManticamWinter_RAV_Gunner : VSM_RAV_MG_MulticamTropic
 	{
 		scope = 2;
 		author = "Mattress, VanSchmoozin - Specter";
-		displayName = "Manticam Winter Paraclete RAV (Gunner)";
+		displayName = "Manticam Winter Paraclete RAV(Gunner)";
 		picture = "\Manticore_Uniform\Uniform\Winter\Data\Icon\Manticam_Logo_Winter.paa";
 		hiddenSelections[] =
 		{
@@ -223,22 +222,54 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[] =
 		{
-			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_Chestrig_00.paa",
-			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_BattleBelt_00.paa",
-			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_BoxMag_00.paa",
-			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_DropHolster_00.paa",
-			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_Serpa_00.paa",
-			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_Gear_00.paa",
-			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_Radio_00.paa",
-			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_RAV_00.paa",
-			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_Pouches_00.paa"
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_Chestrig_ManticamWinter_00.paa",
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_BattleBelt_ManticamWinter_00.paa",
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_BoxMag_ManticamWinter_00.paa",
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_DropHolster_ManticamWinter_00.paa",
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_Serpa_ManticamWinter_00.paa",
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_Gear_ManticamWinter_00.paa",
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_Radio_ManticamWinter_00.paa",
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_RAV_ManticamWinter_00.paa",
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_Pouches_ManticamWinter_00.paa"
 		};
 		//descriptionShort = "$STR_A3_SP_AL_IV";
 	};
-
+	class VSM_RAV_Breacher_MulticamTropic;
+	class Manticore_Uniform_Uniform_ManticamWinter_RAV_Breacher : VSM_RAV_Breacher_MulticamTropic
+	{
+		scope = 2;
+		author = "Mattress, VanSchmoozin - Specter";
+		displayName = "Manticam Winter Paraclete RAV(Breacher)";
+		picture = "\Manticore_Uniform\Uniform\Winter\Data\Icon\Manticam_Logo_Winter.paa";
+		hiddenSelections[] =
+		{
+			"_1961aPouches",
+			"_battleBelt",
+			"_DropHolster",
+			"_Serpa",
+			"_SOTGGear",
+			"_SOTGRadio",
+			"_vestBase",
+			"_VSMPouches",
+			"_VSMButtPouch"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_Chestrig_ManticamWinter_00.paa",
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_BattleBelt_ManticamWinter_00.paa",
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_DropHolster_ManticamWinter_00.paa",
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_Serpa_ManticamWinter_00.paa",
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_Gear_ManticamWinter_00.paa",
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_Radio_ManticamWinter_00.paa",
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_RAV_ManticamWinter_00.paa",
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_Pouches_ManticamWinter_00.paa",
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Vest_ButtPouch_ManticamWinter_00.paa"
+		};
+		//descriptionShort = "$STR_A3_SP_AL_IV";
+	};
 	//Helmets
 	class VSM_Mich2000_MulticamTropic;
-	class Manticore_Uniform_Uniform_Winter_Mich2000 : VSM_Mich2000_MulticamTropic
+	class Manticore_Uniform_Uniform_ManticamWinter_Mich2000 : VSM_Mich2000_MulticamTropic
 	{
 		author = "Mattress, VanSchmoozin";
 		scope = 2;
@@ -251,8 +282,8 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[] =
 		{
-			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Helmet_Mich2000_Winter_00.paa",
-			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Helmet_ops_Winter_00.paa"
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Helmet_Mich2000_ManticamWinter_00.paa",
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Helmet_ops_ManticamWinter_00.paa"
 		};
 	};
 };
