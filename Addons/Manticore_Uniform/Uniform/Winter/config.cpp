@@ -274,7 +274,7 @@ class cfgWeapons
 		author = "Mattress, VanSchmoozin";
 		scope = 2;
 		displayName = "Manticam Winter MICH 2000";
-		picture = "\VSM_Vests\Icons\VSM_MulticamTropic.paa";
+		picture = "\Manticore_Uniform\Uniform\Winter\Data\Icon\Manticam_Logo_Winter.paa";
 		hiddenSelections[] =
 		{
 			"_helmBase",
