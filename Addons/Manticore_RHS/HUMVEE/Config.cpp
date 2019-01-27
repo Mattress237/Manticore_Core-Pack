@@ -98,6 +98,22 @@ class CfgVehicles
 				};
 				factions[] = { "Manticore_Faction" };
 			};
+			class Manticam_Winter
+			{
+				displayName = "Winter";
+				textures[] =
+				{
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_M998Exterior_00.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_D_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\gratting_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m1043_d_co.paa"
+				};
+				factions[] = { "Manticore_Faction" };
+			};
 		};
 		textureList[] = { "RHS_Olive",0,"RHS_Woodland",0,"RHS_Desert",0 };
 	};
