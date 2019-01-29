@@ -13,7 +13,8 @@ class CfgPatches
 			"VSM_Multicam_Config",
 			"VSM_Vests_Config",
 			"A3_Weapons_F",
-			"VSM_HELMETS"
+			"VSM_HELMETS",
+			"tfar_backpacks"
 		};
 	};
 };
@@ -282,6 +283,48 @@ class cfgWeapons
 		{
 			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Helmet_Mich2000_ManticamWinter_00.paa",
 			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Helmet_ops_ManticamWinter_00.paa"
+		};
+	};
+	//TFAR Backpacks
+	class TFAR_rt1523g;
+	class Manticore_Uniform_Uniform_ManticamWinter_rt1523g : TFAR_rt1523g
+	{
+		author = "Mattress, Raspu, Gandi, Nkey";
+		displayName = "RT-1523 (ASIP) Manticam Winter";
+		//scope = 2;
+		//scopeCurator = 2;
+		//descriptionShort = "$STR_tfar_backpacks_RT1523G_Desc";
+		//picture = "\Manticore_Uniform\Uniform\Winter\Data\Icon\Manticam_Logo_Winter.paa";
+		maximumLoad = 50;
+		mass = 80;
+		hiddenSelections[] =
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"\z\tfar\addons\backpacks\models\data\clf_prc117g_ap_co.paa"
+		};
+		/*tf_encryptionCode = "tf_west_radio_code";
+		tf_dialog = "rt1523g_radio_dialog";
+		tf_subtype = "digital_lr";*/
+	};
+	class TFAR_rt1523g_big;
+	class Manticore_Uniform_Uniform_ManticamWinter_rt1523gbig : TFAR_rt1523g_big
+	{
+		author = "Mattress, Raspu, Gandi, Nkey";
+		displayName = "RT-1523 (ASIP) Big Manticam Winter";
+		//descriptionShort = "$STR_tfar_backpacks_RT1523G_Big_Desc";
+		//picture = "\Manticore_Uniform\Uniform\Winter\Data\Icon\Manticam_Logo_Winter.paa";
+		maximumLoad = 160;
+		mass = 160;
+		hiddenSelections[] =
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"\z\tfar\addons\backpacks\models\data\clf_nicecomm2_nato_multi_co.paa"
 		};
 	};
 };
