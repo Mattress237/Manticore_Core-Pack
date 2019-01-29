@@ -68,7 +68,6 @@ class CfgVehicles
 			"ItemRadio"
 		};
 	};
-
 	//Backpack
 	class B_AssaultPack_Base;
 	class Manticore_Uniform_Uniform_ManticamWinter_CompactBag : B_AssaultPack_Base
@@ -168,7 +167,6 @@ class cfgWeapons
 			mass = 35;
 		};
 	};
-
 	//Vest
 	class VSM_RAV_operator_MulticamTropic;
 	class Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator : VSM_RAV_operator_MulticamTropic
