@@ -144,7 +144,7 @@ class CfgVehicles
 	class Manticore_Uniform_Uniform_ManticamWinter_rt1523g : TFAR_rt1523g
 	{
 		author = "Mattress, Raspu, Gandi, Nkey";
-		displayName = "RT-1523 (ASIP) Manticam Winter";
+		displayName = "RT-1523G (ASIP) Manticam Winter";
 		//scope = 2;
 		//scopeCurator = 2;
 		//descriptionShort = "$STR_tfar_backpacks_RT1523G_Desc";
@@ -167,7 +167,7 @@ class CfgVehicles
 	class Manticore_Uniform_Uniform_ManticamWinter_rt1523gbig : TFAR_rt1523g_big
 	{
 		author = "Mattress, Raspu, Gandi, Nkey";
-		displayName = "RT-1523 (ASIP) Big Manticam Winter";
+		displayName = "RT-1523G (ASIP) Big Manticam Winter";
 		//descriptionShort = "$STR_tfar_backpacks_RT1523G_Big_Desc";
 		picture = "\Manticore_Uniform\Uniform\Winter\Data\Icon\Manticam_Logo_Winter.paa";
 		maximumLoad = 160;
