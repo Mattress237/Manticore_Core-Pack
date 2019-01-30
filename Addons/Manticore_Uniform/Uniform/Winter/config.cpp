@@ -179,6 +179,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[] =
 		{
 			"\Manticore_Uniform\Uniform\Winter\Data\TFAR_rt1523gBig_ManticamWinter_00.paa"
+
 		};
 	};
 };
