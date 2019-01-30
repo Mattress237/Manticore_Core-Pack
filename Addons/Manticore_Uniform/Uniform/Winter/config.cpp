@@ -148,7 +148,7 @@ class CfgVehicles
 		//scope = 2;
 		//scopeCurator = 2;
 		//descriptionShort = "$STR_tfar_backpacks_RT1523G_Desc";
-		//picture = "\Manticore_Uniform\Uniform\Winter\Data\Icon\Manticam_Logo_Winter.paa";
+		picture = "\Manticore_Uniform\Uniform\Winter\Data\Icon\Manticam_Logo_Winter.paa";
 		maximumLoad = 50;
 		mass = 80;
 		hiddenSelections[] =
@@ -169,7 +169,7 @@ class CfgVehicles
 		author = "Mattress, Raspu, Gandi, Nkey";
 		displayName = "RT-1523 (ASIP) Big Manticam Winter";
 		//descriptionShort = "$STR_tfar_backpacks_RT1523G_Big_Desc";
-		//picture = "\Manticore_Uniform\Uniform\Winter\Data\Icon\Manticam_Logo_Winter.paa";
+		picture = "\Manticore_Uniform\Uniform\Winter\Data\Icon\Manticam_Logo_Winter.paa";
 		maximumLoad = 160;
 		mass = 160;
 		hiddenSelections[] =
@@ -178,7 +178,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[] =
 		{
-			"\z\tfar\addons\backpacks\models\data\clf_nicecomm2_nato_multi_co.paa"
+			"\Manticore_Uniform\Uniform\Winter\Data\TFAR_rt1523gBig_ManticamWinter_00.paa"
 		};
 	};
 };
