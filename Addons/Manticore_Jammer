@@ -1,0 +1,36 @@
+#define _ARMA_
+
+class CfgPatches
+{
+	class Manticore_Jammers
+	{
+		addonRootClass = "Manticore_Jammers";
+		units[] = {"Jammer_1","Jammer_2"};
+		weapons[] = {};
+		requiredAddons[] = {"@CUP Terrains - Core\Addons\cup_terrains_ca_buildings_c"};
+	};
+};
+
+class CfgVehicles
+{
+	
+	class Land_Vysilac_FM;
+	class Land_Vysilac_FM2;
+	class Jammer_1: Land_Vysilac_FM2
+	{
+		displayName = "Jammer Tower (TFM)";
+		scope = 2;
+		editorCategory = "Manticore_Categories";
+		editorSubcategory = "Manticore_Categories_Jammers";
+		init = "[(_this select 0)] exec ""\scripts\TFARjamRadios.sqf""";
+	};
+	class Jammer_2: Land_Vysilac_FM
+	{
+		displayName = "Jammer Tower 2 (TFM)";
+		scope = 2;
+		editorCategory = "Manticore_Categories";
+		editorSubcategory = "Manticore_Categories_Jammers";
+		init = "[(_this select 0)] exec ""\scripts\TFARjamRadios.sqf""";
+	};
+	
+};
