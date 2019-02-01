@@ -31,6 +31,7 @@ class CfgVehicles
 		faction = "Manticore_Faction";
 		uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_00";
 		picture = "\Manticore_Uniform\Uniform\Winter\Data\Icon\Manticam_Logo_Winter.paa";
+
 		hiddenSelections[] =
 		{
 			"Camo",
