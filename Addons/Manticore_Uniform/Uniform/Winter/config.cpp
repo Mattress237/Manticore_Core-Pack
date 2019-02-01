@@ -363,11 +363,11 @@ class cfgWeapons
 	};
 	//Helmets
 	class VSM_Mich2000_MulticamTropic;
-	class Manticore_Uniform_Uniform_ManticamWinter_Mich2000 : VSM_Mich2000_MulticamTropic
+	class Manticore_Uniform_Uniform_ManticamWinter_Mich2000_00 : VSM_Mich2000_MulticamTropic
 	{
 		author = "Mattress, VanSchmoozin";
 		scope = 2;
-		displayName = "Manticam Winter MICH 2000";
+		displayName = "Manticam Winter MICH 2000 (m0)";
 		picture = "\Manticore_Uniform\Uniform\Winter\Data\Icon\Manticam_Logo_Winter.paa";
 		hiddenSelections[] =
 		{
@@ -377,6 +377,36 @@ class cfgWeapons
 		hiddenSelectionsTextures[] =
 		{
 			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Helmet_Mich2000_ManticamWinter_00.paa",
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Helmet_ops_ManticamWinter_00.paa"
+		};
+	};
+	class Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01 : Manticore_Uniform_Uniform_ManticamWinter_Mich2000_00
+	{
+		author = "Mattress, VanSchmoozin";
+		displayName = "Manticam Winter MICH 2000 (m1)";
+		hiddenSelections[] =
+		{
+			"_helmBase",
+			"_helmStraps"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Helmet_Mich2000_ManticamWinter_01.paa",
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Helmet_ops_ManticamWinter_00.paa"
+		};
+	};
+	class Manticore_Uniform_Uniform_ManticamWinter_Mich2000_02 : Manticore_Uniform_Uniform_ManticamWinter_Mich2000_00
+	{
+		author = "Mattress, VanSchmoozin";
+		displayName = "Manticam Winter MICH 2000 (m2)";
+		hiddenSelections[] =
+		{
+			"_helmBase",
+			"_helmStraps"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Helmet_Mich2000_ManticamWinter_02.paa",
 			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Helmet_ops_ManticamWinter_00.paa"
 		};
 	};
