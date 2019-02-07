@@ -976,8 +976,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Polaris DAGOR";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
         class Turrets : Turrets {
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
@@ -985,7 +985,7 @@ class CfgVehicles {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
             class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
-            class CargoTurret_06 : CargoTurret_06 { gunnerType = "B_ManticoreFaction_Rifleman_01"; };
+            class CargoTurret_06 : CargoTurret_06 { gunnerType = "B_ManticoreFaction_Winter_Rifleman_01"; };
         };
 
 
@@ -1009,12 +1009,12 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Polaris DAGOR (XM312)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
         class Turrets : Turrets {
-            class TopTurret : TopTurret { gunnerType = "B_ManticoreFaction_Rifleman_01"; };
-            class CodRiverTurret : CodRiverTurret { gunnerType = "B_ManticoreFaction_Rifleman_01"; };
+            class TopTurret : TopTurret { gunnerType = "B_ManticoreFaction_Winter_Rifleman_01"; };
+            class CodRiverTurret : CodRiverTurret { gunnerType = "B_ManticoreFaction_Winter_Rifleman_01"; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
         };
@@ -1040,12 +1040,12 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Polaris DAGOR (Mini-Spike AT)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
         class Turrets : Turrets {
-            class TopTurret : TopTurret { gunnerType = "B_ManticoreFaction_Rifleman_01"; };
-            class CodRiverTurret : CodRiverTurret { gunnerType = "B_ManticoreFaction_Rifleman_01"; };
+            class TopTurret : TopTurret { gunnerType = "B_ManticoreFaction_Winter_Rifleman_01"; };
+            class CodRiverTurret : CodRiverTurret { gunnerType = "B_ManticoreFaction_Winter_Rifleman_01"; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
         };
@@ -1071,8 +1071,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Polaris DAGOR (Light)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
         class Turrets : Turrets {
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
@@ -1080,7 +1080,7 @@ class CfgVehicles {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
             class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
-            class CargoTurret_06 : CargoTurret_06 { gunnerType = "B_ManticoreFaction_Rifleman_01"; };
+            class CargoTurret_06 : CargoTurret_06 { gunnerType = "B_ManticoreFaction_Winter_Rifleman_01"; };
         };
 
 
@@ -1104,8 +1104,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Quadbike";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
 
         class EventHandlers : EventHandlers {
@@ -1127,11 +1127,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Wildcat Transport";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Helicopter_Pilot_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Helicopter_Pilot_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Helicopter_Pilot_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Helicopter_Pilot_01"; };
         };
 
 
@@ -1155,11 +1155,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Wildcat DynamicLoadout";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Helicopter_Pilot_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Helicopter_Pilot_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Helicopter_Pilot_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Helicopter_Pilot_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
         };
@@ -1185,11 +1185,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Merlin";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Helicopter_Pilot_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Helicopter_Pilot_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Helicopter_Pilot_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Winter_Helicopter_Pilot_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
         };
@@ -1215,11 +1215,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "AH-6";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Helicopter_Pilot_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Helicopter_Pilot_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Helicopter_Pilot_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Winter_Helicopter_Pilot_01"; };
         };
 
 
@@ -1243,11 +1243,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "MH-6";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Helicopter_Pilot_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Helicopter_Pilot_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Helicopter_Pilot_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Winter_Helicopter_Pilot_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1275,11 +1275,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "MH-6 (Stripped)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Helicopter_Pilot_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Helicopter_Pilot_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Helicopter_Pilot_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Winter_Helicopter_Pilot_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1307,11 +1307,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Badger IFV";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Crewman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Crewman_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Crewman_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Crewman_01"; };
         };
 
 
@@ -1335,12 +1335,12 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Namer APC";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Crewman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Crewman_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Crewman_01"; };
-            class CommanderOptics : CommanderOptics { gunnerType = "B_ManticoreFaction_Crewman_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Crewman_01"; };
+            class CommanderOptics : CommanderOptics { gunnerType = "B_ManticoreFaction_Winter_Crewman_01"; };
         };
 
 
@@ -1364,12 +1364,12 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Nemmera CRV";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Crewman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Crewman_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Crewman_01"; };
-            class CommanderOptics : CommanderOptics { gunnerType = "B_ManticoreFaction_Crewman_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Crewman_01"; };
+            class CommanderOptics : CommanderOptics { gunnerType = "B_ManticoreFaction_Winter_Crewman_01"; };
         };
 
 
@@ -1393,11 +1393,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Bardelas AA";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Crewman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Crewman_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Crewman_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Crewman_01"; };
         };
 
 
@@ -1421,11 +1421,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Wiesel 2 (MK20)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Crewman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Crewman_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Crewman_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Crewman_01"; };
         };
 
 
@@ -1449,11 +1449,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Wiesel 2 (ATGM)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Crewman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Crewman_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Crewman_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Crewman_01"; };
         };
 
 
@@ -1477,11 +1477,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Wiesel 2 (Scout)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Crewman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Crewman_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Crewman_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Crewman_01"; };
         };
 
 
@@ -1505,11 +1505,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Leopard";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Crewman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Crewman_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Crewman_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Crewman_01"; };
         };
 
 
@@ -1533,11 +1533,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rooikat 120";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Crewman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Crewman_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Crewman_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Crewman_01"; };
         };
 
 
@@ -1561,11 +1561,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rooikat 120 UP";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Crewman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Crewman_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Crewman_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Crewman_01"; };
         };
 
 
@@ -1589,11 +1589,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Sholef";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Crewman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Crewman_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Crewman_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Crewman_01"; };
         };
 
 
@@ -1617,11 +1617,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Seara";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Crewman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Crewman_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Crewman_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Crewman_01"; };
         };
 
 
@@ -1645,12 +1645,12 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Speedboat Minigun";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
         class Turrets : Turrets {
-            class FrontTurret : FrontTurret { gunnerType = "B_ManticoreFaction_Rifleman_01"; };
-            class RearTurret : RearTurret { gunnerType = "B_ManticoreFaction_Rifleman_01"; };
+            class FrontTurret : FrontTurret { gunnerType = "B_ManticoreFaction_Winter_Rifleman_01"; };
+            class RearTurret : RearTurret { gunnerType = "B_ManticoreFaction_Winter_Rifleman_01"; };
         };
 
 
@@ -1674,7 +1674,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "UCAV Sentinel";
         side = 1;
-        faction = "Manticore_Faction";
+        faction = "Manticore_Faction_Winter";
         crew = "B_UAV_AI";
 
         class Turrets : Turrets {
@@ -1702,7 +1702,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "MQ-12 Falcon";
         side = 1;
-        faction = "Manticore_Faction";
+        faction = "Manticore_Faction_Winter";
         crew = "B_UAV_AI";
 
         class Turrets : Turrets {
@@ -1730,7 +1730,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "AR-2 Darter";
         side = 1;
-        faction = "Manticore_Faction";
+        faction = "Manticore_Faction_Winter";
         crew = "B_UAV_AI";
 
         class Turrets : Turrets {
@@ -1758,7 +1758,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "UGV Stomper";
         side = 1;
-        faction = "Manticore_Faction";
+        faction = "Manticore_Faction_Winter";
         crew = "B_UAV_AI";
 
         class Turrets : Turrets {
@@ -1786,7 +1786,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "UGV Stomper RCWS";
         side = 1;
-        faction = "Manticore_Faction";
+        faction = "Manticore_Faction_Winter";
         crew = "B_UAV_AI";
 
         class Turrets : Turrets {
@@ -1815,7 +1815,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Navy Uniform Officer";
         side = 1;
-        faction = "Manticore_Faction";
+        faction = "Manticore_Faction_Winter";
 
         identityTypes[] = {"Head_NATO","G_NATO_default"};
 
@@ -1852,7 +1852,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Navy Uniform";
         side = 1;
-        faction = "Manticore_Faction";
+        faction = "Manticore_Faction_Winter";
 
         identityTypes[] = {"Head_NATO","G_NATO_default"};
 
@@ -1889,11 +1889,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "MH-6M";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Helicopter_Pilot_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Helicopter_Pilot_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Helicopter_Pilot_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Winter_Helicopter_Pilot_01"; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
             class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
             class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
@@ -1923,8 +1923,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1043A2 (Unarmed)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1953,11 +1953,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1043A2 (M2)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
         class Turrets : Turrets {
-            class M2_Turret : M2_Turret { gunnerType = "B_ManticoreFaction_Rifleman_01"; };
+            class M2_Turret : M2_Turret { gunnerType = "B_ManticoreFaction_Winter_Rifleman_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1984,11 +1984,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1043A2 (M19)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
         class Turrets : Turrets {
-            class M2_Turret : M2_Turret { gunnerType = "B_ManticoreFaction_Rifleman_01"; };
+            class M2_Turret : M2_Turret { gunnerType = "B_ManticoreFaction_Winter_Rifleman_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -2015,11 +2015,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1045A2 (TOW)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
         class Turrets : Turrets {
-            class TOW_Turret : TOW_Turret { gunnerType = "B_ManticoreFaction_Rifleman_01"; };
+            class TOW_Turret : TOW_Turret { gunnerType = "B_ManticoreFaction_Winter_Rifleman_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -2046,8 +2046,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1123 2D (Opentop)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -2076,8 +2076,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1123 2D (Halftop)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -2105,8 +2105,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1123 2D (Fulltop)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -2134,8 +2134,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1123 4D (Opentop)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -2166,8 +2166,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1123 4D (Halftop)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -2195,8 +2195,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1123 4D (Fulltop)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
 
         class EventHandlers : EventHandlers {
@@ -2218,8 +2218,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "CGR CAT1A2";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -2246,11 +2246,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "CGR CAT1A2 (M2)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
         class Turrets : Turrets {
-            class M2_Turret : M2_Turret { gunnerType = "B_ManticoreFaction_Rifleman_01"; };
+            class M2_Turret : M2_Turret { gunnerType = "B_ManticoreFaction_Winter_Rifleman_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
         };
 
@@ -2275,11 +2275,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "CGR CAT1A2 (Mk19)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
         class Turrets : Turrets {
-            class M2_Turret : M2_Turret { gunnerType = "B_ManticoreFaction_Rifleman_01"; };
+            class M2_Turret : M2_Turret { gunnerType = "B_ManticoreFaction_Winter_Rifleman_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
         };
 
@@ -2304,8 +2304,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1220";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
 
         class EventHandlers : EventHandlers {
@@ -2327,11 +2327,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1220 (M2)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
         class Turrets : Turrets {
-            class M2_Turret : M2_Turret { gunnerType = "B_ManticoreFaction_Rifleman_01"; };
+            class M2_Turret : M2_Turret { gunnerType = "B_ManticoreFaction_Winter_Rifleman_01"; };
         };
 
 
@@ -2355,11 +2355,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1220 (M2 CROW)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
         class Turrets : Turrets {
-            class M2_CROWS_Turret : M2_CROWS_Turret { gunnerType = "B_ManticoreFaction_Rifleman_01"; };
+            class M2_CROWS_Turret : M2_CROWS_Turret { gunnerType = "B_ManticoreFaction_Winter_Rifleman_01"; };
         };
 
 
@@ -2383,11 +2383,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1220 (M19)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
         class Turrets : Turrets {
-            class M2_Turret : M2_Turret { gunnerType = "B_ManticoreFaction_Rifleman_01"; };
+            class M2_Turret : M2_Turret { gunnerType = "B_ManticoreFaction_Winter_Rifleman_01"; };
         };
 
 
@@ -2411,11 +2411,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1230 (M2)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
         class Turrets : Turrets {
-            class M2_Turret : M2_Turret { gunnerType = "B_ManticoreFaction_Rifleman_01"; };
+            class M2_Turret : M2_Turret { gunnerType = "B_ManticoreFaction_Winter_Rifleman_01"; };
         };
 
 
@@ -2439,11 +2439,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1230 (M19)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
         class Turrets : Turrets {
-            class M2_Turret : M2_Turret { gunnerType = "B_ManticoreFaction_Rifleman_01"; };
+            class M2_Turret : M2_Turret { gunnerType = "B_ManticoreFaction_Winter_Rifleman_01"; };
         };
 
 
@@ -2467,8 +2467,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1230A1 (Medical)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
 
         class EventHandlers : EventHandlers {
@@ -2490,11 +2490,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M113A3";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Crewman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Crewman_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Crewman_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Crewman_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
         };
@@ -2520,11 +2520,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M113A3 (M2)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Crewman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Crewman_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Crewman_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Crewman_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
         };
@@ -2550,11 +2550,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M113A3 (M19)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Crewman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Crewman_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Crewman_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Crewman_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
         };
@@ -2580,11 +2580,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M113A3 (M240)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Crewman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Crewman_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Crewman_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Crewman_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
         };
@@ -2610,11 +2610,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M113A3 (Ammo)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Crewman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Crewman_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Crewman_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Crewman_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
         };
@@ -2640,11 +2640,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M113A3 (MEV)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Crewman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Crewman_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Crewman_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Crewman_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
         };
@@ -2670,11 +2670,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M2A3";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Crewman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Crewman_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Crewman_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Crewman_01"; };
         };
 
 
@@ -2698,11 +2698,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M2A3 (BUSK I)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Crewman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Crewman_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Crewman_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Crewman_01"; };
         };
 
 
@@ -2726,11 +2726,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M2A3 (BUSK III)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Crewman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Crewman_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Crewman_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Crewman_01"; };
         };
 
 
@@ -2754,11 +2754,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M6A2 (AA)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Crewman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Crewman_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Crewman_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Crewman_01"; };
         };
 
 
@@ -2782,8 +2782,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1083A1P2";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -2811,8 +2811,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1083A1P2-B";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -2840,11 +2840,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1083A1P2-B (M2)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
         class Turrets : Turrets {
-            class M2_Turret : M2_Turret { gunnerType = "B_ManticoreFaction_Rifleman_01"; };
+            class M2_Turret : M2_Turret { gunnerType = "B_ManticoreFaction_Winter_Rifleman_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
         };
@@ -2870,8 +2870,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1083A1P2 (flatbed)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
 
         class EventHandlers : EventHandlers {
@@ -2893,8 +2893,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1083A1P2-B (flatbed)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
 
         class EventHandlers : EventHandlers {
@@ -2916,11 +2916,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1083A1P2-B (M2/flatbed)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
         class Turrets : Turrets {
-            class M2_Turret : M2_Turret { gunnerType = "B_ManticoreFaction_Rifleman_01"; };
+            class M2_Turret : M2_Turret { gunnerType = "B_ManticoreFaction_Winter_Rifleman_01"; };
         };
 
 
@@ -2944,8 +2944,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M977A4";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
 
         class EventHandlers : EventHandlers {
@@ -2967,8 +2967,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M977A4-B";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
 
         class EventHandlers : EventHandlers {
@@ -2990,11 +2990,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M977A4-B (M2)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
         class Turrets : Turrets {
-            class M2_Turret : M2_Turret { gunnerType = "B_ManticoreFaction_Rifleman_01"; };
+            class M2_Turret : M2_Turret { gunnerType = "B_ManticoreFaction_Winter_Rifleman_01"; };
         };
 
 
@@ -3018,8 +3018,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M977A4 (Repair)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
 
         class EventHandlers : EventHandlers {
@@ -3041,11 +3041,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M977A4-B (M2/Repair)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
         class Turrets : Turrets {
-            class M2_Turret : M2_Turret { gunnerType = "B_ManticoreFaction_Rifleman_01"; };
+            class M2_Turret : M2_Turret { gunnerType = "B_ManticoreFaction_Winter_Rifleman_01"; };
         };
 
 
@@ -3069,8 +3069,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M977A4 (Ammo)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
 
         class EventHandlers : EventHandlers {
@@ -3092,11 +3092,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M977A4-B (M2/Ammo)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
         class Turrets : Turrets {
-            class M2_Turret : M2_Turret { gunnerType = "B_ManticoreFaction_Rifleman_01"; };
+            class M2_Turret : M2_Turret { gunnerType = "B_ManticoreFaction_Winter_Rifleman_01"; };
         };
 
 
@@ -3120,8 +3120,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M978A4 (Fule)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
 
         class EventHandlers : EventHandlers {
@@ -3143,8 +3143,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M978A4-B (Fule)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
 
         class EventHandlers : EventHandlers {
@@ -3166,12 +3166,12 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M142 HIMARS";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Rifleman_01"; };
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = "B_ManticoreFaction_Rifleman_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Rifleman_01"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = "B_ManticoreFaction_Winter_Rifleman_01"; };
         };
 
 
@@ -3195,11 +3195,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M109A6";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Crewman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Crewman_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Crewman_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Crewman_01"; };
         };
 
 
@@ -3223,11 +3223,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "OH-6M";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Helicopter_Pilot_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Helicopter_Pilot_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Helicopter_Pilot_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Winter_Helicopter_Pilot_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
         };
@@ -3253,11 +3253,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "MH-6M";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Helicopter_Pilot_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Helicopter_Pilot_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Helicopter_Pilot_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Winter_Helicopter_Pilot_01"; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
             class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
             class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
@@ -3287,11 +3287,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "AH-6M";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Helicopter_Pilot_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Helicopter_Pilot_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Helicopter_Pilot_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Winter_Helicopter_Pilot_01"; };
         };
 
 
@@ -3315,13 +3315,13 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "CH-47F";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Helicopter_Pilot_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Helicopter_Pilot_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Helicopter_Pilot_01"; };
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Helicopter_Pilot_01"; };
-            class RightDoorGun : RightDoorGun { gunnerType = "B_ManticoreFaction_Helicopter_Pilot_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Winter_Helicopter_Pilot_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Helicopter_Pilot_01"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "B_ManticoreFaction_Winter_Helicopter_Pilot_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
         };
@@ -3347,13 +3347,13 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "UH-60M";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Helicopter_Pilot_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Helicopter_Pilot_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Helicopter_Pilot_01"; };
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Helicopter_Pilot_01"; };
-            class RightDoorGun : RightDoorGun { gunnerType = "B_ManticoreFaction_Helicopter_Pilot_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Winter_Helicopter_Pilot_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Helicopter_Pilot_01"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "B_ManticoreFaction_Winter_Helicopter_Pilot_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -3381,11 +3381,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "UH-60M (Unarmed)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Helicopter_Pilot_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Helicopter_Pilot_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Helicopter_Pilot_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Winter_Helicopter_Pilot_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -3413,11 +3413,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "UH-60M (EWS)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Helicopter_Pilot_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Helicopter_Pilot_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Helicopter_Pilot_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Winter_Helicopter_Pilot_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -3445,11 +3445,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "UH-60M (ESSS)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Helicopter_Pilot_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Helicopter_Pilot_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Helicopter_Pilot_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Winter_Helicopter_Pilot_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -3477,11 +3477,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "UH-60M MEV";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Helicopter_Pilot_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Helicopter_Pilot_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Helicopter_Pilot_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Winter_Helicopter_Pilot_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -3509,11 +3509,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "UH-60M MEV (ESSS)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Helicopter_Pilot_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Helicopter_Pilot_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Helicopter_Pilot_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Winter_Helicopter_Pilot_01"; };
         };
 
 
@@ -3537,11 +3537,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "AH-64D";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Helicopter_Pilot_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Helicopter_Pilot_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Helicopter_Pilot_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Helicopter_Pilot_01"; };
         };
 
 
@@ -3565,11 +3565,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "CH-53E";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Helicopter_Pilot_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Helicopter_Pilot_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Helicopter_Pilot_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Helicopter_Pilot_01"; };
         };
 
 
@@ -3593,13 +3593,13 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "UH-1Y";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Helicopter_Pilot_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Helicopter_Pilot_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Helicopter_Pilot_01"; };
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Helicopter_Pilot_01"; };
-            class RightDoorGun : RightDoorGun { gunnerType = "B_ManticoreFaction_Helicopter_Pilot_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Winter_Helicopter_Pilot_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Helicopter_Pilot_01"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "B_ManticoreFaction_Winter_Helicopter_Pilot_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -3629,11 +3629,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "UH-1Y (FFAR)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Helicopter_Pilot_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Helicopter_Pilot_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Helicopter_Pilot_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Winter_Helicopter_Pilot_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -3665,11 +3665,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "UH-1Y (Unarmed)";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Helicopter_Pilot_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Helicopter_Pilot_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Helicopter_Pilot_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "B_ManticoreFaction_Winter_Helicopter_Pilot_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -3701,11 +3701,11 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "AH-1Z";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Helicopter_Pilot_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Helicopter_Pilot_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Helicopter_Pilot_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Helicopter_Pilot_01"; };
         };
 
 
@@ -3729,16 +3729,16 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mk. V SOC";
         side = 1;
-        faction = "Manticore_Faction";
-        crew = "B_ManticoreFaction_Rifleman_01";
+        faction = "Manticore_Faction_Winter";
+        crew = "B_ManticoreFaction_Winter_Rifleman_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Rifleman_01"; };
-            class m2_s_gunTurret : m2_s_gunTurret { gunnerType = "B_ManticoreFaction_Rifleman_01"; };
-            class m134_p_gunTurret : m134_p_gunTurret { gunnerType = "B_ManticoreFaction_Rifleman_01"; };
-            class mk19_s_gunTurret : mk19_s_gunTurret { gunnerType = "B_ManticoreFaction_Rifleman_01"; };
-            class camera_b_gunTurret : camera_b_gunTurret { gunnerType = "B_ManticoreFaction_Rifleman_01"; };
-            class rem_spotL_gunTurret : rem_spotL_gunTurret { gunnerType = "B_ManticoreFaction_Rifleman_01"; };
+            class MainTurret : MainTurret { gunnerType = "B_ManticoreFaction_Winter_Rifleman_01"; };
+            class m2_s_gunTurret : m2_s_gunTurret { gunnerType = "B_ManticoreFaction_Winter_Rifleman_01"; };
+            class m134_p_gunTurret : m134_p_gunTurret { gunnerType = "B_ManticoreFaction_Winter_Rifleman_01"; };
+            class mk19_s_gunTurret : mk19_s_gunTurret { gunnerType = "B_ManticoreFaction_Winter_Rifleman_01"; };
+            class camera_b_gunTurret : camera_b_gunTurret { gunnerType = "B_ManticoreFaction_Winter_Rifleman_01"; };
+            class rem_spotL_gunTurret : rem_spotL_gunTurret { gunnerType = "B_ManticoreFaction_Winter_Rifleman_01"; };
         };
 
 
@@ -3762,7 +3762,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Manticam Winter Crye Uniform (m0)";
         side = 1;
-        faction = "Manticore_Faction";
+        faction = "Manticore_Faction_Winter";
 
         identityTypes[] = {"Head_NATO","G_NATO_default"};
 
@@ -3799,7 +3799,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Manticam Winter Crye Uniform (m1)";
         side = 1;
-        faction = "Manticore_Faction";
+        faction = "Manticore_Faction_Winter";
 
         identityTypes[] = {"Head_NATO","G_NATO_default"};
 
@@ -3836,7 +3836,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Manticam Winter Crye Uniform (m2)";
         side = 1;
-        faction = "Manticore_Faction";
+        faction = "Manticore_Faction_Winter";
 
         identityTypes[] = {"Head_NATO","G_NATO_default"};
 
@@ -3867,20 +3867,20 @@ class CfgVehicles {
 
     };
 
-    class B_ManticoreFaction_Rifleman_01 : B_Soldier_F_OCimport_02 {
+    class B_ManticoreFaction_Winter_Rifleman_01 : B_Soldier_F_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman";
         side = 1;
-        faction = "Manticore_Faction";
+        faction = "Manticore_Faction_Winter";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
-        uniformClass = "VSM_OGA_Crye_od_Camo";
+        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_01";
 
-        linkedItems[] = {"VSM_RAV_operator_OGA_OD","VSM_Mich2000_2_OGA_OD","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
-        respawnlinkedItems[] = {"VSM_RAV_operator_OGA_OD","VSM_Mich2000_2_OGA_OD","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        linkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        respawnlinkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
 
         weapons[] = {"hlc_rifle_G36KA1KSK","hlc_pistol_P226R_Combat","Rangefinder"};
         respawnWeapons[] = {"hlc_rifle_G36KA1KSK","hlc_pistol_P226R_Combat","Rangefinder"};
@@ -3888,7 +3888,7 @@ class CfgVehicles {
         magazines[] = {"hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226","hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226"};
         respawnMagazines[] = {"hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226","hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226"};
 
-        ALiVE_orbatCreator_loadout[] = {{"hlc_rifle_G36KA1KSK","","","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{},{"hlc_pistol_P226R_Combat","","","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"VSM_OGA_Crye_od_Camo",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"VSM_RAV_operator_OGA_OD",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",8,30}}},{},"VSM_Mich2000_2_OGA_OD","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
+        ALiVE_orbatCreator_loadout[] = {{"hlc_rifle_G36KA1KSK","","","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{},{"hlc_pistol_P226R_Combat","","","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",8,30}}},{},"Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
 
 
         class EventHandlers : EventHandlers {
@@ -3905,20 +3905,20 @@ class CfgVehicles {
 
     };
 
-    class B_ManticoreFaction_Squad_Leader_01 : B_Soldier_SL_F_OCimport_02 {
+    class B_ManticoreFaction_Winter_Squad_Leader_01 : B_Soldier_SL_F_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
         displayName = "Squad Leader";
         side = 1;
-        faction = "Manticore_Faction";
+        faction = "Manticore_Faction_Winter";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
-        uniformClass = "VSM_OGA_Crye_od_Camo";
+        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_01";
 
-        linkedItems[] = {"VSM_RAV_operator_OGA_OD","VSM_Mich2000_2_OGA_OD","ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
-        respawnlinkedItems[] = {"VSM_RAV_operator_OGA_OD","VSM_Mich2000_2_OGA_OD","ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        linkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        respawnlinkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
 
         weapons[] = {"HLC_Rifle_G36KSKAG36","hlc_pistol_P226R_Combat","Rangefinder"};
         respawnWeapons[] = {"HLC_Rifle_G36KSKAG36","hlc_pistol_P226R_Combat","Rangefinder"};
@@ -3926,9 +3926,9 @@ class CfgVehicles {
         magazines[] = {"hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226","hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226"};
         respawnMagazines[] = {"hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226","hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226"};
 
-        backpack = "VSM_OGA_OD_Backpack_Compact";
+        backpack = "Manticore_Uniform_Uniform_ManticamWinter_Kitbag_Med";
 
-        ALiVE_orbatCreator_loadout[] = {{"HLC_Rifle_G36KSKAG36","","","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{},{"hlc_pistol_P226R_Combat","","","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"VSM_OGA_Crye_od_Camo",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"VSM_RAV_operator_OGA_OD",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",3,30}}},{"VSM_OGA_OD_Backpack_Compact",{{"1Rnd_HE_Grenade_shell",15,1},{"UGL_FlareWhite_F",5,1},{"UGL_FlareGreen_F",2,1},{"UGL_FlareRed_F",2,1},{"UGL_FlareCIR_F",2,1},{"1Rnd_SmokeRed_Grenade_shell",5,1},{"ACE_HuntIR_M203",2,1},{"SmokeShellGreen",2,1},{"SmokeShellBlue",2,1},{"SmokeShell",2,1}}},"VSM_Mich2000_2_OGA_OD","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
+        ALiVE_orbatCreator_loadout[] = {{"HLC_Rifle_G36KSKAG36","","","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{},{"hlc_pistol_P226R_Combat","","","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",3,30}}},{"Manticore_Uniform_Uniform_ManticamWinter_Kitbag_Med",{{"1Rnd_HE_Grenade_shell",15,1},{"UGL_FlareWhite_F",5,1},{"UGL_FlareGreen_F",2,1},{"UGL_FlareRed_F",2,1},{"UGL_FlareCIR_F",2,1},{"1Rnd_SmokeRed_Grenade_shell",5,1},{"ACE_HuntIR_M203",2,1},{"SmokeShellGreen",2,1},{"SmokeShellBlue",2,1},{"SmokeShell",2,1}}},"Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
 
 
         class EventHandlers : EventHandlers {
@@ -3945,20 +3945,20 @@ class CfgVehicles {
 
     };
 
-    class B_ManticoreFaction_Grenadier_01 : B_Soldier_GL_F_OCimport_02 {
+    class B_ManticoreFaction_Winter_Grenadier_01 : B_Soldier_GL_F_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
         displayName = "Grenadier";
         side = 1;
-        faction = "Manticore_Faction";
+        faction = "Manticore_Faction_Winter";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
-        uniformClass = "VSM_OGA_Crye_od_Camo";
+        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_01";
 
-        linkedItems[] = {"VSM_RAV_operator_OGA_OD","VSM_Mich2000_2_OGA_OD","ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
-        respawnlinkedItems[] = {"VSM_RAV_operator_OGA_OD","VSM_Mich2000_2_OGA_OD","ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        linkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        respawnlinkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
 
         weapons[] = {"HLC_Rifle_G36KSKAG36","hlc_pistol_P226R_Combat","Rangefinder"};
         respawnWeapons[] = {"HLC_Rifle_G36KSKAG36","hlc_pistol_P226R_Combat","Rangefinder"};
@@ -3966,9 +3966,9 @@ class CfgVehicles {
         magazines[] = {"hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226","hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226"};
         respawnMagazines[] = {"hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226","hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226"};
 
-        backpack = "VSM_OGA_OD_Backpack_Compact";
+        backpack = "Manticore_Uniform_Uniform_ManticamWinter_Kitbag_Med";
 
-        ALiVE_orbatCreator_loadout[] = {{"HLC_Rifle_G36KSKAG36","","","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{},{"hlc_pistol_P226R_Combat","","","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"VSM_OGA_Crye_od_Camo",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"VSM_RAV_operator_OGA_OD",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",3,30}}},{"VSM_OGA_OD_Backpack_Compact",{{"1Rnd_HE_Grenade_shell",15,1},{"UGL_FlareWhite_F",5,1},{"UGL_FlareGreen_F",2,1},{"UGL_FlareRed_F",2,1},{"UGL_FlareCIR_F",2,1},{"1Rnd_SmokeRed_Grenade_shell",5,1},{"ACE_HuntIR_M203",2,1},{"SmokeShellGreen",2,1},{"SmokeShellBlue",2,1},{"SmokeShell",2,1}}},"VSM_Mich2000_2_OGA_OD","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
+        ALiVE_orbatCreator_loadout[] = {{"HLC_Rifle_G36KSKAG36","","","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{},{"hlc_pistol_P226R_Combat","","","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",3,30}}},{"Manticore_Uniform_Uniform_ManticamWinter_Kitbag_Med",{{"1Rnd_HE_Grenade_shell",15,1},{"UGL_FlareWhite_F",5,1},{"UGL_FlareGreen_F",2,1},{"UGL_FlareRed_F",2,1},{"UGL_FlareCIR_F",2,1},{"1Rnd_SmokeRed_Grenade_shell",5,1},{"ACE_HuntIR_M203",2,1},{"SmokeShellGreen",2,1},{"SmokeShellBlue",2,1},{"SmokeShell",2,1}}},"Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
 
 
         class EventHandlers : EventHandlers {
@@ -3985,20 +3985,20 @@ class CfgVehicles {
 
     };
 
-    class B_ManticoreFaction_Radio_Operator_01 : B_Soldier_TL_F_OCimport_02 {
+    class B_ManticoreFaction_Winter_Radio_Operator_01 : B_Soldier_TL_F_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
         displayName = "Radio Operator";
         side = 1;
-        faction = "Manticore_Faction";
+        faction = "Manticore_Faction_Winter";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
-        uniformClass = "VSM_OGA_Crye_od_Camo";
+        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_01";
 
-        linkedItems[] = {"VSM_RAV_operator_OGA_OD","VSM_Mich2000_2_OGA_OD","ItemMap","ItemAndroid","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
-        respawnlinkedItems[] = {"VSM_RAV_operator_OGA_OD","VSM_Mich2000_2_OGA_OD","ItemMap","ItemAndroid","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        linkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemAndroid","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        respawnlinkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemAndroid","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
 
         weapons[] = {"hlc_rifle_G36KA1KSK","hlc_pistol_P226R_Combat","Rangefinder"};
         respawnWeapons[] = {"hlc_rifle_G36KA1KSK","hlc_pistol_P226R_Combat","Rangefinder"};
@@ -4006,9 +4006,9 @@ class CfgVehicles {
         magazines[] = {"hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226","hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226"};
         respawnMagazines[] = {"hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226","hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226"};
 
-        backpack = "TFAR_rt1523g_bwmod";
+        backpack = "Manticore_Uniform_Uniform_ManticamWinter_rt1523g ";
 
-        ALiVE_orbatCreator_loadout[] = {{"hlc_rifle_G36KA1KSK","","","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{},{"hlc_pistol_P226R_Combat","","hlc_acc_TLR1","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"VSM_OGA_Crye_od_Camo",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"VSM_RAV_operator_OGA_OD",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",8,30}}},{"TFAR_rt1523g_bwmod",{{"ACE_fieldDressing",19},{"adv_aceCPR_AED",1},{"ACE_elasticBandage",1}}},"VSM_Mich2000_2_OGA_OD","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemAndroid","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
+        ALiVE_orbatCreator_loadout[] = {{"hlc_rifle_G36KA1KSK","","","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{},{"hlc_pistol_P226R_Combat","","hlc_acc_TLR1","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",8,30}}},{"Manticore_Uniform_Uniform_ManticamWinter_rt1523g ",{{"ACE_fieldDressing",19},{"adv_aceCPR_AED",1},{"ACE_elasticBandage",1}}},"Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemAndroid","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
 
 
         class EventHandlers : EventHandlers {
@@ -4025,20 +4025,20 @@ class CfgVehicles {
 
     };
 
-    class B_ManticoreFaction_Medic_01 : B_medic_F_OCimport_02 {
+    class B_ManticoreFaction_Winter_Medic_01 : B_medic_F_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
         displayName = "Medic";
         side = 1;
-        faction = "Manticore_Faction";
+        faction = "Manticore_Faction_Winter";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
-        uniformClass = "VSM_OGA_Crye_od_Camo";
+        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_01";
 
-        linkedItems[] = {"VSM_RAV_operator_OGA_OD","VSM_Mich2000_2_OGA_OD","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
-        respawnlinkedItems[] = {"VSM_RAV_operator_OGA_OD","VSM_Mich2000_2_OGA_OD","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        linkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        respawnlinkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
 
         weapons[] = {"hlc_rifle_G36KA1KSK","hlc_pistol_P226R_Combat","Rangefinder"};
         respawnWeapons[] = {"hlc_rifle_G36KA1KSK","hlc_pistol_P226R_Combat","Rangefinder"};
@@ -4048,7 +4048,7 @@ class CfgVehicles {
 
         backpack = "VSM_OGA_OD_Backpack_Kitbag";
 
-        ALiVE_orbatCreator_loadout[] = {{"hlc_rifle_G36KA1KSK","","","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{},{"hlc_pistol_P226R_Combat","","hlc_acc_TLR1","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"VSM_OGA_Crye_od_Camo",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"VSM_RAV_operator_OGA_OD",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",8,30}}},{"VSM_OGA_OD_Backpack_Kitbag",{{"ACE_fieldDressing",40},{"adv_aceCPR_AED",1},{"ACE_elasticBandage",40},{"ACE_quikclot",40},{"ACE_packingBandage",40},{"ACE_morphine",15},{"ACE_epinephrine",15},{"ACE_tourniquet",20},{"ACE_salineIV",2},{"ACE_salineIV_250",4},{"ACE_salineIV_500",2}}},"VSM_Mich2000_2_OGA_OD","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
+        ALiVE_orbatCreator_loadout[] = {{"hlc_rifle_G36KA1KSK","","","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{},{"hlc_pistol_P226R_Combat","","hlc_acc_TLR1","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",8,30}}},{"VSM_OGA_OD_Backpack_Kitbag",{{"ACE_fieldDressing",40},{"adv_aceCPR_AED",1},{"ACE_elasticBandage",40},{"ACE_quikclot",40},{"ACE_packingBandage",40},{"ACE_morphine",15},{"ACE_epinephrine",15},{"ACE_tourniquet",20},{"ACE_salineIV",2},{"ACE_salineIV_250",4},{"ACE_salineIV_500",2}}},"Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
 
 
         class EventHandlers : EventHandlers {
@@ -4065,20 +4065,20 @@ class CfgVehicles {
 
     };
 
-    class B_ManticoreFaction_Rifleman_AT_01 : B_soldier_LAT_F_OCimport_02 {
+    class B_ManticoreFaction_Winter_Rifleman_AT_01 : B_soldier_LAT_F_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman [AT]";
         side = 1;
-        faction = "Manticore_Faction";
+        faction = "Manticore_Faction_Winter";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
-        uniformClass = "VSM_OGA_Crye_od_Camo";
+        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_01";
 
-        linkedItems[] = {"VSM_RAV_operator_OGA_OD","VSM_Mich2000_2_OGA_OD","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
-        respawnlinkedItems[] = {"VSM_RAV_operator_OGA_OD","VSM_Mich2000_2_OGA_OD","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        linkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        respawnlinkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
 
         weapons[] = {"hlc_rifle_G36KA1KSK","rhs_weap_M136_hedp","hlc_pistol_P226R_Combat","Rangefinder"};
         respawnWeapons[] = {"hlc_rifle_G36KA1KSK","rhs_weap_M136_hedp","hlc_pistol_P226R_Combat","Rangefinder"};
@@ -4086,7 +4086,7 @@ class CfgVehicles {
         magazines[] = {"hlc_30rnd_556x45_EPR_G36","rhs_m136_hedp_mag","hlc_15Rnd_9x19_B_P226","hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226"};
         respawnMagazines[] = {"hlc_30rnd_556x45_EPR_G36","rhs_m136_hedp_mag","hlc_15Rnd_9x19_B_P226","hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226"};
 
-        ALiVE_orbatCreator_loadout[] = {{"hlc_rifle_G36KA1KSK","","","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{"rhs_weap_M136_hedp","","","",{"rhs_m136_hedp_mag",1},{},""},{"hlc_pistol_P226R_Combat","","hlc_acc_TLR1","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"VSM_OGA_Crye_od_Camo",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1},{"rhs_m136_hedp_mag",1,1}}},{"VSM_RAV_operator_OGA_OD",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",8,30}}},{},"VSM_Mich2000_2_OGA_OD","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
+        ALiVE_orbatCreator_loadout[] = {{"hlc_rifle_G36KA1KSK","","","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{"rhs_weap_M136_hedp","","","",{"rhs_m136_hedp_mag",1},{},""},{"hlc_pistol_P226R_Combat","","hlc_acc_TLR1","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1},{"rhs_m136_hedp_mag",1,1}}},{"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",8,30}}},{},"Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
 
 
         class EventHandlers : EventHandlers {
@@ -4103,20 +4103,20 @@ class CfgVehicles {
 
     };
 
-    class B_ManticoreFaction_AT_Specialist_01 : B_soldier_AT_F_OCimport_02 {
+    class B_ManticoreFaction_Winter_AT_Specialist_01 : B_soldier_AT_F_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
         displayName = "AT Specialist";
         side = 1;
-        faction = "Manticore_Faction";
+        faction = "Manticore_Faction_Winter";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
-        uniformClass = "VSM_OGA_Crye_od_Camo";
+        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_01";
 
-        linkedItems[] = {"VSM_RAV_operator_OGA_OD","VSM_Mich2000_2_OGA_OD","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
-        respawnlinkedItems[] = {"VSM_RAV_operator_OGA_OD","VSM_Mich2000_2_OGA_OD","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        linkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        respawnlinkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
 
         weapons[] = {"hlc_rifle_G36KA1KSK","launch_MRAWS_green_rail_F","hlc_pistol_P226R_Combat","Rangefinder"};
         respawnWeapons[] = {"hlc_rifle_G36KA1KSK","launch_MRAWS_green_rail_F","hlc_pistol_P226R_Combat","Rangefinder"};
@@ -4126,7 +4126,7 @@ class CfgVehicles {
 
         backpack = "VSM_OGA_OD_Backpack_Kitbag";
 
-        ALiVE_orbatCreator_loadout[] = {{"hlc_rifle_G36KA1KSK","","","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{"launch_MRAWS_green_rail_F","","","",{},{},""},{"hlc_pistol_P226R_Combat","","hlc_acc_TLR1","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"VSM_OGA_Crye_od_Camo",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"VSM_RAV_operator_OGA_OD",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",8,30}}},{"VSM_OGA_OD_Backpack_Kitbag",{{"MRAWS_HEAT_F",2,1},{"MRAWS_HE_F",3,1}}},"VSM_Mich2000_2_OGA_OD","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
+        ALiVE_orbatCreator_loadout[] = {{"hlc_rifle_G36KA1KSK","","","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{"launch_MRAWS_green_rail_F","","","",{},{},""},{"hlc_pistol_P226R_Combat","","hlc_acc_TLR1","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",8,30}}},{"VSM_OGA_OD_Backpack_Kitbag",{{"MRAWS_HEAT_F",2,1},{"MRAWS_HE_F",3,1}}},"Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
 
 
         class EventHandlers : EventHandlers {
@@ -4143,20 +4143,20 @@ class CfgVehicles {
 
     };
 
-    class B_ManticoreFaction_Machine_Gunner_MG2_01 : B_HeavyGunner_F_OCimport_02 {
+    class B_ManticoreFaction_Winter_Machine_Gunner_MG2_01 : B_HeavyGunner_F_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
         displayName = "Machine Gunner - MG2";
         side = 1;
-        faction = "Manticore_Faction";
+        faction = "Manticore_Faction_Winter";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
-        uniformClass = "VSM_OGA_Crye_od_Camo";
+        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_01";
 
-        linkedItems[] = {"VSM_RAV_operator_OGA_OD","VSM_Mich2000_2_OGA_OD","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
-        respawnlinkedItems[] = {"VSM_RAV_operator_OGA_OD","VSM_Mich2000_2_OGA_OD","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        linkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        respawnlinkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
 
         weapons[] = {"hlc_lmg_MG3KWS_b","hlc_pistol_P226R_Combat","Rangefinder"};
         respawnWeapons[] = {"hlc_lmg_MG3KWS_b","hlc_pistol_P226R_Combat","Rangefinder"};
@@ -4164,9 +4164,9 @@ class CfgVehicles {
         magazines[] = {"hlc_50Rnd_762x51_B_MG3","hlc_15Rnd_9x19_B_P226","hlc_50Rnd_762x51_B_MG3","hlc_15Rnd_9x19_B_P226"};
         respawnMagazines[] = {"hlc_50Rnd_762x51_B_MG3","hlc_15Rnd_9x19_B_P226","hlc_50Rnd_762x51_B_MG3","hlc_15Rnd_9x19_B_P226"};
 
-        backpack = "VSM_OGA_OD_Backpack_Kitbag";
+        backpack = "Manticore_Uniform_Uniform_ManticamWinter_Kitbag";
 
-        ALiVE_orbatCreator_loadout[] = {{"hlc_lmg_MG3KWS_b","","","",{"hlc_50Rnd_762x51_B_MG3",50},{},""},{},{"hlc_pistol_P226R_Combat","","","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"VSM_OGA_Crye_od_Camo",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"VSM_RAV_operator_OGA_OD",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_50Rnd_762x51_M_MG3",4,50}}},{"VSM_OGA_OD_Backpack_Kitbag",{{"hlc_100Rnd_762x51_B_MG3",1,100},{"hlc_250Rnd_762x51_M_MG3",1,250},{"hlc_50Rnd_762x51_M_MG3",4,50}}},"VSM_Mich2000_2_OGA_OD","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
+        ALiVE_orbatCreator_loadout[] = {{"hlc_lmg_MG3KWS_b","","","",{"hlc_50Rnd_762x51_B_MG3",50},{},""},{},{"hlc_pistol_P226R_Combat","","","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_50Rnd_762x51_M_MG3",4,50}}},{"Manticore_Uniform_Uniform_ManticamWinter_Kitbag",{{"hlc_100Rnd_762x51_B_MG3",1,100},{"hlc_250Rnd_762x51_M_MG3",1,250},{"hlc_50Rnd_762x51_M_MG3",4,50}}},"Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
 
 
         class EventHandlers : EventHandlers {
@@ -4183,20 +4183,20 @@ class CfgVehicles {
 
     };
 
-    class B_ManticoreFaction_Autorifleman_MG1_01 : B_soldier_AR_F_OCimport_02 {
+    class B_ManticoreFaction_Winter_Autorifleman_MG1_01 : B_soldier_AR_F_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
         displayName = "Autorifleman - MG1";
         side = 1;
-        faction = "Manticore_Faction";
+        faction = "Manticore_Faction_Winter";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
-        uniformClass = "VSM_OGA_Crye_od_Camo";
+        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_01";
 
-        linkedItems[] = {"VSM_RAV_operator_OGA_OD","VSM_Mich2000_2_OGA_OD","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
-        respawnlinkedItems[] = {"VSM_RAV_operator_OGA_OD","VSM_Mich2000_2_OGA_OD","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        linkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        respawnlinkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
 
         weapons[] = {"hlc_lmg_mk46","hlc_pistol_P226R_Combat","Rangefinder"};
         respawnWeapons[] = {"hlc_lmg_mk46","hlc_pistol_P226R_Combat","Rangefinder"};
@@ -4204,9 +4204,9 @@ class CfgVehicles {
         magazines[] = {"hlc_200rnd_556x45_M_SAW","hlc_15Rnd_9x19_B_P226","hlc_200rnd_556x45_M_SAW","hlc_15Rnd_9x19_B_P226"};
         respawnMagazines[] = {"hlc_200rnd_556x45_M_SAW","hlc_15Rnd_9x19_B_P226","hlc_200rnd_556x45_M_SAW","hlc_15Rnd_9x19_B_P226"};
 
-        backpack = "VSM_OGA_OD_Backpack_Kitbag";
+        backpack = "Manticore_Uniform_Uniform_ManticamWinter_Kitbag";
 
-        ALiVE_orbatCreator_loadout[] = {{"hlc_lmg_mk46","","","rhsusf_acc_su230",{"hlc_200rnd_556x45_M_SAW",200},{},""},{},{"hlc_pistol_P226R_Combat","","","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"VSM_OGA_Crye_od_Camo",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"VSM_RAV_operator_OGA_OD",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"200Rnd_556x45_Box_F",2,200}}},{"VSM_OGA_OD_Backpack_Kitbag",{{"200Rnd_556x45_Box_F",4,200}}},"VSM_Mich2000_2_OGA_OD","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
+        ALiVE_orbatCreator_loadout[] = {{"hlc_lmg_mk46","","","rhsusf_acc_su230",{"hlc_200rnd_556x45_M_SAW",200},{},""},{},{"hlc_pistol_P226R_Combat","","","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"200Rnd_556x45_Box_F",2,200}}},{"Manticore_Uniform_Uniform_ManticamWinter_Kitbag",{{"200Rnd_556x45_Box_F",4,200}}},"Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
 
 
         class EventHandlers : EventHandlers {
@@ -4223,20 +4223,20 @@ class CfgVehicles {
 
     };
 
-    class B_ManticoreFaction_Autorifleman_LSW_01 : B_soldier_AR_F_OCimport_02 {
+    class B_ManticoreFaction_Winter_Autorifleman_LSW_01 : B_soldier_AR_F_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
         displayName = "Autorifleman - LSW";
         side = 1;
-        faction = "Manticore_Faction";
+        faction = "Manticore_Faction_Winter";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
-        uniformClass = "VSM_OGA_Crye_od_Camo";
+        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_01";
 
-        linkedItems[] = {"VSM_RAV_operator_OGA_OD","VSM_Mich2000_2_OGA_OD","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
-        respawnlinkedItems[] = {"VSM_RAV_operator_OGA_OD","VSM_Mich2000_2_OGA_OD","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        linkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        respawnlinkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
 
         weapons[] = {"rhs_weap_m27iar","hlc_pistol_P226R_Combat","Rangefinder"};
         respawnWeapons[] = {"rhs_weap_m27iar","hlc_pistol_P226R_Combat","Rangefinder"};
@@ -4244,9 +4244,9 @@ class CfgVehicles {
         magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag","hlc_15Rnd_9x19_B_P226","rhs_mag_30Rnd_556x45_M855A1_Stanag","hlc_15Rnd_9x19_B_P226"};
         respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag","hlc_15Rnd_9x19_B_P226","rhs_mag_30Rnd_556x45_M855A1_Stanag","hlc_15Rnd_9x19_B_P226"};
 
-        backpack = "VSM_OGA_OD_Backpack_Compact";
+        backpack = "Manticore_Uniform_Uniform_ManticamWinter_CompactBag";
 
-        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_m27iar","","","rhsusf_acc_su230",{"rhs_mag_30Rnd_556x45_M855A1_Stanag",30},{},"rhsusf_acc_grip1"},{},{"hlc_pistol_P226R_Combat","","","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"VSM_OGA_Crye_od_Camo",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"VSM_RAV_operator_OGA_OD",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR",5,30}}},{"VSM_OGA_OD_Backpack_Compact",{{"hlc_50rnd_556x45_M",3,50},{"hlc_30rnd_556x45_EPR",2,30}}},"VSM_Mich2000_2_OGA_OD","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
+        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_m27iar","","","rhsusf_acc_su230",{"rhs_mag_30Rnd_556x45_M855A1_Stanag",30},{},"rhsusf_acc_grip1"},{},{"hlc_pistol_P226R_Combat","","","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR",5,30}}},{"Manticore_Uniform_Uniform_ManticamWinter_CompactBag",{{"hlc_50rnd_556x45_M",3,50},{"hlc_30rnd_556x45_EPR",2,30}}},"Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
 
 
         class EventHandlers : EventHandlers {
@@ -4263,20 +4263,20 @@ class CfgVehicles {
 
     };
 
-    class B_ManticoreFaction_Anti_Air_Specialist_01 : B_soldier_AA_F_OCimport_02 {
+    class B_ManticoreFaction_Winter_Anti_Air_Specialist_01 : B_soldier_AA_F_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
         displayName = "Anti-Air Specialist";
         side = 1;
-        faction = "Manticore_Faction";
+        faction = "Manticore_Faction_Winter";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
-        uniformClass = "VSM_OGA_Crye_od_Camo";
+        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_01";
 
-        linkedItems[] = {"VSM_RAV_operator_OGA_OD","VSM_Mich2000_2_OGA_OD","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
-        respawnlinkedItems[] = {"VSM_RAV_operator_OGA_OD","VSM_Mich2000_2_OGA_OD","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        linkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        respawnlinkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
 
         weapons[] = {"hlc_rifle_G36KA1KSK","rhs_weap_fim92","hlc_pistol_P226R_Combat","Rangefinder"};
         respawnWeapons[] = {"hlc_rifle_G36KA1KSK","rhs_weap_fim92","hlc_pistol_P226R_Combat","Rangefinder"};
@@ -4284,9 +4284,9 @@ class CfgVehicles {
         magazines[] = {"hlc_30rnd_556x45_EPR_G36","rhs_fim92_mag","hlc_15Rnd_9x19_B_P226","hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226"};
         respawnMagazines[] = {"hlc_30rnd_556x45_EPR_G36","rhs_fim92_mag","hlc_15Rnd_9x19_B_P226","hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226"};
 
-        backpack = "VSM_OGA_OD_Backpack_Kitbag";
+        backpack = "Manticore_Uniform_Uniform_ManticamWinter_Kitbag";
 
-        ALiVE_orbatCreator_loadout[] = {{"hlc_rifle_G36KA1KSK","","","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{"rhs_weap_fim92","","","",{"rhs_fim92_mag",1},{},""},{"hlc_pistol_P226R_Combat","","hlc_acc_TLR1","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"VSM_OGA_Crye_od_Camo",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"VSM_RAV_operator_OGA_OD",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",8,30}}},{"VSM_OGA_OD_Backpack_Kitbag",{{"rhs_fim92_mag",2,1}}},"VSM_Mich2000_2_OGA_OD","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
+        ALiVE_orbatCreator_loadout[] = {{"hlc_rifle_G36KA1KSK","","","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{"rhs_weap_fim92","","","",{"rhs_fim92_mag",1},{},""},{"hlc_pistol_P226R_Combat","","hlc_acc_TLR1","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",8,30}}},{"Manticore_Uniform_Uniform_ManticamWinter_Kitbag",{{"rhs_fim92_mag",2,1}}},"Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
 
 
         class EventHandlers : EventHandlers {
@@ -4303,13 +4303,13 @@ class CfgVehicles {
 
     };
 
-    class B_ManticoreFaction_Pilot_01 : B_Pilot_F_OCimport_02 {
+    class B_ManticoreFaction_Winter_Pilot_01 : B_Pilot_F_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
         displayName = "Pilot";
         side = 1;
-        faction = "Manticore_Faction";
+        faction = "Manticore_Faction_Winter";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -4341,20 +4341,20 @@ class CfgVehicles {
 
     };
 
-    class B_ManticoreFaction_Helicopter_Pilot_01 : B_Pilot_F_OCimport_02 {
+    class B_ManticoreFaction_Winter_Helicopter_Pilot_01 : B_Pilot_F_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
         displayName = "Helicopter Crew";
         side = 1;
-        faction = "Manticore_Faction";
+        faction = "Manticore_Faction_Winter";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
-        uniformClass = "VSM_OGA_Crye_od_Camo";
+        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_01";
 
-        linkedItems[] = {"VSM_RAV_operator_OGA_OD","rhsusf_hgu56p_visor_green","ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
-        respawnlinkedItems[] = {"VSM_RAV_operator_OGA_OD","rhsusf_hgu56p_visor_green","ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        linkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","rhsusf_hgu56p_visor_green","ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        respawnlinkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","rhsusf_hgu56p_visor_green","ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
 
         weapons[] = {"hlc_rifle_G36C","hlc_pistol_P226R_Combat","Rangefinder"};
         respawnWeapons[] = {"hlc_rifle_G36C","hlc_pistol_P226R_Combat","Rangefinder"};
@@ -4362,7 +4362,7 @@ class CfgVehicles {
         magazines[] = {"hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226","hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226"};
         respawnMagazines[] = {"hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226","hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226"};
 
-        ALiVE_orbatCreator_loadout[] = {{"hlc_rifle_G36C","","rhsusf_acc_anpeq15_bk","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{},{"hlc_pistol_P226R_Combat","","hlc_acc_TLR1","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"VSM_OGA_Crye_od_Camo",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"VSM_RAV_operator_OGA_OD",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",8,30}}},{},"rhsusf_hgu56p_visor_green","rhs_googles_orange",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
+        ALiVE_orbatCreator_loadout[] = {{"hlc_rifle_G36C","","rhsusf_acc_anpeq15_bk","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{},{"hlc_pistol_P226R_Combat","","hlc_acc_TLR1","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",8,30}}},{},"rhsusf_hgu56p_visor_green","rhs_googles_orange",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
 
 
         class EventHandlers : EventHandlers {
@@ -4379,20 +4379,20 @@ class CfgVehicles {
 
     };
 
-    class B_ManticoreFaction_Crewman_01 : B_crew_F_OCimport_02 {
+    class B_ManticoreFaction_Winter_Crewman_01 : B_crew_F_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
         displayName = "Crewman";
         side = 1;
-        faction = "Manticore_Faction";
+        faction = "Manticore_Faction_Winter";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
-        uniformClass = "VSM_OGA_Crye_od_Camo";
+        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_01";
 
-        linkedItems[] = {"VSM_RAV_operator_OGA_OD","H_HelmetCrew_I","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
-        respawnlinkedItems[] = {"VSM_RAV_operator_OGA_OD","H_HelmetCrew_I","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        linkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","H_HelmetCrew_I","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        respawnlinkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","H_HelmetCrew_I","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
 
         weapons[] = {"hlc_rifle_G36C","hlc_pistol_P226R_Combat","Rangefinder"};
         respawnWeapons[] = {"hlc_rifle_G36C","hlc_pistol_P226R_Combat","Rangefinder"};
@@ -4400,7 +4400,7 @@ class CfgVehicles {
         magazines[] = {"hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226","hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226"};
         respawnMagazines[] = {"hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226","hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226"};
 
-        ALiVE_orbatCreator_loadout[] = {{"hlc_rifle_G36C","","rhsusf_acc_anpeq15_bk","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{},{"hlc_pistol_P226R_Combat","","hlc_acc_TLR1","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"VSM_OGA_Crye_od_Camo",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"VSM_RAV_operator_OGA_OD",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",8,30}}},{},"H_HelmetCrew_I","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
+        ALiVE_orbatCreator_loadout[] = {{"hlc_rifle_G36C","","rhsusf_acc_anpeq15_bk","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{},{"hlc_pistol_P226R_Combat","","hlc_acc_TLR1","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",8,30}}},{},"H_HelmetCrew_I","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
 
 
         class EventHandlers : EventHandlers {
@@ -4417,20 +4417,20 @@ class CfgVehicles {
 
     };
 
-    class B_ManticoreFaction_Marksman_01 : B_soldier_M_F_OCimport_02 {
+    class B_ManticoreFaction_Winter_Marksman_01 : B_soldier_M_F_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
         displayName = "Marksman";
         side = 1;
-        faction = "Manticore_Faction";
+        faction = "Manticore_Faction_Winter";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
-        uniformClass = "VSM_OGA_Crye_od_Camo";
+        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_01";
 
-        linkedItems[] = {"VSM_RAV_operator_OGA_OD","VSM_Mich2000_2_OGA_OD","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
-        respawnlinkedItems[] = {"VSM_RAV_operator_OGA_OD","VSM_Mich2000_2_OGA_OD","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        linkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        respawnlinkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
 
         weapons[] = {"rhs_weap_sr25_wd","hlc_pistol_P226R_Combat","Rangefinder"};
         respawnWeapons[] = {"rhs_weap_sr25_wd","hlc_pistol_P226R_Combat","Rangefinder"};
@@ -4438,7 +4438,7 @@ class CfgVehicles {
         magazines[] = {"rhsusf_20Rnd_762x51_SR25_m118_special_Mag","hlc_15Rnd_9x19_B_P226","rhsusf_20Rnd_762x51_SR25_m118_special_Mag","hlc_15Rnd_9x19_B_P226"};
         respawnMagazines[] = {"rhsusf_20Rnd_762x51_SR25_m118_special_Mag","hlc_15Rnd_9x19_B_P226","rhsusf_20Rnd_762x51_SR25_m118_special_Mag","hlc_15Rnd_9x19_B_P226"};
 
-        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_sr25_wd","","rhsusf_acc_anpeq15side_bk","rhsusf_acc_su230",{"rhsusf_20Rnd_762x51_SR25_m118_special_Mag",20},{},"rhsusf_acc_harris_bipod"},{},{"hlc_pistol_P226R_Combat","","hlc_acc_TLR1","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"VSM_OGA_Crye_od_Camo",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"VSM_RAV_operator_OGA_OD",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"rhsusf_20Rnd_762x51_SR25_m118_special_Mag",5,20},{"rhsusf_20Rnd_762x51_SR25_m993_Mag",2,20}}},{},"VSM_Mich2000_2_OGA_OD","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
+        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_sr25_wd","","rhsusf_acc_anpeq15side_bk","rhsusf_acc_su230",{"rhsusf_20Rnd_762x51_SR25_m118_special_Mag",20},{},"rhsusf_acc_harris_bipod"},{},{"hlc_pistol_P226R_Combat","","hlc_acc_TLR1","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"rhsusf_20Rnd_762x51_SR25_m118_special_Mag",5,20},{"rhsusf_20Rnd_762x51_SR25_m993_Mag",2,20}}},{},"Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
 
 
         class EventHandlers : EventHandlers {
