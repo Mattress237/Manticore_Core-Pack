@@ -4,7 +4,7 @@ class CfgGroups {
     class WEST {
 
         class Manticore_Faction_Winter {
-            name = "Manticore";
+            name = "Manticore - Winter";
 
             class Infantry {
                 name = "Infantry";
