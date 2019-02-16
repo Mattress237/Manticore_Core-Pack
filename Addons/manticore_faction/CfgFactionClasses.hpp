@@ -1,5 +1,3 @@
-
-
 class CfgFactionClasses {
     class Manticore_Faction {
         displayName = "Manticore";

@@ -1,5 +1,3 @@
-
-
 class CfgGroups {
     class WEST {
 
