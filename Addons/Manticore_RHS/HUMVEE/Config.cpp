@@ -105,17 +105,17 @@ class CfgVehicles
 				{
 					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_M998Exterior_MantiDazzalWinter_00.paa",
 					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_M998Interior_MantiDazzalWinter_00.paa",
-					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_D_co.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_A2parts_MantiDazzalWinter_00.paa",
 					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_WheelWranglermt_MantiDazzalWinter_00.paa",
 					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_M998Mainbody_MantiDazzalWinter_00.paa",
 					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_Gratting_MantiDazzalWinter_00.paa",
 					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_TileExmetal_MantiDazzalWinter_00.paa",
-					"rhsusf\addons\rhsusf_hmmwv\textures\m1043_d_co.paa"
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_M1043_MantiDazzalWinter_00.paa"
 				};
 				factions[] = { "Manticore_Faction" };
 			};
 		};
-		textureList[] = { "RHS_Olive",0,"RHS_Woodland",0,"RHS_Desert",0 };
+		textureList[] = { "RHS_Olive",0,"RHS_Woodland",0,"RHS_Desert",0,"MantiDazzal_Winter",0 };
 	};
 	class Manticore_RHS_Humvee_M1043A2_M2 : rhsusf_m1043_w_s_m2
 	{
@@ -190,8 +190,25 @@ class CfgVehicles
 				};
 				factions[] = { "Manticore_Faction" };
 			};
+			class MantiDazzal_Winter
+			{
+				displayName = "Mantidazzal Winter";
+				textures[] =
+				{
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_M998Exterior_MantiDazzalWinter_00.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_M998Interior_MantiDazzalWinter_00.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_A2parts_MantiDazzalWinter_00.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_WheelWranglermt_MantiDazzalWinter_00.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_M998Mainbody_MantiDazzalWinter_00.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_Gratting_MantiDazzalWinter_00.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_TileExmetal_MantiDazzalWinter_00.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_M1043_MantiDazzalWinter_00.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_Mk64mount_MantiDazzalWinter_00.paa"
+				};
+				factions[] = { "Manticore_Faction" };
+			};
 		};
-		textureList[] = { "RHS_Olive",0,"RHS_Woodland",0,"RHS_Desert",0 };
+		textureList[] = { "RHS_Olive",0,"RHS_Woodland",0,"RHS_Desert",0,"MantiDazzal_Winter",0 };
 	};
 	class Manticore_RHS_Humvee_M1043A2_M19 : rhsusf_m1043_w_s_mk19
 	{
@@ -266,8 +283,25 @@ class CfgVehicles
 				};
 				factions[] = { "Manticore_Faction" };
 			};
+			class MantiDazzal_Winter
+			{
+				displayName = "Mantidazzal Winter";
+				textures[] =
+				{
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_M998Exterior_MantiDazzalWinter_00.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_M998Interior_MantiDazzalWinter_00.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_A2parts_MantiDazzalWinter_00.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_WheelWranglermt_MantiDazzalWinter_00.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_M998Mainbody_MantiDazzalWinter_00.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_Gratting_MantiDazzalWinter_00.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_TileExmetal_MantiDazzalWinter_00.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_M1043_MantiDazzalWinter_00.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_Mk64mount_MantiDazzalWinter_00.paa"
+				};
+				factions[] = { "Manticore_Faction" };
+			};
 		};
-		textureList[] = { "RHS_Olive",0,"RHS_Woodland",0,"RHS_Desert",0 };
+		textureList[] = { "RHS_Olive",0,"RHS_Woodland",0,"RHS_Desert",0,"MantiDazzal_Winter",0 };
 	};
 	class Manticore_RHS_Humvee_M1045A2_TOW : rhsusf_m1045_w_s
 	{
@@ -342,8 +376,25 @@ class CfgVehicles
 				};
 				factions[] = { "Manticore_Faction" };
 			};
+			class MantiDazzal_Winter
+			{
+				displayName = "Mantidazzal Winter";
+				textures[] =
+				{
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_M998Exterior_MantiDazzalWinter_00.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_M998Interior_MantiDazzalWinter_00.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_A2parts_MantiDazzalWinter_00.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_WheelWranglermt_MantiDazzalWinter_00.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_M998Mainbody_MantiDazzalWinter_00.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_Gratting_MantiDazzalWinter_00.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_TileExmetal_MantiDazzalWinter_00.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_M1043_MantiDazzalWinter_00.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_Mk64mount_MantiDazzalWinter_00.paa"
+				};
+				factions[] = { "Manticore_Faction" };
+			};
 		};
-		textureList[] = { "RHS_Olive",0,"RHS_Woodland",0,"RHS_Desert",0 };
+		textureList[] = { "RHS_Olive",0,"RHS_Woodland",0,"RHS_Desert",0,"MantiDazzal_Winter",0 };
 	};
 
 	class Manticore_RHS_Humvee_M1123_2D_Open : rhsusf_m998_w_s_2dr
@@ -416,6 +467,23 @@ class CfgVehicles
 					"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_d_co.paa",
 					"rhsusf\addons\rhsusf_hmmwv\textures\m998_2drcargo_d_co.paa",
 					"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa"
+				};
+				factions[] = { "Manticore_Faction" };
+			};
+			class MantiDazzal_Winter
+			{
+				displayName = "MantiDazzal Winter";
+				textures[] =
+				{
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_M998Exterior_MantiDazzalWinter_00.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_M998Interior_MantiDazzalWinter_00.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_A2parts_MantiDazzalWinter_00.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_WheelWranglermt_MantiDazzalWinter_00.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_M998Mainbody_MantiDazzalWinter_00.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_Gratting_MantiDazzalWinter_00.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_interiorwood_MantiDazzalWinter_00.paa",
+					"rhsusf\addons\rhsusf_hmmwv\textures\m998_2drcargo_d_co.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_TileExmetal_MantiDazzalWinter_00.paa"
 				};
 				factions[] = { "Manticore_Faction" };
 			};
@@ -655,7 +723,7 @@ class CfgVehicles
 				{
 					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_M998Exterior_MantiDazzalWinter_00.paa",
 					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_M998Interior_MantiDazzalWinter_00.paa",
-					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_WD_co.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_A2parts_MantiDazzalWinter_00.paa",
 					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_WheelWranglermt_MantiDazzalWinter_00.paa",
 					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_M998Mainbody_MantiDazzalWinter_00.paa",
 					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_Gratting_MantiDazzalWinter_00.paa",
@@ -748,7 +816,7 @@ class CfgVehicles
 				{
 					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_M998Exterior_MantiDazzalWinter_00.paa",
 					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_M998Interior_MantiDazzalWinter_00.paa",
-					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_WD_co.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_A2parts_MantiDazzalWinter_00.paa",
 					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_WheelWranglermt_MantiDazzalWinter_00.paa",
 					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_M998Mainbody_MantiDazzalWinter_00.paa",
 					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_Gratting_MantiDazzalWinter_00.paa",
@@ -841,7 +909,7 @@ class CfgVehicles
 				{
 					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_M998Exterior_MantiDazzalWinter_00.paa",
 					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_M998Interior_MantiDazzalWinter_00.paa",
-					"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_WD_co.paa",
+					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_A2parts_MantiDazzalWinter_00.paa",
 					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_WheelWranglermt_MantiDazzalWinter_00.paa",
 					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_M998Mainbody_MantiDazzalWinter_00.paa",
 					"\Manticore_RHS\HUMVEE\Data\Winter\RHS_Humvee_Gratting_MantiDazzalWinter_00.paa",
