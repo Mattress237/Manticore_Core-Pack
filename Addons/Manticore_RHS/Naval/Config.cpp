@@ -19,7 +19,7 @@ class CfgVehicles
 {
 	class rhsusf_mkvsoc;
 
-	class Manticore_RHS_Naval_MkVSOC : rhsusf_mkvsoc
+	class Manticore_MkVSOC_Base : rhsusf_mkvsoc
 	{
 		displayName = "Mk. V SOC";
 		scope = 1;

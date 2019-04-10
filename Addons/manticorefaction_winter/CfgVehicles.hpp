@@ -309,8 +309,8 @@ class CfgVehicles {
         };
     };
 
-    class Manticore_RHS_Humvee_M1043A2;
-    class Manticore_RHS_Humvee_M1043A2_OCimport_01 : Manticore_RHS_Humvee_M1043A2 { scope = 0; class EventHandlers; class Turrets; };
+    class Manticore_M1043A2_Base;
+    class Manticore_RHS_Humvee_M1043A2_OCimport_01 : Manticore_M1043A2_Base { scope = 0; class EventHandlers; class Turrets; };
     class Manticore_RHS_Humvee_M1043A2_OCimport_02 : Manticore_RHS_Humvee_M1043A2_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
@@ -320,8 +320,8 @@ class CfgVehicles {
         };
     };
 
-    class Manticore_RHS_Humvee_M1043A2_M2;
-    class Manticore_RHS_Humvee_M1043A2_M2_OCimport_01 : Manticore_RHS_Humvee_M1043A2_M2 { scope = 0; class EventHandlers; class Turrets; };
+    class Manticore_M1043A2M2_Base;
+    class Manticore_RHS_Humvee_M1043A2_M2_OCimport_01 : Manticore_M1043A2M2_Base { scope = 0; class EventHandlers; class Turrets; };
     class Manticore_RHS_Humvee_M1043A2_M2_OCimport_02 : Manticore_RHS_Humvee_M1043A2_M2_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
@@ -332,8 +332,8 @@ class CfgVehicles {
         };
     };
 
-    class Manticore_RHS_Humvee_M1043A2_M19;
-    class Manticore_RHS_Humvee_M1043A2_M19_OCimport_01 : Manticore_RHS_Humvee_M1043A2_M19 { scope = 0; class EventHandlers; class Turrets; };
+    class Manticore_M1043A2M19_Base;
+    class Manticore_RHS_Humvee_M1043A2_M19_OCimport_01 : Manticore_M1043A2M19_Base { scope = 0; class EventHandlers; class Turrets; };
     class Manticore_RHS_Humvee_M1043A2_M19_OCimport_02 : Manticore_RHS_Humvee_M1043A2_M19_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
@@ -344,8 +344,8 @@ class CfgVehicles {
         };
     };
 
-    class Manticore_RHS_Humvee_M1045A2_TOW;
-    class Manticore_RHS_Humvee_M1045A2_TOW_OCimport_01 : Manticore_RHS_Humvee_M1045A2_TOW { scope = 0; class EventHandlers; class Turrets; };
+    class Manticore_M1045A2TOW_Base;
+    class Manticore_RHS_Humvee_M1045A2_TOW_OCimport_01 : Manticore_M1045A2TOW_Base { scope = 0; class EventHandlers; class Turrets; };
     class Manticore_RHS_Humvee_M1045A2_TOW_OCimport_02 : Manticore_RHS_Humvee_M1045A2_TOW_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
@@ -356,8 +356,8 @@ class CfgVehicles {
         };
     };
 
-    class Manticore_RHS_Humvee_M1123_2D_Open;
-    class Manticore_RHS_Humvee_M1123_2D_Open_OCimport_01 : Manticore_RHS_Humvee_M1123_2D_Open { scope = 0; class EventHandlers; class Turrets; };
+    class Manticore_M11232DOpen_Base;
+    class Manticore_RHS_Humvee_M1123_2D_Open_OCimport_01 : Manticore_M11232DOpen_Base { scope = 0; class EventHandlers; class Turrets; };
     class Manticore_RHS_Humvee_M1123_2D_Open_OCimport_02 : Manticore_RHS_Humvee_M1123_2D_Open_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
@@ -367,8 +367,8 @@ class CfgVehicles {
         };
     };
 
-    class Manticore_RHS_Humvee_M1123_2D_Half;
-    class Manticore_RHS_Humvee_M1123_2D_Half_OCimport_01 : Manticore_RHS_Humvee_M1123_2D_Half { scope = 0; class EventHandlers; class Turrets; };
+    class Manticore_M11232DHalf_Base;
+    class Manticore_RHS_Humvee_M1123_2D_Half_OCimport_01 : Manticore_M11232DHalf_Base { scope = 0; class EventHandlers; class Turrets; };
     class Manticore_RHS_Humvee_M1123_2D_Half_OCimport_02 : Manticore_RHS_Humvee_M1123_2D_Half_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
@@ -377,8 +377,8 @@ class CfgVehicles {
         };
     };
 
-    class Manticore_RHS_Humvee_M1123_2D_Full;
-    class Manticore_RHS_Humvee_M1123_2D_Full_OCimport_01 : Manticore_RHS_Humvee_M1123_2D_Full { scope = 0; class EventHandlers; class Turrets; };
+    class Manticore_M11232DFull_Base;
+    class Manticore_RHS_Humvee_M1123_2D_Full_OCimport_01 : Manticore_M11232DFull_Base { scope = 0; class EventHandlers; class Turrets; };
     class Manticore_RHS_Humvee_M1123_2D_Full_OCimport_02 : Manticore_RHS_Humvee_M1123_2D_Full_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
@@ -387,8 +387,8 @@ class CfgVehicles {
         };
     };
 
-    class Manticore_RHS_Humvee_M1123_4D_Open;
-    class Manticore_RHS_Humvee_M1123_4D_Open_OCimport_01 : Manticore_RHS_Humvee_M1123_4D_Open { scope = 0; class EventHandlers; class Turrets; };
+    class Manticore_M11234DOpen_Base;
+    class Manticore_RHS_Humvee_M1123_4D_Open_OCimport_01 : Manticore_M11234DOpen_Base { scope = 0; class EventHandlers; class Turrets; };
     class Manticore_RHS_Humvee_M1123_4D_Open_OCimport_02 : Manticore_RHS_Humvee_M1123_4D_Open_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
@@ -400,8 +400,8 @@ class CfgVehicles {
         };
     };
 
-    class Manticore_RHS_Humvee_M1123_4D_Half;
-    class Manticore_RHS_Humvee_M1123_4D_Half_OCimport_01 : Manticore_RHS_Humvee_M1123_4D_Half { scope = 0; class EventHandlers; class Turrets; };
+    class Manticore_M11234DHalf_Base;
+    class Manticore_RHS_Humvee_M1123_4D_Half_OCimport_01 : Manticore_M11234DHalf_Base { scope = 0; class EventHandlers; class Turrets; };
     class Manticore_RHS_Humvee_M1123_4D_Half_OCimport_02 : Manticore_RHS_Humvee_M1123_4D_Half_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
@@ -410,12 +410,12 @@ class CfgVehicles {
         };
     };
 
-    class Manticore_RHS_Humvee_M1123_4D_Full;
-    class Manticore_RHS_Humvee_M1123_4D_Full_OCimport_01 : Manticore_RHS_Humvee_M1123_4D_Full { scope = 0; class EventHandlers; };
+    class Manticore_M11234DFull_Base;
+    class Manticore_RHS_Humvee_M1123_4D_Full_OCimport_01 : Manticore_M11234DFull_Base { scope = 0; class EventHandlers; };
     class Manticore_RHS_Humvee_M1123_4D_Full_OCimport_02 : Manticore_RHS_Humvee_M1123_4D_Full_OCimport_01 { scope = 0; class EventHandlers; };
 
-    class Manticore_RHS_Mrap_Cat1A2;
-    class Manticore_RHS_Mrap_Cat1A2_OCimport_01 : Manticore_RHS_Mrap_Cat1A2 { scope = 0; class EventHandlers; class Turrets; };
+    class Manticore_Cat1A2_Base;
+    class Manticore_RHS_Mrap_Cat1A2_OCimport_01 : Manticore_Cat1A2_Base { scope = 0; class EventHandlers; class Turrets; };
     class Manticore_RHS_Mrap_Cat1A2_OCimport_02 : Manticore_RHS_Mrap_Cat1A2_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
@@ -423,8 +423,8 @@ class CfgVehicles {
         };
     };
 
-    class Manticore_RHS_Mrap_Cat1A2_M2;
-    class Manticore_RHS_Mrap_Cat1A2_M2_OCimport_01 : Manticore_RHS_Mrap_Cat1A2_M2 { scope = 0; class EventHandlers; class Turrets; };
+    class Manticore_Cat1A2_M2_Base;
+    class Manticore_RHS_Mrap_Cat1A2_M2_OCimport_01 : Manticore_Cat1A2_M2_Base { scope = 0; class EventHandlers; class Turrets; };
     class Manticore_RHS_Mrap_Cat1A2_M2_OCimport_02 : Manticore_RHS_Mrap_Cat1A2_M2_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
@@ -433,8 +433,8 @@ class CfgVehicles {
         };
     };
 
-    class Manticore_RHS_Mrap_Cat1A2_Mk19;
-    class Manticore_RHS_Mrap_Cat1A2_Mk19_OCimport_01 : Manticore_RHS_Mrap_Cat1A2_Mk19 { scope = 0; class EventHandlers; class Turrets; };
+    class Manticore_Cat1A2Mk19_Base;
+    class Manticore_RHS_Mrap_Cat1A2_Mk19_OCimport_01 : Manticore_Cat1A2Mk19_Base { scope = 0; class EventHandlers; class Turrets; };
     class Manticore_RHS_Mrap_Cat1A2_Mk19_OCimport_02 : Manticore_RHS_Mrap_Cat1A2_Mk19_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
@@ -443,12 +443,12 @@ class CfgVehicles {
         };
     };
 
-    class Manticore_RHS_Mrap_M1220;
-    class Manticore_RHS_Mrap_M1220_OCimport_01 : Manticore_RHS_Mrap_M1220 { scope = 0; class EventHandlers; };
+    class Manticore_M1220_Base;
+    class Manticore_RHS_Mrap_M1220_OCimport_01 : Manticore_M1220_Base { scope = 0; class EventHandlers; };
     class Manticore_RHS_Mrap_M1220_OCimport_02 : Manticore_RHS_Mrap_M1220_OCimport_01 { scope = 0; class EventHandlers; };
 
-    class Manticore_RHS_Mrap_M1220_M2;
-    class Manticore_RHS_Mrap_M1220_M2_OCimport_01 : Manticore_RHS_Mrap_M1220_M2 { scope = 0; class EventHandlers; class Turrets; };
+    class Manticore_M1220M2_Base;
+    class Manticore_RHS_Mrap_M1220_M2_OCimport_01 : Manticore_M1220M2_Base { scope = 0; class EventHandlers; class Turrets; };
     class Manticore_RHS_Mrap_M1220_M2_OCimport_02 : Manticore_RHS_Mrap_M1220_M2_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
@@ -456,8 +456,8 @@ class CfgVehicles {
         };
     };
 
-    class Manticore_RHS_Mrap_M1220_M2CROW;
-    class Manticore_RHS_Mrap_M1220_M2CROW_OCimport_01 : Manticore_RHS_Mrap_M1220_M2CROW { scope = 0; class EventHandlers; class Turrets; };
+    class Manticore_M1220M2CROW_Base;
+    class Manticore_RHS_Mrap_M1220_M2CROW_OCimport_01 : Manticore_M1220M2CROW_Base { scope = 0; class EventHandlers; class Turrets; };
     class Manticore_RHS_Mrap_M1220_M2CROW_OCimport_02 : Manticore_RHS_Mrap_M1220_M2CROW_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
@@ -465,8 +465,8 @@ class CfgVehicles {
         };
     };
 
-    class Manticore_RHS_Mrap_M1220_M19;
-    class Manticore_RHS_Mrap_M1220_M19_OCimport_01 : Manticore_RHS_Mrap_M1220_M19 { scope = 0; class EventHandlers; class Turrets; };
+    class Manticore_M1220M19_Base;
+    class Manticore_RHS_Mrap_M1220_M19_OCimport_01 : Manticore_M1220M19_Base { scope = 0; class EventHandlers; class Turrets; };
     class Manticore_RHS_Mrap_M1220_M19_OCimport_02 : Manticore_RHS_Mrap_M1220_M19_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
@@ -474,8 +474,8 @@ class CfgVehicles {
         };
     };
 
-    class Manticore_RHS_Mrap_M1230_M2;
-    class Manticore_RHS_Mrap_M1230_M2_OCimport_01 : Manticore_RHS_Mrap_M1230_M2 { scope = 0; class EventHandlers; class Turrets; };
+    class Manticore_M1230M2_Base;
+    class Manticore_RHS_Mrap_M1230_M2_OCimport_01 : Manticore_M1230M2_Base { scope = 0; class EventHandlers; class Turrets; };
     class Manticore_RHS_Mrap_M1230_M2_OCimport_02 : Manticore_RHS_Mrap_M1230_M2_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
@@ -483,8 +483,8 @@ class CfgVehicles {
         };
     };
 
-    class Manticore_RHS_Mrap_M1230_M19;
-    class Manticore_RHS_Mrap_M1230_M19_OCimport_01 : Manticore_RHS_Mrap_M1230_M19 { scope = 0; class EventHandlers; class Turrets; };
+    class Manticore_M1230M19_Base;
+    class Manticore_RHS_Mrap_M1230_M19_OCimport_01 : Manticore_M1230M19_Base { scope = 0; class EventHandlers; class Turrets; };
     class Manticore_RHS_Mrap_M1230_M19_OCimport_02 : Manticore_RHS_Mrap_M1230_M19_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
@@ -492,8 +492,8 @@ class CfgVehicles {
         };
     };
 
-    class Manticore_RHS_Mrap_M1220A1_Medical;
-    class Manticore_RHS_Mrap_M1220A1_Medical_OCimport_01 : Manticore_RHS_Mrap_M1220A1_Medical { scope = 0; class EventHandlers; };
+    class Manticore_M1220A1Med_Base;
+    class Manticore_RHS_Mrap_M1220A1_Medical_OCimport_01 : Manticore_M1220A1Med_Base { scope = 0; class EventHandlers; };
     class Manticore_RHS_Mrap_M1220A1_Medical_OCimport_02 : Manticore_RHS_Mrap_M1220A1_Medical_OCimport_01 { scope = 0; class EventHandlers; };
 
     class Manticore_M113A3Unarmed_Base;
@@ -562,8 +562,8 @@ class CfgVehicles {
         };
     };
 
-    class Manticore_RHS_IFV_M2A3;
-    class Manticore_RHS_IFV_M2A3_OCimport_01 : Manticore_RHS_IFV_M2A3 { scope = 0; class EventHandlers; class Turrets; };
+    class Manticore_M2A3_Base;
+    class Manticore_RHS_IFV_M2A3_OCimport_01 : Manticore_M2A3_Base { scope = 0; class EventHandlers; class Turrets; };
     class Manticore_RHS_IFV_M2A3_OCimport_02 : Manticore_RHS_IFV_M2A3_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
@@ -571,8 +571,8 @@ class CfgVehicles {
         };
     };
 
-    class Manticore_RHS_IFV_M2A3_BUSKI;
-    class Manticore_RHS_IFV_M2A3_BUSKI_OCimport_01 : Manticore_RHS_IFV_M2A3_BUSKI { scope = 0; class EventHandlers; class Turrets; };
+    class Manticore_M2A3BUSKI_Base;
+    class Manticore_RHS_IFV_M2A3_BUSKI_OCimport_01 : Manticore_M2A3BUSKI_Base { scope = 0; class EventHandlers; class Turrets; };
     class Manticore_RHS_IFV_M2A3_BUSKI_OCimport_02 : Manticore_RHS_IFV_M2A3_BUSKI_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
@@ -580,8 +580,8 @@ class CfgVehicles {
         };
     };
 
-    class Manticore_RHS_IFV_M2A3_BUSKIII;
-    class Manticore_RHS_IFV_M2A3_BUSKIII_OCimport_01 : Manticore_RHS_IFV_M2A3_BUSKIII { scope = 0; class EventHandlers; class Turrets; };
+    class Manticore_M2A3BUSKIII_Base;
+    class Manticore_RHS_IFV_M2A3_BUSKIII_OCimport_01 : Manticore_M2A3BUSKIII_Base { scope = 0; class EventHandlers; class Turrets; };
     class Manticore_RHS_IFV_M2A3_BUSKIII_OCimport_02 : Manticore_RHS_IFV_M2A3_BUSKIII_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
@@ -589,8 +589,8 @@ class CfgVehicles {
         };
     };
 
-    class Manticore_RHS_IFV_M6A2;
-    class Manticore_RHS_IFV_M6A2_OCimport_01 : Manticore_RHS_IFV_M6A2 { scope = 0; class EventHandlers; class Turrets; };
+    class Manticore_M6A2_Base;
+    class Manticore_RHS_IFV_M6A2_OCimport_01 : Manticore_M6A2_Base { scope = 0; class EventHandlers; class Turrets; };
     class Manticore_RHS_IFV_M6A2_OCimport_02 : Manticore_RHS_IFV_M6A2_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
@@ -598,8 +598,8 @@ class CfgVehicles {
         };
     };
 
-    class Manticore_RHS_Truck_M1083A1P2;
-    class Manticore_RHS_Truck_M1083A1P2_OCimport_01 : Manticore_RHS_Truck_M1083A1P2 { scope = 0; class EventHandlers; class Turrets; };
+    class Manticore_M1083A1P2_Base;
+    class Manticore_RHS_Truck_M1083A1P2_OCimport_01 : Manticore_M1083A1P2_Base { scope = 0; class EventHandlers; class Turrets; };
     class Manticore_RHS_Truck_M1083A1P2_OCimport_02 : Manticore_RHS_Truck_M1083A1P2_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
@@ -608,8 +608,8 @@ class CfgVehicles {
         };
     };
 
-    class Manticore_RHS_Truck_M1083A1P2_B;
-    class Manticore_RHS_Truck_M1083A1P2_B_OCimport_01 : Manticore_RHS_Truck_M1083A1P2_B { scope = 0; class EventHandlers; class Turrets; };
+    class Manticore_M1083A1P2B_Base;
+    class Manticore_RHS_Truck_M1083A1P2_B_OCimport_01 : Manticore_M1083A1P2B_Base { scope = 0; class EventHandlers; class Turrets; };
     class Manticore_RHS_Truck_M1083A1P2_B_OCimport_02 : Manticore_RHS_Truck_M1083A1P2_B_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
@@ -618,8 +618,8 @@ class CfgVehicles {
         };
     };
 
-    class Manticore_RHS_Truck_M1083A1P2_B_M2;
-    class Manticore_RHS_Truck_M1083A1P2_B_M2_OCimport_01 : Manticore_RHS_Truck_M1083A1P2_B_M2 { scope = 0; class EventHandlers; class Turrets; };
+    class Manticore_M1083A1P2BM2_Base;
+    class Manticore_RHS_Truck_M1083A1P2_B_M2_OCimport_01 : Manticore_M1083A1P2BM2_Base { scope = 0; class EventHandlers; class Turrets; };
     class Manticore_RHS_Truck_M1083A1P2_B_M2_OCimport_02 : Manticore_RHS_Truck_M1083A1P2_B_M2_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
@@ -629,16 +629,16 @@ class CfgVehicles {
         };
     };
 
-    class Manticore_RHS_Truck_M1083A1P2_Flatbed;
-    class Manticore_RHS_Truck_M1083A1P2_Flatbed_OCimport_01 : Manticore_RHS_Truck_M1083A1P2_Flatbed { scope = 0; class EventHandlers; };
+    class Manticore_M1083A1P2Flatbed_Base;
+    class Manticore_RHS_Truck_M1083A1P2_Flatbed_OCimport_01 : Manticore_M1083A1P2Flatbed_Base { scope = 0; class EventHandlers; };
     class Manticore_RHS_Truck_M1083A1P2_Flatbed_OCimport_02 : Manticore_RHS_Truck_M1083A1P2_Flatbed_OCimport_01 { scope = 0; class EventHandlers; };
 
-    class Manticore_RHS_Truck_M1083A1P2_B_Flatbed;
-    class Manticore_RHS_Truck_M1083A1P2_B_Flatbed_OCimport_01 : Manticore_RHS_Truck_M1083A1P2_B_Flatbed { scope = 0; class EventHandlers; };
+    class Manticore_M1083A1P2BFlatbed_Base;
+    class Manticore_RHS_Truck_M1083A1P2_B_Flatbed_OCimport_01 : Manticore_M1083A1P2BFlatbed_Base { scope = 0; class EventHandlers; };
     class Manticore_RHS_Truck_M1083A1P2_B_Flatbed_OCimport_02 : Manticore_RHS_Truck_M1083A1P2_B_Flatbed_OCimport_01 { scope = 0; class EventHandlers; };
 
-    class Manticore_RHS_Truck_M1083A1P2_B_M2_Flatbed;
-    class Manticore_RHS_Truck_M1083A1P2_B_M2_Flatbed_OCimport_01 : Manticore_RHS_Truck_M1083A1P2_B_M2_Flatbed { scope = 0; class EventHandlers; class Turrets; };
+    class Manticore_M1083A1P2BM2Flatbed_Base;
+    class Manticore_RHS_Truck_M1083A1P2_B_M2_Flatbed_OCimport_01 : Manticore_M1083A1P2BM2Flatbed_Base { scope = 0; class EventHandlers; class Turrets; };
     class Manticore_RHS_Truck_M1083A1P2_B_M2_Flatbed_OCimport_02 : Manticore_RHS_Truck_M1083A1P2_B_M2_Flatbed_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
@@ -646,16 +646,16 @@ class CfgVehicles {
         };
     };
 
-    class Manticore_RHS_Truck_M977A4;
-    class Manticore_RHS_Truck_M977A4_OCimport_01 : Manticore_RHS_Truck_M977A4 { scope = 0; class EventHandlers; };
+    class Manticore_M977A4_Base;
+    class Manticore_RHS_Truck_M977A4_OCimport_01 : Manticore_M977A4_Base { scope = 0; class EventHandlers; };
     class Manticore_RHS_Truck_M977A4_OCimport_02 : Manticore_RHS_Truck_M977A4_OCimport_01 { scope = 0; class EventHandlers; };
 
-    class Manticore_RHS_Truck_M977A4_B;
-    class Manticore_RHS_Truck_M977A4_B_OCimport_01 : Manticore_RHS_Truck_M977A4_B { scope = 0; class EventHandlers; };
+    class Manticore_M977A4B_Base;
+    class Manticore_RHS_Truck_M977A4_B_OCimport_01 : Manticore_M977A4B_Base { scope = 0; class EventHandlers; };
     class Manticore_RHS_Truck_M977A4_B_OCimport_02 : Manticore_RHS_Truck_M977A4_B_OCimport_01 { scope = 0; class EventHandlers; };
 
-    class Manticore_RHS_Truck_M977A4_B_M2;
-    class Manticore_RHS_Truck_M977A4_B_M2_OCimport_01 : Manticore_RHS_Truck_M977A4_B_M2 { scope = 0; class EventHandlers; class Turrets; };
+    class Manticore_M977A4BM2_Base;
+    class Manticore_RHS_Truck_M977A4_B_M2_OCimport_01 : Manticore_M977A4BM2_Base { scope = 0; class EventHandlers; class Turrets; };
     class Manticore_RHS_Truck_M977A4_B_M2_OCimport_02 : Manticore_RHS_Truck_M977A4_B_M2_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
@@ -663,12 +663,12 @@ class CfgVehicles {
         };
     };
 
-    class Manticore_RHS_Truck_M977A4_Repair;
-    class Manticore_RHS_Truck_M977A4_Repair_OCimport_01 : Manticore_RHS_Truck_M977A4_Repair { scope = 0; class EventHandlers; };
+    class Manticore_M977A4Repair_Base;
+    class Manticore_RHS_Truck_M977A4_Repair_OCimport_01 : Manticore_M977A4Repair_Base { scope = 0; class EventHandlers; };
     class Manticore_RHS_Truck_M977A4_Repair_OCimport_02 : Manticore_RHS_Truck_M977A4_Repair_OCimport_01 { scope = 0; class EventHandlers; };
 
-    class Manticore_RHS_Truck_M977A4_B_M2_Repair;
-    class Manticore_RHS_Truck_M977A4_B_M2_Repair_OCimport_01 : Manticore_RHS_Truck_M977A4_B_M2_Repair { scope = 0; class EventHandlers; class Turrets; };
+    class Manticore_M977A4BM2Repair_Base;
+    class Manticore_RHS_Truck_M977A4_B_M2_Repair_OCimport_01 : Manticore_M977A4BM2Repair_Base { scope = 0; class EventHandlers; class Turrets; };
     class Manticore_RHS_Truck_M977A4_B_M2_Repair_OCimport_02 : Manticore_RHS_Truck_M977A4_B_M2_Repair_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
@@ -676,12 +676,12 @@ class CfgVehicles {
         };
     };
 
-    class Manticore_RHS_Truck_M977A4_Ammo;
-    class Manticore_RHS_Truck_M977A4_Ammo_OCimport_01 : Manticore_RHS_Truck_M977A4_Ammo { scope = 0; class EventHandlers; };
+    class Manticore_M977A4Ammo_Base;
+    class Manticore_RHS_Truck_M977A4_Ammo_OCimport_01 : Manticore_M977A4Ammo_Base { scope = 0; class EventHandlers; };
     class Manticore_RHS_Truck_M977A4_Ammo_OCimport_02 : Manticore_RHS_Truck_M977A4_Ammo_OCimport_01 { scope = 0; class EventHandlers; };
 
-    class Manticore_RHS_Truck_M977A4_B_M2_Ammo;
-    class Manticore_RHS_Truck_M977A4_B_M2_Ammo_OCimport_01 : Manticore_RHS_Truck_M977A4_B_M2_Ammo { scope = 0; class EventHandlers; class Turrets; };
+    class Manticore_M977A4BM2Ammo_Base;
+    class Manticore_RHS_Truck_M977A4_B_M2_Ammo_OCimport_01 : Manticore_M977A4BM2Ammo_Base { scope = 0; class EventHandlers; class Turrets; };
     class Manticore_RHS_Truck_M977A4_B_M2_Ammo_OCimport_02 : Manticore_RHS_Truck_M977A4_B_M2_Ammo_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
@@ -689,12 +689,12 @@ class CfgVehicles {
         };
     };
 
-    class Manticore_RHS_Truck_M978A4;
-    class Manticore_RHS_Truck_M978A4_OCimport_01 : Manticore_RHS_Truck_M978A4 { scope = 0; class EventHandlers; };
+    class Manticore_M978A4_Base;
+    class Manticore_RHS_Truck_M978A4_OCimport_01 : Manticore_M978A4_Base { scope = 0; class EventHandlers; };
     class Manticore_RHS_Truck_M978A4_OCimport_02 : Manticore_RHS_Truck_M978A4_OCimport_01 { scope = 0; class EventHandlers; };
 
-    class Manticore_RHS_Truck_M978A4_B;
-    class Manticore_RHS_Truck_M978A4_B_OCimport_01 : Manticore_RHS_Truck_M978A4_B { scope = 0; class EventHandlers; };
+    class Manticore_M978A4B_Base;
+    class Manticore_RHS_Truck_M978A4_B_OCimport_01 : Manticore_M978A4B_Base { scope = 0; class EventHandlers; };
     class Manticore_RHS_Truck_M978A4_B_OCimport_02 : Manticore_RHS_Truck_M978A4_B_OCimport_01 { scope = 0; class EventHandlers; };
 
     class Manticore_M142_Base;
@@ -903,8 +903,8 @@ class CfgVehicles {
         };
     };
 
-    class Manticore_RHS_Naval_MkVSOC;
-    class Manticore_RHS_Naval_MkVSOC_OCimport_01 : Manticore_RHS_Naval_MkVSOC { scope = 0; class EventHandlers; class Turrets; };
+    class Manticore_MkVSOC_Base;
+    class Manticore_RHS_Naval_MkVSOC_OCimport_01 : Manticore_MkVSOC_Base { scope = 0; class EventHandlers; class Turrets; };
     class Manticore_RHS_Naval_MkVSOC_OCimport_02 : Manticore_RHS_Naval_MkVSOC_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
