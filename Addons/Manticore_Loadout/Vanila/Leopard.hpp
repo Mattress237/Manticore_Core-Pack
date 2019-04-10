@@ -1,4 +1,4 @@
-class Manticore_Loadout_Vanila_Leopard : Manticore_Vanilla_Tank_Leopard
+class Manticore_Loadout_Vanila_Leopard : Manticore_Leopard_Base
 {
 	scope = 2;
 	side = 1;

@@ -1,4 +1,4 @@
-class Manticore_Loadout_Vanila_Wiesel2_Cannon : Manticore_Vanilla_Tank_Wiesel2_Cannon
+class Manticore_Loadout_Vanila_Wiesel2_Cannon : Manticore_Wiesel2Cannon_Base
 {
 	scope = 2;
 	side = 1;
@@ -6,7 +6,7 @@ class Manticore_Loadout_Vanila_Wiesel2_Cannon : Manticore_Vanilla_Tank_Wiesel2_C
 	#include "../Loadout/LoadoutBasic.hpp"
 
 };
-class Manticore_Loadout_Vanila_Wiesel2_AT : Manticore_Vanilla_Tank_Wiesel2_AT
+class Manticore_Loadout_Vanila_Wiesel2_AT : Manticore_Wiesel2AT_Base
 {
 	scope = 2;
 	side = 1;
@@ -14,7 +14,7 @@ class Manticore_Loadout_Vanila_Wiesel2_AT : Manticore_Vanilla_Tank_Wiesel2_AT
 	#include "../Loadout/LoadoutBasic.hpp"
 
 };
-class Manticore_Loadout_Vanila_Wiesel2_Scout : Manticore_Vanilla_Tank_Wiesel2_Scout
+class Manticore_Loadout_Vanila_Wiesel2_Scout : Manticore_Wiesel2Scout_Base
 {
 	scope = 2;
 	side = 1;

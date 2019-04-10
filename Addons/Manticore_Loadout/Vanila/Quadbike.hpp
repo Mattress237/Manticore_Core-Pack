@@ -1,4 +1,4 @@
-class Manticore_Loadout_Vanila_Quadbike : Manticore_Vanilla_Light_Quadbike
+class Manticore_Loadout_Vanila_Quadbike : Manticore_Quadbike_Base
 {
 	scope = 2;
 	side = 1;

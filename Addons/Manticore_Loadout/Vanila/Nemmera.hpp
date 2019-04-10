@@ -1,4 +1,4 @@
-class Manticore_Loadout_Vanila_Nemmera : Manticore_Vanilla_APC_Nemmera
+class Manticore_Loadout_Vanila_Nemmera : Manticore_NemmeraAPC_Base
 {
 	scope = 2;
 	side = 1;

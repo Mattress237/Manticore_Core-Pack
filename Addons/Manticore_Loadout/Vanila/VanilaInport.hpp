@@ -1,37 +1,37 @@
 //Light Attack
-class Manticore_Vanilla_Light_Polaris_Unarmed;
-class Manticore_Vanilla_Light_Polaris_Armed;
-class Manticore_Vanilla_Light_Polaris_AT;
-class Manticore_Vanilla_Light_Polaris_Light;
-class Manticore_Vanilla_Light_Quadbike;
+class Manticore_PolarisUnarmed_Base;
+class Manticore_PolarisArmed_Base;
+class Manticore_PolarisAT_Base;
+class Manticore_PolarisLight_Base;
+class Manticore_Quadbike_Base;
 //Heli
-class Manticore_Vanilla_Heli_AH6;
-class Manticore_Vanilla_Heli_MH6;
-class Manticore_Vanilla_Heli_MH6_Stripped;
-class Manticore_Vanilla_Heli_Merlin;
-class Manticore_Vanilla_Heli_Wildcat;
-class Manticore_Vanilla_Heli_Wildcat_dynamicLoadout;
+class Manticore_AH6Heli_Base;
+class Manticore_MH6Heli_Base;
+class Manticore_MH6StrippedHeli_Base;
+class Manticore_MerlinHeli_Base;
+class Manticore_WildcatHeli_Base;
+class Manticore_WildcatDynamicHeli_Base;
 //APC IFV
-class Manticore_Vanilla_IFV_Badger;
-class Manticore_Vanilla_APC_Namer;
-class Manticore_Vanilla_APC_Nemmera;
+class Manticore_BadgerIFV_Base;
+class Manticore_NamerAPC_Base;
+class Manticore_NemmeraAPC_Base;
 //AA
-class Manticore_Vanilla_AA_Bardelas;
+class Manticore_Bardelas_Base;
 //Tank
-class Manticore_Vanilla_Tank_Leopard;
-class Manticore_Vanilla_Tank_Wiesel2_Cannon;
-class Manticore_Vanilla_Tank_Wiesel2_AT;
-class Manticore_Vanilla_Tank_Wiesel2_Scout;
-class Manticore_Vanilla_Tank_Rooikat;
-class Manticore_Vanilla_Tank_Rooikat_UP;
+class Manticore_Leopard_Base;
+class Manticore_Wiesel2Cannon_Base;
+class Manticore_Wiesel2AT_Base;
+class Manticore_Wiesel2Scout_Base;
+class Manticore_Rooikat_Base;
+class Manticore_RooikatUP_Base;
 //Artillery
-class Manticore_Vanilla_Artillery_Sholef;
-class Manticore_Vanilla_Artillery_Seara;
+class Manticore_Sholef_Base;
+class Manticore_Seara_Base;
 //Naval
-class Manticore_Vanilla_Boats_Speedboat_Minigun;
+class Manticore_SpeedboatMinigun_Base;
 //Drone
-class Manticore_Vanilla_Drone_UCAV;
-class Manticore_Vanilla_Drone_Falcon;
-class Manticore_Vanilla_Drone_AR2Darter;
-class Manticore_Vanilla_Drone_Stomper;
-class Manticore_Vanilla_Drone_Stomper_RCWS;
+class Manticore_UCAVDrone_Base;
+class Manticore_FalconDrone_Base;
+class Manticore_AR2DarterDrone_Base;
+class Manticore_StomperDrone_Base;
+class Manticore_StomperArmedDrone_Base;

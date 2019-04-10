@@ -18,7 +18,7 @@ class CfgVehicles
 	class B_MBT_01_arty_F;
 	class B_MBT_01_mlrs_F;
 
-	class Manticore_Vanilla_Artillery_Sholef : B_MBT_01_arty_F
+	class Manticore_Sholef_Base : B_MBT_01_arty_F
 	{
 		displayName = "Sholef";
 		scope = 1;
@@ -76,7 +76,7 @@ class CfgVehicles
 		};
 		textureList[] = { "Olive",0,"Sand",0 };
 	};
-	class Manticore_Vanilla_Artillery_Seara : B_MBT_01_mlrs_F
+	class Manticore_Seara_Base : B_MBT_01_mlrs_F
 	{
 		displayName = "Seara";
 		scope = 1;

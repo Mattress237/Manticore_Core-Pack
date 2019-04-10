@@ -19,7 +19,7 @@ class CfgVehicles
 {
 	class B_APC_Wheeled_01_cannon_F;
 
-	class Manticore_Vanilla_IFV_Badger : B_APC_Wheeled_01_cannon_F
+	class Manticore_BadgerIFV_Base : B_APC_Wheeled_01_cannon_F
 	{
 		side = 1;
 		scope = 1;

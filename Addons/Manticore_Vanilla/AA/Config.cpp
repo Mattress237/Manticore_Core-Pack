@@ -18,7 +18,7 @@ class CfgVehicles
 {
 	class B_APC_Tracked_01_AA_F;
 
-	class Manticore_Vanilla_AA_Bardelas : B_APC_Tracked_01_AA_F
+	class Manticore_Bardelas_Base : B_APC_Tracked_01_AA_F
 	{
 		displayName = "Bardelas AA";
 		side = 1;

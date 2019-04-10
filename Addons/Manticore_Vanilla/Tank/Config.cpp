@@ -26,7 +26,7 @@ class CfgVehicles
 	class B_AFV_Wheeled_01_cannon_F;
 	class B_AFV_Wheeled_01_up_cannon_F;
 
-	class Manticore_Vanilla_Tank_Leopard : I_MBT_03_cannon_F
+	class Manticore_Leopard_Base : I_MBT_03_cannon_F
 	{
 		side = 1;
 		scope = 1;
@@ -147,7 +147,7 @@ class CfgVehicles
 		textureList[] = { "Sand",0,"AAF_digital",0,"M81",0,"AOR3",0,"AOR2",1,"AOR2_Dark",0 };
 	};
 
-	class Manticore_Vanilla_Tank_Wiesel2_Cannon : I_LT_01_cannon_F
+	class Manticore_Wiesel2Cannon_Base : I_LT_01_cannon_F
 	{
 		displayName = "Wiesel 2 (MK20)";
 		scope = 1;
@@ -227,7 +227,7 @@ class CfgVehicles
 		};
 		textureList[] = { "Olive",0,"AAF_Digital",0,"AAF_Digital_D",0,"AAF_Digital_J",0 };
 	};
-	class Manticore_Vanilla_Tank_Wiesel2_AT : I_LT_01_AT_F
+	class Manticore_Wiesel2AT_Base : I_LT_01_AT_F
 	{
 		displayName = "Wiesel 2 (ATGM)";
 		scope = 1;
@@ -306,7 +306,7 @@ class CfgVehicles
 		};
 		textureList[] = { "Olive",0,"AAF_Digital",0,"AAF_Digital_D",0,"AAF_Digital_J",0 };
 	};
-	class Manticore_Vanilla_Tank_Wiesel2_Scout : I_LT_01_scout_F
+	class Manticore_Wiesel2Scout_Base : I_LT_01_scout_F
 	{
 		displayName = "Wiesel 2 (Scout)";
 		scope = 1;
@@ -385,7 +385,7 @@ class CfgVehicles
 		};
 		textureList[] = { "Olive",0,"AAF_Digital",0,"AAF_Digital_D",0,"AAF_Digital_J",0 };
 	};
-	class Manticore_Vanilla_Tank_Rooikat : B_AFV_Wheeled_01_cannon_F
+	class Manticore_Rooikat_Base : B_AFV_Wheeled_01_cannon_F
 	{
 		displayName = "Rooikat 120";
 		scope = 1;
@@ -433,7 +433,7 @@ class CfgVehicles
 		};
 		textureList[] = { "Olive",0,"Sand",0 };
 	};
-	class Manticore_Vanilla_Tank_Rooikat_UP : B_AFV_Wheeled_01_up_cannon_F
+	class Manticore_RooikatUP_Base : B_AFV_Wheeled_01_up_cannon_F
 	{
 		displayName = "Rooikat 120 UP";
 		scope = 1;

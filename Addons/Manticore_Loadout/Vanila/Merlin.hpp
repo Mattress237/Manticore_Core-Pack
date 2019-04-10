@@ -1,4 +1,4 @@
-class Manticore_Loadout_Vanila_Merlin : Manticore_Vanilla_Heli_Merlin
+class Manticore_Loadout_Vanila_Merlin : Manticore_MerlinHeli_Base
 {
 	scope = 2;
 	side = 1;

@@ -1,25 +1,25 @@
-class Manticore_Loadout_Vanila_Polaris_Unarmed : Manticore_Vanilla_Light_Polaris_Unarmed
+class Manticore_Loadout_Vanila_Polaris_Unarmed : Manticore_PolarisUnarmed_Base
 {
 	scope = 2;
 	side = 1;
 
 	#include "../Loadout/LoadoutBasic.hpp"
 };
-class Manticore_Loadout_Vanila_Polaris_Armed : Manticore_Vanilla_Light_Polaris_Armed
+class Manticore_Loadout_Vanila_Polaris_Armed : Manticore_PolarisArmed_Base
 {
 	scope = 2;
 	side = 1;
 
 	#include "../Loadout/LoadoutBasic.hpp"
 };
-class Manticore_Loadout_Vanila_Polaris_AT : Manticore_Vanilla_Light_Polaris_AT
+class Manticore_Loadout_Vanila_Polaris_AT : Manticore_PolarisAT_Base
 {
 	scope = 2;
 	side = 1;
 
 	#include "../Loadout/LoadoutBasic.hpp"
 };
-class Manticore_Loadout_Vanila_Polaris_Light : Manticore_Vanilla_Light_Polaris_Light
+class Manticore_Loadout_Vanila_Polaris_Light : Manticore_PolarisLight_Base
 {
 	scope = 2;
 	side = 1;

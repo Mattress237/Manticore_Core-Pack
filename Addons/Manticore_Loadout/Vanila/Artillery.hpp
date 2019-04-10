@@ -1,4 +1,4 @@
-class Manticore_Loadout_Vanila_Artillery_Sholef : Manticore_Vanilla_Artillery_Sholef
+class Manticore_Loadout_Vanila_Artillery_Sholef : Manticore_Sholef_Base
 {
 	scope = 2;
 	side = 1;
@@ -17,7 +17,7 @@ class Manticore_Loadout_Vanila_Artillery_Sholef : Manticore_Vanilla_Artillery_Sh
 	{
 	};
 };
-class Manticore_Loadout_Vanila_Artillery_Seara : Manticore_Vanilla_Artillery_Seara
+class Manticore_Loadout_Vanila_Artillery_Seara : Manticore_Seara_Base
 {
 	scope = 2;
 	side = 1;
