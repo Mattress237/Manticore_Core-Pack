@@ -47,12 +47,12 @@ class rhsusf_m113_usarmy_M240;
 class rhsusf_m113_usarmy_MK19;
 class rhsusf_m113_usarmy_supply;
 class rhsusf_m113_usarmy_medical;*/
-class Manticore_RHS_APC_M113A3_Unarmed;
-class Manticore_RHS_APC_M113A3_M2;
-class Manticore_RHS_APC_M113A3_M19;
-class Manticore_RHS_APC_M113A3_M240;
-class Manticore_RHS_APC_M113A3_Ammo;
-class Manticore_RHS_APC_M113A3_Medical;
+class Manticore_M113A3Unarmed_Base;
+class Manticore_M113A3M2_Base;
+class Manticore_M113A3M19_Base;
+class Manticore_M113A3M240_Base;
+class Manticore_M113A3Ammo_Base;
+class Manticore_M113A3Medical_Base;
 ///IFV
 /*class RHS_M2A3;
 class RHS_M2A3_BUSKI;
@@ -96,8 +96,8 @@ class Manticore_RHS_Truck_M978A4_B;
 ///Artilery
 /*class rhsusf_M142_usarmy_WD;
 class rhsusf_m109_usarmy;*/
-class Manticore_RHS_Artillery_M142;
-class Manticore_RHS_Artillery_M109A6;
+class Manticore_M142_Base;
+class Manticore_M109A6_Base;
 ///Heli
 /*class RHS_MELB_H6M;
 class RHS_MELB_MH6M;
@@ -115,22 +115,22 @@ class RHS_UH1Y;
 class RHS_UH1Y_FFAR;
 class RHS_UH1Y_UNARMED;
 class RHS_AH1Z;*/
-class Manticore_RHS_Heli_OH6M;
-class Manticore_RHS_Heli_MH6M;
-class Manticore_RHS_Heli_AH6M;
-class Manticore_RHS_Heli_CH47F;
-class Manticore_RHS_Heli_UH60M;
-class Manticore_RHS_Heli_UH60M2;
-class Manticore_RHS_Heli_UH60M_EWS;
-class Manticore_RHS_Heli_UH60M_ESSS;
-class Manticore_RHS_Heli_UH60M_MEV;
-class Manticore_RHS_Heli_UH60M_ESSS_MEV;
-class Manticore_RHS_Heli_AH64D;
-class Manticore_RHS_Heli_CH53E;
-class Manticore_RHS_Heli_UH1Y;
-class Manticore_RHS_Heli_UH1Y_FFAR;
-class Manticore_RHS_Heli_UH1Y_Unarmed;
-class Manticore_RHS_Heli_AH1Z;
+class Manticore_OH6MHeli_Base;
+class Manticore_MH6MHeli_Base;
+class Manticore_AH6MHeli_Base;
+class Manticore_CH47FHeli_Base;
+class Manticore_UH60MHeli_Base;
+class Manticore_UH60M2Heli_Base;
+class Manticore_UH60MEWSHeli_Base;
+class Manticore_UH60MESSSHeli_Base;
+class Manticore_UH60MMEVHeli_Base;
+class Manticore_UH60MESSSMEVHeli_Base;
+class Manticore_AH64DHeli_Base;
+class Manticore_CH53EHeli_Base;
+class Manticore_UH1YHeli_Base;
+class Manticore_UH1YFFARHeli_Base;
+class Manticore_UH1YUnarmedHeli_Base;
+class Manticore_AH1ZHeli_Base;
 ///Naval
 /*class rhsusf_mkvsoc;*/
 class Manticore_RHS_Naval_MkVSOC;

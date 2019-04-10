@@ -24,7 +24,7 @@ class CfgVehicles
 	class rhsusf_m113_usarmy_supply;
 	class rhsusf_m113_usarmy_medical;
 
-	class Manticore_RHS_APC_M113A3_Unarmed : rhsusf_m113_usarmy_unarmed
+	class Manticore_M113A3Unarmed_Base : rhsusf_m113_usarmy_unarmed
 	{
 		displayName = "M113A3";
 		scope = 1;
@@ -79,7 +79,7 @@ class CfgVehicles
 		};
 		textureList[] = { "RHS_Olive",0,"RHS_Woodland",0,"RHS_Desert",0 };
 	};
-	class Manticore_RHS_APC_M113A3_M2 : rhsusf_m113_usarmy
+	class Manticore_M113A3M2_Base : rhsusf_m113_usarmy
 	{
 		displayName = "M113A3 (M2)";
 		scope = 1;
@@ -143,7 +143,7 @@ class CfgVehicles
 		};
 		textureList[] = { "RHS_Olive",0,"RHS_Woodland",0,"RHS_Desert",0 };
 	};
-	class Manticore_RHS_APC_M113A3_M19 : rhsusf_m113_usarmy_MK19
+	class Manticore_M113A3M19_Base : rhsusf_m113_usarmy_MK19
 	{
 		displayName = "M113A3 (M19)";
 		scope = 1;
@@ -203,7 +203,7 @@ class CfgVehicles
 		};
 		textureList[] = { "RHS_Olive",0,"RHS_Woodland",0,"RHS_Desert",0 };
 	};
-	class Manticore_RHS_APC_M113A3_M240 : rhsusf_m113_usarmy_M240
+	class Manticore_M113A3M240_Base : rhsusf_m113_usarmy_M240
 	{
 		displayName = "M113A3 (M240)";
 		scope = 1;
@@ -263,7 +263,7 @@ class CfgVehicles
 		};
 		textureList[] = { "RHS_Olive",0,"RHS_Woodland",0,"RHS_Desert",0 };
 	};
-	class Manticore_RHS_APC_M113A3_Ammo : rhsusf_m113_usarmy_supply
+	class Manticore_M113A3Ammo_Base : rhsusf_m113_usarmy_supply
 	{
 		displayName = "M113A3 (Ammo)";
 		scope = 1;
@@ -323,7 +323,7 @@ class CfgVehicles
 		};
 		textureList[] = { "RHS_Olive",0,"RHS_Woodland",0,"RHS_Desert",0 };
 	};
-	class Manticore_RHS_APC_M113A3_Medical : rhsusf_m113_usarmy_medical
+	class Manticore_M113A3Medical_Base : rhsusf_m113_usarmy_medical
 	{
 		displayName = "M113A3 (MEV)";
 		scope = 1;

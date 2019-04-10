@@ -21,7 +21,7 @@ class CfgVehicles
 	class rhsusf_M142_usarmy_WD;
 	class rhsusf_m109_usarmy;
 
-	class Manticore_RHS_Artillery_M142 : rhsusf_M142_usarmy_WD
+	class Manticore_M142_Base : rhsusf_M142_usarmy_WD
 	{
 		displayName = "M142 HIMARS";
 		scope = 1;
@@ -81,7 +81,7 @@ class CfgVehicles
 		};
 		textureList[] = { "RHS_Olive",0,"RHS_Woodland",0,"RHS_Desert",0 };
 	};
-	class Manticore_RHS_Artillery_M109A6 : rhsusf_m109_usarmy
+	class Manticore_M109A6_Base : rhsusf_m109_usarmy
 	{
 		displayName = "M109A6";
 		scope = 1;

@@ -32,7 +32,7 @@ class CfgPatches {
             "Manticore_Loadout_Vanila_Drone_Stomper_RCWS",
             "Manticore_Navy_Uniform_O_Soldier",
             "Manticore_Navy_Uniform_S_Soldier",
-            "Manticore_RHS_Heli_MH6M",
+            "Manticore_MH6MHeli_Base",
             "Manticore_Loadout_RHS_Humvee_M1043A2",
             "Manticore_Loadout_RHS_Humvee_M1043A2_M2",
             "Manticore_Loadout_RHS_Humvee_M1043A2_M19",
