@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class Manticore_Flags_Core
+	class Manticore_FlagsMarkers
 	{
 		units[] = 
 		{	
@@ -19,8 +19,7 @@ class CfgPatches
 		versionDesc = "Manticore Flags and Markers";
 		author[] =
 		{
-			"[TFM]Mattress",
-			"Siege - A"
+			"[TFM]Mattress"
 		};
 		authorUrl = "";
 	};
