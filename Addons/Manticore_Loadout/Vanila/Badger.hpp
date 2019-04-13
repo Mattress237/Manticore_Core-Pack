@@ -1,4 +1,4 @@
-class Manticore_Loadout_Vanila_Badger : Manticore_BadgerIFV_Base
+class Manticore_BadgerIFV_Load : Manticore_BadgerIFV_Base
 {
 	scope = 2;
 	side = 1;

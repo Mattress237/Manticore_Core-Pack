@@ -1,5 +1,5 @@
 
-class Manticore_Beret_01 : H_Beret_Colonel
+class Manticore_Beret : H_Beret_Colonel
 {
 	author = "Mattress TFM";
 	scope = 2;

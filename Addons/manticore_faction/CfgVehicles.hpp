@@ -1304,7 +1304,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_Vanila_Badger : Manticore_Vanilla_IFV_Badger_OCimport_02 {
+    class Manticore_BadgerIFV_Load : Manticore_Vanilla_IFV_Badger_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1586,7 +1586,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_Vanila_Artillery_Sholef : Manticore_Vanilla_Artillery_Sholef_OCimport_02 {
+    class Manticore_Sholef_Load : Manticore_Vanilla_Artillery_Sholef_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1614,7 +1614,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_Vanila_Artillery_Seara : Manticore_Vanilla_Artillery_Seara_OCimport_02 {
+    class Manticore_Seara_Load : Manticore_Vanilla_Artillery_Seara_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1824,8 +1824,8 @@ class CfgVehicles {
 
         uniformClass = "Manticore_Navy_O_Uniform";
 
-        linkedItems[] = {"Manticore_Beret_01","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"Manticore_Beret_01","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"Manticore_Beret","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"Manticore_Beret","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
         weapons[] = {};
         respawnWeapons[] = {};
@@ -1833,7 +1833,7 @@ class CfgVehicles {
         magazines[] = {};
         respawnMagazines[] = {};
 
-        ALiVE_orbatCreator_loadout[] = {{},{},{},{"Manticore_Navy_O_Uniform",{{"FirstAidKit",1},{"Chemlight_green",2,1}}},{},{},"Manticore_Beret_01","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{},{},{},{"Manticore_Navy_O_Uniform",{{"FirstAidKit",1},{"Chemlight_green",2,1}}},{},{},"Manticore_Beret","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1861,8 +1861,8 @@ class CfgVehicles {
 
         uniformClass = "Manticore_Navy_S_Uniform";
 
-        linkedItems[] = {"Manticore_Beret_01","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"Manticore_Beret_01","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"Manticore_Beret","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"Manticore_Beret","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
         weapons[] = {};
         respawnWeapons[] = {};
@@ -1870,7 +1870,7 @@ class CfgVehicles {
         magazines[] = {};
         respawnMagazines[] = {};
 
-        ALiVE_orbatCreator_loadout[] = {{},{},{},{"Manticore_Navy_S_Uniform",{{"FirstAidKit",1},{"Chemlight_green",2,1}}},{},{},"Manticore_Beret_01","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{},{},{},{"Manticore_Navy_S_Uniform",{{"FirstAidKit",1},{"Chemlight_green",2,1}}},{},{},"Manticore_Beret","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -3759,7 +3759,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Uniform_Uniform_ManticamWinter_Crye_00 : VSM_Multicam_Crye_Uniform_OCimport_02 {
+    class Manticore_ManticamCryeWinter_00 : VSM_Multicam_Crye_Uniform_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3769,7 +3769,7 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_NATO","G_NATO_default"};
 
-        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_00";
+        uniformClass = "Manticore_ManticamCryeWinter_00";
 
         linkedItems[] = {};
         respawnlinkedItems[] = {};
@@ -3780,7 +3780,7 @@ class CfgVehicles {
         magazines[] = {};
         respawnMagazines[] = {};
 
-        ALiVE_orbatCreator_loadout[] = {{},{},{},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_00",{{"FirstAidKit",1}}},{},{},"","",{},{"","","","","",""}};
+        ALiVE_orbatCreator_loadout[] = {{},{},{},{"Manticore_ManticamCryeWinter_00",{{"FirstAidKit",1}}},{},{},"","",{},{"","","","","",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -3796,7 +3796,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Uniform_Uniform_ManticamWinter_Crye_01 : Manticore_Uniform_Uniform_ManticamWinter_Crye_00 {
+    class Manticore_ManticamCryeWinter_01 : Manticore_ManticamCryeWinter_00 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3806,7 +3806,7 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_NATO","G_NATO_default"};
 
-        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_01";
+        uniformClass = "Manticore_ManticamCryeWinter_01";
 
         linkedItems[] = {};
         respawnlinkedItems[] = {};
@@ -3817,7 +3817,7 @@ class CfgVehicles {
         magazines[] = {};
         respawnMagazines[] = {};
 
-        ALiVE_orbatCreator_loadout[] = {{},{},{},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_01",{{"FirstAidKit",1}}},{},{},"","",{},{"","","","","",""}};
+        ALiVE_orbatCreator_loadout[] = {{},{},{},{"Manticore_ManticamCryeWinter_01",{{"FirstAidKit",1}}},{},{},"","",{},{"","","","","",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -3833,7 +3833,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Uniform_Uniform_ManticamWinter_Crye_02 : Manticore_Uniform_Uniform_ManticamWinter_Crye_00 {
+    class Manticore_ManticamCryeWinter_02 : Manticore_ManticamCryeWinter_00 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3843,7 +3843,7 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_NATO","G_NATO_default"};
 
-        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_02";
+        uniformClass = "Manticore_ManticamCryeWinter_02";
 
         linkedItems[] = {};
         respawnlinkedItems[] = {};
@@ -3854,7 +3854,7 @@ class CfgVehicles {
         magazines[] = {};
         respawnMagazines[] = {};
 
-        ALiVE_orbatCreator_loadout[] = {{},{},{},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_02",{{"FirstAidKit",1}}},{},{},"","",{},{"","","","","",""}};
+        ALiVE_orbatCreator_loadout[] = {{},{},{},{"Manticore_ManticamCryeWinter_02",{{"FirstAidKit",1}}},{},{},"","",{},{"","","","","",""}};
 
 
         class EventHandlers : EventHandlers {

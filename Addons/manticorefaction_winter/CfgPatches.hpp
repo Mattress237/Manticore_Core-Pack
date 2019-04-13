@@ -12,7 +12,7 @@ class CfgPatches {
             "Manticore_Loadout_Vanila_LittleBird_AH6",
             "Manticore_Loadout_Vanila_LittleBird_MH6",
             "Manticore_Loadout_Vanila_LittleBird_MH6_Stripped",
-            "Manticore_Loadout_Vanila_Badger",
+            "Manticore_BadgerIFV_Load",
             "Manticore_Loadout_Vanila_Namer",
             "Manticore_Loadout_Vanila_Nemmera",
             "Manticore_Loadout_Vanila_Bardelas",
@@ -22,8 +22,8 @@ class CfgPatches {
             "Manticore_Loadout_Vanila_Leopard",
             "Manticore_Loadout_Vanila_Rooikat",
             "Manticore_Loadout_Vanila_Rooikat_UP",
-            "Manticore_Loadout_Vanila_Artillery_Sholef",
-            "Manticore_Loadout_Vanila_Artillery_Seara",
+            "Manticore_Sholef_Load",
+            "Manticore_Seara_Load",
             "Manticore_Loadout_Vanila_Speedboat",
             "Manticore_Loadout_Vanila_Drone_UCAV",
             "Manticore_Loadout_Vanila_Drone_Falcon",
@@ -97,9 +97,9 @@ class CfgPatches {
             "Manticore_Loadout_RHS_Heli_UH1Y_Unarmed",
             "Manticore_Loadout_RHS_Heli_AH1Z",
             "Manticore_Loadout_RHS_Naval_MkVSOC",
-            "Manticore_Uniform_Uniform_ManticamWinter_Crye_00",
-            "Manticore_Uniform_Uniform_ManticamWinter_Crye_01",
-            "Manticore_Uniform_Uniform_ManticamWinter_Crye_02",
+            "Manticore_ManticamCryeWinter_00",
+            "Manticore_ManticamCryeWinter_01",
+            "Manticore_ManticamCryeWinter_02",
             "B_ManticoreFaction_Winter_Rifleman_01",
             "B_ManticoreFaction_Winter_Squad_Leader_01",
             "B_ManticoreFaction_Winter_Grenadier_01",
@@ -151,7 +151,7 @@ class CfgPatches {
             "Manticore_RHS_Heli",
             "Manticore_RHS_Naval",
             "VSM_Multicam_Config",
-            "Manticore_Uniform_Uniform_Winter"
+            "Manticore_Uniform_Winter"
         };
         author = "SSgt. D.O'Hara [MVSA]";
         authors[] = {"SSgt. D.O'Hara [MVSA]"};

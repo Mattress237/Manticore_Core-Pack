@@ -1301,7 +1301,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_Vanila_Badger : Manticore_Vanilla_IFV_Badger_OCimport_02 {
+    class Manticore_BadgerIFV_Load : Manticore_Vanilla_IFV_Badger_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1583,7 +1583,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_Vanila_Artillery_Sholef : Manticore_Vanilla_Artillery_Sholef_OCimport_02 {
+    class Manticore_Sholef_Load : Manticore_Vanilla_Artillery_Sholef_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1611,7 +1611,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_Vanila_Artillery_Seara : Manticore_Vanilla_Artillery_Seara_OCimport_02 {
+    class Manticore_Seara_Load : Manticore_Vanilla_Artillery_Seara_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1821,8 +1821,8 @@ class CfgVehicles {
 
         uniformClass = "Manticore_Navy_O_Uniform";
 
-        linkedItems[] = {"Manticore_Beret_01","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"Manticore_Beret_01","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"Manticore_Beret","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"Manticore_Beret","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
         weapons[] = {};
         respawnWeapons[] = {};
@@ -1830,7 +1830,7 @@ class CfgVehicles {
         magazines[] = {};
         respawnMagazines[] = {};
 
-        ALiVE_orbatCreator_loadout[] = {{},{},{},{"Manticore_Navy_O_Uniform",{{"FirstAidKit",1},{"Chemlight_green",2,1}}},{},{},"Manticore_Beret_01","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{},{},{},{"Manticore_Navy_O_Uniform",{{"FirstAidKit",1},{"Chemlight_green",2,1}}},{},{},"Manticore_Beret","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1858,8 +1858,8 @@ class CfgVehicles {
 
         uniformClass = "Manticore_Navy_S_Uniform";
 
-        linkedItems[] = {"Manticore_Beret_01","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"Manticore_Beret_01","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"Manticore_Beret","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"Manticore_Beret","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
         weapons[] = {};
         respawnWeapons[] = {};
@@ -1867,7 +1867,7 @@ class CfgVehicles {
         magazines[] = {};
         respawnMagazines[] = {};
 
-        ALiVE_orbatCreator_loadout[] = {{},{},{},{"Manticore_Navy_S_Uniform",{{"FirstAidKit",1},{"Chemlight_green",2,1}}},{},{},"Manticore_Beret_01","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{},{},{},{"Manticore_Navy_S_Uniform",{{"FirstAidKit",1},{"Chemlight_green",2,1}}},{},{},"Manticore_Beret","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -3756,7 +3756,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Uniform_Uniform_ManticamWinter_Crye_00 : VSM_Multicam_Crye_Uniform_OCimport_02 {
+    class Manticore_ManticamCryeWinter_00 : VSM_Multicam_Crye_Uniform_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3766,7 +3766,7 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_NATO","G_NATO_default"};
 
-        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_00";
+        uniformClass = "Manticore_ManticamCryeWinter_00";
 
         linkedItems[] = {};
         respawnlinkedItems[] = {};
@@ -3777,7 +3777,7 @@ class CfgVehicles {
         magazines[] = {};
         respawnMagazines[] = {};
 
-        ALiVE_orbatCreator_loadout[] = {{},{},{},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_00",{{"FirstAidKit",1}}},{},{},"","",{},{"","","","","",""}};
+        ALiVE_orbatCreator_loadout[] = {{},{},{},{"Manticore_ManticamCryeWinter_00",{{"FirstAidKit",1}}},{},{},"","",{},{"","","","","",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -3793,7 +3793,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Uniform_Uniform_ManticamWinter_Crye_01 : Manticore_Uniform_Uniform_ManticamWinter_Crye_00 {
+    class Manticore_ManticamCryeWinter_01 : Manticore_ManticamCryeWinter_00 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3803,7 +3803,7 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_NATO","G_NATO_default"};
 
-        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_01";
+        uniformClass = "Manticore_ManticamCryeWinter_01";
 
         linkedItems[] = {};
         respawnlinkedItems[] = {};
@@ -3814,7 +3814,7 @@ class CfgVehicles {
         magazines[] = {};
         respawnMagazines[] = {};
 
-        ALiVE_orbatCreator_loadout[] = {{},{},{},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_01",{{"FirstAidKit",1}}},{},{},"","",{},{"","","","","",""}};
+        ALiVE_orbatCreator_loadout[] = {{},{},{},{"Manticore_ManticamCryeWinter_01",{{"FirstAidKit",1}}},{},{},"","",{},{"","","","","",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -3830,7 +3830,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Uniform_Uniform_ManticamWinter_Crye_02 : Manticore_Uniform_Uniform_ManticamWinter_Crye_00 {
+    class Manticore_ManticamCryeWinter_02 : Manticore_ManticamCryeWinter_00 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3840,7 +3840,7 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_NATO","G_NATO_default"};
 
-        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_02";
+        uniformClass = "Manticore_ManticamCryeWinter_02";
 
         linkedItems[] = {};
         respawnlinkedItems[] = {};
@@ -3851,7 +3851,7 @@ class CfgVehicles {
         magazines[] = {};
         respawnMagazines[] = {};
 
-        ALiVE_orbatCreator_loadout[] = {{},{},{},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_02",{{"FirstAidKit",1}}},{},{},"","",{},{"","","","","",""}};
+        ALiVE_orbatCreator_loadout[] = {{},{},{},{"Manticore_ManticamCryeWinter_02",{{"FirstAidKit",1}}},{},{},"","",{},{"","","","","",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -3877,10 +3877,10 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
-        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_01";
+        uniformClass = "Manticore_ManticamCryeWinter_01";
 
-        linkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
-        respawnlinkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        linkedItems[] = {"Manticore_ManticamRAVOperatorWinter","Manticore_ManticamMich2000Winter_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        respawnlinkedItems[] = {"Manticore_ManticamRAVOperatorWinter","Manticore_ManticamMich2000Winter_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
 
         weapons[] = {"hlc_rifle_G36KA1KSK","hlc_pistol_P226R_Combat","Rangefinder"};
         respawnWeapons[] = {"hlc_rifle_G36KA1KSK","hlc_pistol_P226R_Combat","Rangefinder"};
@@ -3888,7 +3888,7 @@ class CfgVehicles {
         magazines[] = {"hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226","hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226"};
         respawnMagazines[] = {"hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226","hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226"};
 
-        ALiVE_orbatCreator_loadout[] = {{"hlc_rifle_G36KA1KSK","","","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{},{"hlc_pistol_P226R_Combat","","","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",8,30}}},{},"Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
+        ALiVE_orbatCreator_loadout[] = {{"hlc_rifle_G36KA1KSK","","","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{},{"hlc_pistol_P226R_Combat","","","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_ManticamCryeWinter_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_ManticamRAVOperatorWinter",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",8,30}}},{},"Manticore_ManticamMich2000Winter_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
 
 
         class EventHandlers : EventHandlers {
@@ -3915,10 +3915,10 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
-        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_01";
+        uniformClass = "Manticore_ManticamCryeWinter_01";
 
-        linkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
-        respawnlinkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        linkedItems[] = {"Manticore_ManticamRAVOperatorWinter","Manticore_ManticamMich2000Winter_01","ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        respawnlinkedItems[] = {"Manticore_ManticamRAVOperatorWinter","Manticore_ManticamMich2000Winter_01","ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
 
         weapons[] = {"HLC_Rifle_G36KSKAG36","hlc_pistol_P226R_Combat","Rangefinder"};
         respawnWeapons[] = {"HLC_Rifle_G36KSKAG36","hlc_pistol_P226R_Combat","Rangefinder"};
@@ -3926,9 +3926,9 @@ class CfgVehicles {
         magazines[] = {"hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226","hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226"};
         respawnMagazines[] = {"hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226","hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226"};
 
-        backpack = "Manticore_Uniform_Uniform_ManticamWinter_Kitbag_Med";
+        backpack = "Manticore_ManticamKitbagWinter_Med";
 
-        ALiVE_orbatCreator_loadout[] = {{"HLC_Rifle_G36KSKAG36","","","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{},{"hlc_pistol_P226R_Combat","","","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",3,30}}},{"Manticore_Uniform_Uniform_ManticamWinter_Kitbag_Med",{{"1Rnd_HE_Grenade_shell",15,1},{"UGL_FlareWhite_F",5,1},{"UGL_FlareGreen_F",2,1},{"UGL_FlareRed_F",2,1},{"UGL_FlareCIR_F",2,1},{"1Rnd_SmokeRed_Grenade_shell",5,1},{"ACE_HuntIR_M203",2,1},{"SmokeShellGreen",2,1},{"SmokeShellBlue",2,1},{"SmokeShell",2,1}}},"Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
+        ALiVE_orbatCreator_loadout[] = {{"HLC_Rifle_G36KSKAG36","","","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{},{"hlc_pistol_P226R_Combat","","","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_ManticamCryeWinter_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_ManticamRAVOperatorWinter",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",3,30}}},{"Manticore_ManticamKitbagWinter_Med",{{"1Rnd_HE_Grenade_shell",15,1},{"UGL_FlareWhite_F",5,1},{"UGL_FlareGreen_F",2,1},{"UGL_FlareRed_F",2,1},{"UGL_FlareCIR_F",2,1},{"1Rnd_SmokeRed_Grenade_shell",5,1},{"ACE_HuntIR_M203",2,1},{"SmokeShellGreen",2,1},{"SmokeShellBlue",2,1},{"SmokeShell",2,1}}},"Manticore_ManticamMich2000Winter_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
 
 
         class EventHandlers : EventHandlers {
@@ -3955,10 +3955,10 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
-        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_01";
+        uniformClass = "Manticore_ManticamCryeWinter_01";
 
-        linkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
-        respawnlinkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        linkedItems[] = {"Manticore_ManticamRAVOperatorWinter","Manticore_ManticamMich2000Winter_01","ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        respawnlinkedItems[] = {"Manticore_ManticamRAVOperatorWinter","Manticore_ManticamMich2000Winter_01","ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
 
         weapons[] = {"HLC_Rifle_G36KSKAG36","hlc_pistol_P226R_Combat","Rangefinder"};
         respawnWeapons[] = {"HLC_Rifle_G36KSKAG36","hlc_pistol_P226R_Combat","Rangefinder"};
@@ -3966,9 +3966,9 @@ class CfgVehicles {
         magazines[] = {"hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226","hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226"};
         respawnMagazines[] = {"hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226","hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226"};
 
-        backpack = "Manticore_Uniform_Uniform_ManticamWinter_Kitbag_Med";
+        backpack = "Manticore_ManticamKitbagWinter_Med";
 
-        ALiVE_orbatCreator_loadout[] = {{"HLC_Rifle_G36KSKAG36","","","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{},{"hlc_pistol_P226R_Combat","","","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",3,30}}},{"Manticore_Uniform_Uniform_ManticamWinter_Kitbag_Med",{{"1Rnd_HE_Grenade_shell",15,1},{"UGL_FlareWhite_F",5,1},{"UGL_FlareGreen_F",2,1},{"UGL_FlareRed_F",2,1},{"UGL_FlareCIR_F",2,1},{"1Rnd_SmokeRed_Grenade_shell",5,1},{"ACE_HuntIR_M203",2,1},{"SmokeShellGreen",2,1},{"SmokeShellBlue",2,1},{"SmokeShell",2,1}}},"Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
+        ALiVE_orbatCreator_loadout[] = {{"HLC_Rifle_G36KSKAG36","","","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{},{"hlc_pistol_P226R_Combat","","","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_ManticamCryeWinter_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_ManticamRAVOperatorWinter",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",3,30}}},{"Manticore_ManticamKitbagWinter_Med",{{"1Rnd_HE_Grenade_shell",15,1},{"UGL_FlareWhite_F",5,1},{"UGL_FlareGreen_F",2,1},{"UGL_FlareRed_F",2,1},{"UGL_FlareCIR_F",2,1},{"1Rnd_SmokeRed_Grenade_shell",5,1},{"ACE_HuntIR_M203",2,1},{"SmokeShellGreen",2,1},{"SmokeShellBlue",2,1},{"SmokeShell",2,1}}},"Manticore_ManticamMich2000Winter_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
 
 
         class EventHandlers : EventHandlers {
@@ -3995,10 +3995,10 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
-        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_01";
+        uniformClass = "Manticore_ManticamCryeWinter_01";
 
-        linkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemAndroid","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
-        respawnlinkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemAndroid","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        linkedItems[] = {"Manticore_ManticamRAVOperatorWinter","Manticore_ManticamMich2000Winter_01","ItemMap","ItemAndroid","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        respawnlinkedItems[] = {"Manticore_ManticamRAVOperatorWinter","Manticore_ManticamMich2000Winter_01","ItemMap","ItemAndroid","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
 
         weapons[] = {"hlc_rifle_G36KA1KSK","hlc_pistol_P226R_Combat","Rangefinder"};
         respawnWeapons[] = {"hlc_rifle_G36KA1KSK","hlc_pistol_P226R_Combat","Rangefinder"};
@@ -4006,9 +4006,9 @@ class CfgVehicles {
         magazines[] = {"hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226","hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226"};
         respawnMagazines[] = {"hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226","hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226"};
 
-        backpack = "Manticore_Uniform_Uniform_ManticamWinter_rt1523g ";
+        backpack = "Manticore_ManticamRT1523gWinter ";
 
-        ALiVE_orbatCreator_loadout[] = {{"hlc_rifle_G36KA1KSK","","","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{},{"hlc_pistol_P226R_Combat","","hlc_acc_TLR1","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",8,30}}},{"Manticore_Uniform_Uniform_ManticamWinter_rt1523g ",{{"ACE_fieldDressing",19},{"adv_aceCPR_AED",1},{"ACE_elasticBandage",1}}},"Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemAndroid","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
+        ALiVE_orbatCreator_loadout[] = {{"hlc_rifle_G36KA1KSK","","","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{},{"hlc_pistol_P226R_Combat","","hlc_acc_TLR1","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_ManticamCryeWinter_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_ManticamRAVOperatorWinter",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",8,30}}},{"Manticore_ManticamRT1523gWinter ",{{"ACE_fieldDressing",19},{"adv_aceCPR_AED",1},{"ACE_elasticBandage",1}}},"Manticore_ManticamMich2000Winter_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemAndroid","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
 
 
         class EventHandlers : EventHandlers {
@@ -4035,10 +4035,10 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
-        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_01";
+        uniformClass = "Manticore_ManticamCryeWinter_01";
 
-        linkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
-        respawnlinkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        linkedItems[] = {"Manticore_ManticamRAVOperatorWinter","Manticore_ManticamMich2000Winter_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        respawnlinkedItems[] = {"Manticore_ManticamRAVOperatorWinter","Manticore_ManticamMich2000Winter_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
 
         weapons[] = {"hlc_rifle_G36KA1KSK","hlc_pistol_P226R_Combat","Rangefinder"};
         respawnWeapons[] = {"hlc_rifle_G36KA1KSK","hlc_pistol_P226R_Combat","Rangefinder"};
@@ -4048,7 +4048,7 @@ class CfgVehicles {
 
         backpack = "VSM_OGA_OD_Backpack_Kitbag";
 
-        ALiVE_orbatCreator_loadout[] = {{"hlc_rifle_G36KA1KSK","","","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{},{"hlc_pistol_P226R_Combat","","hlc_acc_TLR1","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",8,30}}},{"VSM_OGA_OD_Backpack_Kitbag",{{"ACE_fieldDressing",40},{"adv_aceCPR_AED",1},{"ACE_elasticBandage",40},{"ACE_quikclot",40},{"ACE_packingBandage",40},{"ACE_morphine",15},{"ACE_epinephrine",15},{"ACE_tourniquet",20},{"ACE_salineIV",2},{"ACE_salineIV_250",4},{"ACE_salineIV_500",2}}},"Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
+        ALiVE_orbatCreator_loadout[] = {{"hlc_rifle_G36KA1KSK","","","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{},{"hlc_pistol_P226R_Combat","","hlc_acc_TLR1","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_ManticamCryeWinter_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_ManticamRAVOperatorWinter",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",8,30}}},{"VSM_OGA_OD_Backpack_Kitbag",{{"ACE_fieldDressing",40},{"adv_aceCPR_AED",1},{"ACE_elasticBandage",40},{"ACE_quikclot",40},{"ACE_packingBandage",40},{"ACE_morphine",15},{"ACE_epinephrine",15},{"ACE_tourniquet",20},{"ACE_salineIV",2},{"ACE_salineIV_250",4},{"ACE_salineIV_500",2}}},"Manticore_ManticamMich2000Winter_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
 
 
         class EventHandlers : EventHandlers {
@@ -4075,10 +4075,10 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
-        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_01";
+        uniformClass = "Manticore_ManticamCryeWinter_01";
 
-        linkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
-        respawnlinkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        linkedItems[] = {"Manticore_ManticamRAVOperatorWinter","Manticore_ManticamMich2000Winter_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        respawnlinkedItems[] = {"Manticore_ManticamRAVOperatorWinter","Manticore_ManticamMich2000Winter_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
 
         weapons[] = {"hlc_rifle_G36KA1KSK","rhs_weap_M136_hedp","hlc_pistol_P226R_Combat","Rangefinder"};
         respawnWeapons[] = {"hlc_rifle_G36KA1KSK","rhs_weap_M136_hedp","hlc_pistol_P226R_Combat","Rangefinder"};
@@ -4086,7 +4086,7 @@ class CfgVehicles {
         magazines[] = {"hlc_30rnd_556x45_EPR_G36","rhs_m136_hedp_mag","hlc_15Rnd_9x19_B_P226","hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226"};
         respawnMagazines[] = {"hlc_30rnd_556x45_EPR_G36","rhs_m136_hedp_mag","hlc_15Rnd_9x19_B_P226","hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226"};
 
-        ALiVE_orbatCreator_loadout[] = {{"hlc_rifle_G36KA1KSK","","","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{"rhs_weap_M136_hedp","","","",{"rhs_m136_hedp_mag",1},{},""},{"hlc_pistol_P226R_Combat","","hlc_acc_TLR1","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1},{"rhs_m136_hedp_mag",1,1}}},{"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",8,30}}},{},"Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
+        ALiVE_orbatCreator_loadout[] = {{"hlc_rifle_G36KA1KSK","","","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{"rhs_weap_M136_hedp","","","",{"rhs_m136_hedp_mag",1},{},""},{"hlc_pistol_P226R_Combat","","hlc_acc_TLR1","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_ManticamCryeWinter_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1},{"rhs_m136_hedp_mag",1,1}}},{"Manticore_ManticamRAVOperatorWinter",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",8,30}}},{},"Manticore_ManticamMich2000Winter_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
 
 
         class EventHandlers : EventHandlers {
@@ -4113,10 +4113,10 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
-        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_01";
+        uniformClass = "Manticore_ManticamCryeWinter_01";
 
-        linkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
-        respawnlinkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        linkedItems[] = {"Manticore_ManticamRAVOperatorWinter","Manticore_ManticamMich2000Winter_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        respawnlinkedItems[] = {"Manticore_ManticamRAVOperatorWinter","Manticore_ManticamMich2000Winter_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
 
         weapons[] = {"hlc_rifle_G36KA1KSK","launch_MRAWS_green_rail_F","hlc_pistol_P226R_Combat","Rangefinder"};
         respawnWeapons[] = {"hlc_rifle_G36KA1KSK","launch_MRAWS_green_rail_F","hlc_pistol_P226R_Combat","Rangefinder"};
@@ -4126,7 +4126,7 @@ class CfgVehicles {
 
         backpack = "VSM_OGA_OD_Backpack_Kitbag";
 
-        ALiVE_orbatCreator_loadout[] = {{"hlc_rifle_G36KA1KSK","","","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{"launch_MRAWS_green_rail_F","","","",{},{},""},{"hlc_pistol_P226R_Combat","","hlc_acc_TLR1","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",8,30}}},{"VSM_OGA_OD_Backpack_Kitbag",{{"MRAWS_HEAT_F",2,1},{"MRAWS_HE_F",3,1}}},"Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
+        ALiVE_orbatCreator_loadout[] = {{"hlc_rifle_G36KA1KSK","","","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{"launch_MRAWS_green_rail_F","","","",{},{},""},{"hlc_pistol_P226R_Combat","","hlc_acc_TLR1","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_ManticamCryeWinter_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_ManticamRAVOperatorWinter",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",8,30}}},{"VSM_OGA_OD_Backpack_Kitbag",{{"MRAWS_HEAT_F",2,1},{"MRAWS_HE_F",3,1}}},"Manticore_ManticamMich2000Winter_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
 
 
         class EventHandlers : EventHandlers {
@@ -4153,10 +4153,10 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
-        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_01";
+        uniformClass = "Manticore_ManticamCryeWinter_01";
 
-        linkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
-        respawnlinkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        linkedItems[] = {"Manticore_ManticamRAVOperatorWinter","Manticore_ManticamMich2000Winter_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        respawnlinkedItems[] = {"Manticore_ManticamRAVOperatorWinter","Manticore_ManticamMich2000Winter_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
 
         weapons[] = {"hlc_lmg_MG3KWS_b","hlc_pistol_P226R_Combat","Rangefinder"};
         respawnWeapons[] = {"hlc_lmg_MG3KWS_b","hlc_pistol_P226R_Combat","Rangefinder"};
@@ -4164,9 +4164,9 @@ class CfgVehicles {
         magazines[] = {"hlc_50Rnd_762x51_B_MG3","hlc_15Rnd_9x19_B_P226","hlc_50Rnd_762x51_B_MG3","hlc_15Rnd_9x19_B_P226"};
         respawnMagazines[] = {"hlc_50Rnd_762x51_B_MG3","hlc_15Rnd_9x19_B_P226","hlc_50Rnd_762x51_B_MG3","hlc_15Rnd_9x19_B_P226"};
 
-        backpack = "Manticore_Uniform_Uniform_ManticamWinter_Kitbag";
+        backpack = "Manticore_ManticamKitbagWinter";
 
-        ALiVE_orbatCreator_loadout[] = {{"hlc_lmg_MG3KWS_b","","","",{"hlc_50Rnd_762x51_B_MG3",50},{},""},{},{"hlc_pistol_P226R_Combat","","","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_50Rnd_762x51_M_MG3",4,50}}},{"Manticore_Uniform_Uniform_ManticamWinter_Kitbag",{{"hlc_100Rnd_762x51_B_MG3",1,100},{"hlc_250Rnd_762x51_M_MG3",1,250},{"hlc_50Rnd_762x51_M_MG3",4,50}}},"Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
+        ALiVE_orbatCreator_loadout[] = {{"hlc_lmg_MG3KWS_b","","","",{"hlc_50Rnd_762x51_B_MG3",50},{},""},{},{"hlc_pistol_P226R_Combat","","","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_ManticamCryeWinter_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_ManticamRAVOperatorWinter",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_50Rnd_762x51_M_MG3",4,50}}},{"Manticore_ManticamKitbagWinter",{{"hlc_100Rnd_762x51_B_MG3",1,100},{"hlc_250Rnd_762x51_M_MG3",1,250},{"hlc_50Rnd_762x51_M_MG3",4,50}}},"Manticore_ManticamMich2000Winter_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
 
 
         class EventHandlers : EventHandlers {
@@ -4193,10 +4193,10 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
-        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_01";
+        uniformClass = "Manticore_ManticamCryeWinter_01";
 
-        linkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
-        respawnlinkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        linkedItems[] = {"Manticore_ManticamRAVOperatorWinter","Manticore_ManticamMich2000Winter_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        respawnlinkedItems[] = {"Manticore_ManticamRAVOperatorWinter","Manticore_ManticamMich2000Winter_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
 
         weapons[] = {"hlc_lmg_mk46","hlc_pistol_P226R_Combat","Rangefinder"};
         respawnWeapons[] = {"hlc_lmg_mk46","hlc_pistol_P226R_Combat","Rangefinder"};
@@ -4204,9 +4204,9 @@ class CfgVehicles {
         magazines[] = {"hlc_200rnd_556x45_M_SAW","hlc_15Rnd_9x19_B_P226","hlc_200rnd_556x45_M_SAW","hlc_15Rnd_9x19_B_P226"};
         respawnMagazines[] = {"hlc_200rnd_556x45_M_SAW","hlc_15Rnd_9x19_B_P226","hlc_200rnd_556x45_M_SAW","hlc_15Rnd_9x19_B_P226"};
 
-        backpack = "Manticore_Uniform_Uniform_ManticamWinter_Kitbag";
+        backpack = "Manticore_ManticamKitbagWinter";
 
-        ALiVE_orbatCreator_loadout[] = {{"hlc_lmg_mk46","","","rhsusf_acc_su230",{"hlc_200rnd_556x45_M_SAW",200},{},""},{},{"hlc_pistol_P226R_Combat","","","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"200Rnd_556x45_Box_F",2,200}}},{"Manticore_Uniform_Uniform_ManticamWinter_Kitbag",{{"200Rnd_556x45_Box_F",4,200}}},"Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
+        ALiVE_orbatCreator_loadout[] = {{"hlc_lmg_mk46","","","rhsusf_acc_su230",{"hlc_200rnd_556x45_M_SAW",200},{},""},{},{"hlc_pistol_P226R_Combat","","","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_ManticamCryeWinter_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_ManticamRAVOperatorWinter",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"200Rnd_556x45_Box_F",2,200}}},{"Manticore_ManticamKitbagWinter",{{"200Rnd_556x45_Box_F",4,200}}},"Manticore_ManticamMich2000Winter_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
 
 
         class EventHandlers : EventHandlers {
@@ -4233,10 +4233,10 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
-        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_01";
+        uniformClass = "Manticore_ManticamCryeWinter_01";
 
-        linkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
-        respawnlinkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        linkedItems[] = {"Manticore_ManticamRAVOperatorWinter","Manticore_ManticamMich2000Winter_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        respawnlinkedItems[] = {"Manticore_ManticamRAVOperatorWinter","Manticore_ManticamMich2000Winter_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
 
         weapons[] = {"rhs_weap_m27iar","hlc_pistol_P226R_Combat","Rangefinder"};
         respawnWeapons[] = {"rhs_weap_m27iar","hlc_pistol_P226R_Combat","Rangefinder"};
@@ -4244,9 +4244,9 @@ class CfgVehicles {
         magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag","hlc_15Rnd_9x19_B_P226","rhs_mag_30Rnd_556x45_M855A1_Stanag","hlc_15Rnd_9x19_B_P226"};
         respawnMagazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag","hlc_15Rnd_9x19_B_P226","rhs_mag_30Rnd_556x45_M855A1_Stanag","hlc_15Rnd_9x19_B_P226"};
 
-        backpack = "Manticore_Uniform_Uniform_ManticamWinter_CompactBag";
+        backpack = "Manticore_ManticamCompactBagWinter";
 
-        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_m27iar","","","rhsusf_acc_su230",{"rhs_mag_30Rnd_556x45_M855A1_Stanag",30},{},"rhsusf_acc_grip1"},{},{"hlc_pistol_P226R_Combat","","","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR",5,30}}},{"Manticore_Uniform_Uniform_ManticamWinter_CompactBag",{{"hlc_50rnd_556x45_M",3,50},{"hlc_30rnd_556x45_EPR",2,30}}},"Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
+        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_m27iar","","","rhsusf_acc_su230",{"rhs_mag_30Rnd_556x45_M855A1_Stanag",30},{},"rhsusf_acc_grip1"},{},{"hlc_pistol_P226R_Combat","","","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_ManticamCryeWinter_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_ManticamRAVOperatorWinter",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR",5,30}}},{"Manticore_ManticamCompactBagWinter",{{"hlc_50rnd_556x45_M",3,50},{"hlc_30rnd_556x45_EPR",2,30}}},"Manticore_ManticamMich2000Winter_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
 
 
         class EventHandlers : EventHandlers {
@@ -4273,10 +4273,10 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
-        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_01";
+        uniformClass = "Manticore_ManticamCryeWinter_01";
 
-        linkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
-        respawnlinkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        linkedItems[] = {"Manticore_ManticamRAVOperatorWinter","Manticore_ManticamMich2000Winter_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        respawnlinkedItems[] = {"Manticore_ManticamRAVOperatorWinter","Manticore_ManticamMich2000Winter_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
 
         weapons[] = {"hlc_rifle_G36KA1KSK","rhs_weap_fim92","hlc_pistol_P226R_Combat","Rangefinder"};
         respawnWeapons[] = {"hlc_rifle_G36KA1KSK","rhs_weap_fim92","hlc_pistol_P226R_Combat","Rangefinder"};
@@ -4284,9 +4284,9 @@ class CfgVehicles {
         magazines[] = {"hlc_30rnd_556x45_EPR_G36","rhs_fim92_mag","hlc_15Rnd_9x19_B_P226","hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226"};
         respawnMagazines[] = {"hlc_30rnd_556x45_EPR_G36","rhs_fim92_mag","hlc_15Rnd_9x19_B_P226","hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226"};
 
-        backpack = "Manticore_Uniform_Uniform_ManticamWinter_Kitbag";
+        backpack = "Manticore_ManticamKitbagWinter";
 
-        ALiVE_orbatCreator_loadout[] = {{"hlc_rifle_G36KA1KSK","","","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{"rhs_weap_fim92","","","",{"rhs_fim92_mag",1},{},""},{"hlc_pistol_P226R_Combat","","hlc_acc_TLR1","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",8,30}}},{"Manticore_Uniform_Uniform_ManticamWinter_Kitbag",{{"rhs_fim92_mag",2,1}}},"Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
+        ALiVE_orbatCreator_loadout[] = {{"hlc_rifle_G36KA1KSK","","","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{"rhs_weap_fim92","","","",{"rhs_fim92_mag",1},{},""},{"hlc_pistol_P226R_Combat","","hlc_acc_TLR1","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_ManticamCryeWinter_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_ManticamRAVOperatorWinter",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",8,30}}},{"Manticore_ManticamKitbagWinter",{{"rhs_fim92_mag",2,1}}},"Manticore_ManticamMich2000Winter_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
 
 
         class EventHandlers : EventHandlers {
@@ -4351,10 +4351,10 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
-        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_01";
+        uniformClass = "Manticore_ManticamCryeWinter_01";
 
-        linkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","rhsusf_hgu56p_visor_green","ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
-        respawnlinkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","rhsusf_hgu56p_visor_green","ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        linkedItems[] = {"Manticore_ManticamRAVOperatorWinter","rhsusf_hgu56p_visor_green","ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        respawnlinkedItems[] = {"Manticore_ManticamRAVOperatorWinter","rhsusf_hgu56p_visor_green","ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
 
         weapons[] = {"hlc_rifle_G36C","hlc_pistol_P226R_Combat","Rangefinder"};
         respawnWeapons[] = {"hlc_rifle_G36C","hlc_pistol_P226R_Combat","Rangefinder"};
@@ -4362,7 +4362,7 @@ class CfgVehicles {
         magazines[] = {"hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226","hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226"};
         respawnMagazines[] = {"hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226","hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226"};
 
-        ALiVE_orbatCreator_loadout[] = {{"hlc_rifle_G36C","","rhsusf_acc_anpeq15_bk","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{},{"hlc_pistol_P226R_Combat","","hlc_acc_TLR1","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",8,30}}},{},"rhsusf_hgu56p_visor_green","rhs_googles_orange",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
+        ALiVE_orbatCreator_loadout[] = {{"hlc_rifle_G36C","","rhsusf_acc_anpeq15_bk","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{},{"hlc_pistol_P226R_Combat","","hlc_acc_TLR1","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_ManticamCryeWinter_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_ManticamRAVOperatorWinter",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",8,30}}},{},"rhsusf_hgu56p_visor_green","rhs_googles_orange",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
 
 
         class EventHandlers : EventHandlers {
@@ -4389,10 +4389,10 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
-        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_01";
+        uniformClass = "Manticore_ManticamCryeWinter_01";
 
-        linkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","H_HelmetCrew_I","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
-        respawnlinkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","H_HelmetCrew_I","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        linkedItems[] = {"Manticore_ManticamRAVOperatorWinter","H_HelmetCrew_I","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        respawnlinkedItems[] = {"Manticore_ManticamRAVOperatorWinter","H_HelmetCrew_I","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
 
         weapons[] = {"hlc_rifle_G36C","hlc_pistol_P226R_Combat","Rangefinder"};
         respawnWeapons[] = {"hlc_rifle_G36C","hlc_pistol_P226R_Combat","Rangefinder"};
@@ -4400,7 +4400,7 @@ class CfgVehicles {
         magazines[] = {"hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226","hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226"};
         respawnMagazines[] = {"hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226","hlc_30rnd_556x45_EPR_G36","hlc_15Rnd_9x19_B_P226"};
 
-        ALiVE_orbatCreator_loadout[] = {{"hlc_rifle_G36C","","rhsusf_acc_anpeq15_bk","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{},{"hlc_pistol_P226R_Combat","","hlc_acc_TLR1","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",8,30}}},{},"H_HelmetCrew_I","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
+        ALiVE_orbatCreator_loadout[] = {{"hlc_rifle_G36C","","rhsusf_acc_anpeq15_bk","rhsusf_acc_g33_xps3",{"hlc_30rnd_556x45_EPR_G36",30},{},""},{},{"hlc_pistol_P226R_Combat","","hlc_acc_TLR1","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_ManticamCryeWinter_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_ManticamRAVOperatorWinter",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"hlc_30rnd_556x45_EPR_G36",8,30}}},{},"H_HelmetCrew_I","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
 
 
         class EventHandlers : EventHandlers {
@@ -4427,10 +4427,10 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
-        uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_01";
+        uniformClass = "Manticore_ManticamCryeWinter_01";
 
-        linkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
-        respawnlinkedItems[] = {"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator","Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        linkedItems[] = {"Manticore_ManticamRAVOperatorWinter","Manticore_ManticamMich2000Winter_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
+        respawnlinkedItems[] = {"Manticore_ManticamRAVOperatorWinter","Manticore_ManticamMich2000Winter_01","ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"};
 
         weapons[] = {"rhs_weap_sr25_wd","hlc_pistol_P226R_Combat","Rangefinder"};
         respawnWeapons[] = {"rhs_weap_sr25_wd","hlc_pistol_P226R_Combat","Rangefinder"};
@@ -4438,7 +4438,7 @@ class CfgVehicles {
         magazines[] = {"rhsusf_20Rnd_762x51_SR25_m118_special_Mag","hlc_15Rnd_9x19_B_P226","rhsusf_20Rnd_762x51_SR25_m118_special_Mag","hlc_15Rnd_9x19_B_P226"};
         respawnMagazines[] = {"rhsusf_20Rnd_762x51_SR25_m118_special_Mag","hlc_15Rnd_9x19_B_P226","rhsusf_20Rnd_762x51_SR25_m118_special_Mag","hlc_15Rnd_9x19_B_P226"};
 
-        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_sr25_wd","","rhsusf_acc_anpeq15side_bk","rhsusf_acc_su230",{"rhsusf_20Rnd_762x51_SR25_m118_special_Mag",20},{},"rhsusf_acc_harris_bipod"},{},{"hlc_pistol_P226R_Combat","","hlc_acc_TLR1","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_Uniform_Uniform_ManticamWinter_Crye_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"rhsusf_20Rnd_762x51_SR25_m118_special_Mag",5,20},{"rhsusf_20Rnd_762x51_SR25_m993_Mag",2,20}}},{},"Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
+        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_sr25_wd","","rhsusf_acc_anpeq15side_bk","rhsusf_acc_su230",{"rhsusf_20Rnd_762x51_SR25_m118_special_Mag",20},{},"rhsusf_acc_harris_bipod"},{},{"hlc_pistol_P226R_Combat","","hlc_acc_TLR1","HLC_optic_HP",{"hlc_15Rnd_9x19_B_P226",15},{},""},{"Manticore_ManticamCryeWinter_01",{{"ACE_EarPlugs",1},{"ACE_salineIV_250",2},{"ACE_salineIV_500",1},{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_quikclot",4},{"ACE_packingBandage",4},{"ACE_morphine",2},{"ACE_epinephrine",1},{"ACE_EntrenchingTool",1}}},{"Manticore_ManticamRAVOperatorWinter",{{"SmokeShell",4,1},{"ACE_M84",2,1},{"rhs_mag_m67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellBlue",1,1},{"SmokeShellGreen",1,1},{"hlc_15Rnd_9x19_B_P226",3,15},{"rhsusf_20Rnd_762x51_SR25_m118_special_Mag",5,20},{"rhsusf_20Rnd_762x51_SR25_m993_Mag",2,20}}},{},"Manticore_ManticamMich2000Winter_01","",{"Rangefinder","","","",{},{},""},{"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","rhsusf_ANPVS_15"}};
 
 
         class EventHandlers : EventHandlers {
