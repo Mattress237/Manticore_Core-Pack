@@ -1,4 +1,4 @@
-class Manticore_Loadout_Crate_General : Box_NATO_Equip_F
+class Manticore_CrateEquipment_General : Box_NATO_Equip_F
 {
 	displayName = "Equipment Crate (General) (TFM)";
 	scope = 2;
@@ -22,7 +22,7 @@ class Manticore_Loadout_Crate_General : Box_NATO_Equip_F
 		_standardKitBag(1);
 	};
 };
-class Manticore_Loadout_Crate_Medical : Box_NATO_Equip_F
+class Manticore_CrateEquipment_Medical : Box_NATO_Equip_F
 {
 	displayName = "Equipment Crate (Medical) (TFM)";
 	scope = 2;
