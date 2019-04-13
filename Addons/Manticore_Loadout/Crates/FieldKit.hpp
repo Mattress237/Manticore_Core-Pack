@@ -1,4 +1,4 @@
-class Manticore_Loadout_Crate_Field_Fireteam : B_supplyCrate_F
+class Manticore_CrateField_Fireteam : B_supplyCrate_F
 {
 	displayName = "Supply Crate (Field Kit Fireteam) (TFM)";
 	scope = 2;
@@ -85,7 +85,7 @@ class Manticore_Loadout_Crate_Field_Fireteam : B_supplyCrate_F
 		_standardKitBag(1);
 	};
 };
-class Manticore_Loadout_Crate_Field_Squad : B_supplyCrate_F
+class Manticore_CrateField_Squad : B_supplyCrate_F
 {
 	displayName = "Supply Crate (Field Kit Squad) (TFM)";
 	scope = 2;

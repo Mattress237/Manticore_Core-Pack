@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class Manticore_Uniform_Uniform_Woodland
+	class Manticore_Uniform_Woodland
 	{
 		addonRootClass = "Manticore_Uniform";
 		units[] =
@@ -22,7 +22,7 @@ class CfgPatches
 class CfgVehicles
 {
 	class B_AssaultPack_Base;
-	class Manticore_Uniform_Uniform_ManticamWoodland_CompactBag : B_AssaultPack_Base
+	class Manticore_ManticamCompactBagWoodland : B_AssaultPack_Base
 	{
 		scope = 2;
 		displayName = "Manticam Woodland Compact Bag";

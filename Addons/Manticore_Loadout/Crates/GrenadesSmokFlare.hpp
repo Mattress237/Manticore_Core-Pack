@@ -1,4 +1,4 @@
-class Manticore_Loadout_Crate_Grenade_Grenade : Box_NATO_Support_F
+class Manticore_CrateGrenade_Grenade : Box_NATO_Support_F
 {
 	displayName = "Support Crate (Grenade) (Grenade) (TFM)";
 	scope = 2;
@@ -39,7 +39,7 @@ class Manticore_Loadout_Crate_Grenade_Grenade : Box_NATO_Support_F
 		_standardCompactBag(1);
 	};
 };
-class Manticore_Loadout_Crate_Grenade_FlareChem : Box_NATO_Support_F
+class Manticore_CrateGrenade_FlareChem : Box_NATO_Support_F
 {
 	displayName = "Support Crate (Flare and Chem) (Grenade) (TFM)";
 	scope = 2;
@@ -96,7 +96,7 @@ class Manticore_Loadout_Crate_Grenade_FlareChem : Box_NATO_Support_F
 		_standardCompactBag(1);
 	};
 };
-class Manticore_Loadout_Crate_Grenade_SmokFlareChem : Box_NATO_Support_F
+class Manticore_CrateGrenade_SmokFlareChem : Box_NATO_Support_F
 {
 	displayName = "Support Crate (Smok, Flare and Chem) (Grenade) (TFM)";
 	scope = 2;
@@ -154,7 +154,7 @@ class Manticore_Loadout_Crate_Grenade_SmokFlareChem : Box_NATO_Support_F
 		_standardCompactBag(1);
 	};
 };
-class Manticore_Loadout_Crate_Grenade_Smok : Box_NATO_Support_F
+class Manticore_CrateGrenade_Smok : Box_NATO_Support_F
 {
 	displayName = "Support Crate (Smok) (Grenade) (TFM)";
 	scope = 2;

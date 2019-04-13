@@ -2,7 +2,7 @@
 //HPP for Falgcarrier normal size
 
 class FlagChecked_F;
-class Manticore_FlagCarrier_WHITE : FlagChecked_F
+class Manticore_FlagCarrier_White : FlagChecked_F
 {
 	author = "Mattress";
 	displayName = "Flagcarrier Color (Withe)";
@@ -22,7 +22,7 @@ class Manticore_FlagCarrier_WHITE : FlagChecked_F
 
 //Flagcarrier FACTIONS
 
-class Manticore_FlagCarrier_NATO : Manticore_FlagCarrier_WHITE
+class Manticore_FlagCarrier_NATO : Manticore_FlagCarrier_White
 {
 	author = "Mattress";
 	displayName = "Flagcarrier Faction (NATO)";
@@ -31,7 +31,7 @@ class Manticore_FlagCarrier_NATO : Manticore_FlagCarrier_WHITE
 		init = "(_this select 0) setFlagTexture '\Manticore_Flags_Markers\data\flagCarrier\Flag_Flagcarrier_NATO_CO.paa';";
 	};
 };
-class Manticore_FlagCarrier_MANTICORE : Manticore_FlagCarrier_WHITE
+class Manticore_FlagCarrier_TFM : Manticore_FlagCarrier_White
 {
 	author = "Mattress";
 	displayName = "Flagcarrier Faction (Manticore)";
@@ -40,7 +40,7 @@ class Manticore_FlagCarrier_MANTICORE : Manticore_FlagCarrier_WHITE
 		init = "(_this select 0) setFlagTexture '\Manticore_Flags_Markers\data\flagCarrier\Flag_Flagcarrier_Manticore_CO.paa';";
 	};
 };
-class Manticore_FlagCarrier_sTs : Manticore_FlagCarrier_WHITE
+class Manticore_FlagCarrier_sTs : Manticore_FlagCarrier_White
 {
 	author = "Mattress";
 	displayName = "Flagcarrier Faction (sTs)";
@@ -49,7 +49,7 @@ class Manticore_FlagCarrier_sTs : Manticore_FlagCarrier_WHITE
 		init = "(_this select 0) setFlagTexture '\Manticore_Flags_Markers\data\flagCarrier\Flag_Flagcarrier_sTs_CO.paa';";
 	};
 };
-class Manticore_FlagCarrier_NORWAY : Manticore_FlagCarrier_WHITE
+class Manticore_FlagCarrier_Norway : Manticore_FlagCarrier_White
 {
 	author = "Mattress";
 	displayName = "Flagcarrier Faction (Norway)";
@@ -58,7 +58,7 @@ class Manticore_FlagCarrier_NORWAY : Manticore_FlagCarrier_WHITE
 		init = "(_this select 0) setFlagTexture '\Manticore_Flags_Markers\data\flagCarrier\Flag_Flagcarrier_Norway_CO.paa';";
 	};
 };
-class Manticore_FlagCarrier_DENMARK : Manticore_FlagCarrier_WHITE
+class Manticore_FlagCarrier_Denmark : Manticore_FlagCarrier_White
 {
 	author = "Mattress";
 	displayName = "Flagcarrier Faction (Denmark)";
@@ -67,7 +67,7 @@ class Manticore_FlagCarrier_DENMARK : Manticore_FlagCarrier_WHITE
 		init = "(_this select 0) setFlagTexture '\Manticore_Flags_Markers\data\flagCarrier\Flag_Flagcarrier_Denmark_CO.paa';";
 	};
 };
-class Manticore_FlagCarrier_UNITED_KINGDOM : Manticore_FlagCarrier_WHITE
+class Manticore_FlagCarrier_UnitedKingdom : Manticore_FlagCarrier_White
 {
 	author = "Mattress";
 	displayName = "Flagcarrier Faction (UK)";
@@ -76,7 +76,7 @@ class Manticore_FlagCarrier_UNITED_KINGDOM : Manticore_FlagCarrier_WHITE
 		init = "(_this select 0) setFlagTexture '\Manticore_Flags_Markers\data\flagCarrier\Flag_Flagcarrier_United_Kingdom_CO.paa';";
 	};
 };
-class Manticore_FlagCarrier_GERMANY : Manticore_FlagCarrier_WHITE
+class Manticore_FlagCarrier_Germany : Manticore_FlagCarrier_White
 {
 	author = "Mattress";
 	displayName = "Flagcarrier Faction (Germany)";
@@ -85,7 +85,7 @@ class Manticore_FlagCarrier_GERMANY : Manticore_FlagCarrier_WHITE
 		init = "(_this select 0) setFlagTexture '\Manticore_Flags_Markers\data\flagCarrier\Flag_Flagcarrier_Germany_CO.paa';";
 	};
 };
-class Manticore_FlagCarrier_ROYAL_SCOTLAND : Manticore_FlagCarrier_WHITE
+class Manticore_FlagCarrier_RoyalScotland : Manticore_FlagCarrier_White
 {
 	author = "Mattress";
 	displayName = "Flagcarrier Faction (Royal Scotland)";
@@ -97,7 +97,7 @@ class Manticore_FlagCarrier_ROYAL_SCOTLAND : Manticore_FlagCarrier_WHITE
 
 //Flagcarrier BLUE
 
-class Manticore_FlagCarrier_BLUE : Manticore_FlagCarrier_WHITE
+class Manticore_FlagCarrier_Blue : Manticore_FlagCarrier_White
 {
 	author = "Mattress";
 	displayName = "Flagcarrier Color (Blue)";
@@ -154,7 +154,7 @@ class Manticore_FlagCarrier_BLUE_BLACK : Manticore_FlagCarrier_WHITE
 
 //Flagcarrier RED
 
-class Manticore_FlagCarrier_RED : Manticore_FlagCarrier_WHITE
+class Manticore_FlagCarrier_Red : Manticore_FlagCarrier_White
 {
 	author = "Mattress";
 	displayName = "Flagcarrier Color (Red)";
@@ -212,7 +212,7 @@ class Manticore_FlagCarrier_RED_BLACK : Manticore_FlagCarrier_WHITE
 
 //Flagcarrier GREEN
 
-class Manticore_FlagCarrier_GREEN : Manticore_FlagCarrier_WHITE
+class Manticore_FlagCarrier_Green : Manticore_FlagCarrier_White
 {
 	author = "Mattress";
 	displayName = "Flagcarrier Color (Green)";
@@ -269,7 +269,7 @@ class Manticore_FlagCarrier_GREEN_BLACK : Manticore_FlagCarrier_WHITE
 
 //Flagcarrier YELLOW
 
-class Manticore_FlagCarrier_YELLOW : Manticore_FlagCarrier_WHITE
+class Manticore_FlagCarrier_Yellow : Manticore_FlagCarrier_White
 {
 	author = "Mattress";
 	displayName = "Flagcarrier Color (Yellow)";
@@ -326,7 +326,7 @@ class Manticore_FlagCarrier_YELLOW_BLACK : Manticore_FlagCarrier_WHITE
 
 //Flagcarrier BLACK
 
-class Manticore_FlagCarrier_BLACK : Manticore_FlagCarrier_WHITE
+class Manticore_FlagCarrier_Black : Manticore_FlagCarrier_White
 {
 	author = "Mattress";
 	displayName = "Flagcarrier Color (Black)";
@@ -383,7 +383,7 @@ class Manticore_FlagCarrier_BLACK_GREEN : Manticore_FlagCarrier_WHITE
 
 //Flagcarrier SINGLE COLOR
 
-class Manticore_FlagCarrier_ORANGE : Manticore_FlagCarrier_WHITE
+class Manticore_FlagCarrier_Orange : Manticore_FlagCarrier_White
 {
 	author = "Mattress";
 	displayName = "Flagcarrier Color (Orange)";
@@ -392,7 +392,7 @@ class Manticore_FlagCarrier_ORANGE : Manticore_FlagCarrier_WHITE
 		init = "(_this select 0) setFlagTexture '\Manticore_Flags_Markers\data\flagCarrier\Flag_Flagcarrier_Orange_CO.paa';";
 	};
 };
-class Manticore_FlagCarrier_PURPLE : Manticore_FlagCarrier_WHITE
+class Manticore_FlagCarrier_Purple : Manticore_FlagCarrier_White
 {
 	author = "Mattress";
 	displayName = "Flagcarrier Color (Purple)";

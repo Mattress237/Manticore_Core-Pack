@@ -18,7 +18,7 @@ class CfgVehicles
 {
 	class B_Boat_Armed_01_minigun_F;
 
-	class Manticore_Vanilla_Boats_Speedboat_Minigun : B_Boat_Armed_01_minigun_F
+	class Manticore_SpeedboatMinigun_Base : B_Boat_Armed_01_minigun_F
 	{
 		displayName = "Speedboat Minigun";
 		side = 1;

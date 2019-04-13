@@ -19,7 +19,7 @@ class CfgVehicles
 	class B_APC_Tracked_01_CRV_F;
 	class B_APC_Tracked_01_rcws_F;
 	
-	class Manticore_Vanilla_APC_Namer : B_APC_Tracked_01_rcws_F
+	class Manticore_NamerAPC_Base : B_APC_Tracked_01_rcws_F
 	{
 		side = 1;
 		scope = 1;
@@ -120,7 +120,7 @@ class CfgVehicles
 		};
 		textureList[] = { "Sand",0,"M81",0,"AOR3",0,"AOR2",0,"AOR2_Dark",0 };
 	};
-	class Manticore_Vanilla_APC_Nemmera : B_APC_Tracked_01_CRV_F
+	class Manticore_NemmeraAPC_Base : B_APC_Tracked_01_CRV_F
 	{
 		side = 1;
 		scope = 1;

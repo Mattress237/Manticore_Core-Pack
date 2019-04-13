@@ -1,4 +1,4 @@
-class Manticore_Loadout_Crate_Static_M2_RHS : Box_NATO_Support_F
+class Manticore_CrateStatic_M2RHS : Box_NATO_Support_F
 {
 	displayName = "Support Crate (M2) (Static) (TFM)";
 	scope = 2;
@@ -34,7 +34,7 @@ class Manticore_Loadout_Crate_Static_M2_RHS : Box_NATO_Support_F
 		};
 	};
 };
-class Manticore_Loadout_Crate_Static_Mk19_RHS : Box_NATO_Support_F
+class Manticore_CrateStatic_Mk19RHS : Box_NATO_Support_F
 {
 	displayName = "Support Crate (Mk19) (Static) (TFM)";
 	scope = 2;
@@ -64,7 +64,7 @@ class Manticore_Loadout_Crate_Static_Mk19_RHS : Box_NATO_Support_F
 		};
 	};
 };
-class Manticore_Loadout_Crate_Static_TOW_RHS : Box_NATO_Support_F
+class Manticore_CrateStatic_TOWRHS : Box_NATO_Support_F
 {
 	displayName = "Support Crate (TOW) (Static) (TFM)";
 	scope = 2;
@@ -95,7 +95,7 @@ class Manticore_Loadout_Crate_Static_TOW_RHS : Box_NATO_Support_F
 		};
 	};
 };
-class Manticore_Loadout_Crate_Static_Mk6_Vanila : Box_NATO_Support_F
+class Manticore_CrateStatic_Mk6Vanila : Box_NATO_Support_F
 {
 	displayName = "Support Crate (Mk6 Mortar) (Static) (TFM)";
 	scope = 2;

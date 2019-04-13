@@ -8,7 +8,7 @@ class CfgPatches
 			"Manticore_Navy_O_Uniform",
 			"Manticore_Navy_Uniform_O_Soldier",
 			"Manticore_Navy_Uniform_S_Soldier",
-			"Manticore_Beret_01",
+			"Manticore_Beret",
 			//"TFM_rt1523g_big_Test"
 		};
 		weapons[] = 
@@ -17,7 +17,7 @@ class CfgPatches
 			"Manticore_Navy_O_Uniform",
 			"Manticore_Navy_Uniform_O_Soldier",
 			"Manticore_Navy_Uniform_S_Soldier",
-			"Manticore_Beret_01"
+			"Manticore_Beret"
 
 		};
 		version = "1.0";

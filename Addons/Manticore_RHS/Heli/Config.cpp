@@ -35,7 +35,7 @@ class CfgVehicles
 	class RHS_UH1Y_UNARMED;
 	class RHS_AH1Z;
 
-	class Manticore_RHS_Heli_OH6M : RHS_MELB_H6M
+	class Manticore_OH6MHeli_Base : RHS_MELB_H6M
 	{
 		displayName = "OH-6M";
 		scope = 1;
@@ -49,7 +49,7 @@ class CfgVehicles
 			"rhsusf\addons\rhsusf_melb\data\decals\SN\blank_ca.paa"
 		};
 	};
-	class Manticore_RHS_Heli_MH6M : RHS_MELB_MH6M
+	class Manticore_MH6MHeli_Base : RHS_MELB_MH6M
 	{
 		displayName = "MH-6M";
 		scope = 2;
@@ -63,7 +63,7 @@ class CfgVehicles
 			"rhsusf\addons\rhsusf_melb\data\decals\SN\blank_ca.paa"
 		};
 	};
-	class Manticore_RHS_Heli_AH6M : RHS_MELB_AH6M
+	class Manticore_AH6MHeli_Base : RHS_MELB_AH6M
 	{
 		displayName = "AH-6M";
 		scope = 1;
@@ -78,7 +78,7 @@ class CfgVehicles
 		};
 	};
 
-	class Manticore_RHS_Heli_CH47F : RHS_CH_47F
+	class Manticore_CH47FHeli_Base : RHS_CH_47F
 	{
 		displayName = "CH-47F";
 		scope = 1;
@@ -123,7 +123,7 @@ class CfgVehicles
 		textureList[] = { "RHS_Standard",0,"RHS_Desert",0 };
 	};
 
-	class Manticore_RHS_Heli_UH60M : RHS_UH60M
+	class Manticore_UH60MHeli_Base : RHS_UH60M
 	{
 		displayName = "UH-60M";
 		scope = 1;
@@ -139,7 +139,7 @@ class CfgVehicles
 			"rhsusf\addons\rhsusf_a2port_air\uh60m\data\uh60m_dust_filter_co.paa"
 		};
 	};
-	class Manticore_RHS_Heli_UH60M2 : RHS_UH60M2
+	class Manticore_UH60M2Heli_Base : RHS_UH60M2
 	{
 		displayName = "UH-60M (Unarmed)";
 		scope = 1;
@@ -155,7 +155,7 @@ class CfgVehicles
 			"rhsusf\addons\rhsusf_a2port_air\uh60m\data\uh60m_dust_filter_co.paa"
 		};
 	};
-	class Manticore_RHS_Heli_UH60M_EWS : RHS_UH60M_ESSS2
+	class Manticore_UH60MEWSHeli_Base : RHS_UH60M_ESSS2
 	{
 		displayName = "UH-60M (EWS)";
 		scope = 1;
@@ -171,7 +171,7 @@ class CfgVehicles
 			"rhsusf\addons\rhsusf_a2port_air\uh60m\data\uh60m_dust_filter_co.paa"
 		};
 	};
-	class Manticore_RHS_Heli_UH60M_ESSS : RHS_UH60M_ESSS
+	class Manticore_UH60MESSSHeli_Base : RHS_UH60M_ESSS
 	{
 		displayName = "UH-60M (ESSS)";
 		scope = 1;
@@ -188,7 +188,7 @@ class CfgVehicles
 		};
 	};
 
-	class Manticore_RHS_Heli_UH60M_MEV : RHS_UH60M_MEV2
+	class Manticore_UH60MMEVHeli_Base : RHS_UH60M_MEV2
 	{
 		displayName = "UH-60M MEV";
 		scope = 1;
@@ -204,7 +204,7 @@ class CfgVehicles
 			"rhsusf\addons\rhsusf_a2port_air\uh60m\data\uh60m_dust_filter_co.paa"
 		};
 	};
-	class Manticore_RHS_Heli_UH60M_ESSS_MEV : RHS_UH60M_MEV
+	class Manticore_UH60MESSSMEVHeli_Base : RHS_UH60M_MEV
 	{
 		displayName = "UH-60M MEV (ESSS)";
 		scope = 1;
@@ -221,7 +221,7 @@ class CfgVehicles
 		};
 	};
 
-	class Manticore_RHS_Heli_AH64D : RHS_AH64D
+	class Manticore_AH64DHeli_Base : RHS_AH64D
 	{
 		displayName = "AH-64D";
 		scope = 1;
@@ -263,7 +263,7 @@ class CfgVehicles
 		textureList[] = { "RHS_Standard",0,"RHS_Desert",0 };
 	};
 
-	class Manticore_RHS_Heli_CH53E : rhsusf_CH53E_USMC
+	class Manticore_CH53EHeli_Base : rhsusf_CH53E_USMC
 	{
 		displayName = "CH-53E";
 		scope = 1;
@@ -279,7 +279,7 @@ class CfgVehicles
 		};
 	};
 
-	class Manticore_RHS_Heli_UH1Y : RHS_UH1Y
+	class Manticore_UH1YHeli_Base : RHS_UH1Y
 	{
 		displayName = "UH-1Y";
 		scope = 1;
@@ -293,7 +293,7 @@ class CfgVehicles
 			"rhsusf\addons\rhsusf_a2port_air2\uh1y\data\uh1y_int_co.paa"
 		};
 	};
-	class Manticore_RHS_Heli_UH1Y_FFAR : RHS_UH1Y_FFAR
+	class Manticore_UH1YFFARHeli_Base : RHS_UH1Y_FFAR
 	{
 		displayName = "UH-1Y (FFAR)";
 		scope = 1;
@@ -307,7 +307,7 @@ class CfgVehicles
 			"rhsusf\addons\rhsusf_a2port_air2\uh1y\data\uh1y_int_co.paa"
 		};
 	};
-	class Manticore_RHS_Heli_UH1Y_Unarmed : RHS_UH1Y_UNARMED
+	class Manticore_UH1YUnarmedHeli_Base : RHS_UH1Y_UNARMED
 	{
 		displayName = "UH-1Y (Unarmed)";
 		scope = 1;
@@ -322,7 +322,7 @@ class CfgVehicles
 		};
 	};
 
-	class Manticore_RHS_Heli_AH1Z : RHS_AH1Z
+	class Manticore_AH1ZHeli_Base : RHS_AH1Z
 	{
 		displayName = "AH-1Z";
 		scope = 1;

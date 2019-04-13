@@ -1,4 +1,4 @@
-class Manticore_Loadout_Vanila_Bardelas : Manticore_Vanilla_AA_Bardelas
+class Manticore_Bardelas_Load : Manticore_Bardelas_Base
 {
 	scope = 2;
 	side = 1;

@@ -1,5 +1,5 @@
 //Launcher
-class Manticore_Loadout_Crate_Kit_UnguidedATLauncher : Box_NATO_WpsLaunch_F
+class Manticore_CrateKit_UnguidedATLauncher : Box_NATO_WpsLaunch_F
 {
 	displayName = "Launcher Crate (MAWS) (Kit) (TFM)";
 	scope = 2;
@@ -22,7 +22,7 @@ class Manticore_Loadout_Crate_Kit_UnguidedATLauncher : Box_NATO_WpsLaunch_F
 		_standardKitBag(1);
 	};
 };
-class Manticore_Loadout_Crate_Kit_GuidedATLauncher : Box_NATO_WpsLaunch_F
+class Manticore_CrateKit_GuidedATLauncher : Box_NATO_WpsLaunch_F
 {
 	displayName = "Launcher Crate (Metis-M) (Kit) (TFM)";
 	scope = 2;
@@ -45,7 +45,7 @@ class Manticore_Loadout_Crate_Kit_GuidedATLauncher : Box_NATO_WpsLaunch_F
 		_standardKitBag(1);
 	};
 };
-class Manticore_Loadout_Crate_Kit_GuidedAALauncher : Box_NATO_WpsLaunch_F
+class Manticore_CrateKit_GuidedAALauncher : Box_NATO_WpsLaunch_F
 {
 	displayName = "Launcher Crate (Stinger) (Kit) (TFM)";
 	scope = 2;
@@ -68,7 +68,7 @@ class Manticore_Loadout_Crate_Kit_GuidedAALauncher : Box_NATO_WpsLaunch_F
 		_standardKitBag(1);
 	};
 };
-class Manticore_Loadout_Crate_Kit_DisposableATLauncher : Box_NATO_WpsLaunch_F
+class Manticore_CrateKit_DisposableATLauncher : Box_NATO_WpsLaunch_F
 {
 	displayName = "Launcher Crate (M136) (Kit) (TFM)";
 	scope = 2;
@@ -90,7 +90,7 @@ class Manticore_Loadout_Crate_Kit_DisposableATLauncher : Box_NATO_WpsLaunch_F
 	};
 };
 //Rifle
-class Manticore_Loadout_Crate_Kit_StandardRifle : Box_NATO_Wps_F
+class Manticore_CrateKit_StandardRifle : Box_NATO_Wps_F
 {
 	displayName = "Weapons Crate (G36k(KSK)) (Kit) (TFM)";
 	scope = 2;
@@ -126,7 +126,7 @@ class Manticore_Loadout_Crate_Kit_StandardRifle : Box_NATO_Wps_F
 	{
 	};
 };
-class Manticore_Loadout_Crate_Kit_MachineGunner1 : Box_NATO_Wps_F
+class Manticore_CrateKit_MachineGunner1 : Box_NATO_Wps_F
 {
 	displayName = "Weapons Crate (mk46) (Kit) (TFM)";
 	scope = 2;
@@ -164,7 +164,7 @@ class Manticore_Loadout_Crate_Kit_MachineGunner1 : Box_NATO_Wps_F
 		_standardKitBag(1);
 	};
 };
-class Manticore_Loadout_Crate_Kit_MachineGunner2 : Box_NATO_Wps_F
+class Manticore_CrateKit_MachineGunner2 : Box_NATO_Wps_F
 {
 	displayName = "Weapons Crate (Mk48) (Kit) (TFM)";
 	scope = 2;
@@ -202,7 +202,7 @@ class Manticore_Loadout_Crate_Kit_MachineGunner2 : Box_NATO_Wps_F
 		_standardKitBag(1);
 	};
 };
-class Manticore_Loadout_Crate_Kit_Marksman : Box_NATO_Wps_F
+class Manticore_CrateKit_Marksman : Box_NATO_Wps_F
 {
 	displayName = "Weapons Crate (Troy M14) (Kit) (TFM)";
 	scope = 2;
@@ -239,7 +239,7 @@ class Manticore_Loadout_Crate_Kit_Marksman : Box_NATO_Wps_F
 	{
 	};
 };
-class Manticore_Loadout_Crate_Kit_Sharpshooter : Box_NATO_Wps_F
+class Manticore_CrateKit_Sharpshooter : Box_NATO_Wps_F
 {
 	displayName = "Weapons Crate (Mk 11 Mod 0) (Kit) (TFM)";
 	scope = 2;
@@ -276,7 +276,7 @@ class Manticore_Loadout_Crate_Kit_Sharpshooter : Box_NATO_Wps_F
 	{
 	};
 };
-class Manticore_Loadout_Crate_Kit_Autorifle : Box_NATO_Wps_F
+class Manticore_CrateKit_Autorifle : Box_NATO_Wps_F
 {
 	displayName = "Weapons Crate (M27 IAR) (Kit) (TFM)";
 	scope = 2;

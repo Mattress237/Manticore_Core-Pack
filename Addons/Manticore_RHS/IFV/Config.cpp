@@ -22,7 +22,7 @@ class CfgVehicles
 	class RHS_M2A3_BUSKIII;
 	class RHS_M6;
 
-	class Manticore_RHS_IFV_M2A3 : RHS_M2A3
+	class Manticore_M2A3_Base : RHS_M2A3
 	{
 		displayName = "M2A3";
 		scope = 1;
@@ -74,7 +74,7 @@ class CfgVehicles
 		};
 		textureList[] = { "RHS_Olive",0,"RHS_Woodland",0,"RHS_Desert",0 };
 	};
-	class Manticore_RHS_IFV_M2A3_BUSKI : RHS_M2A3_BUSKI
+	class Manticore_M2A3BUSKI_Base : RHS_M2A3_BUSKI
 	{
 		displayName = "M2A3 (BUSK I)";
 		scope = 1;
@@ -130,7 +130,7 @@ class CfgVehicles
 		};
 		textureList[] = { "RHS_Olive",0,"RHS_Woodland",0,"RHS_Desert",0 };
 	};
-	class Manticore_RHS_IFV_M2A3_BUSKIII : RHS_M2A3_BUSKIII
+	class Manticore_M2A3BUSKIII_Base : RHS_M2A3_BUSKIII
 	{
 		displayName = "M2A3 (BUSK III)";
 		scope = 1;
@@ -190,7 +190,7 @@ class CfgVehicles
 		};
 		textureList[] = { "RHS_Olive",0,"RHS_Woodland",0,"RHS_Desert",0 };
 	};
-	class Manticore_RHS_IFV_M6A2 : RHS_M6
+	class Manticore_M6A2_Base : RHS_M6
 	{
 		displayName = "M6A2 (AA)";
 		scope = 1;

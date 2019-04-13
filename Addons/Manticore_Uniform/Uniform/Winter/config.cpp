@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class Manticore_Uniform_Uniform_Winter
+	class Manticore_Uniform_Winter
 	{
 		addonRootClass = "Manticore_Uniform";
 		units[] =
@@ -23,13 +23,13 @@ class CfgVehicles
 {
 	//Uniform
 	class VSM_Multicam_Crye_Uniform;
-	class Manticore_Uniform_Uniform_ManticamWinter_Crye_00_Base : VSM_Multicam_Crye_Uniform
+	class Manticore_ManticamCryeWinter_00_Base : VSM_Multicam_Crye_Uniform
 	{
 		author = "Mattress, VanSchmoozin";
 		scope = 2;
 		displayName = "Manticam Winter Crye Uniform (m0)";
 		faction = "Manticore_Faction";
-		uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_00";
+		uniformClass = "Manticore_ManticamCryeWinter_00";
 		picture = "\Manticore_Uniform\Uniform\Winter\Data\Icon\Manticam_Logo_Winter.paa";
 		hiddenSelections[] =
 		{
@@ -70,11 +70,11 @@ class CfgVehicles
 			"ItemRadio"
 		};
 	};
-	class Manticore_Uniform_Uniform_ManticamWinter_Crye_01_Base : Manticore_Uniform_Uniform_ManticamWinter_Crye_00_Base
+	class Manticore_ManticamCryeWinter_01_Base : Manticore_ManticamCryeWinter_00_Base
 	{
 		author = "Mattress, VanSchmoozin";
 		displayName = "Manticam Winter Crye Uniform (m1)";
-		uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_01_Base";
+		uniformClass = "Manticore_ManticamCryeWinter_01_Base";
 		hiddenSelections[] =
 		{
 			"Camo",
@@ -85,11 +85,11 @@ class CfgVehicles
 			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Uniform_ARD_ManticamWinter_01.paa"
 		};
 	};
-	class Manticore_Uniform_Uniform_ManticamWinter_Crye_02_Base : Manticore_Uniform_Uniform_ManticamWinter_Crye_00_Base
+	class Manticore_ManticamCryeWinter_02_Base : Manticore_ManticamCryeWinter_00_Base
 	{
 		author = "Mattress, VanSchmoozin";
 		displayName = "Manticam Winter Crye Uniform (m2)";
-		uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_02_Base";
+		uniformClass = "Manticore_ManticamCryeWinter_02_Base";
 		hiddenSelections[] =
 		{
 			"Camo",
@@ -102,7 +102,7 @@ class CfgVehicles
 	};
 	//Backpack
 	class B_AssaultPack_Base;
-	class Manticore_Uniform_Uniform_ManticamWinter_CompactBag : B_AssaultPack_Base
+	class Manticore_ManticamCompactBagWinter : B_AssaultPack_Base
 	{
 		scope = 2;
 		displayName = "Manticam Winter Compact Bag";
@@ -113,7 +113,7 @@ class CfgVehicles
 			"\Manticore_Uniform\Uniform\Winter\Data\Vanilla_Backpack_Compact_ManticamWinter_00.paa"
 		};
 	};
-	class Manticore_Uniform_Uniform_ManticamWinter_CompactBag_Med : B_AssaultPack_Base
+	class Manticore_ManticamCompactBagWinter_Med : B_AssaultPack_Base
 	{
 		scope = 2;
 		displayName = "Manticam Winter Compact Bag (Medical)";
@@ -125,7 +125,7 @@ class CfgVehicles
 		};
 	};
 	class B_Kitbag_Base;
-	class Manticore_Uniform_Uniform_ManticamWinter_Kitbag : B_Kitbag_Base
+	class Manticore_ManticamKitbagWinter : B_Kitbag_Base
 	{
 		scope = 2;
 		displayName = "Manticam Winter Kitbag";
@@ -136,7 +136,7 @@ class CfgVehicles
 			"\Manticore_Uniform\Uniform\Winter\Data\Vanilla_Backpack_Kitbag_ManticamWinter_00.paa"
 		};
 	};
-	class Manticore_Uniform_Uniform_ManticamWinter_Kitbag_Med : B_Kitbag_Base
+	class Manticore_ManticamKitbagWinter_Med : B_Kitbag_Base
 	{
 		scope = 2;
 		displayName = "Manticam Winter Kitbag (Medical)";
@@ -148,7 +148,7 @@ class CfgVehicles
 		};
 	};
 	class B_Carryall_Base;
-	class Manticore_Uniform_Uniform_ManticamWinter_CarryallBag : B_Carryall_Base
+	class Manticore_ManticamCarryallBagWinter : B_Carryall_Base
 	{
 		scope = 2;
 		displayName = "Manticam Winter Carryall Bag";
@@ -159,7 +159,7 @@ class CfgVehicles
 			"\Manticore_Uniform\Uniform\Winter\Data\Vanilla_Backpack_Carryall_ManticamWinter_00.paa"
 		};
 	};
-	class Manticore_Uniform_Uniform_ManticamWinter_CarryallBag_Med : B_Carryall_Base
+	class Manticore_ManticamCarryallBagWinter_Med : B_Carryall_Base
 	{
 		scope = 2;
 		displayName = "Manticam Winter Carryall Bag (Medical)";
@@ -172,7 +172,7 @@ class CfgVehicles
 	};
 	//TFAR Backpacks
 	class TFAR_rt1523g;
-	class Manticore_Uniform_Uniform_ManticamWinter_rt1523g : TFAR_rt1523g
+	class Manticore_ManticamRT1523gWinter : TFAR_rt1523g
 	{
 		author = "Mattress, Raspu, Gandi, Nkey";
 		displayName = "RT-1523G (ASIP) Manticam Winter";
@@ -195,7 +195,7 @@ class CfgVehicles
 		tf_subtype = "digital_lr";*/
 	};
 	class TFAR_rt1523g_big;
-	class Manticore_Uniform_Uniform_ManticamWinter_rt1523gbig : TFAR_rt1523g_big
+	class Manticore_ManticamRT1523gBigWinter : TFAR_rt1523g_big
 	{
 		author = "Mattress, Raspu, Gandi, Nkey";
 		displayName = "RT-1523G (ASIP) Big Manticam Winter";
@@ -227,7 +227,7 @@ class cfgWeapons
 	};
 	//Uniforms
 	class VSM_Multicam_Crye_Camo;
-	class Manticore_Uniform_Uniform_ManticamWinter_Crye_00 : VSM_Multicam_Crye_Camo
+	class Manticore_ManticamCryeWinter_00 : VSM_Multicam_Crye_Camo
 	{
 		scope = 2;
 		displayName = "Manticore Winter Crye Uniform (m0)";
@@ -235,36 +235,36 @@ class cfgWeapons
 		picture = "\Manticore_Uniform\Uniform\Winter\Data\Icon\Manticam_Logo_Winter.paa";
 		class ItemInfo : UniformItem
 		{
-			uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_00_Base";
+			uniformClass = "Manticore_ManticamCryeWinter_00_Base";
 			containerClass = Supply70;
 			mass = 35;
 		};
 	};
-	class Manticore_Uniform_Uniform_ManticamWinter_Crye_01 : Manticore_Uniform_Uniform_ManticamWinter_Crye_00
+	class Manticore_ManticamCryeWinter_01 : Manticore_ManticamCryeWinter_00
 	{
 		displayName = "Manticore Winter Crye Uniform (m1)";
 		author = "Mattress, VanSchmoozin";
 		class ItemInfo : UniformItem
 		{
-			uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_01_Base";
+			uniformClass = "Manticore_ManticamCryeWinter_01_Base";
 			containerClass = Supply70;
 			mass = 35;
 		};
 	};
-	class Manticore_Uniform_Uniform_ManticamWinter_Crye_02 : Manticore_Uniform_Uniform_ManticamWinter_Crye_00
+	class Manticore_ManticamCryeWinter_02 : Manticore_ManticamCryeWinter_00
 	{
 		displayName = "Manticore Winter Crye Uniform (m2)";
 		author = "Mattress, VanSchmoozin";
 		class ItemInfo : UniformItem
 		{
-			uniformClass = "Manticore_Uniform_Uniform_ManticamWinter_Crye_02_Base";
+			uniformClass = "Manticore_ManticamCryeWinter_02_Base";
 			containerClass = Supply70;
 			mass = 35;
 		};
 	};
 	//Vest
 	class VSM_RAV_operator_MulticamTropic;
-	class Manticore_Uniform_Uniform_ManticamWinter_RAV_Operator : VSM_RAV_operator_MulticamTropic
+	class Manticore_ManticamRAVOperatorWinter : VSM_RAV_operator_MulticamTropic
 
 	{
 		scope = 2;
@@ -296,7 +296,7 @@ class cfgWeapons
 		//descriptionShort = "$STR_A3_SP_AL_IV";
 	};
 	class VSM_RAV_MG_MulticamTropic;
-	class Manticore_Uniform_Uniform_ManticamWinter_RAV_Gunner : VSM_RAV_MG_MulticamTropic
+	class Manticore_ManticamRAVGunnerWinter : VSM_RAV_MG_MulticamTropic
 	{
 		scope = 2;
 		author = "Mattress, VanSchmoozin - Specter";
@@ -329,7 +329,7 @@ class cfgWeapons
 		//descriptionShort = "$STR_A3_SP_AL_IV";
 	};
 	class VSM_RAV_Breacher_MulticamTropic;
-	class Manticore_Uniform_Uniform_ManticamWinter_RAV_Breacher : VSM_RAV_Breacher_MulticamTropic
+	class Manticore_ManticamRAVBreacherWinter : VSM_RAV_Breacher_MulticamTropic
 	{
 		scope = 2;
 		author = "Mattress, VanSchmoozin - Specter";
@@ -363,7 +363,7 @@ class cfgWeapons
 	};
 	//Helmets
 	class VSM_Mich2000_MulticamTropic;
-	class Manticore_Uniform_Uniform_ManticamWinter_Mich2000_00 : VSM_Mich2000_MulticamTropic
+	class Manticore_ManticamMich2000Winter_00 : VSM_Mich2000_MulticamTropic
 	{
 		author = "Mattress, VanSchmoozin";
 		scope = 2;
@@ -380,7 +380,7 @@ class cfgWeapons
 			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Helmet_ops_ManticamWinter_00.paa"
 		};
 	};
-	class Manticore_Uniform_Uniform_ManticamWinter_Mich2000_01 : Manticore_Uniform_Uniform_ManticamWinter_Mich2000_00
+	class Manticore_ManticamMich2000Winter_01 : Manticore_ManticamMich2000Winter_00
 	{
 		author = "Mattress, VanSchmoozin";
 		displayName = "Manticam Winter MICH 2000 (m1)";
@@ -395,7 +395,7 @@ class cfgWeapons
 			"\Manticore_Uniform\Uniform\Winter\Data\VSM_Helmet_ops_ManticamWinter_00.paa"
 		};
 	};
-	class Manticore_Uniform_Uniform_ManticamWinter_Mich2000_02 : Manticore_Uniform_Uniform_ManticamWinter_Mich2000_00
+	class Manticore_ManticamMich2000Winter_02 : Manticore_ManticamMich2000Winter_00
 	{
 		author = "Mattress, VanSchmoozin";
 		displayName = "Manticam Winter MICH 2000 (m2)";

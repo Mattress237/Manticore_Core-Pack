@@ -1,4 +1,4 @@
-class Manticore_Loadout_RHS_APC_M113A3_Unarmed : Manticore_RHS_APC_M113A3_Unarmed
+class Manticore_M113A3Unarmed_Load : Manticore_M113A3Unarmed_Base
 {
 	displayName = "M113A3";
 	scope = 2;
@@ -6,7 +6,7 @@ class Manticore_Loadout_RHS_APC_M113A3_Unarmed : Manticore_RHS_APC_M113A3_Unarme
 	
 	#include "../Loadout/LoadoutBasic.hpp"
 };
-class Manticore_Loadout_RHS_APC_M113A3_M2 : Manticore_RHS_APC_M113A3_M2
+class Manticore_M113A3M2_Load : Manticore_M113A3M2_Base
 {
 	displayName = "M113A3 (M2)";
 	scope = 2;
@@ -14,7 +14,7 @@ class Manticore_Loadout_RHS_APC_M113A3_M2 : Manticore_RHS_APC_M113A3_M2
 	
 	#include "../Loadout/LoadoutBasic.hpp"
 };
-class Manticore_Loadout_RHS_APC_M113A3_M19 : Manticore_RHS_APC_M113A3_M19
+class Manticore_M113A3M19_Load : Manticore_M113A3M19_Base
 {
 	displayName = "M113A3 (M19)";
 	scope = 2;
@@ -22,7 +22,7 @@ class Manticore_Loadout_RHS_APC_M113A3_M19 : Manticore_RHS_APC_M113A3_M19
 	
 	#include "../Loadout/LoadoutBasic.hpp"
 };
-class Manticore_Loadout_RHS_APC_M113A3_M240: Manticore_RHS_APC_M113A3_M240
+class Manticore_M113A3M240_Load: Manticore_M113A3M240_Base
 {
 	displayName = "M113A3 (M240)";
 	scope = 2;
@@ -30,7 +30,7 @@ class Manticore_Loadout_RHS_APC_M113A3_M240: Manticore_RHS_APC_M113A3_M240
 	
 	#include "../Loadout/LoadoutBasic.hpp"
 };
-class Manticore_Loadout_RHS_APC_M113A3_Ammo : Manticore_RHS_APC_M113A3_Ammo
+class Manticore_M113A3Ammo_Load : Manticore_M113A3Ammo_Base
 {
 	displayName = "M113A3 (Ammo)";
 	scope = 2;
@@ -38,7 +38,7 @@ class Manticore_Loadout_RHS_APC_M113A3_Ammo : Manticore_RHS_APC_M113A3_Ammo
 	
 	#include "../Loadout/LoadoutBasic.hpp"
 };
-class Manticore_Loadout_RHS_APC_M113A3_Medical : Manticore_RHS_APC_M113A3_Medical
+class Manticore_M113A3Medical_Load : Manticore_M113A3Medical_Base
 {
 	displayName = "M113A3 (MEV)";
 	scope = 2;

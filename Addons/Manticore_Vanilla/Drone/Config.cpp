@@ -24,7 +24,7 @@ class CfgVehicles
 	class B_UGV_01_F;
 	class B_UGV_01_rcws_F;
 
-	class Manticore_Vanilla_Drone_UCAV : B_UAV_05_F
+	class Manticore_UCAVDrone_Base : B_UAV_05_F
 	{
 		displayName = "UCAV Sentinel";
 		scope = 1;
@@ -44,7 +44,7 @@ class CfgVehicles
 		{
 		};
 	};
-	class Manticore_Vanilla_Drone_Falcon : B_T_UAV_03_dynamicLoadout_F
+	class Manticore_FalconDrone_Base : B_T_UAV_03_dynamicLoadout_F
 	{
 		displayName = "MQ-12 Falcon";
 		scope = 1;
@@ -64,7 +64,7 @@ class CfgVehicles
 		{
 		};
 	};
-	class Manticore_Vanilla_Drone_AR2Darter : B_UAV_01_F
+	class Manticore_AR2DarterDrone_Base : B_UAV_01_F
 	{
 		displayName = "AR-2 Darter";
 		scope = 1;
@@ -84,7 +84,7 @@ class CfgVehicles
 		{
 		};
 	};
-	class Manticore_Vanilla_Drone_Stomper : B_UGV_01_F
+	class Manticore_StomperDrone_Base : B_UGV_01_F
 	{
 		displayName = "UGV Stomper";
 		scope = 1;
@@ -104,7 +104,7 @@ class CfgVehicles
 		{
 		};
 	};
-	class Manticore_Vanilla_Drone_Stomper_RCWS : B_UGV_01_rcws_F
+	class Manticore_StomperArmedDrone_Base : B_UGV_01_rcws_F
 	{
 		displayName = "UGV Stomper RCWS";
 		scope = 1;

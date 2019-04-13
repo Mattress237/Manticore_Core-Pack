@@ -1,6 +1,6 @@
 
 class Banner_01_base_F;
-class Manticore_BANNER_NATO : Banner_01_base_F
+class Manticore_Banner_NATO : Banner_01_base_F
 {
 	author = "$STR_A3_Bohemia_Interactive";
 	class SimpleObject
@@ -25,7 +25,7 @@ class Manticore_BANNER_NATO : Banner_01_base_F
 		"\Manticore_Flags_Markers\data\banner\flag_nato_co.paa"
 	};
 };
-class Manticore_BANNER_WHITE : Manticore_BANNER_NATO
+class Manticore_Banner_White : Manticore_Banner_NATO
 {
 	author = "$STR_A3_Bohemia_Interactive";
 	displayName = "Banner White";
@@ -34,7 +34,7 @@ class Manticore_BANNER_WHITE : Manticore_BANNER_NATO
 		"\Manticore_Flags_Markers\data\banner\flag_white_co.paa"
 	};
 };
-class Manticore_BANNER_MANTICORE : Manticore_BANNER_NATO
+class Manticore_Banner_TFM : Manticore_Banner_NATO
 {
 	author = "Mattress";
 	displayName = "Banner Manticore";
@@ -43,7 +43,7 @@ class Manticore_BANNER_MANTICORE : Manticore_BANNER_NATO
 		"\Manticore_Flags_Markers\data\banner\Flag_Banner_Manticore_CO.paa"
 	};
 };
-class Manticore_BANNER_sTs : Manticore_BANNER_NATO
+class Manticore_Banner_sTs : Manticore_Banner_NATO
 {
 	author = "Mattress";
 	displayName = "Banner sTs";
@@ -52,7 +52,7 @@ class Manticore_BANNER_sTs : Manticore_BANNER_NATO
 		"\Manticore_Flags_Markers\data\banner\Flag_Banner_sTs_CO.paa"
 	};
 };
-class Manticore_BANNER_TexMex : Manticore_BANNER_NATO
+class Manticore_Banner_TexMex : Manticore_Banner_NATO
 {
 	author = "Mattress";
 	displayName = "Banner Tex-Mex";

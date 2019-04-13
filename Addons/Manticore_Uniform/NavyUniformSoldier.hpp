@@ -19,6 +19,6 @@ class Manticore_Navy_Uniform_S_Soldier : B_soldier_F
 	respawnWeapons[] = { "Throw","Put" };
 	magazines[] = {"Chemlight_green","Chemlight_green" };
 	respawnMagazines[] = {"Chemlight_green","Chemlight_green" };
-	linkedItems[] = { "Manticore_Beret_01","ItemMap","ItemCompass","ItemWatch","ItemRadio" };
-	respawnLinkedItems[] = { "Manticore_Beret_01","ItemMap","ItemCompass","ItemWatch","ItemRadio" };
+	linkedItems[] = { "Manticore_Beret","ItemMap","ItemCompass","ItemWatch","ItemRadio" };
+	respawnLinkedItems[] = { "Manticore_Beret","ItemMap","ItemCompass","ItemWatch","ItemRadio" };
 };

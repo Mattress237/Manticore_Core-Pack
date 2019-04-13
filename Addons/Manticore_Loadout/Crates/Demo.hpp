@@ -1,4 +1,4 @@
-class Manticore_Loadout_Crate_Demo_Demo : Box_NATO_Support_F
+class Manticore_CrateDemo_Demo : Box_NATO_Support_F
 {
 	displayName = "Support Crate (Demo) (Demo) (TFM)";
 	scope = 2;
@@ -36,7 +36,7 @@ class Manticore_Loadout_Crate_Demo_Demo : Box_NATO_Support_F
 		_standardKitBag(1);
 	};
 };
-class Manticore_Loadout_Crate_Demo_Mine : Box_NATO_Support_F
+class Manticore_CrateDemo_Mine : Box_NATO_Support_F
 {
 	displayName = "Support Crate (Mine) (Demo) (TFM)";
 	scope = 2;
@@ -99,7 +99,7 @@ class Manticore_Loadout_Crate_Demo_Mine : Box_NATO_Support_F
 		_standardKitBag(1);
 	};
 };
-class Manticore_Loadout_Crate_Demo_DemoMine : Box_NATO_Support_F
+class Manticore_CrateDemo_DemoMine : Box_NATO_Support_F
 {
 	displayName = "Support Crate (Demo and mine) (Demo) (TFM)";
 	scope = 2;
