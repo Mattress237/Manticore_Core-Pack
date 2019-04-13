@@ -970,7 +970,7 @@ class CfgVehicles {
     class B_soldier_M_F_OCimport_02 : B_soldier_M_F_OCimport_01 { class EventHandlers; };
 
 
-    class Manticore_Loadout_Vanila_Polaris_Unarmed : Manticore_Vanilla_Light_Polaris_Unarmed_OCimport_02 {
+    class Manticore_PolarisUnarmed_Load : Manticore_Vanilla_Light_Polaris_Unarmed_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1003,7 +1003,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_Vanila_Polaris_Armed : Manticore_Vanilla_Light_Polaris_Armed_OCimport_02 {
+    class Manticore_PolarisArmed_Load : Manticore_Vanilla_Light_Polaris_Armed_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1034,7 +1034,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_Vanila_Polaris_AT : Manticore_Vanilla_Light_Polaris_AT_OCimport_02 {
+    class Manticore_PolarisAT_Load : Manticore_Vanilla_Light_Polaris_AT_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1065,7 +1065,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_Vanila_Polaris_Light : Manticore_Vanilla_Light_Polaris_Light_OCimport_02 {
+    class Manticore_PolarisLight_Load : Manticore_Vanilla_Light_Polaris_Light_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1098,7 +1098,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_Vanila_Quadbike : Manticore_Vanilla_Light_Quadbike_OCimport_02 {
+    class Manticore_Quadbike_Load : Manticore_Vanilla_Light_Quadbike_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1121,7 +1121,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_Vanila_Wildcat : Manticore_Vanilla_Heli_Wildcat_OCimport_02 {
+    class Manticore_WildcatHeli_Load : Manticore_Vanilla_Heli_Wildcat_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1149,7 +1149,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_Vanila_Wildcat_dynamicLoadout : Manticore_Vanilla_Heli_Wildcat_dynamicLoadout_OCimport_02 {
+    class Manticore_WildcatDynamicHeli_Load : Manticore_Vanilla_Heli_Wildcat_dynamicLoadout_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1179,7 +1179,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_Vanila_Merlin : Manticore_Vanilla_Heli_Merlin_OCimport_02 {
+    class Manticore_MerlinHeli_Load : Manticore_Vanilla_Heli_Merlin_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1209,7 +1209,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_Vanila_LittleBird_AH6 : Manticore_Vanilla_Heli_AH6_OCimport_02 {
+    class Manticore_AH6Heli_Load : Manticore_Vanilla_Heli_AH6_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1237,7 +1237,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_Vanila_LittleBird_MH6 : Manticore_Vanilla_Heli_MH6_OCimport_02 {
+    class Manticore_MH6Heli_Load : Manticore_Vanilla_Heli_MH6_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1269,7 +1269,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_Vanila_LittleBird_MH6_Stripped : Manticore_Vanilla_Heli_MH6_Stripped_OCimport_02 {
+    class Manticore_MH6StrippedHeli_Load : Manticore_Vanilla_Heli_MH6_Stripped_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1329,7 +1329,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_Vanila_Namer : Manticore_Vanilla_APC_Namer_OCimport_02 {
+    class Manticore_NamerAPC_Load : Manticore_Vanilla_APC_Namer_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1358,7 +1358,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_Vanila_Nemmera : Manticore_Vanilla_APC_Nemmera_OCimport_02 {
+    class Manticore_NemmeraAPC_Load : Manticore_Vanilla_APC_Nemmera_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1387,7 +1387,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_Vanila_Bardelas : Manticore_Vanilla_AA_Bardelas_OCimport_02 {
+    class Manticore_Bardelas_Load : Manticore_Vanilla_AA_Bardelas_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1415,7 +1415,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_Vanila_Wiesel2_Cannon : Manticore_Vanilla_Tank_Wiesel2_Cannon_OCimport_02 {
+    class Manticore_Wiesel2Cannon_Load : Manticore_Vanilla_Tank_Wiesel2_Cannon_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1443,7 +1443,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_Vanila_Wiesel2_AT : Manticore_Vanilla_Tank_Wiesel2_AT_OCimport_02 {
+    class Manticore_Wiesel2AT_Load : Manticore_Vanilla_Tank_Wiesel2_AT_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1471,7 +1471,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_Vanila_Wiesel2_Scout : Manticore_Vanilla_Tank_Wiesel2_Scout_OCimport_02 {
+    class Manticore_Wiesel2Scout_Load : Manticore_Vanilla_Tank_Wiesel2_Scout_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1499,7 +1499,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_Vanila_Leopard : Manticore_Vanilla_Tank_Leopard_OCimport_02 {
+    class Manticore_Leopard_Load : Manticore_Vanilla_Tank_Leopard_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1527,7 +1527,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_Vanila_Rooikat : Manticore_Vanilla_Tank_Rooikat_OCimport_02 {
+    class Manticore_Rooikat_Load : Manticore_Vanilla_Tank_Rooikat_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1555,7 +1555,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_Vanila_Rooikat_UP : Manticore_Vanilla_Tank_Rooikat_UP_OCimport_02 {
+    class Manticore_RooikatUP_Load : Manticore_Vanilla_Tank_Rooikat_UP_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1639,7 +1639,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_Vanila_Speedboat : Manticore_Vanilla_Boats_Speedboat_Minigun_OCimport_02 {
+    class Manticore_SpeedboatMinigun_Load : Manticore_Vanilla_Boats_Speedboat_Minigun_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1668,7 +1668,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_Vanila_Drone_UCAV : Manticore_Vanilla_Drone_UCAV_OCimport_02 {
+    class Manticore_UCAVDrone_Load : Manticore_Vanilla_Drone_UCAV_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1696,7 +1696,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_Vanila_Drone_Falcon : Manticore_Vanilla_Drone_Falcon_OCimport_02 {
+    class Manticore_FalconDrone_Load : Manticore_Vanilla_Drone_Falcon_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1724,7 +1724,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_Vanila_Drone_AR2Darter : Manticore_Vanilla_Drone_AR2Darter_OCimport_02 {
+    class Manticore_AR2DarterDrone_Load : Manticore_Vanilla_Drone_AR2Darter_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1752,7 +1752,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_Vanila_Drone_Stomper : Manticore_Vanilla_Drone_Stomper_OCimport_02 {
+    class Manticore_StomperDrone_Load : Manticore_Vanilla_Drone_Stomper_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1780,7 +1780,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_Vanila_Drone_Stomper_RCWS : Manticore_Vanilla_Drone_Stomper_RCWS_OCimport_02 {
+    class Manticore_StomperArmedDrone_Load : Manticore_Vanilla_Drone_Stomper_RCWS_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;

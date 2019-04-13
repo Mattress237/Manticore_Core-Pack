@@ -1,4 +1,4 @@
-class Manticore_Loadout_Vanila_Speedboat : Manticore_SpeedboatMinigun_Base
+class Manticore_SpeedboatMinigun_Load : Manticore_SpeedboatMinigun_Base
 {
 	scope = 2;
 	side = 1;

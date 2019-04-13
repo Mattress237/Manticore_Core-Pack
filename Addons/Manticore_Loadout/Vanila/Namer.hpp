@@ -1,4 +1,4 @@
-class Manticore_Loadout_Vanila_Namer : Manticore_NamerAPC_Base
+class Manticore_NamerAPC_Load : Manticore_NamerAPC_Base
 {
 	scope = 2;
 	side = 1;

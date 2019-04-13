@@ -1,4 +1,4 @@
-class Manticore_Loadout_Vanila_Drone_UCAV : Manticore_UCAVDrone_Base
+class Manticore_UCAVDrone_Load : Manticore_UCAVDrone_Base
 {
 	scope = 2;
 	side = 1;
@@ -16,7 +16,7 @@ class Manticore_Loadout_Vanila_Drone_UCAV : Manticore_UCAVDrone_Base
 	{
 	};
 };
-class Manticore_Loadout_Vanila_Drone_Falcon : Manticore_FalconDrone_Base
+class Manticore_FalconDrone_Load : Manticore_FalconDrone_Base
 {
 	scope = 2;
 	side = 1;
@@ -34,7 +34,7 @@ class Manticore_Loadout_Vanila_Drone_Falcon : Manticore_FalconDrone_Base
 	{
 	};
 };
-class Manticore_Loadout_Vanila_Drone_AR2Darter : Manticore_AR2DarterDrone_Base
+class Manticore_AR2DarterDrone_Load : Manticore_AR2DarterDrone_Base
 {
 	scope = 2;
 	side = 1;
@@ -52,7 +52,7 @@ class Manticore_Loadout_Vanila_Drone_AR2Darter : Manticore_AR2DarterDrone_Base
 	{
 	};
 };
-class Manticore_Loadout_Vanila_Drone_Stomper : Manticore_StomperDrone_Base
+class Manticore_StomperDrone_Load : Manticore_StomperDrone_Base
 {
 	scope = 2;
 	side = 1;
@@ -70,7 +70,7 @@ class Manticore_Loadout_Vanila_Drone_Stomper : Manticore_StomperDrone_Base
 	{
 	};
 };
-class Manticore_Loadout_Vanila_Drone_Stomper_RCWS : Manticore_StomperArmedDrone_Base
+class Manticore_StomperArmedDrone_Load : Manticore_StomperArmedDrone_Base
 {
 	scope = 2;
 	side = 1;
