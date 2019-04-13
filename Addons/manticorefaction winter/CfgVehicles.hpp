@@ -1917,7 +1917,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Humvee_M1043A2 : Manticore_RHS_Humvee_M1043A2_OCimport_02 {
+    class Manticore_M1043A2_Load : Manticore_RHS_Humvee_M1043A2_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1947,7 +1947,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Humvee_M1043A2_M2 : Manticore_RHS_Humvee_M1043A2_M2_OCimport_02 {
+    class Manticore_M1043A2M2_Load : Manticore_RHS_Humvee_M1043A2_M2_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1978,7 +1978,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Humvee_M1043A2_M19 : Manticore_RHS_Humvee_M1043A2_M19_OCimport_02 {
+    class Manticore_M1043A2M19_Load : Manticore_RHS_Humvee_M1043A2_M19_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2009,7 +2009,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Humvee_M1045A2_TOW : Manticore_RHS_Humvee_M1045A2_TOW_OCimport_02 {
+    class Manticore_M1045A2TOW_Load : Manticore_RHS_Humvee_M1045A2_TOW_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2040,7 +2040,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Humvee_M1123_2D_Open : Manticore_RHS_Humvee_M1123_2D_Open_OCimport_02 {
+    class Manticore_M11232DOpen_Load : Manticore_RHS_Humvee_M1123_2D_Open_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2070,7 +2070,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Humvee_M1123_2D_Half : Manticore_RHS_Humvee_M1123_2D_Half_OCimport_02 {
+    class Manticore_M11232DHalf_Load : Manticore_RHS_Humvee_M1123_2D_Half_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2099,7 +2099,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Humvee_M1123_2D_Full : Manticore_RHS_Humvee_M1123_2D_Full_OCimport_02 {
+    class Manticore_M11232DFull_Load : Manticore_RHS_Humvee_M1123_2D_Full_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2128,7 +2128,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Humvee_M1123_4D_Open : Manticore_RHS_Humvee_M1123_4D_Open_OCimport_02 {
+    class Manticore_M11234DOpen_Load : Manticore_RHS_Humvee_M1123_4D_Open_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2160,7 +2160,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Humvee_M1123_4D_Half : Manticore_RHS_Humvee_M1123_4D_Half_OCimport_02 {
+    class Manticore_M11234DHalf_Load : Manticore_RHS_Humvee_M1123_4D_Half_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2189,7 +2189,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Humvee_M1123_4D_Full : Manticore_RHS_Humvee_M1123_4D_Full_OCimport_02 {
+    class Manticore_M11234DFull_Load : Manticore_RHS_Humvee_M1123_4D_Full_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2212,7 +2212,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Mrap_Cat1A2 : Manticore_RHS_Mrap_Cat1A2_OCimport_02 {
+    class Manticore_Cat1A2_Load : Manticore_RHS_Mrap_Cat1A2_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2240,7 +2240,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Mrap_Cat1A2_M2 : Manticore_RHS_Mrap_Cat1A2_M2_OCimport_02 {
+    class Manticore_Cat1A2M2_Load : Manticore_RHS_Mrap_Cat1A2_M2_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2269,7 +2269,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Mrap_Cat1A2_Mk19 : Manticore_RHS_Mrap_Cat1A2_Mk19_OCimport_02 {
+    class Manticore_Cat1A2Mk19_Load : Manticore_RHS_Mrap_Cat1A2_Mk19_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2298,7 +2298,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Mrap_M1220 : Manticore_RHS_Mrap_M1220_OCimport_02 {
+    class Manticore_M1220_Load : Manticore_RHS_Mrap_M1220_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2321,7 +2321,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Mrap_M1220_M2 : Manticore_RHS_Mrap_M1220_M2_OCimport_02 {
+    class Manticore_M1220M2_Load : Manticore_RHS_Mrap_M1220_M2_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2349,7 +2349,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Mrap_M1220_M2CROW : Manticore_RHS_Mrap_M1220_M2CROW_OCimport_02 {
+    class Manticore_M1220M2CROW_Load : Manticore_RHS_Mrap_M1220_M2CROW_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2377,7 +2377,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Mrap_M1220_M19 : Manticore_RHS_Mrap_M1220_M19_OCimport_02 {
+    class Manticore_M1220M19_Load : Manticore_RHS_Mrap_M1220_M19_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2405,7 +2405,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Mrap_M1230_M2 : Manticore_RHS_Mrap_M1230_M2_OCimport_02 {
+    class Manticore_M1230M2_Load : Manticore_RHS_Mrap_M1230_M2_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2433,7 +2433,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Mrap_M1230_M19 : Manticore_RHS_Mrap_M1230_M19_OCimport_02 {
+    class Manticore_M1230M19_Load : Manticore_RHS_Mrap_M1230_M19_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2461,7 +2461,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Mrap_M1220A1_Medical : Manticore_RHS_Mrap_M1220A1_Medical_OCimport_02 {
+    class Manticore_M1220A1Med_Load : Manticore_RHS_Mrap_M1220A1_Medical_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2484,7 +2484,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_APC_M113A3_Unarmed : Manticore_RHS_APC_M113A3_Unarmed_OCimport_02 {
+    class Manticore_M113A3Unarmed_Load : Manticore_RHS_APC_M113A3_Unarmed_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2514,7 +2514,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_APC_M113A3_M2 : Manticore_RHS_APC_M113A3_M2_OCimport_02 {
+    class Manticore_M113A3M2_Load : Manticore_RHS_APC_M113A3_M2_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2544,7 +2544,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_APC_M113A3_M19 : Manticore_RHS_APC_M113A3_M19_OCimport_02 {
+    class Manticore_M113A3M19_Load : Manticore_RHS_APC_M113A3_M19_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2574,7 +2574,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_APC_M113A3_M240 : Manticore_RHS_APC_M113A3_M240_OCimport_02 {
+    class Manticore_M113A3M240_Load : Manticore_RHS_APC_M113A3_M240_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2604,7 +2604,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_APC_M113A3_Ammo : Manticore_RHS_APC_M113A3_Ammo_OCimport_02 {
+    class Manticore_M113A3Ammo_Load : Manticore_RHS_APC_M113A3_Ammo_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2634,7 +2634,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_APC_M113A3_Medical : Manticore_RHS_APC_M113A3_Medical_OCimport_02 {
+    class Manticore_M113A3Medical_Load : Manticore_RHS_APC_M113A3_Medical_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2664,7 +2664,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_IFV_M2A3 : Manticore_RHS_IFV_M2A3_OCimport_02 {
+    class Manticore_M2A3_Load : Manticore_RHS_IFV_M2A3_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2692,7 +2692,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_IFV_M2A3_BUSKI : Manticore_RHS_IFV_M2A3_BUSKI_OCimport_02 {
+    class Manticore_M2A3BUSKI_Load : Manticore_RHS_IFV_M2A3_BUSKI_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2720,7 +2720,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_IFV_M2A3_BUSKIII : Manticore_RHS_IFV_M2A3_BUSKIII_OCimport_02 {
+    class Manticore_M2A3BUSKIII_Load : Manticore_RHS_IFV_M2A3_BUSKIII_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2748,7 +2748,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_IFV_M6A2 : Manticore_RHS_IFV_M6A2_OCimport_02 {
+    class Manticore_M6A2_Load : Manticore_RHS_IFV_M6A2_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2776,7 +2776,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Truck_M1083A1P2 : Manticore_RHS_Truck_M1083A1P2_OCimport_02 {
+    class Manticore_M1083A1P2_Load : Manticore_RHS_Truck_M1083A1P2_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2805,7 +2805,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Truck_M1083A1P2_B : Manticore_RHS_Truck_M1083A1P2_B_OCimport_02 {
+    class Manticore_M1083A1P2B_Load : Manticore_RHS_Truck_M1083A1P2_B_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2834,7 +2834,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Truck_M1083A1P2_B_M2 : Manticore_RHS_Truck_M1083A1P2_B_M2_OCimport_02 {
+    class Manticore_M1083A1P2BM2_Load : Manticore_RHS_Truck_M1083A1P2_B_M2_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2864,7 +2864,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Truck_M1083A1P2_Flatbed : Manticore_RHS_Truck_M1083A1P2_Flatbed_OCimport_02 {
+    class Manticore_M1083A1P2Flatbed_Load : Manticore_RHS_Truck_M1083A1P2_Flatbed_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2887,7 +2887,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Truck_M1083A1P2_B_Flatbed : Manticore_RHS_Truck_M1083A1P2_B_Flatbed_OCimport_02 {
+    class Manticore_M1083A1P2BFlatbed_Load : Manticore_RHS_Truck_M1083A1P2_B_Flatbed_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2910,7 +2910,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Truck_M1083A1P2_B_M2_Flatbed : Manticore_RHS_Truck_M1083A1P2_B_M2_Flatbed_OCimport_02 {
+    class Manticore_M1083A1P2BM2Flatbed_Load : Manticore_RHS_Truck_M1083A1P2_B_M2_Flatbed_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2938,7 +2938,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Truck_M977A4 : Manticore_RHS_Truck_M977A4_OCimport_02 {
+    class Manticore_M977A4_Load : Manticore_RHS_Truck_M977A4_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2961,7 +2961,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Truck_M977A4_B : Manticore_RHS_Truck_M977A4_B_OCimport_02 {
+    class Manticore_M977A4B_Load : Manticore_RHS_Truck_M977A4_B_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -2984,7 +2984,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Truck_M977A4_B_M2 : Manticore_RHS_Truck_M977A4_B_M2_OCimport_02 {
+    class Manticore_M977A4BM2_Load : Manticore_RHS_Truck_M977A4_B_M2_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3012,7 +3012,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Truck_M977A4_Repair : Manticore_RHS_Truck_M977A4_Repair_OCimport_02 {
+    class Manticore_M977A4Repair_Load : Manticore_RHS_Truck_M977A4_Repair_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3035,7 +3035,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Truck_M977A4_B_M2_Repair : Manticore_RHS_Truck_M977A4_B_M2_Repair_OCimport_02 {
+    class Manticore_M977A4BM2Repair_Load : Manticore_RHS_Truck_M977A4_B_M2_Repair_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3063,7 +3063,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Truck_M977A4_Ammo : Manticore_RHS_Truck_M977A4_Ammo_OCimport_02 {
+    class Manticore_M977A4Ammo_Load : Manticore_RHS_Truck_M977A4_Ammo_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3086,7 +3086,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Truck_M977A4_B_M2_Ammo : Manticore_RHS_Truck_M977A4_B_M2_Ammo_OCimport_02 {
+    class Manticore_M977A4BM2Ammo_Load : Manticore_RHS_Truck_M977A4_B_M2_Ammo_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3114,7 +3114,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Truck_M978A4 : Manticore_RHS_Truck_M978A4_OCimport_02 {
+    class Manticore_M978A4_Load : Manticore_RHS_Truck_M978A4_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3137,7 +3137,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Truck_M978A4_B : Manticore_RHS_Truck_M978A4_B_OCimport_02 {
+    class Manticore_M978A4B_Load : Manticore_RHS_Truck_M978A4_B_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3160,7 +3160,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Artillery_M142 : Manticore_RHS_Artillery_M142_OCimport_02 {
+    class Manticore_M142_Load : Manticore_RHS_Artillery_M142_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3189,7 +3189,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Artillery_M109A6 : Manticore_RHS_Artillery_M109A6_OCimport_02 {
+    class Manticore_M109A6_Load : Manticore_RHS_Artillery_M109A6_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3217,7 +3217,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Heli_OH6M : Manticore_RHS_Heli_OH6M_OCimport_02 {
+    class Manticore_OH6MHeli_Load : Manticore_RHS_Heli_OH6M_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3247,7 +3247,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Heli_MH6M : Manticore_MH6MHeli_Base {
+    class Manticore_MH6MHeli_Load : Manticore_MH6MHeli_Base {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3281,7 +3281,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Heli_AH6M : Manticore_RHS_Heli_AH6M_OCimport_02 {
+    class Manticore_AH6MHeli_Load : Manticore_RHS_Heli_AH6M_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3309,7 +3309,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Heli_CH47F : Manticore_RHS_Heli_CH47F_OCimport_02 {
+    class Manticore_CH47FHeli_Load : Manticore_RHS_Heli_CH47F_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3341,7 +3341,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Heli_UH60M : Manticore_RHS_Heli_UH60M_OCimport_02 {
+    class Manticore_UH60MHeli_Load : Manticore_RHS_Heli_UH60M_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3375,7 +3375,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Heli_UH60M2 : Manticore_RHS_Heli_UH60M2_OCimport_02 {
+    class Manticore_UH60M2Heli_Load : Manticore_RHS_Heli_UH60M2_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3407,7 +3407,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Heli_UH60M_EWS : Manticore_RHS_Heli_UH60M_EWS_OCimport_02 {
+    class Manticore_UH60MEWSHeli_Load : Manticore_RHS_Heli_UH60M_EWS_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3439,7 +3439,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Heli_UH60M_ESSS : Manticore_RHS_Heli_UH60M_ESSS_OCimport_02 {
+    class Manticore_UH60MESSSHeli_Load : Manticore_RHS_Heli_UH60M_ESSS_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3471,7 +3471,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Heli_UH60M_MEV : Manticore_RHS_Heli_UH60M_MEV_OCimport_02 {
+    class Manticore_UH60MMEVHeli_Load : Manticore_RHS_Heli_UH60M_MEV_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3503,7 +3503,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Heli_UH60M_ESSS_MEV : Manticore_RHS_Heli_UH60M_ESSS_MEV_OCimport_02 {
+    class Manticore_UH60MESSSMEVHeli_Load : Manticore_RHS_Heli_UH60M_ESSS_MEV_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3531,7 +3531,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Heli_AH64D : Manticore_RHS_Heli_AH64D_OCimport_02 {
+    class Manticore_AH64DHeli_Load : Manticore_RHS_Heli_AH64D_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3559,7 +3559,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Heli_CH53E : Manticore_RHS_Heli_CH53E_OCimport_02 {
+    class Manticore_CH53EHeli_Load : Manticore_RHS_Heli_CH53E_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3587,7 +3587,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Heli_UH1Y : Manticore_RHS_Heli_UH1Y_OCimport_02 {
+    class Manticore_UH1YHeli_Load : Manticore_RHS_Heli_UH1Y_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3623,7 +3623,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Heli_UH1Y_FFAR : Manticore_RHS_Heli_UH1Y_FFAR_OCimport_02 {
+    class Manticore_UH1YFFARHeli_Load : Manticore_RHS_Heli_UH1Y_FFAR_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3659,7 +3659,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Heli_UH1Y_Unarmed : Manticore_RHS_Heli_UH1Y_Unarmed_OCimport_02 {
+    class Manticore_UH1YUnarmedHeli_Load : Manticore_RHS_Heli_UH1Y_Unarmed_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3695,7 +3695,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Heli_AH1Z : Manticore_RHS_Heli_AH1Z_OCimport_02 {
+    class Manticore_AH1ZHeli_Load : Manticore_RHS_Heli_AH1Z_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3723,7 +3723,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Loadout_RHS_Naval_MkVSOC : Manticore_RHS_Naval_MkVSOC_OCimport_02 {
+    class Manticore_MkVSOC_Load : Manticore_RHS_Naval_MkVSOC_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
