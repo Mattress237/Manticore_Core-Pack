@@ -120,6 +120,6 @@ class CfgVehicles
 				factions[] = { "Manticore_Faction" };
 			};
 		};
-		textureList[] = { "Sand",0,"M81",0,"AOR3",0,"AOR2",0,"AOR2_Dark",0,"MD01",0 };
+		textureList[] = { "Sand",1,"M81",0,"AOR3",0,"AOR2",0,"AOR2_Dark",0,"MD01",0 };
 	};
 };
