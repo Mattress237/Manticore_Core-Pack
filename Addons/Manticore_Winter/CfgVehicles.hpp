@@ -133,6 +133,7 @@ class CfgVehicles {
             class CargoTurret_02;
         };
     };
+	//TODO: Posibal remove Vanila littlebird
     class Manticore_AH6Heli_Load;
     class Manticore_AH6Heli_Winter : Manticore_AH6Heli_Load
 	{
@@ -183,12 +184,34 @@ class CfgVehicles {
             class CargoTurret_04;
         };
     };
-/*
-	class RHS_MELB_MH6M;
-	class RHS_MELB_MH6M_OCimport_01 : RHS_MELB_MH6M { scope = 0; class EventHandlers; class Turrets; };
-	class RHS_MELB_MH6M_OCimport_02 : RHS_MELB_MH6M_OCimport_01 {
+	class Manticore_RHSOH6MHeli_Load;
+	class Manticore_RHSOH6MHeli_Winter : Manticore_RHSOH6MHeli_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
+
 		class EventHandlers;
 		class Turrets : Turrets {
+			class CopilotTurret;
+			class CargoTurret_01;
+			class CargoTurret_02;
+		};
+	};
+	class Manticore_RHSMH6MHeli_Load;
+	class Manticore_RHSMH6MHeli_Winter : Manticore_RHSMH6MHeli_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
+
+		class EventHandlers;
+		class Turrets : Turrets
+		{
 			class CopilotTurret;
 			class CargoTurret_03;
 			class CargoTurret_04;
@@ -198,30 +221,29 @@ class CfgVehicles {
 			class CargoTurret_08;
 		};
 	};
+	class Manticore_RHSAH6MHeli_Load;
+	class Manticore_RHSAH6MHeli_Winter : Manticore_RHSAH6MHeli_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_OH6MHeli_Base;
-	class Manticore_RHS_Heli_OH6M_OCimport_01 : Manticore_OH6MHeli_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Heli_OH6M_OCimport_02 : Manticore_RHS_Heli_OH6M_OCimport_01 {
-		class EventHandlers;
-		class Turrets : Turrets {
-			class CopilotTurret;
-			class CargoTurret_01;
-			class CargoTurret_02;
-		};
-	};
-
-	class Manticore_AH6MHeli_Base;
-	class Manticore_RHS_Heli_AH6M_OCimport_01 : Manticore_AH6MHeli_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Heli_AH6M_OCimport_02 : Manticore_RHS_Heli_AH6M_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class CopilotTurret;
 		};
 	};
+	class Manticore_CH47FHeli_Load;
+	class Manticore_CH47FHeli_Winter : Manticore_CH47FHeli_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_CH47FHeli_Base;
-	class Manticore_RHS_Heli_CH47F_OCimport_01 : Manticore_CH47FHeli_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Heli_CH47F_OCimport_02 : Manticore_RHS_Heli_CH47F_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class CopilotTurret;
@@ -232,6 +254,7 @@ class CfgVehicles {
 		};
 	};
 
+/*
 	class Manticore_UH60MHeli_Base;
 	class Manticore_RHS_Heli_UH60M_OCimport_01 : Manticore_UH60MHeli_Base { scope = 0; class EventHandlers; class Turrets; };
 	class Manticore_RHS_Heli_UH60M_OCimport_02 : Manticore_RHS_Heli_UH60M_OCimport_01 {

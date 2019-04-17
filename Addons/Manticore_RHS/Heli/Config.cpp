@@ -35,7 +35,7 @@ class CfgVehicles
 	class RHS_UH1Y_UNARMED;
 	class RHS_AH1Z;
 
-	class Manticore_OH6MHeli_Base : RHS_MELB_H6M
+	class Manticore_RHSOH6MHeli_Base : RHS_MELB_H6M
 	{
 		displayName = "OH-6M";
 		scope = 0;
@@ -49,7 +49,7 @@ class CfgVehicles
 			"rhsusf\addons\rhsusf_melb\data\decals\SN\blank_ca.paa"
 		};
 	};
-	class Manticore_MH6MHeli_Base : RHS_MELB_MH6M
+	class Manticore_RHSMH6MHeli_Base : RHS_MELB_MH6M
 	{
 		displayName = "MH-6M";
 		scope = 0;
@@ -63,7 +63,7 @@ class CfgVehicles
 			"rhsusf\addons\rhsusf_melb\data\decals\SN\blank_ca.paa"
 		};
 	};
-	class Manticore_AH6MHeli_Base : RHS_MELB_AH6M
+	class Manticore_RHSAH6MHeli_Base : RHS_MELB_AH6M
 	{
 		displayName = "AH-6M";
 		scope = 0;

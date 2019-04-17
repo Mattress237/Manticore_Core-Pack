@@ -1,4 +1,4 @@
-class Manticore_OH6MHeli_Load : Manticore_OH6MHeli_Base
+class Manticore_RHSOH6MHeli_Load : Manticore_RHSOH6MHeli_Base
 {
 	displayName = "OH-6M";
 	scope = 2;
@@ -6,7 +6,7 @@ class Manticore_OH6MHeli_Load : Manticore_OH6MHeli_Base
 	
 	#include "../Loadout/LoadoutBasicHeli.hpp"
 };
-class Manticore_MH6MHeli_Load : Manticore_MH6MHeli_Base
+class Manticore_RHSMH6MHeli_Load : Manticore_RHSMH6MHeli_Base
 {
 	displayName = "MH-6M";
 	scope = 2;
@@ -14,7 +14,7 @@ class Manticore_MH6MHeli_Load : Manticore_MH6MHeli_Base
 	
 	#include "../Loadout/LoadoutBasicHeli.hpp"
 }; 
-class Manticore_AH6MHeli_Load : Manticore_AH6MHeli_Base
+class Manticore_RHSAH6MHeli_Load : Manticore_RHSAH6MHeli_Base
 {
 	displayName = "AH-6M";
 	scope = 2;

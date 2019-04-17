@@ -115,9 +115,9 @@ class RHS_UH1Y;
 class RHS_UH1Y_FFAR;
 class RHS_UH1Y_UNARMED;
 class RHS_AH1Z;*/
-class Manticore_OH6MHeli_Base;
-class Manticore_MH6MHeli_Base;
-class Manticore_AH6MHeli_Base;
+class Manticore_RHSOH6MHeli_Base;
+class Manticore_RHSMH6MHeli_Base;
+class Manticore_RHSAH6MHeli_Base;
 class Manticore_CH47FHeli_Base;
 class Manticore_UH60MHeli_Base;
 class Manticore_UH60M2Heli_Base;
