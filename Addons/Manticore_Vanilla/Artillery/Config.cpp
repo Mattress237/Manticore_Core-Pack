@@ -21,10 +21,10 @@ class CfgVehicles
 	class Manticore_Sholef_Base : B_MBT_01_arty_F
 	{
 		displayName = "Sholef";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		class TransportWeapons
 		{
@@ -79,10 +79,10 @@ class CfgVehicles
 	class Manticore_Seara_Base : B_MBT_01_mlrs_F
 	{
 		displayName = "Seara";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		class TransportWeapons
 		{

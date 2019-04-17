@@ -38,10 +38,10 @@ class CfgVehicles
 	class Manticore_OH6MHeli_Base : RHS_MELB_H6M
 	{
 		displayName = "OH-6M";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -52,10 +52,10 @@ class CfgVehicles
 	class Manticore_MH6MHeli_Base : RHS_MELB_MH6M
 	{
 		displayName = "MH-6M";
-		scope = 2;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -66,10 +66,10 @@ class CfgVehicles
 	class Manticore_AH6MHeli_Base : RHS_MELB_AH6M
 	{
 		displayName = "AH-6M";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -81,10 +81,10 @@ class CfgVehicles
 	class Manticore_CH47FHeli_Base : RHS_CH_47F
 	{
 		displayName = "CH-47F";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -126,10 +126,10 @@ class CfgVehicles
 	class Manticore_UH60MHeli_Base : RHS_UH60M
 	{
 		displayName = "UH-60M";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -142,10 +142,10 @@ class CfgVehicles
 	class Manticore_UH60M2Heli_Base : RHS_UH60M2
 	{
 		displayName = "UH-60M (Unarmed)";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -158,10 +158,10 @@ class CfgVehicles
 	class Manticore_UH60MEWSHeli_Base : RHS_UH60M_ESSS2
 	{
 		displayName = "UH-60M (EWS)";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -174,10 +174,10 @@ class CfgVehicles
 	class Manticore_UH60MESSSHeli_Base : RHS_UH60M_ESSS
 	{
 		displayName = "UH-60M (ESSS)";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -191,10 +191,10 @@ class CfgVehicles
 	class Manticore_UH60MMEVHeli_Base : RHS_UH60M_MEV2
 	{
 		displayName = "UH-60M MEV";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -207,10 +207,10 @@ class CfgVehicles
 	class Manticore_UH60MESSSMEVHeli_Base : RHS_UH60M_MEV
 	{
 		displayName = "UH-60M MEV (ESSS)";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -224,10 +224,10 @@ class CfgVehicles
 	class Manticore_AH64DHeli_Base : RHS_AH64D
 	{
 		displayName = "AH-64D";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -266,10 +266,10 @@ class CfgVehicles
 	class Manticore_CH53EHeli_Base : rhsusf_CH53E_USMC
 	{
 		displayName = "CH-53E";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -282,10 +282,10 @@ class CfgVehicles
 	class Manticore_UH1YHeli_Base : RHS_UH1Y
 	{
 		displayName = "UH-1Y";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -296,10 +296,10 @@ class CfgVehicles
 	class Manticore_UH1YFFARHeli_Base : RHS_UH1Y_FFAR
 	{
 		displayName = "UH-1Y (FFAR)";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -310,10 +310,10 @@ class CfgVehicles
 	class Manticore_UH1YUnarmedHeli_Base : RHS_UH1Y_UNARMED
 	{
 		displayName = "UH-1Y (Unarmed)";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -325,10 +325,10 @@ class CfgVehicles
 	class Manticore_AH1ZHeli_Base : RHS_AH1Z
 	{
 		displayName = "AH-1Z";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{

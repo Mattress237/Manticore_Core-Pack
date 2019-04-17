@@ -52,8 +52,8 @@ class TransportItems
 	_medicalBandage(40, 40, 40, 40);
 	_medicalMics(20, 10, 0);
 	_medicalSelin(10, 20, 15);
-	_aceXDrink(0, 40, 5, 5, 5);
-	_aceXFood(20, 0, 0, 20, 0, 0, 0, 20, 0, 0);
+	//_aceXDrink(0, 40, 5, 5, 5);
+	//_aceXFood(20, 0, 0, 20, 0, 0, 0, 20, 0, 0);
 	
 };
 class TransportBackpacks

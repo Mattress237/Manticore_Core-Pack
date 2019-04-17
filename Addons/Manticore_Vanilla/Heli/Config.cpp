@@ -17,6 +17,8 @@ class CfgPatches
 
 class CfgVehicles
 {
+	#include "\Manticore_Vanilla\Macro.hpp"
+
 	class B_Heli_Light_01_dynamicLoadout_F;
 	class B_Heli_Light_01_F;
 	class B_Heli_Light_01_stripped_F;
@@ -27,7 +29,7 @@ class CfgVehicles
 	class Manticore_AH6Heli_Base : B_Heli_Light_01_dynamicLoadout_F
 	{
 		displayName = "AH-6";
-		scope = 1;
+		scope = 0;
 		side = 1;
 		faction = "Manticore_Faction";
 		//crew = "";
@@ -35,7 +37,7 @@ class CfgVehicles
 	class Manticore_MH6Heli_Base : B_Heli_Light_01_F
 	{
 		displayName = "MH-6";
-		scope = 1;
+		scope = 0;
 		side = 1;
 		faction = "Manticore_Faction";
 		//crew = "";
@@ -43,7 +45,7 @@ class CfgVehicles
 	class Manticore_MH6StrippedHeli_Base : B_Heli_Light_01_stripped_F
 	{
 		displayName = "MH-6 (Stripped)";
-		scope = 1;
+		scope = 0;
 		side = 1;
 		faction = "Manticore_Faction";
 		//crew = "";
@@ -51,7 +53,7 @@ class CfgVehicles
 	class Manticore_MerlinHeli_Base : I_Heli_Transport_02_F
 	{
 		displayName = "Merlin";
-		scope = 1;
+		scope = 0;
 		side = 1;
 		faction = "Manticore_Faction";
 		//crew = "";
@@ -89,7 +91,7 @@ class CfgVehicles
 	class Manticore_WildcatHeli_Base : I_Heli_light_03_unarmed_F
 	{
 		displayName = "Wildcat Transport";
-		scope = 1;
+		scope = 0;
 		side = 1;
 		faction = "Manticore_Faction";
 		//crew = "";
@@ -137,7 +139,7 @@ class CfgVehicles
 	class Manticore_WildcatDynamicHeli_Base : I_Heli_light_03_dynamicLoadout_F
 	{
 		displayName = "Wildcat DynamicLoadout";
-		scope = 1;
+		scope = 0;
 		side = 1;
 		faction = "Manticore_Faction";
 		//crew = "";

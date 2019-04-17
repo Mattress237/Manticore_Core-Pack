@@ -21,8 +21,8 @@ class CfgVehicles
 	class Manticore_Bardelas_Base : B_APC_Tracked_01_AA_F
 	{
 		displayName = "Bardelas AA";
+		scope = 0;
 		side = 1;
-		scope = 1;
 		//crew = "";
 		faction = "Manticore_Faction";
 

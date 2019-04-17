@@ -24,10 +24,10 @@ class CfgVehicles
 	class Manticore_M142_Base : rhsusf_M142_usarmy_WD
 	{
 		displayName = "M142 HIMARS";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -84,10 +84,10 @@ class CfgVehicles
 	class Manticore_M109A6_Base : rhsusf_m109_usarmy
 	{
 		displayName = "M109A6";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{

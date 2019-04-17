@@ -17,21 +17,23 @@ class CfgPatches
 
 class CfgVehicles 
 {
+
 	class B_APC_Wheeled_01_cannon_F;
 
 	class Manticore_BadgerIFV_Base : B_APC_Wheeled_01_cannon_F
 	{
+		displayName = "Badger IFV";
+		scope = 0;
 		side = 1;
-		scope = 1;
 		//crew = "";
 		faction = "Manticore_Faction";
-		displayName = "Badger IFV";
-		hiddenSelections[] =
+		
+		/*hiddenSelections[] =
 		{
 			"Camo1",
 			"Camo2",
 			"Camo3"
-		};
+		};*/
 
 		hiddenSelectionsTextures[] =
 		{
@@ -120,6 +122,6 @@ class CfgVehicles
 				factions[] = { "Manticore_Faction" };
 			};
 		};
-		textureList[] = { "Sand",0,"M81",0,"AOR3",0,"AOR2",0,"AOR2_Dark",0,"MD01",0 };
+		textureList[] = { "Sand",1,"M81",0,"AOR3",0,"AOR2",0,"AOR2_Dark",0,"MD01",0 };
 	};
 };

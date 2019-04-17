@@ -22,9 +22,9 @@ class CfgVehicles
 	class Manticore_MkVSOC_Base : rhsusf_mkvsoc
 	{
 		displayName = "Mk. V SOC";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 	};
 };

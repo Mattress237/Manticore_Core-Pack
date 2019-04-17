@@ -18,6 +18,7 @@ class CfgPatches
 
 class CfgVehicles 
 {
+
 	class LandVehicle;
 	class I_MBT_03_cannon_F;
 	class I_LT_01_cannon_F;
@@ -28,11 +29,11 @@ class CfgVehicles
 
 	class Manticore_Leopard_Base : I_MBT_03_cannon_F
 	{
+		displayName = "Leopard";
+		scope = 0;
 		side = 1;
-		scope = 1;
 		//crew = "";
 		faction = "Manticore_Faction";
-		displayName = "Leopard";
 
 		//TFAR - BLUFOR
 		tf_hasLRradio = 1;
@@ -150,10 +151,10 @@ class CfgVehicles
 	class Manticore_Wiesel2Cannon_Base : I_LT_01_cannon_F
 	{
 		displayName = "Wiesel 2 (MK20)";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		//TFAR - BLUFOR
 		tf_hasLRradio = 1;
@@ -230,10 +231,10 @@ class CfgVehicles
 	class Manticore_Wiesel2AT_Base : I_LT_01_AT_F
 	{
 		displayName = "Wiesel 2 (ATGM)";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		//TFAR - BLUFOR
 		tf_hasLRradio = 1;
@@ -309,10 +310,10 @@ class CfgVehicles
 	class Manticore_Wiesel2Scout_Base : I_LT_01_scout_F
 	{
 		displayName = "Wiesel 2 (Scout)";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		//TFAR - BLUFOR
 		tf_hasLRradio = 1;
@@ -388,10 +389,10 @@ class CfgVehicles
 	class Manticore_Rooikat_Base : B_AFV_Wheeled_01_cannon_F
 	{
 		displayName = "Rooikat 120";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -436,10 +437,10 @@ class CfgVehicles
 	class Manticore_RooikatUP_Base : B_AFV_Wheeled_01_up_cannon_F
 	{
 		displayName = "Rooikat 120 UP";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{

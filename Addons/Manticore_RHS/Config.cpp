@@ -41,7 +41,3 @@ class cfgFactionClasses
 		icon = ""; //Custom Icon 
 	};
 };
-
-class CfgVehicles
-{
-};

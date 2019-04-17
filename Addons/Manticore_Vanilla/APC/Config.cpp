@@ -21,23 +21,23 @@ class CfgVehicles
 	
 	class Manticore_NamerAPC_Base : B_APC_Tracked_01_rcws_F
 	{
+		displayName = "Namer APC";
+		scope = 0;
 		side = 1;
-		scope = 1;
 		//crew = "";
 		faction = "Manticore_Faction";
-		displayName = "Namer APC";
 
-		hiddenSelections[] =
+		/*hiddenSelections[] =
 		{
 			"Camo1", 
 			"Camo2", 
 			"Camo3"  
-		};
+		};*/
 		hiddenSelectionsTextures[] =
 		{
-			"\Manticore_Vanilla\APC\Data\Nemmera_CRV_ext01_V1,0_M81.paa",
-			"\Manticore_Vanilla\APC\Data\MBT_01_body_V1,0_M81.paa",
-			"\Manticore_Vanilla\Data\Texture\CROWE_Turret_V1,0_M81.paa"
+			"\Manticore_Vanilla\APC\Data\Nemmera_CRV_ext01_V1,0_Sand.paa",
+			"\Manticore_Vanilla\APC\Data\MBT_01_body_V1,0_Sand.paa",
+			"\Manticore_Vanilla\Data\Texture\CROWE_Turret_V1,0_Sand.paa"
 		};
 		class TextureSources
 		{
@@ -122,11 +122,11 @@ class CfgVehicles
 	};
 	class Manticore_NemmeraAPC_Base : B_APC_Tracked_01_CRV_F
 	{
+		displayName = "Nemmera CRV";
+		scope = 0;
 		side = 1;
-		scope = 1;
 		//crew = "";
 		faction = "Manticore_Faction";
-		displayName = "Nemmera CRV";
 
 		hiddenSelections[] =
 		{

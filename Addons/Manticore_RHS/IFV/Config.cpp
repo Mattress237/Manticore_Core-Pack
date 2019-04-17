@@ -25,10 +25,10 @@ class CfgVehicles
 	class Manticore_M2A3_Base : RHS_M2A3
 	{
 		displayName = "M2A3";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -77,10 +77,10 @@ class CfgVehicles
 	class Manticore_M2A3BUSKI_Base : RHS_M2A3_BUSKI
 	{
 		displayName = "M2A3 (BUSK I)";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -133,10 +133,10 @@ class CfgVehicles
 	class Manticore_M2A3BUSKIII_Base : RHS_M2A3_BUSKIII
 	{
 		displayName = "M2A3 (BUSK III)";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -193,10 +193,10 @@ class CfgVehicles
 	class Manticore_M6A2_Base : RHS_M6
 	{
 		displayName = "M6A2 (AA)";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{

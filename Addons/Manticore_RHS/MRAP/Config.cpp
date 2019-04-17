@@ -32,10 +32,10 @@ class CfgVehicles
 	class Manticore_Cat1A2_Base : rhsusf_CGRCAT1A2_usmc_wd
 	{
 		displayName = "CGR CAT1A2";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -66,10 +66,10 @@ class CfgVehicles
 	class Manticore_Cat1A2_M2_Base : rhsusf_CGRCAT1A2_M2_usmc_wd
 	{
 		displayName = "CGR CAT1A2 (M2)";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -100,10 +100,10 @@ class CfgVehicles
 	class Manticore_Cat1A2Mk19_Base : rhsusf_CGRCAT1A2_Mk19_usmc_wd
 	{
 		displayName = "CGR CAT1A2 (Mk19)";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -135,10 +135,10 @@ class CfgVehicles
 	class Manticore_M1220_Base : rhsusf_M1220_usarmy_wd
 	{
 		displayName = "M1220";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -170,10 +170,10 @@ class CfgVehicles
 	class Manticore_M1220M2_Base : rhsusf_M1220_M2_usarmy_wd
 	{
 		displayName = "M1220 (M2)";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -205,10 +205,10 @@ class CfgVehicles
 	class Manticore_M1220M2CROW_Base : rhsusf_M1220_M153_M2_usarmy_wd
 	{
 		displayName = "M1220 (M2 CROW)";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -240,10 +240,10 @@ class CfgVehicles
 	class Manticore_M1220M19_Base : rhsusf_M1220_MK19_usarmy_wd
 	{
 		displayName = "M1220 (M19)";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -276,10 +276,10 @@ class CfgVehicles
 	class Manticore_M1230M2_Base : rhsusf_M1230_M2_usarmy_wd
 	{
 		displayName = "M1230 (M2)";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -311,10 +311,10 @@ class CfgVehicles
 	class Manticore_M1230M19_Base : rhsusf_M1230_MK19_usarmy_wd
 	{
 		displayName = "M1230 (M19)";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -346,10 +346,10 @@ class CfgVehicles
 	class Manticore_M1220A1Med_Base : rhsusf_M1230a1_usarmy_wd
 	{
 		displayName = "M1230A1 (Medical)";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{

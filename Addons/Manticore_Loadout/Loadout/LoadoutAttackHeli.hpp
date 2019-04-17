@@ -13,8 +13,8 @@ class TransportItems
 	_aceMics(0, 1, 2, 2, 1, 2, 2, 2);
 	_medicalBandage(5, 5, 5, 5);
 	_medicalMics(8, 0, 0);
-	_aceXFood(4, 0, 0, 4, 0, 0, 0, 4, 0, 0);
-	_aceXDrink(6);
+	//_aceXFood(4, 0, 0, 4, 0, 0, 0, 4, 0, 0);
+	//_aceXDrink(6);
 	
 	class _xx_Toolkit
 	{
