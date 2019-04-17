@@ -21,8 +21,8 @@ class CfgVehicles
 	class Manticore_SpeedboatMinigun_Base : B_Boat_Armed_01_minigun_F
 	{
 		displayName = "Speedboat Minigun";
+		scope = 0;
 		side = 1;
-		scope = 1;
 		//crew = "";
 		faction = "Manticore_Faction";
 

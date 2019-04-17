@@ -27,10 +27,11 @@ class CfgVehicles
 	class Manticore_M113A3Unarmed_Base : rhsusf_m113_usarmy_unarmed
 	{
 		displayName = "M113A3";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
+
 		hiddenSelectionsTextures[] =
 		{
 			"rhsusf\addons\rhsusf_m113\data_new\m113a3_01_od_l_co.paa",
@@ -82,10 +83,10 @@ class CfgVehicles
 	class Manticore_M113A3M2_Base : rhsusf_m113_usarmy
 	{
 		displayName = "M113A3 (M2)";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -146,10 +147,10 @@ class CfgVehicles
 	class Manticore_M113A3M19_Base : rhsusf_m113_usarmy_MK19
 	{
 		displayName = "M113A3 (M19)";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -206,10 +207,10 @@ class CfgVehicles
 	class Manticore_M113A3M240_Base : rhsusf_m113_usarmy_M240
 	{
 		displayName = "M113A3 (M240)";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -266,10 +267,10 @@ class CfgVehicles
 	class Manticore_M113A3Ammo_Base : rhsusf_m113_usarmy_supply
 	{
 		displayName = "M113A3 (Ammo)";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{
@@ -326,10 +327,10 @@ class CfgVehicles
 	class Manticore_M113A3Medical_Base : rhsusf_m113_usarmy_medical
 	{
 		displayName = "M113A3 (MEV)";
-		scope = 1;
+		scope = 0;
 		side = 1;
-		faction = "Manticore_Faction";
 		//crew = "";
+		faction = "Manticore_Faction";
 
 		hiddenSelectionsTextures[] =
 		{

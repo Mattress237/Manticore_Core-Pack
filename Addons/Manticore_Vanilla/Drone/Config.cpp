@@ -27,7 +27,7 @@ class CfgVehicles
 	class Manticore_UCAVDrone_Base : B_UAV_05_F
 	{
 		displayName = "UCAV Sentinel";
-		scope = 1;
+		scope = 0;
 		side = 1;
 		faction = "Manticore_Faction";
 
@@ -47,7 +47,7 @@ class CfgVehicles
 	class Manticore_FalconDrone_Base : B_T_UAV_03_dynamicLoadout_F
 	{
 		displayName = "MQ-12 Falcon";
-		scope = 1;
+		scope = 0;
 		side = 1;
 		faction = "Manticore_Faction";
 
@@ -67,7 +67,7 @@ class CfgVehicles
 	class Manticore_AR2DarterDrone_Base : B_UAV_01_F
 	{
 		displayName = "AR-2 Darter";
-		scope = 1;
+		scope = 0;
 		side = 1;
 		faction = "Manticore_Faction";
 
@@ -87,7 +87,7 @@ class CfgVehicles
 	class Manticore_StomperDrone_Base : B_UGV_01_F
 	{
 		displayName = "UGV Stomper";
-		scope = 1;
+		scope = 0;
 		side = 1;
 		faction = "Manticore_Faction";
 
@@ -107,7 +107,7 @@ class CfgVehicles
 	class Manticore_StomperArmedDrone_Base : B_UGV_01_rcws_F
 	{
 		displayName = "UGV Stomper RCWS";
-		scope = 1;
+		scope = 0;
 		side = 1;
 		faction = "Manticore_Faction";
 
