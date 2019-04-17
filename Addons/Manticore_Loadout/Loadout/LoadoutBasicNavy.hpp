@@ -41,9 +41,9 @@ class TransportItems
 
 	_aceMics(5, 2, 1, 0, 1, 1, 1, 2);
 
-	_aceXDrink(4, 0, 0, 0, 0);
+	//_aceXDrink(4, 0, 0, 0, 0);
 
-	_aceXFood(4, 0, 0, 0, 0, 0, 0, 4, 0, 0);
+	//_aceXFood(4, 0, 0, 0, 0, 0, 0, 4, 0, 0);
 
 	class _xx_rhsusf_ANPVS_15
 	{

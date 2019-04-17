@@ -32,9 +32,9 @@ class TransportItems
 	
 	_medicalSelin(0, 5, 0)
 
-	_aceXFood(4, 0, 0, 4, 0, 0, 0, 4, 0, 0);
+	//_aceXFood(4, 0, 0, 4, 0, 0, 0, 4, 0, 0);
 	
-	_aceXDrink(10, 0, 0, 0, 0);
+	//_aceXDrink(10, 0, 0, 0, 0);
 	
 	class _xx_tf_anprc152
 	{

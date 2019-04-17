@@ -36,8 +36,8 @@ class Manticore_CrateField_Fireteam : B_supplyCrate_F
 		_medicalSelin(0, 4, 0);
 		_medicalInjector(5, 5, 0, 0);
 		_medicalMics(5, 5, 0);
-		_aceXDrink(10, 0, 0, 0, 0);
-		_aceXFood(4, 0, 0, 4, 0, 0, 4, 0, 0, 0);
+		//_aceXDrink(10, 0, 0, 0, 0);
+		//_aceXFood(4, 0, 0, 4, 0, 0, 4, 0, 0, 0);
 
 		class _xx_bipod_01_F_blk
 		{
@@ -127,8 +127,8 @@ class Manticore_CrateField_Squad : B_supplyCrate_F
 		_medicalSelin(0, 8, 0);
 		_medicalInjector(5, 5, 0, 0);
 		_medicalMics(10, 15, 0);
-		_aceXDrink(20, 0, 0, 0, 0);
-		_aceXFood(8, 0, 0, 8, 0, 0, 8, 0, 0, 0);
+		//_aceXDrink(20, 0, 0, 0, 0);
+		//_aceXFood(8, 0, 0, 8, 0, 0, 8, 0, 0, 0);
 		class _xx_bipod_01_F_blk
 		{
 			name = "bipod_01_F_blk";
