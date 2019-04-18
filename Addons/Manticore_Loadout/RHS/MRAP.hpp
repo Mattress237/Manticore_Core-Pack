@@ -7,7 +7,7 @@ class Manticore_Cat1A2_Load : Manticore_Cat1A2_Base
 	
 	#include "../Loadout/LoadoutBasic.hpp"
 };
-class Manticore_Cat1A2M2_Load : Manticore_Cat1A2_M2_Base
+class Manticore_Cat1A2M2_Load : Manticore_Cat1A2M2_Base
 {
 	displayName = "CGR CAT1A2 (M2)";
 	scope = 2;

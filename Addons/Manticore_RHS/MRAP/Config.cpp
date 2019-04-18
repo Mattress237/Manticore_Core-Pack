@@ -63,7 +63,7 @@ class CfgVehicles
 		};
 		textureList[] = { "RHS_Woodland",0,"RHS_Desert",0 };
 	};
-	class Manticore_Cat1A2_M2_Base : rhsusf_CGRCAT1A2_M2_usmc_wd
+	class Manticore_Cat1A2M2_Base : rhsusf_CGRCAT1A2_M2_usmc_wd
 	{
 		displayName = "CGR CAT1A2 (M2)";
 		scope = 0;

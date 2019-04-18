@@ -423,8 +423,8 @@ class CfgVehicles {
         };
     };
 
-    class Manticore_Cat1A2_M2_Base;
-    class Manticore_RHS_Mrap_Cat1A2_M2_OCimport_01 : Manticore_Cat1A2_M2_Base { scope = 0; class EventHandlers; class Turrets; };
+    class Manticore_Cat1A2M2_Base;
+    class Manticore_RHS_Mrap_Cat1A2_M2_OCimport_01 : Manticore_Cat1A2M2_Base { scope = 0; class EventHandlers; class Turrets; };
     class Manticore_RHS_Mrap_Cat1A2_M2_OCimport_02 : Manticore_RHS_Mrap_Cat1A2_M2_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {

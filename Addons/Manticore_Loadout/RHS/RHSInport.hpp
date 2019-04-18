@@ -31,7 +31,7 @@ class rhsusf_M1230_M2_usarmy_wd;
 class rhsusf_M1230_MK19_usarmy_wd;
 class rhsusf_M1230a1_usarmy_wd;*/
 class Manticore_Cat1A2_Base;
-class Manticore_Cat1A2_M2_Base;
+class Manticore_Cat1A2M2_Base;
 class Manticore_Cat1A2Mk19_Base;
 class Manticore_M1220_Base;
 class Manticore_M1220M2_Base;

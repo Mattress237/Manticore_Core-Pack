@@ -253,11 +253,15 @@ class CfgVehicles {
 			class CargoTurret_02;
 		};
 	};
+	class Manticore_UH60MHeli_Load;
+	class Manticore_UH60MHeli_Winter : Manticore_UH60MHeli_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-/*
-	class Manticore_UH60MHeli_Base;
-	class Manticore_RHS_Heli_UH60M_OCimport_01 : Manticore_UH60MHeli_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Heli_UH60M_OCimport_02 : Manticore_RHS_Heli_UH60M_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class CopilotTurret;
@@ -269,10 +273,15 @@ class CfgVehicles {
 			class CargoTurret_04;
 		};
 	};
+	class Manticore_UH60M2Heli_Load;
+	class Manticore_UH60M2Heli_Winter : Manticore_UH60M2Heli_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_UH60M2Heli_Base;
-	class Manticore_RHS_Heli_UH60M2_OCimport_01 : Manticore_UH60M2Heli_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Heli_UH60M2_OCimport_02 : Manticore_RHS_Heli_UH60M2_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class CopilotTurret;
@@ -282,10 +291,15 @@ class CfgVehicles {
 			class CargoTurret_04;
 		};
 	};
+	class Manticore_UH60MEWSHeli_Load;
+	class Manticore_UH60MEWSHeli_Winter : Manticore_UH60MEWSHeli_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_UH60MEWSHeli_Base;
-	class Manticore_RHS_Heli_UH60M_EWS_OCimport_01 : Manticore_UH60MEWSHeli_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Heli_UH60M_EWS_OCimport_02 : Manticore_RHS_Heli_UH60M_EWS_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class CopilotTurret;
@@ -295,10 +309,15 @@ class CfgVehicles {
 			class CargoTurret_04;
 		};
 	};
+	class Manticore_UH60MESSSHeli_Load;
+	class Manticore_UH60MESSSHeli_Winter : Manticore_UH60MESSSHeli_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_UH60MESSSHeli_Base;
-	class Manticore_RHS_Heli_UH60M_ESSS_OCimport_01 : Manticore_UH60MESSSHeli_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Heli_UH60M_ESSS_OCimport_02 : Manticore_RHS_Heli_UH60M_ESSS_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class CopilotTurret;
@@ -308,10 +327,15 @@ class CfgVehicles {
 			class CargoTurret_04;
 		};
 	};
+	class Manticore_UH60MMEVHeli_Load;
+	class Manticore_UH60MMEVHeli_Winter : Manticore_UH60MMEVHeli_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_UH60MMEVHeli_Base;
-	class Manticore_RHS_Heli_UH60M_MEV_OCimport_01 : Manticore_UH60MMEVHeli_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Heli_UH60M_MEV_OCimport_02 : Manticore_RHS_Heli_UH60M_MEV_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class CopilotTurret;
@@ -321,37 +345,57 @@ class CfgVehicles {
 			class CargoTurret_04;
 		};
 	};
+	class Manticore_UH60MESSSMEVHeli_Load;
+	class Manticore_UH60MESSSMEVHeli_Winter : Manticore_UH60MESSSMEVHeli_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_UH60MESSSMEVHeli_Base;
-	class Manticore_RHS_Heli_UH60M_ESSS_MEV_OCimport_01 : Manticore_UH60MESSSMEVHeli_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Heli_UH60M_ESSS_MEV_OCimport_02 : Manticore_RHS_Heli_UH60M_ESSS_MEV_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class CopilotTurret;
 		};
 	};
+	class Manticore_AH64DHeli_Load;
+	class Manticore_AH64DHeli_Winter : Manticore_AH64DHeli_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_AH64DHeli_Base;
-	class Manticore_RHS_Heli_AH64D_OCimport_01 : Manticore_AH64DHeli_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Heli_AH64D_OCimport_02 : Manticore_RHS_Heli_AH64D_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class MainTurret;
 		};
 	};
+	class Manticore_CH53EHeli_Load;
+	class Manticore_CH53EHeli_Winter : Manticore_CH53EHeli_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_CH53EHeli_Base;
-	class Manticore_RHS_Heli_CH53E_OCimport_01 : Manticore_CH53EHeli_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Heli_CH53E_OCimport_02 : Manticore_RHS_Heli_CH53E_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class MainTurret;
 		};
 	};
+	class Manticore_UH1YHeli_Load;
+	class Manticore_UH1YHeli_Winter : Manticore_UH1YHeli_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_UH1YHeli_Base;
-	class Manticore_RHS_Heli_UH1Y_OCimport_01 : Manticore_UH1YHeli_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Heli_UH1Y_OCimport_02 : Manticore_RHS_Heli_UH1Y_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class CopilotTurret;
@@ -365,10 +409,15 @@ class CfgVehicles {
 			class CargoTurret_06;
 		};
 	};
+	class Manticore_UH1YFFARHeli_Load;
+	class Manticore_UH1YFFARHeli_Winter : Manticore_UH1YFFARHeli_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_UH1YFFARHeli_Base;
-	class Manticore_RHS_Heli_UH1Y_FFAR_OCimport_01 : Manticore_UH1YFFARHeli_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Heli_UH1Y_FFAR_OCimport_02 : Manticore_RHS_Heli_UH1Y_FFAR_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class CopilotTurret;
@@ -382,10 +431,15 @@ class CfgVehicles {
 			class CargoTurret_08;
 		};
 	};
+	class Manticore_UH1YUnarmedHeli_Load;
+	class Manticore_UH1YUnarmedHeli_Winter : Manticore_UH1YUnarmedHeli_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_UH1YUnarmedHeli_Base;
-	class Manticore_RHS_Heli_UH1Y_Unarmed_OCimport_01 : Manticore_UH1YUnarmedHeli_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Heli_UH1Y_Unarmed_OCimport_02 : Manticore_RHS_Heli_UH1Y_Unarmed_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class CopilotTurret;
@@ -399,16 +453,20 @@ class CfgVehicles {
 			class CargoTurret_08;
 		};
 	};
+	class Manticore_AH1ZHeli_Load;
+	class Manticore_AH1ZHeli_Winter : Manticore_AH1ZHeli_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_AH1ZHeli_Base;
-	class Manticore_RHS_Heli_AH1Z_OCimport_01 : Manticore_AH1ZHeli_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Heli_AH1Z_OCimport_02 : Manticore_RHS_Heli_AH1Z_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class MainTurret;
 		};
 	};
-*/
 
 	//IFV
     class Manticore_BadgerIFV_Load;
@@ -425,43 +483,62 @@ class CfgVehicles {
             class MainTurret;
         };
     };
-/*
-class Manticore_M2A3_Base;
-	class Manticore_RHS_IFV_M2A3_OCimport_01 : Manticore_M2A3_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_IFV_M2A3_OCimport_02 : Manticore_RHS_IFV_M2A3_OCimport_01 {
-		class EventHandlers;
-		class Turrets : Turrets {
-			class MainTurret;
-		};
-	};
+	class Manticore_M2A3_Load;
+	class Manticore_M2A3_Winter : Manticore_M2A3_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M2A3BUSKI_Base;
-	class Manticore_RHS_IFV_M2A3_BUSKI_OCimport_01 : Manticore_M2A3BUSKI_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_IFV_M2A3_BUSKI_OCimport_02 : Manticore_RHS_IFV_M2A3_BUSKI_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class MainTurret;
 		};
 	};
+	class Manticore_M2A3BUSKI_Load;
+	class Manticore_M2A3BUSKI_Winter : Manticore_M2A3BUSKI_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M2A3BUSKIII_Base;
-	class Manticore_RHS_IFV_M2A3_BUSKIII_OCimport_01 : Manticore_M2A3BUSKIII_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_IFV_M2A3_BUSKIII_OCimport_02 : Manticore_RHS_IFV_M2A3_BUSKIII_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class MainTurret;
 		};
 	};
+	class Manticore_M2A3BUSKIII_Load;
+	class Manticore_M2A3BUSKIII_Winter : Manticore_M2A3BUSKIII_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M6A2_Base;
-	class Manticore_RHS_IFV_M6A2_OCimport_01 : Manticore_M6A2_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_IFV_M6A2_OCimport_02 : Manticore_RHS_IFV_M6A2_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class MainTurret;
 		};
 	};
-*/
+	class Manticore_M6A2_Load;
+	class Manticore_M6A2_Winter : Manticore_M6A2_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
+
+		class EventHandlers;
+		class Turrets : Turrets {
+			class MainTurret;
+		};
+	};
 
 	//APC
     class Manticore_NamerAPC_Load;
@@ -494,21 +571,15 @@ class Manticore_M2A3_Base;
             class CommanderOptics;
         };
     };
-/*
-class Manticore_M113A3M2_Base;
-	class Manticore_RHS_APC_M113A3_M2_OCimport_01 : Manticore_M113A3M2_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_APC_M113A3_M2_OCimport_02 : Manticore_RHS_APC_M113A3_M2_OCimport_01 {
-		class EventHandlers;
-		class Turrets : Turrets {
-			class MainTurret;
-			class CargoTurret_01;
-			class CargoTurret_02;
-		};
-	};
+	class Manticore_M113A3M2_Load;
+	class Manticore_M113A3M2_Winter : Manticore_M113A3M2_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M113A3M19_Base;
-	class Manticore_RHS_APC_M113A3_M19_OCimport_01 : Manticore_M113A3M19_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_APC_M113A3_M19_OCimport_02 : Manticore_RHS_APC_M113A3_M19_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class MainTurret;
@@ -516,10 +587,15 @@ class Manticore_M113A3M2_Base;
 			class CargoTurret_02;
 		};
 	};
+	class Manticore_M113A3M19_Load;
+	class Manticore_M113A3M19_Winter : Manticore_M113A3M19_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M113A3M240_Base;
-	class Manticore_RHS_APC_M113A3_M240_OCimport_01 : Manticore_M113A3M240_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_APC_M113A3_M240_OCimport_02 : Manticore_RHS_APC_M113A3_M240_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class MainTurret;
@@ -527,10 +603,15 @@ class Manticore_M113A3M2_Base;
 			class CargoTurret_02;
 		};
 	};
+	class Manticore_M113A3M240_Load;
+	class Manticore_M113A3M240_Winter : Manticore_M113A3M240_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M113A3Ammo_Base;
-	class Manticore_RHS_APC_M113A3_Ammo_OCimport_01 : Manticore_M113A3Ammo_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_APC_M113A3_Ammo_OCimport_02 : Manticore_RHS_APC_M113A3_Ammo_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class MainTurret;
@@ -538,10 +619,15 @@ class Manticore_M113A3M2_Base;
 			class CargoTurret_02;
 		};
 	};
+	class Manticore_M113A3Ammo_Load;
+	class Manticore_M113A3Ammo_Winter : Manticore_M113A3Ammo_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M113A3Medical_Base;
-	class Manticore_RHS_APC_M113A3_Medical_OCimport_01 : Manticore_M113A3Medical_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_APC_M113A3_Medical_OCimport_02 : Manticore_RHS_APC_M113A3_Medical_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class MainTurret;
@@ -549,7 +635,22 @@ class Manticore_M113A3M2_Base;
 			class CargoTurret_02;
 		};
 	};
-*/
+	class Manticore_M113A3Medical_Load;
+	class Manticore_M113A3Medical_Winter : Manticore_M113A3Medical_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
+
+		class EventHandlers;
+		class Turrets : Turrets {
+			class MainTurret;
+			class CargoTurret_01;
+			class CargoTurret_02;
+		};
+	};
 
 	//AA
     class Manticore_Bardelas_Load;
@@ -682,26 +783,35 @@ class Manticore_M113A3M2_Base;
             class MainTurret;
         };
     };
-/*
-class Manticore_M142_Base;
-	class Manticore_RHS_Artillery_M142_OCimport_01 : Manticore_M142_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Artillery_M142_OCimport_02 : Manticore_RHS_Artillery_M142_OCimport_01 {
+	class Manticore_M142_Load;
+	class Manticore_M142_Winter : Manticore_M142_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
+
 		class EventHandlers;
 		class Turrets : Turrets {
 			class MainTurret;
 			class CargoTurret_01;
 		};
 	};
+	class Manticore_M109A6_Load;
+	class Manticore_M109A6_Winter : Manticore_M109A6_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M109A6_Base;
-	class Manticore_RHS_Artillery_M109A6_OCimport_01 : Manticore_M109A6_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Artillery_M109A6_OCimport_02 : Manticore_RHS_Artillery_M109A6_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class MainTurret;
 		};
 	};
-*/
 
 	//Boat
     class Manticore_SpeedboatMinigun_Load;
@@ -719,10 +829,15 @@ class Manticore_M142_Base;
             class RearTurret;
         };
     };
-/*
- class Manticore_MkVSOC_Base;
-	class Manticore_RHS_Naval_MkVSOC_OCimport_01 : Manticore_MkVSOC_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Naval_MkVSOC_OCimport_02 : Manticore_RHS_Naval_MkVSOC_OCimport_01 {
+	class Manticore_MkVSOC_Load;
+	class Manticore_MkVSOC_Winter : Manticore_MkVSOC_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
+
 		class EventHandlers;
 		class Turrets : Turrets {
 			class MainTurret;
@@ -733,7 +848,7 @@ class Manticore_M142_Base;
 			class rem_spotL_gunTurret;
 		};
 	};
-*/
+
 
 
 	//Drone
@@ -810,10 +925,15 @@ class Manticore_M142_Base;
     };
 
     //Car
-/*
-class Manticore_M1043A2_Base;
-	class Manticore_RHS_Humvee_M1043A2_OCimport_01 : Manticore_M1043A2_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Humvee_M1043A2_OCimport_02 : Manticore_RHS_Humvee_M1043A2_OCimport_01 {
+	class Manticore_M1043A2_Load;
+	class Manticore_M1043A2_Winter : Manticore_M1043A2_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
+
 		class EventHandlers;
 		class Turrets : Turrets {
 			class CargoTurret_01;
@@ -821,10 +941,15 @@ class Manticore_M1043A2_Base;
 			class CargoTurret_03;
 		};
 	};
+	class Manticore_M1043A2M2_Load;
+	class Manticore_M1043A2M2_Winter : Manticore_M1043A2M2_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M1043A2M2_Base;
-	class Manticore_RHS_Humvee_M1043A2_M2_OCimport_01 : Manticore_M1043A2M2_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Humvee_M1043A2_M2_OCimport_02 : Manticore_RHS_Humvee_M1043A2_M2_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class M2_Turret;
@@ -833,10 +958,15 @@ class Manticore_M1043A2_Base;
 			class CargoTurret_03;
 		};
 	};
+	class Manticore_M1043A2M19_Load;
+	class Manticore_M1043A2M19_Winter : Manticore_M1043A2M19_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M1043A2M19_Base;
-	class Manticore_RHS_Humvee_M1043A2_M19_OCimport_01 : Manticore_M1043A2M19_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Humvee_M1043A2_M19_OCimport_02 : Manticore_RHS_Humvee_M1043A2_M19_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class M2_Turret;
@@ -845,10 +975,15 @@ class Manticore_M1043A2_Base;
 			class CargoTurret_03;
 		};
 	};
+	class Manticore_M1045A2TOW_Load;
+	class Manticore_M1045A2TOW_Winter : Manticore_M1045A2TOW_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M1045A2TOW_Base;
-	class Manticore_RHS_Humvee_M1045A2_TOW_OCimport_01 : Manticore_M1045A2TOW_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Humvee_M1045A2_TOW_OCimport_02 : Manticore_RHS_Humvee_M1045A2_TOW_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class TOW_Turret;
@@ -857,10 +992,15 @@ class Manticore_M1043A2_Base;
 			class CargoTurret_03;
 		};
 	};
+	class Manticore_M11232DOpen_Load;
+	class Manticore_M11232DOpen_Winter : Manticore_M11232DOpen_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M11232DOpen_Base;
-	class Manticore_RHS_Humvee_M1123_2D_Open_OCimport_01 : Manticore_M11232DOpen_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Humvee_M1123_2D_Open_OCimport_02 : Manticore_RHS_Humvee_M1123_2D_Open_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class CargoTurret_01;
@@ -868,30 +1008,45 @@ class Manticore_M1043A2_Base;
 			class CargoTurret_03;
 		};
 	};
+	class Manticore_M11232DHalf_Load;
+	class Manticore_M11232DHalf_Winter : Manticore_M11232DHalf_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M11232DHalf_Base;
-	class Manticore_RHS_Humvee_M1123_2D_Half_OCimport_01 : Manticore_M11232DHalf_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Humvee_M1123_2D_Half_OCimport_02 : Manticore_RHS_Humvee_M1123_2D_Half_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class CargoTurret_01;
 			class CargoTurret_02;
 		};
 	};
+	class Manticore_M11232DFull_Load;
+	class Manticore_M11232DFull_Winter : Manticore_M11232DFull_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M11232DFull_Base;
-	class Manticore_RHS_Humvee_M1123_2D_Full_OCimport_01 : Manticore_M11232DFull_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Humvee_M1123_2D_Full_OCimport_02 : Manticore_RHS_Humvee_M1123_2D_Full_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class CargoTurret_01;
 			class CargoTurret_02;
 		};
 	};
+	class Manticore_M11234DOpen_Load;
+	class Manticore_M11234DOpen_Winter : Manticore_M11234DOpen_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M11234DOpen_Base;
-	class Manticore_RHS_Humvee_M1123_4D_Open_OCimport_01 : Manticore_M11234DOpen_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Humvee_M1123_4D_Open_OCimport_02 : Manticore_RHS_Humvee_M1123_4D_Open_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class CargoTurret_01;
@@ -901,109 +1056,179 @@ class Manticore_M1043A2_Base;
 			class CargoTurret_05;
 		};
 	};
+	class Manticore_M11234DHalf_Load;
+	class Manticore_M11234DHalf_Winter : Manticore_M11234DHalf_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M11234DHalf_Base;
-	class Manticore_RHS_Humvee_M1123_4D_Half_OCimport_01 : Manticore_M11234DHalf_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Humvee_M1123_4D_Half_OCimport_02 : Manticore_RHS_Humvee_M1123_4D_Half_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class CargoTurret_01;
 			class CargoTurret_02;
 		};
 	};
+	class Manticore_M11234DFull_Load;
+	class Manticore_M11234DFull_Winter : Manticore_M11234DFull_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M11234DFull_Base;
-	class Manticore_RHS_Humvee_M1123_4D_Full_OCimport_01 : Manticore_M11234DFull_Base { scope = 0; class EventHandlers; };
-	class Manticore_RHS_Humvee_M1123_4D_Full_OCimport_02 : Manticore_RHS_Humvee_M1123_4D_Full_OCimport_01 { scope = 0; class EventHandlers; };
-*/
+		class EventHandlers; 
+	};
 
 	//MRAP
-/*
-class Manticore_Cat1A2_Base;
-	class Manticore_RHS_Mrap_Cat1A2_OCimport_01 : Manticore_Cat1A2_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Mrap_Cat1A2_OCimport_02 : Manticore_RHS_Mrap_Cat1A2_OCimport_01 {
+	class Manticore_Cat1A2_Load;
+	class Manticore_Cat1A2_Winter : Manticore_Cat1A2_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
+
 		class EventHandlers;
 		class Turrets : Turrets {
 			class CargoTurret_01;
 		};
 	};
+	class Manticore_Cat1A2M2_Load;
+	class Manticore_Cat1A2M2_Winter : Manticore_Cat1A2M2_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_Cat1A2_M2_Base;
-	class Manticore_RHS_Mrap_Cat1A2_M2_OCimport_01 : Manticore_Cat1A2_M2_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Mrap_Cat1A2_M2_OCimport_02 : Manticore_RHS_Mrap_Cat1A2_M2_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class M2_Turret;
 			class CargoTurret_01;
 		};
 	};
+	class Manticore_Cat1A2Mk19_Load;
+	class Manticore_Cat1A2Mk19_Winter : Manticore_Cat1A2Mk19_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_Cat1A2Mk19_Base;
-	class Manticore_RHS_Mrap_Cat1A2_Mk19_OCimport_01 : Manticore_Cat1A2Mk19_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Mrap_Cat1A2_Mk19_OCimport_02 : Manticore_RHS_Mrap_Cat1A2_Mk19_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class M2_Turret;
 			class CargoTurret_01;
 		};
 	};
+	class Manticore_M1220_Load;
+	class Manticore_M1220_Winter : Manticore_M1220_Load 
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M1220_Base;
-	class Manticore_RHS_Mrap_M1220_OCimport_01 : Manticore_M1220_Base { scope = 0; class EventHandlers; };
-	class Manticore_RHS_Mrap_M1220_OCimport_02 : Manticore_RHS_Mrap_M1220_OCimport_01 { scope = 0; class EventHandlers; };
+		class EventHandlers; 
+	};
+	class Manticore_M1220_Load;
+	class Manticore_M1220_Winter : Manticore_M1220_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M1220M2_Base;
-	class Manticore_RHS_Mrap_M1220_M2_OCimport_01 : Manticore_M1220M2_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Mrap_M1220_M2_OCimport_02 : Manticore_RHS_Mrap_M1220_M2_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class M2_Turret;
 		};
 	};
+	class Manticore_M1220M2CROW_Load;
+	class Manticore_M1220M2CROW_Winter : Manticore_M1220M2CROW_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M1220M2CROW_Base;
-	class Manticore_RHS_Mrap_M1220_M2CROW_OCimport_01 : Manticore_M1220M2CROW_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Mrap_M1220_M2CROW_OCimport_02 : Manticore_RHS_Mrap_M1220_M2CROW_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class M2_CROWS_Turret;
 		};
 	};
+	class Manticore_M1220M19_Load;
+	class Manticore_M1220M19_Winter : Manticore_M1220M19_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M1220M19_Base;
-	class Manticore_RHS_Mrap_M1220_M19_OCimport_01 : Manticore_M1220M19_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Mrap_M1220_M19_OCimport_02 : Manticore_RHS_Mrap_M1220_M19_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class M2_Turret;
 		};
 	};
+	class Manticore_M1230M2_Load;
+	class Manticore_M1230M2_Winter : Manticore_M1230M2_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M1230M2_Base;
-	class Manticore_RHS_Mrap_M1230_M2_OCimport_01 : Manticore_M1230M2_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Mrap_M1230_M2_OCimport_02 : Manticore_RHS_Mrap_M1230_M2_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class M2_Turret;
 		};
 	};
+	class Manticore_M1230M19_Load;
+	class Manticore_M1230M19_Winter : Manticore_M1230M19_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M1230M19_Base;
-	class Manticore_RHS_Mrap_M1230_M19_OCimport_01 : Manticore_M1230M19_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Mrap_M1230_M19_OCimport_02 : Manticore_RHS_Mrap_M1230_M19_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class M2_Turret;
 		};
 	};
+	class Manticore_M1220A1Med_Load;
+	class Manticore_M1220A1Med_Winter : Manticore_M1220A1Med_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M1220A1Med_Base;
-	class Manticore_RHS_Mrap_M1220A1_Medical_OCimport_01 : Manticore_M1220A1Med_Base { scope = 0; class EventHandlers; };
-	class Manticore_RHS_Mrap_M1220A1_Medical_OCimport_02 : Manticore_RHS_Mrap_M1220A1_Medical_OCimport_01 { scope = 0; class EventHandlers; };
+		class EventHandlers; 
+	};
+	class Manticore_M113A3Unarmed_Load;
+	class Manticore_M113A3Unarmed_Winter : Manticore_M113A3Unarmed_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M113A3Unarmed_Base;
-	class Manticore_RHS_APC_M113A3_Unarmed_OCimport_01 : Manticore_M113A3Unarmed_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_APC_M113A3_Unarmed_OCimport_02 : Manticore_RHS_APC_M113A3_Unarmed_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class MainTurret;
@@ -1011,33 +1236,47 @@ class Manticore_Cat1A2_Base;
 			class CargoTurret_02;
 		};
 	};
-*/
 
 	//Truck
-/*
-class Manticore_M1083A1P2_Base;
-	class Manticore_RHS_Truck_M1083A1P2_OCimport_01 : Manticore_M1083A1P2_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Truck_M1083A1P2_OCimport_02 : Manticore_RHS_Truck_M1083A1P2_OCimport_01 {
+	class Manticore_M1083A1P2_Load;
+	class Manticore_M1083A1P2_Winter : Manticore_M1083A1P2_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
+
 		class EventHandlers;
 		class Turrets : Turrets {
 			class CargoTurret_01;
 			class CargoTurret_02;
 		};
 	};
+	class Manticore_M1083A1P2B_Load;
+	class Manticore_M1083A1P2B_Winter : Manticore_M1083A1P2B_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M1083A1P2B_Base;
-	class Manticore_RHS_Truck_M1083A1P2_B_OCimport_01 : Manticore_M1083A1P2B_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Truck_M1083A1P2_B_OCimport_02 : Manticore_RHS_Truck_M1083A1P2_B_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class CargoTurret_01;
 			class CargoTurret_02;
 		};
 	};
+	class Manticore_M1083A1P2BM2_Load;
+	class Manticore_M1083A1P2BM2_Winter : Manticore_M1083A1P2BM2_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M1083A1P2BM2_Base;
-	class Manticore_RHS_Truck_M1083A1P2_B_M2_OCimport_01 : Manticore_M1083A1P2BM2_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Truck_M1083A1P2_B_M2_OCimport_02 : Manticore_RHS_Truck_M1083A1P2_B_M2_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class M2_Turret;
@@ -1045,91 +1284,152 @@ class Manticore_M1083A1P2_Base;
 			class CargoTurret_02;
 		};
 	};
+	class Manticore_M1083A1P2Flatbed_Load;
+	class Manticore_M1083A1P2Flatbed_Winter : Manticore_M1083A1P2Flatbed_Load 
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M1083A1P2Flatbed_Base;
-	class Manticore_RHS_Truck_M1083A1P2_Flatbed_OCimport_01 : Manticore_M1083A1P2Flatbed_Base { scope = 0; class EventHandlers; };
-	class Manticore_RHS_Truck_M1083A1P2_Flatbed_OCimport_02 : Manticore_RHS_Truck_M1083A1P2_Flatbed_OCimport_01 { scope = 0; class EventHandlers; };
+		class EventHandlers; 
+	};
+	class Manticore_M1083A1P2BFlatbed_Load;
+	class Manticore_M1083A1P2BFlatbed_Winter : Manticore_M1083A1P2BFlatbed_Load 
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M1083A1P2BFlatbed_Base;
-	class Manticore_RHS_Truck_M1083A1P2_B_Flatbed_OCimport_01 : Manticore_M1083A1P2BFlatbed_Base { scope = 0; class EventHandlers; };
-	class Manticore_RHS_Truck_M1083A1P2_B_Flatbed_OCimport_02 : Manticore_RHS_Truck_M1083A1P2_B_Flatbed_OCimport_01 { scope = 0; class EventHandlers; };
+		class EventHandlers; 
+	};
+	class Manticore_M1083A1P2BM2Flatbed_Load;
+	class Manticore_M1083A1P2BM2Flatbed_Winter : Manticore_M1083A1P2BM2Flatbed_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M1083A1P2BM2Flatbed_Base;
-	class Manticore_RHS_Truck_M1083A1P2_B_M2_Flatbed_OCimport_01 : Manticore_M1083A1P2BM2Flatbed_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Truck_M1083A1P2_B_M2_Flatbed_OCimport_02 : Manticore_RHS_Truck_M1083A1P2_B_M2_Flatbed_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class M2_Turret;
 		};
 	};
+	class Manticore_M977A4_Load;
+	class Manticore_M977A4_Winter : Manticore_M977A4_Load 
+	{  
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M977A4_Base;
-	class Manticore_RHS_Truck_M977A4_OCimport_01 : Manticore_M977A4_Base { scope = 0; class EventHandlers; };
-	class Manticore_RHS_Truck_M977A4_OCimport_02 : Manticore_RHS_Truck_M977A4_OCimport_01 { scope = 0; class EventHandlers; };
+		class EventHandlers; 
+	};
+	class Manticore_M977A4B_Load;
+	class Manticore_M977A4B_Winter : Manticore_M977A4B_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M977A4B_Base;
-	class Manticore_RHS_Truck_M977A4_B_OCimport_01 : Manticore_M977A4B_Base { scope = 0; class EventHandlers; };
-	class Manticore_RHS_Truck_M977A4_B_OCimport_02 : Manticore_RHS_Truck_M977A4_B_OCimport_01 { scope = 0; class EventHandlers; };
+		class EventHandlers;
+	};
+	class Manticore_M977A4BM2_Load;
+	class Manticore_M977A4BM2_Winter : Manticore_M977A4BM2_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M977A4BM2_Base;
-	class Manticore_RHS_Truck_M977A4_B_M2_OCimport_01 : Manticore_M977A4BM2_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Truck_M977A4_B_M2_OCimport_02 : Manticore_RHS_Truck_M977A4_B_M2_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class M2_Turret;
 		};
 	};
+	class Manticore_M977A4Repair_Load;
+	class Manticore_M977A4Repair_Winter : Manticore_M977A4Repair_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M977A4Repair_Base;
-	class Manticore_RHS_Truck_M977A4_Repair_OCimport_01 : Manticore_M977A4Repair_Base { scope = 0; class EventHandlers; };
-	class Manticore_RHS_Truck_M977A4_Repair_OCimport_02 : Manticore_RHS_Truck_M977A4_Repair_OCimport_01 { scope = 0; class EventHandlers; };
+		class EventHandlers;
+	};
+	class Manticore_M977A4BM2Repair_Load;
+	class Manticore_M977A4BM2Repair_Winter : Manticore_M977A4BM2Repair_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M977A4BM2Repair_Base;
-	class Manticore_RHS_Truck_M977A4_B_M2_Repair_OCimport_01 : Manticore_M977A4BM2Repair_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Truck_M977A4_B_M2_Repair_OCimport_02 : Manticore_RHS_Truck_M977A4_B_M2_Repair_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class M2_Turret;
 		};
 	};
+	class Manticore_M977A4Ammo_Load;
+	class Manticore_M977A4Ammo_Winter : Manticore_M977A4Ammo_Load 
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M977A4Ammo_Base;
-	class Manticore_RHS_Truck_M977A4_Ammo_OCimport_01 : Manticore_M977A4Ammo_Base { scope = 0; class EventHandlers; };
-	class Manticore_RHS_Truck_M977A4_Ammo_OCimport_02 : Manticore_RHS_Truck_M977A4_Ammo_OCimport_01 { scope = 0; class EventHandlers; };
+		class EventHandlers; 
+	};
+	class Manticore_M977A4BM2Ammo_Load;
+	class Manticore_M977A4BM2Ammo_Winter : Manticore_M977A4BM2Ammo_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M977A4BM2Ammo_Base;
-	class Manticore_RHS_Truck_M977A4_B_M2_Ammo_OCimport_01 : Manticore_M977A4BM2Ammo_Base { scope = 0; class EventHandlers; class Turrets; };
-	class Manticore_RHS_Truck_M977A4_B_M2_Ammo_OCimport_02 : Manticore_RHS_Truck_M977A4_B_M2_Ammo_OCimport_01 {
 		class EventHandlers;
 		class Turrets : Turrets {
 			class M2_Turret;
 		};
 	};
+	class Manticore_M978A4_Load;
+	class Manticore_M978A4_Winter : Manticore_M978A4_Load 
+	{ 
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M978A4_Base;
-	class Manticore_RHS_Truck_M978A4_OCimport_01 : Manticore_M978A4_Base { scope = 0; class EventHandlers; };
-	class Manticore_RHS_Truck_M978A4_OCimport_02 : Manticore_RHS_Truck_M978A4_OCimport_01 { scope = 0; class EventHandlers; };
+		class EventHandlers; 
+	};
+	class Manticore_M978A4B_Load;
+	class Manticore_M978A4B_Winter : Manticore_M978A4B_Load
+	{
+		//TODO: Add textur and right crew
+		scope = 2;
+		//crew = "";
+		faction = "Manticore_Faction_Winter";
+		//hiddenSelectionsTextures[] = { };
 
-	class Manticore_M978A4B_Base;
-	class Manticore_RHS_Truck_M978A4_B_OCimport_01 : Manticore_M978A4B_Base { scope = 0; class EventHandlers; };
-	class Manticore_RHS_Truck_M978A4_B_OCimport_02 : Manticore_RHS_Truck_M978A4_B_OCimport_01 { scope = 0; class EventHandlers; };
-
-*/
-
+		class EventHandlers; 
+	};
 
 /* 
-    
-    
-
-    
-
-    
-
-    
-    
-
-    
-
    
 	class B_Soldier_F;
 	class B_Soldier_F_OCimport_01 : B_Soldier_F { scope = 0; class EventHandlers; };
@@ -1188,6 +1488,9 @@ class Manticore_M1083A1P2_Base;
     class B_soldier_M_F_OCimport_01 : B_soldier_M_F { scope = 0; class EventHandlers; };
     class B_soldier_M_F_OCimport_02 : B_soldier_M_F_OCimport_01 { class EventHandlers; };
 
+*/
+
+/*
 
     class Manticore_PolarisUnarmed_Load : Manticore_Vanilla_Light_Polaris_Unarmed_OCimport_02 {
         author = "SSgt. D.O'Hara [MVSA]";
