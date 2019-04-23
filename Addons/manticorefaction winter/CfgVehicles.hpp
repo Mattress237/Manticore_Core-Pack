@@ -292,7 +292,7 @@ class CfgVehicles {
 
     class B_Soldier_F;
     class B_Soldier_F_OCimport_01 : B_Soldier_F { scope = 0; class EventHandlers; };
-    class B_Soldier_F_OCimport_02 : B_Soldier_F_OCimport_01 { class EventHandlers; };
+    class B_Soldier_F_Import : B_Soldier_F_OCimport_01 { class EventHandlers; };
 
     class RHS_MELB_MH6M;
     class RHS_MELB_MH6M_OCimport_01 : RHS_MELB_MH6M { scope = 0; class EventHandlers; class Turrets; };
@@ -919,55 +919,55 @@ class CfgVehicles {
 
     class VSM_Multicam_Crye_Uniform;
     class VSM_Multicam_Crye_Uniform_OCimport_01 : VSM_Multicam_Crye_Uniform { scope = 0; class EventHandlers; };
-    class VSM_Multicam_Crye_Uniform_OCimport_02 : VSM_Multicam_Crye_Uniform_OCimport_01 { class EventHandlers; };
+    class VSM_Multicam_Crye_Uniform_Import : VSM_Multicam_Crye_Uniform_OCimport_01 { class EventHandlers; };
 
     class B_Soldier_SL_F;
     class B_Soldier_SL_F_OCimport_01 : B_Soldier_SL_F { scope = 0; class EventHandlers; };
-    class B_Soldier_SL_F_OCimport_02 : B_Soldier_SL_F_OCimport_01 { class EventHandlers; };
+    class B_Soldier_SL_F_Import : B_Soldier_SL_F_OCimport_01 { class EventHandlers; };
 
     class B_Soldier_GL_F;
     class B_Soldier_GL_F_OCimport_01 : B_Soldier_GL_F { scope = 0; class EventHandlers; };
-    class B_Soldier_GL_F_OCimport_02 : B_Soldier_GL_F_OCimport_01 { class EventHandlers; };
+    class B_Soldier_GL_F_Import : B_Soldier_GL_F_OCimport_01 { class EventHandlers; };
 
     class B_Soldier_TL_F;
     class B_Soldier_TL_F_OCimport_01 : B_Soldier_TL_F { scope = 0; class EventHandlers; };
-    class B_Soldier_TL_F_OCimport_02 : B_Soldier_TL_F_OCimport_01 { class EventHandlers; };
+    class B_Soldier_TL_F_Import : B_Soldier_TL_F_OCimport_01 { class EventHandlers; };
 
     class B_medic_F;
     class B_medic_F_OCimport_01 : B_medic_F { scope = 0; class EventHandlers; };
-    class B_medic_F_OCimport_02 : B_medic_F_OCimport_01 { class EventHandlers; };
+    class B_medic_F_Import : B_medic_F_OCimport_01 { class EventHandlers; };
 
     class B_soldier_LAT_F;
     class B_soldier_LAT_F_OCimport_01 : B_soldier_LAT_F { scope = 0; class EventHandlers; };
-    class B_soldier_LAT_F_OCimport_02 : B_soldier_LAT_F_OCimport_01 { class EventHandlers; };
+    class B_soldier_LAT_F_Import : B_soldier_LAT_F_OCimport_01 { class EventHandlers; };
 
     class B_soldier_AT_F;
     class B_soldier_AT_F_OCimport_01 : B_soldier_AT_F { scope = 0; class EventHandlers; };
-    class B_soldier_AT_F_OCimport_02 : B_soldier_AT_F_OCimport_01 { class EventHandlers; };
+    class B_soldier_AT_F_Import : B_soldier_AT_F_OCimport_01 { class EventHandlers; };
 
     class B_HeavyGunner_F;
     class B_HeavyGunner_F_OCimport_01 : B_HeavyGunner_F { scope = 0; class EventHandlers; };
-    class B_HeavyGunner_F_OCimport_02 : B_HeavyGunner_F_OCimport_01 { class EventHandlers; };
+    class B_HeavyGunner_F_Import : B_HeavyGunner_F_OCimport_01 { class EventHandlers; };
 
     class B_soldier_AR_F;
     class B_soldier_AR_F_OCimport_01 : B_soldier_AR_F { scope = 0; class EventHandlers; };
-    class B_soldier_AR_F_OCimport_02 : B_soldier_AR_F_OCimport_01 { class EventHandlers; };
+    class B_soldier_AR_F_Import : B_soldier_AR_F_OCimport_01 { class EventHandlers; };
 
     class B_soldier_AA_F;
     class B_soldier_AA_F_OCimport_01 : B_soldier_AA_F { scope = 0; class EventHandlers; };
-    class B_soldier_AA_F_OCimport_02 : B_soldier_AA_F_OCimport_01 { class EventHandlers; };
+    class B_soldier_AA_F_Import : B_soldier_AA_F_OCimport_01 { class EventHandlers; };
 
     class B_Pilot_F;
     class B_Pilot_F_OCimport_01 : B_Pilot_F { scope = 0; class EventHandlers; };
-    class B_Pilot_F_OCimport_02 : B_Pilot_F_OCimport_01 { class EventHandlers; };
+    class B_Pilot_F_Import : B_Pilot_F_OCimport_01 { class EventHandlers; };
 
     class B_crew_F;
     class B_crew_F_OCimport_01 : B_crew_F { scope = 0; class EventHandlers; };
-    class B_crew_F_OCimport_02 : B_crew_F_OCimport_01 { class EventHandlers; };
+    class B_crew_F_Import : B_crew_F_OCimport_01 { class EventHandlers; };
 
     class B_soldier_M_F;
     class B_soldier_M_F_OCimport_01 : B_soldier_M_F { scope = 0; class EventHandlers; };
-    class B_soldier_M_F_OCimport_02 : B_soldier_M_F_OCimport_01 { class EventHandlers; };
+    class B_soldier_M_F_Import : B_soldier_M_F_OCimport_01 { class EventHandlers; };
 
 
     class Manticore_PolarisUnarmed_Load : Manticore_Vanilla_Light_Polaris_Unarmed_OCimport_02 {
@@ -1809,7 +1809,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Navy_Uniform_O_Soldier : B_Soldier_F_OCimport_02 {
+    class Manticore_Navy_Uniform_O_Soldier : B_Soldier_F_Import {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -1846,7 +1846,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_Navy_Uniform_S_Soldier : B_Soldier_F_OCimport_02 {
+    class Manticore_Navy_Uniform_S_Soldier : B_Soldier_F_Import {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3756,7 +3756,7 @@ class CfgVehicles {
 
     };
 
-    class Manticore_ManticamCryeWinter_00 : VSM_Multicam_Crye_Uniform_OCimport_02 {
+    class Manticore_ManticamCryeWinter_00 : VSM_Multicam_Crye_Uniform_Import {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3867,7 +3867,7 @@ class CfgVehicles {
 
     };
 
-    class B_ManticoreFaction_Winter_Rifleman_01 : B_Soldier_F_OCimport_02 {
+    class B_ManticoreFaction_Winter_Rifleman_01 : B_Soldier_F_Import {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3905,7 +3905,7 @@ class CfgVehicles {
 
     };
 
-    class B_ManticoreFaction_Winter_Squad_Leader_01 : B_Soldier_SL_F_OCimport_02 {
+    class B_ManticoreFaction_Winter_Squad_Leader_01 : B_Soldier_SL_F_Import {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3945,7 +3945,7 @@ class CfgVehicles {
 
     };
 
-    class B_ManticoreFaction_Winter_Grenadier_01 : B_Soldier_GL_F_OCimport_02 {
+    class B_ManticoreFaction_Winter_Grenadier_01 : B_Soldier_GL_F_Import {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -3985,7 +3985,7 @@ class CfgVehicles {
 
     };
 
-    class B_ManticoreFaction_Winter_Radio_Operator_01 : B_Soldier_TL_F_OCimport_02 {
+    class B_ManticoreFaction_Winter_Radio_Operator_01 : B_Soldier_TL_F_Import {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -4025,7 +4025,7 @@ class CfgVehicles {
 
     };
 
-    class B_ManticoreFaction_Winter_Medic_01 : B_medic_F_OCimport_02 {
+    class B_ManticoreFaction_Winter_Medic_01 : B_medic_F_Import {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -4065,7 +4065,7 @@ class CfgVehicles {
 
     };
 
-    class B_ManticoreFaction_Winter_Rifleman_AT_01 : B_soldier_LAT_F_OCimport_02 {
+    class B_ManticoreFaction_Winter_Rifleman_AT_01 : B_soldier_LAT_F_Import {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -4103,7 +4103,7 @@ class CfgVehicles {
 
     };
 
-    class B_ManticoreFaction_Winter_AT_Specialist_01 : B_soldier_AT_F_OCimport_02 {
+    class B_ManticoreFaction_Winter_AT_Specialist_01 : B_soldier_AT_F_Import {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -4143,7 +4143,7 @@ class CfgVehicles {
 
     };
 
-    class B_ManticoreFaction_Winter_Machine_Gunner_MG2_01 : B_HeavyGunner_F_OCimport_02 {
+    class B_ManticoreFaction_Winter_Machine_Gunner_MG2_01 : B_HeavyGunner_F_Import {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -4183,7 +4183,7 @@ class CfgVehicles {
 
     };
 
-    class B_ManticoreFaction_Winter_Autorifleman_MG1_01 : B_soldier_AR_F_OCimport_02 {
+    class B_ManticoreFaction_Winter_Autorifleman_MG1_01 : B_soldier_AR_F_Import {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -4223,7 +4223,7 @@ class CfgVehicles {
 
     };
 
-    class B_ManticoreFaction_Winter_Autorifleman_LSW_01 : B_soldier_AR_F_OCimport_02 {
+    class B_ManticoreFaction_Winter_Autorifleman_LSW_01 : B_soldier_AR_F_Import {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -4263,7 +4263,7 @@ class CfgVehicles {
 
     };
 
-    class B_ManticoreFaction_Winter_Anti_Air_Specialist_01 : B_soldier_AA_F_OCimport_02 {
+    class B_ManticoreFaction_Winter_Anti_Air_Specialist_01 : B_soldier_AA_F_Import {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -4303,7 +4303,7 @@ class CfgVehicles {
 
     };
 
-    class B_ManticoreFaction_Winter_Pilot_01 : B_Pilot_F_OCimport_02 {
+    class B_ManticoreFaction_Winter_Pilot_01 : B_Pilot_F_Import {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -4341,7 +4341,7 @@ class CfgVehicles {
 
     };
 
-    class B_ManticoreFaction_Winter_Helicopter_Pilot_01 : B_Pilot_F_OCimport_02 {
+    class B_ManticoreFaction_Winter_Helicopter_Pilot_01 : B_Pilot_F_Import {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -4379,7 +4379,7 @@ class CfgVehicles {
 
     };
 
-    class B_ManticoreFaction_Winter_Crewman_01 : B_crew_F_OCimport_02 {
+    class B_ManticoreFaction_Winter_Crewman_01 : B_crew_F_Import {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;
@@ -4417,7 +4417,7 @@ class CfgVehicles {
 
     };
 
-    class B_ManticoreFaction_Winter_Marksman_01 : B_soldier_M_F_OCimport_02 {
+    class B_ManticoreFaction_Winter_Marksman_01 : B_soldier_M_F_Import {
         author = "SSgt. D.O'Hara [MVSA]";
         scope = 2;
         scopeCurator = 2;

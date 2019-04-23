@@ -1,9 +1,11 @@
 #include "script_component.hpp"
+#include "Macro.hpp"
 
 class CfgPatches
 {
 	class Manticore_Winter
 	{
+		_authorFull
 		units[] = { };
 		weapons[] = {
 			"A3_Armor_F_Beta_APC_Wheeled_01",
@@ -26,10 +28,8 @@ class CfgPatches
 			"VSM_Multicam_Config",
 			"Manticore_Uniform_Winter"
 		};
-		author = "SSgt. D.O'Hara [MVSA], Mattress";
 	};
 };
-
 
 #include "CfgFactionClasses.hpp"
 #include "CfgVehicles.hpp"
